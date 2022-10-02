@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PokeMonsters</string>
+
+    <!-- Activity main-->
+    <string name="textview_welcome">Bienvenido a tu</string>
+    <string name="textview_pokedex">Pokedex</string>
+    <string name="search_textview_hint">¿Qué pokemon estas buscando?</string>
+    <string name="textview_news">NOTICIAS POKÉMON</string>
+    <string name="error_download_news">Ocurrio un error al recuperar las noticias</string>
+
+
+
+    <!--Msg General-->
+    <string name="general_error">Ocurrio un error intenta más tarde</string>
+    <string name="internet_conextion">Error de conexión intenta más tarde</string>
+</resources>
