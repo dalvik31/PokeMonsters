@@ -1,12 +1,14 @@
 package com.dalvik.pokemonsters.utils
 
+import android.graphics.*
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.dalvik.pokemonsters.network.model.news.News
-import com.dalvik.pokemonsters.ui.NewsAdapter
+import com.dalvik.pokemonsters.ui.adapters.NewsAdapter
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
+import com.squareup.picasso.Transformation
 
 
 class BindingAdapters {

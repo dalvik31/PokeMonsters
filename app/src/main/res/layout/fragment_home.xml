@@ -17,16 +17,6 @@
         android:background="@color/purple_700"
         tools:context=".MainActivity">
 
-        <TextView
-            android:id="@+id/textView"
-            style="@style/TextViewTitle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_30sdp"
-            android:text="@string/textview_welcome"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView2"
@@ -34,9 +24,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/textview_pokedex"
+            android:layout_marginTop="@dimen/_50sdp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout"

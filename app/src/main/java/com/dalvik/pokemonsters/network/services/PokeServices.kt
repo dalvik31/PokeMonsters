@@ -7,7 +7,6 @@ import retrofit2.http.GET
 
 interface PokeServices {
 
-    @GET("Pokemon/master/news")
+    @GET("PokeMonsters/main/data/news")
     suspend fun getNews(): Response<ResponseModel<News>>
-
 }

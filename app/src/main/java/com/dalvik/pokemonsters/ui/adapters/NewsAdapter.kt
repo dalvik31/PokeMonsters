@@ -1,10 +1,14 @@
-package com.dalvik.pokemonsters.ui
+package com.dalvik.pokemonsters.ui.adapters
 
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.ItemListNewsBinding
 import com.dalvik.pokemonsters.network.model.news.News
+import com.dalvik.pokemonsters.utils.PARAM_ITEM_NEWS
 
 class NewsAdapter(private var newslist: List<News>) :
     RecyclerView.Adapter<NewsAdapter.CharacterViewHolder>() {
@@ -16,7 +20,15 @@ class NewsAdapter(private var newslist: List<News>) :
             itemListNewsBinding.news = news
             itemListNewsBinding.executePendingBindings()
             itemListNewsBinding.root.setOnClickListener {
-
+                it.findNavController().navigate(
+                    R.id.action_homeFragment_to_detailNewsFragment,
+                    Bundle().apply {
+                        putParcelable(
+                            PARAM_ITEM_NEWS,
+                            news
+                        )
+                    }
+                )
             }
         }
     }

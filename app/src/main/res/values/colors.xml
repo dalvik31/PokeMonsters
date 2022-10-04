@@ -9,10 +9,12 @@
     <color name="white">#FFFFFFFF</color>
 
     <!--Custom colors-->
+    <color name="red_primary">#FFFB1B1B</color>
     <color name="primary_text">#FFffcb05</color>
     <color name="secondary_text">#FFCBD5ED</color>
     <color name="text_hint">#881E2746</color>
     <color name="transparent">@android:color/transparent</color>
     <color name="gray_general">@android:color/darker_gray</color>
     <color name="black_transparent">#80000000</color>
+
 </resources>

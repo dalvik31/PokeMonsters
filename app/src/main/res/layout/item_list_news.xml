@@ -29,6 +29,7 @@
             android:layout_alignParentEnd="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/black_transparent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -58,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:background="@color/black_transparent">
+               >
 
                 <TextView
                     android:id="@+id/text_title"
@@ -70,7 +71,7 @@
                     android:paddingEnd="@dimen/_10sdp"
                     android:paddingBottom="0dp"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:text="@{news.title}"
+                    android:text="@{news.sub_title}"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_10sdp"
                     app:layout_constraintBottom_toTopOf="@+id/text_date"
@@ -87,7 +88,7 @@
                     android:paddingBottom="@dimen/_5sdp"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_9sdp"
-                    android:text="@{news.shortDate}"
+                    android:text="@{news.start_date_string}"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
