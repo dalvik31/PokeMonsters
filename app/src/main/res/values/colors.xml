@@ -15,6 +15,6 @@
     <color name="text_hint">#881E2746</color>
     <color name="transparent">@android:color/transparent</color>
     <color name="gray_general">@android:color/darker_gray</color>
-    <color name="black_transparent">#80000000</color>
+    <color name="black_transparent">#C1000000</color>
 
 </resources>

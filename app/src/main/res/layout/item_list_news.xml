@@ -15,11 +15,11 @@
         android:layout_height="@dimen/_150sdp"
         android:layout_margin="@dimen/_20sdp"
         android:animateLayoutChanges="true"
-        android:fitsSystemWindows="true"
-        app:cardCornerRadius="@dimen/_10sdp"
         android:clickable="true"
+        android:fitsSystemWindows="true"
         android:focusable="true"
         android:foreground="?selectableItemBackground"
+        app:cardCornerRadius="@dimen/_10sdp"
         tools:context=".MainActivity">
 
         <RelativeLayout
@@ -29,7 +29,6 @@
             android:layout_alignParentEnd="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:background="@color/black_transparent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -55,22 +54,27 @@
                 android:imageUrl="@{news.thumbnail}"
                 android:scaleType="centerCrop" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:alpha="0.4"/>
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-               >
+                android:layout_alignParentBottom="true">
 
                 <TextView
                     android:id="@+id/text_title"
                     style="@style/TextViewTitleBold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
                     android:maxLines="2"
                     android:paddingStart="@dimen/_10sdp"
                     android:paddingEnd="@dimen/_10sdp"
                     android:paddingBottom="0dp"
-                    android:layout_marginTop="@dimen/_5sdp"
                     android:text="@{news.sub_title}"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_10sdp"
@@ -86,9 +90,9 @@
                     android:paddingTop="0dp"
                     android:paddingEnd="@dimen/_10sdp"
                     android:paddingBottom="@dimen/_5sdp"
+                    android:text="@{news.start_date_string}"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_9sdp"
-                    android:text="@{news.start_date_string}"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
