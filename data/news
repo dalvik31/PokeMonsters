@@ -54,7 +54,11 @@
 
           "page_url": "",
            "pokemon_name": "Dratini",
-             "pokemon_num": "147"
+             "pokemon_num": "147",
+                "pokemon_name_second": "Dragonair",
+             "pokemon_num_second": "148",
+                "pokemon_name_third": "Dragonite",
+             "pokemon_num_third": "149"
       },
          {
         "id": "8",
@@ -69,7 +73,9 @@
         "description": "Entrenadores:\n\nEl Festival de las Luces es un evento ideal para estrechar lazos con los que os rodean, incluyendo vuestros Pokémon. Celebradlo con nosotros explorando el mundo y descubriendo Pokémon luminiscentes como Morelull, ¡que debuta en Pokémon GO!\n\nPor si fuera poco, según nuestra investigación, durante el evento algunos Pokémon brillarán por la noche, ¡así que aseguraos de buscarlos mientras podáis!\n\nFestival de las Luces\n\nDesde el viernes, 14 de octubre de 2022 a las 10:00, hasta el lunes, 17 de octubre de 2022 a las 20:00 (hora local)\n\nDebuts de Pokémon\n\n¡Morelull y Shiinotic, los Pokémon Luminiscentes, debutarán en Pokémon GO!\n* *Podéis utilizar 50 Caramelos de Morelull para evolucionar un Morelull en Shiinotic.",
           "page_url": "",
            "pokemon_name": "Morelull",
-             "pokemon_num": "755"
+             "pokemon_num": "755",
+                   "pokemon_name_second": "shiinotic",
+             "pokemon_num_second": "756",
       },
        {
         "id": "7",
@@ -146,7 +152,11 @@
         "videoUrl": "",
          "page_url": "https://pokemongolive.com/es_mx/post/community-day-october-2022-litwick/",
                "pokemon_name": "Litwick",
-             "pokemon_num": "607"
+             "pokemon_num": "607",
+                    "pokemon_name_second": "Lampent",
+             "pokemon_num_second": "608",
+                "pokemon_name_third": "Chandelure",
+             "pokemon_num_third": "609"
       },
       {
         "id": "2",
