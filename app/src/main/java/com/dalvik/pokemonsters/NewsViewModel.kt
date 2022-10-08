@@ -11,7 +11,9 @@ import com.dalvik.pokemonsters.utils.App
 import com.dalvik.pokemonsters.utils.CustomLoader
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import java.util.*
 import javax.inject.Inject
+import kotlin.collections.ArrayList
 
 @HiltViewModel
 class NewsViewModel @Inject constructor(
@@ -19,6 +21,7 @@ class NewsViewModel @Inject constructor(
 ) : BaseViewModel(App.instance) {
 
     var itemList = MutableLiveData<ArrayList<News>>(arrayListOf())
+    var itemVideo = MutableLiveData("")
 
 
     fun getNews() {

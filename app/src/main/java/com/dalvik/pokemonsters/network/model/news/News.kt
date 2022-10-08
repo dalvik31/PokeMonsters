@@ -22,7 +22,12 @@ data class News(
    val page_url: String?,
    val pokemon_name: String?,
    val pokemon_num: String?,
-   val img_new_pokemon: String?
+   val pokemon_name_second: String?,
+   val pokemon_num_second: String?,
+   val pokemon_name_third: String?,
+   val pokemon_num_third: String?,
+   val img_new_pokemon: String?,
+   val name_new_pokemon: String?
 
 ): Parcelable {
 
@@ -34,12 +39,20 @@ data class News(
       return "https://www.cpokemon.com/pokes/home/shiny/".plus(pokemon_num).plus(".png")
    }
 
+   fun getUrlSecondImagePokemon():String{
+      return "https://www.cpokemon.com/pokes/home/".plus(pokemon_num_second).plus(".png")
+   }
 
-   /* fun getShortDate():String{
-       if(start_date == null) return ""
-       val calendar = Calendar.getInstance(Locale.getDefault())
-       calendar.timeInMillis = start_date.toLong()
-       return android.text.format.DateFormat.format("E, dd MMM yyyy", calendar).toString()
-    }*/
+   fun getUrlSecondImageShinyPokemon():String{
+      return "https://www.cpokemon.com/pokes/home/shiny/".plus(pokemon_num_second).plus(".png")
+   }
+
+   fun getUrlThirdImagePokemon():String{
+      return "https://www.cpokemon.com/pokes/home/".plus(pokemon_num_third).plus(".png")
+   }
+
+   fun getUrlThirdImageShinyPokemon():String{
+      return "https://www.cpokemon.com/pokes/home/shiny/".plus(pokemon_num_third).plus(".png")
+   }
 
 }

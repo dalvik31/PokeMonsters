@@ -9,6 +9,8 @@
         <variable
             name="news"
             type="com.dalvik.pokemonsters.network.model.news.News" />
+
+        <import type="android.view.View" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -80,8 +82,8 @@
                     app:cardBackgroundColor="@android:color/white"
                     app:cardCornerRadius="4dp"
                     app:cardElevation="4dp"
-                    app:contentPaddingBottom="16dp"
                     app:contentPaddingLeft="16dp"
+                    app:contentPaddingBottom="@dimen/_70sdp"
                     app:contentPaddingRight="16dp">
 
                     <LinearLayout
@@ -105,17 +107,45 @@
                             android:layout_height="wrap_content"
                             android:contentDescription="@string/app_name"
                             android:imageUrl="@{news.img_new_pokemon}" />
+
+                        <TextView
+                            style="@style/TextViewTitleBold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@{news.name_new_pokemon}"
+                            android:visibility="@{news.name_new_pokemon != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            android:textAppearance="@style/TextAppearance.Header"
+                            android:textColor="@color/purple_700"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            tools:text="Name pkemon"/>
+
+                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                            android:id="@+id/youtube_player_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_150sdp"
+                            android:visibility="@{news.video_url != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:weightSum="1">
+
                             <ImageView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight=".5"
                                 android:contentDescription="@string/app_name"
                                 android:imageUrl="@{news.urlImagePokemon}" />
+
                             <ImageView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -125,6 +155,93 @@
 
                         </LinearLayout>
 
+                        <TextView
+                            style="@style/TextViewTitleBold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@{news.pokemon_name}"
+                            android:visibility="@{news.pokemon_name != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            android:textAppearance="@style/TextAppearance.Header"
+                            android:textColor="@color/purple_700"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            tools:text="Name pkemon"/>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                android:contentDescription="@string/app_name"
+                                android:imageUrl="@{news.urlSecondImagePokemon}" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                android:contentDescription="@string/app_name"
+                                android:imageUrl="@{news.urlSecondImageShinyPokemon}" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            style="@style/TextViewTitleBold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@{news.pokemon_name_second}"
+                            android:visibility="@{news.pokemon_name_second != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            android:textAppearance="@style/TextAppearance.Header"
+                            android:textColor="@color/purple_700"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            tools:text="Name pkemon"/>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                android:contentDescription="@string/app_name"
+                                android:imageUrl="@{news.urlThirdImagePokemon}" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                android:contentDescription="@string/app_name"
+                                android:imageUrl="@{news.urlThirdImageShinyPokemon}" />
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            style="@style/TextViewTitleBold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@{news.pokemon_name_third}"
+                            android:visibility="@{news.pokemon_name_third != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            android:textAppearance="@style/TextAppearance.Header"
+                            android:textColor="@color/purple_700"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            tools:text="Name pkemon"/>
 
                         <TextView
                             style="@style/TextViewDescription"
@@ -145,7 +262,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
-            android:layout_margin="@dimen/_16sdp"
+            android:layout_margin="@dimen/_32sdp"
             android:contentDescription="@string/app_name"
             android:elevation="8dp"
             android:src="@drawable/ic_open_browser"

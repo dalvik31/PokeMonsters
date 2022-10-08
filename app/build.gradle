@@ -4,7 +4,6 @@ plugins {
     id 'dagger.hilt.android.plugin'
     id 'kotlin-kapt'
     id 'kotlin-parcelize'
-    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -76,4 +75,7 @@ dependencies {
 
     //Lottie for animations with JSON files
     implementation "com.airbnb.android:lottie:5.0.3"
+
+    //Youtube video player
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
 }
