@@ -1,4 +1,4 @@
-package com.dalvik.pokemonsters.ui
+package com.dalvik.pokemonsters.ui.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

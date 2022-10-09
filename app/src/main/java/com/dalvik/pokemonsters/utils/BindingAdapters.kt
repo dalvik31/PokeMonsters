@@ -1,14 +1,14 @@
 package com.dalvik.pokemonsters.utils
 
-import android.graphics.*
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.dalvik.pokemonsters.network.model.news.News
+import com.dalvik.pokemonsters.network.model.regions.Region
 import com.dalvik.pokemonsters.ui.adapters.NewsAdapter
+import com.dalvik.pokemonsters.ui.adapters.RegionsAdapter
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
-import com.squareup.picasso.Transformation
 
 
 class BindingAdapters {
@@ -41,6 +41,25 @@ class BindingAdapters {
                 recyclerView.setHasFixedSize(true)
                 recyclerView.adapter = characterAdapter
             }
+        }
+
+        @JvmStatic
+        @BindingAdapter("app:listRegions")
+        fun setListRegions(recyclerView: RecyclerView, regionsList: List<Region>?) {
+            if (regionsList != null && regionsList.isNotEmpty()) {
+                val characterAdapter = RegionsAdapter(regionsList)
+                recyclerView.setHasFixedSize(true)
+                recyclerView.adapter = characterAdapter
+            }
+        }
+
+        @JvmStatic
+        @BindingAdapter("app:src")
+        fun setCustomImage(view: ImageView, img: Int?) {
+            img?.let {
+                view.setImageResource(it)
+            }
+
         }
 
     }

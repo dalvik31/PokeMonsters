@@ -1,13 +1,11 @@
-package com.dalvik.pokemonsters
+package com.dalvik.pokemonsters.ui.news
 
-import android.R
 import android.support.annotation.NonNull
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentContainerView
 import com.dalvik.pokemonsters.databinding.FragmentDetailNewsBinding
 import com.dalvik.pokemonsters.network.model.news.News
-import com.dalvik.pokemonsters.ui.BaseFragment
+import com.dalvik.pokemonsters.ui.base.BaseFragment
 import com.dalvik.pokemonsters.utils.PARAM_ITEM_NEWS
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener

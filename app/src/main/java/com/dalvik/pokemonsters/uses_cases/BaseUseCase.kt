@@ -1,6 +1,6 @@
 package com.dalvik.pokemonsters.uses_cases
 
-import com.dalvik.pokemonsters.ui.BaseViewModel
+import com.dalvik.pokemonsters.ui.base.BaseViewModel
 import com.dalvik.pokemonsters.utils.CustomLoader
 
 abstract class BaseUseCaseWithParams<T, R : Any?> {

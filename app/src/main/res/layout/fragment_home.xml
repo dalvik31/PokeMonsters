@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.dalvik.pokemonsters.NewsViewModel" />
+            type="com.dalvik.pokemonsters.ui.news.NewsViewModel" />
 
     </data>
 
@@ -15,65 +15,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/purple_700"
-        tools:context=".MainActivity">
+        tools:context=".ui.main.MainActivity">
 
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/text_region_name"
             style="@style/TextViewTitleBold"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/textview_pokedex"
-            android:layout_marginTop="@dimen/_50sdp"
+            android:text="@string/textview_news"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout"
-            style="@style/SearchTextLayout"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_14sdp"
-            android:gravity="center"
-            app:boxBackgroundColor="@android:color/transparent"
-            app:boxCornerRadiusBottomEnd="8dp"
-            app:boxCornerRadiusBottomStart="8dp"
-            app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp"
-            app:boxStrokeWidth="0dp"
-            app:boxStrokeWidthFocused="0dp"
-            app:endIconMode="clear_text"
-            app:hintEnabled="true"
-            app:layout_constraintEnd_toStartOf="@+id/btn_search"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:startIconDrawable="@drawable/ic_search">
-
-
-            <com.google.android.material.textfield.TextInputEditText
-                style="@style/SearchEdittext"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:hint="@string/search_textview_hint"
-                android:inputType="textPersonName|textCapWords"
-                android:textColorHint="@color/text_hint" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <ImageView
-            android:id="@+id/btn_search"
-            style="@style/ButtonRippleNormal"
-            android:layout_width="@dimen/_30sdp"
-            android:layout_height="@dimen/_30sdp"
-            android:layout_margin="@dimen/_5sdp"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/ic_arrow_right"
-            app:layout_constraintBottom_toBottomOf="@+id/textInputLayout"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:tint="@color/secondary_text" />
 
         <View
             android:id="@+id/view"
@@ -82,21 +36,22 @@
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
             android:background="@color/secondary_text"
-            app:layout_constraintBottom_toBottomOf="@+id/textView3"
-            app:layout_constraintEnd_toStartOf="@+id/textView3"
+            app:layout_constraintBottom_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintEnd_toStartOf="@+id/text_first_medal"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/text_first_medal"
             style="@style/TextViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:padding="@dimen/_14sdp"
-            android:text="@string/textview_news"
+            android:text="@string/textview_recent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name" />
 
 
         <View
@@ -105,28 +60,27 @@
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
             android:background="@color/secondary_text"
-            app:layout_constraintBottom_toBottomOf="@+id/textView3"
+            app:layout_constraintBottom_toBottomOf="@+id/text_first_medal"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textView3"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+            app:layout_constraintStart_toEndOf="@+id/text_first_medal"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name" />
 
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/swipe"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:refreshing="@{viewModel.isLoading}"
-            app:onRefreshListener="@{() -> viewModel.getNews()}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3">
+            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:onRefreshListener="@{() -> viewModel.getNews()}"
+            app:refreshing="@{viewModel.isLoading}">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 app:listNews="@{viewModel.itemList}"
-
                 tools:listitem="@layout/item_list_news" />
 
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

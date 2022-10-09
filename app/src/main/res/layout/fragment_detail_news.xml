@@ -82,8 +82,8 @@
                     app:cardBackgroundColor="@android:color/white"
                     app:cardCornerRadius="4dp"
                     app:cardElevation="4dp"
-                    app:contentPaddingLeft="16dp"
                     app:contentPaddingBottom="@dimen/_70sdp"
+                    app:contentPaddingLeft="16dp"
                     app:contentPaddingRight="16dp">
 
                     <LinearLayout
@@ -112,14 +112,14 @@
                             style="@style/TextViewTitleBold"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="@{news.name_new_pokemon}"
-                            android:visibility="@{news.name_new_pokemon != null ? View.VISIBLE :  View.GONE, default = gone }"
                             android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/purple_700"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold"
-                            android:gravity="center"
-                            tools:text="Name pkemon"/>
+                            android:visibility="@{news.name_new_pokemon != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            tools:text="Name pkemon" />
 
                         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
                             android:id="@+id/youtube_player_view"
@@ -129,8 +129,6 @@
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
-
-
 
 
                         <LinearLayout
@@ -159,15 +157,14 @@
                             style="@style/TextViewTitleBold"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="@{news.pokemon_name}"
-                            android:visibility="@{news.pokemon_name != null ? View.VISIBLE :  View.GONE, default = gone }"
                             android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/purple_700"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold"
-                            android:gravity="center"
-                            tools:text="Name pkemon"/>
-
+                            android:visibility="@{news.pokemon_name != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            tools:text="Name pkemon" />
 
 
                         <LinearLayout
@@ -196,15 +193,14 @@
                             style="@style/TextViewTitleBold"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="@{news.pokemon_name_second}"
-                            android:visibility="@{news.pokemon_name_second != null ? View.VISIBLE :  View.GONE, default = gone }"
                             android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/purple_700"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold"
-                            android:gravity="center"
-                            tools:text="Name pkemon"/>
-
+                            android:visibility="@{news.pokemon_name_second != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            tools:text="Name pkemon" />
 
 
                         <LinearLayout
@@ -234,14 +230,14 @@
                             style="@style/TextViewTitleBold"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="@{news.pokemon_name_third}"
-                            android:visibility="@{news.pokemon_name_third != null ? View.VISIBLE :  View.GONE, default = gone }"
                             android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/purple_700"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold"
-                            android:gravity="center"
-                            tools:text="Name pkemon"/>
+                            android:visibility="@{news.pokemon_name_third != null ? View.VISIBLE :  View.GONE, default = gone }"
+                            tools:text="Name pkemon" />
 
                         <TextView
                             style="@style/TextViewDescription"

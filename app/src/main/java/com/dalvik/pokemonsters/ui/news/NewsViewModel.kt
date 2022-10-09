@@ -1,17 +1,15 @@
-package com.dalvik.pokemonsters
+package com.dalvik.pokemonsters.ui.news
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.dalvik.pokemonsters.network.ResultData
 import com.dalvik.pokemonsters.network.model.news.News
-import com.dalvik.pokemonsters.ui.BaseViewModel
+import com.dalvik.pokemonsters.ui.base.BaseViewModel
 import com.dalvik.pokemonsters.uses_cases.GetNewsUseCase
 import com.dalvik.pokemonsters.utils.App
 import com.dalvik.pokemonsters.utils.CustomLoader
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import java.util.*
 import javax.inject.Inject
 import kotlin.collections.ArrayList
 

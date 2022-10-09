@@ -11,10 +11,10 @@ import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.utils.PARAM_ITEM_NEWS
 
 class NewsAdapter(private var newslist: List<News>) :
-    RecyclerView.Adapter<NewsAdapter.CharacterViewHolder>() {
+    RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
 
 
-    class CharacterViewHolder(private val itemListNewsBinding: ItemListNewsBinding) :
+    class NewsViewHolder(private val itemListNewsBinding: ItemListNewsBinding) :
         RecyclerView.ViewHolder(itemListNewsBinding.root) {
         fun bindCharacter(news: News) {
             itemListNewsBinding.news = news
@@ -33,14 +33,14 @@ class NewsAdapter(private var newslist: List<News>) :
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CharacterViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsViewHolder {
         val layoutInflater = ItemListNewsBinding.inflate(
             LayoutInflater.from(parent.context), parent, false
         )
-        return CharacterViewHolder(layoutInflater)
+        return NewsViewHolder(layoutInflater)
     }
 
-    override fun onBindViewHolder(holder: CharacterViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: NewsViewHolder, position: Int) {
         holder.bindCharacter(newslist[position])
     }
 

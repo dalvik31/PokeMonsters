@@ -1,4 +1,4 @@
-package com.dalvik.pokemonsters.ui
+package com.dalvik.pokemonsters.ui.base
 
 import androidx.annotation.DrawableRes
 import androidx.databinding.ObservableBoolean

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="region"
+            type="com.dalvik.pokemonsters.network.model.regions.Region" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frame"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/_5sdp">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_30_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".30" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_50_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".50" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_50_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".50" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_75_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".75" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_25_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".25" />
+
+
+        <ImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_50_h"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:src="@{region.imgUrl}" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline_30_h" />
+
+
+        <TextView
+            android:id="@+id/text_region_name"
+            style="@style/TextViewTitleBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:text="@{region.name}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline_50_h"
+            tools:text="Kanto" />
+
+
+        <TextView
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/background_rounded_yellow"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@{region.totalPokemon}"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline_30_h"
+            tools:text="151" />
+
+        <TextView
+            android:id="@+id/text_first_medal"
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@{region.firstMedalName}"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            tools:text="Roca" />
+
+        <ImageView
+            android:id="@+id/img_first_medal"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintStart_toStartOf="@+id/text_first_medal"
+            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:src="@{region.firstMedalImgUrl}" />
+
+
+        <TextView
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@{region.secondMedalName}"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            tools:text="Cascada" />
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:src="@{region.secondMedalImgUrl}" />
+
+
+        <TextView
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@{region.thirdMedalName}"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_75_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            tools:text="Trueno" />
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_75_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:src="@{region.thirdMedalImgUrl}" />
+
+        <TextView
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@{region.forthMedalName}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline_75_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            tools:text="Arcoiris" />
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline_75_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:src="@{region.forthMedalImgUrl}" />
+
+        <TextView
+            android:id="@+id/text_fifth_medal"
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@{region.fifthMedalName}"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_first_medal"
+            tools:text="Alma" />
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_fifth_medal"
+            app:src="@{region.fifthMedalImgUrl}" />
+
+        <TextView
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@{region.sixthMedalName}"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintTop_toBottomOf="@+id/img_first_medal"
+            tools:text="Pantano" />
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_fifth_medal"
+            app:src="@{region.sixthMedalImgUrl}" />
+
+
+        <TextView
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@{region.seventhMedalName}"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_75_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
+            app:layout_constraintTop_toBottomOf="@+id/img_first_medal"
+            tools:text="Volcan" />
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_75_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_fifth_medal"
+            app:src="@{region.seventhMedalImgUrl}" />
+
+        <TextView
+            style="@style/TextViewTitleRegions"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@{region.eightMedalName}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline_75_v"
+            app:layout_constraintTop_toBottomOf="@+id/img_first_medal"
+            tools:text="Tierra" />
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:elevation="3dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline_75_v"
+            app:layout_constraintTop_toBottomOf="@+id/text_fifth_medal"
+            app:src="@{region.eightMedalImgUrl}" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
