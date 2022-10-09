@@ -1,0 +1,67 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+    
+    {
+        "id": 152,
+        "name": "Chikorita",
+        "image":"https://www.cpokemon.com/pokes/home/152.png",
+        "type_first": 2
+      },
+         {
+        "id": 153,
+        "name": "Bayleef",
+        "image":"https://www.cpokemon.com/pokes/home/153.png",
+        "type_first": 2
+      },
+      {
+        "id": 154,
+        "name": "Meganium",
+        "image":"https://www.cpokemon.com/pokes/home/154.png",
+        "type_first": 2
+      },
+        {
+        "id": 155,
+        "name": "Cyndaquil",
+        "image":"https://www.cpokemon.com/pokes/home/155.png",
+        "type_first": 8
+      },
+        {
+        "id": 156,
+        "name": "Quilava",
+        "image":"https://www.cpokemon.com/pokes/home/156.png",
+        "type_first": 8
+      },
+        {
+        "id": 157,
+        "name": "Typhlosion",
+        "image":"https://www.cpokemon.com/pokes/home/157.png",
+        "type_first": 8,
+          "type_second": 9
+      },
+        {
+        "id": 158,
+        "name": "Totodile",
+        "image":"https://www.cpokemon.com/pokes/home/158.png",
+        "type_first": 18
+      },
+        {
+        "id": 159,
+        "name": "Croconaw",
+        "image":"https://www.cpokemon.com/pokes/home/159.png",
+        "type_first": 18
+      },
+        {
+        "id": 160,
+        "name": "Feraligatr",
+        "image":"https://www.cpokemon.com/pokes/home/160.png",
+        "type_first": 18
+      }
+    ]
+  }
+}
