@@ -5,7 +5,7 @@
         android:icon="@drawable/ic_news"
         android:title="@string/menu_news" />
     <item
-        android:id="@+id/pokemonFragment"
+        android:id="@+id/regionFragment"
         android:icon="@drawable/ic_pokeball"
         android:title="@string/menu_pokemon" />
 </menu>

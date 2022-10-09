@@ -3,6 +3,7 @@ package com.dalvik.pokemonsters.network.model.regions
 import android.support.annotation.DrawableRes
 
 data class Region(
+    val id: Int,
     val name: String,
     val totalPokemon: String,
     @DrawableRes val imgUrl: Int?,

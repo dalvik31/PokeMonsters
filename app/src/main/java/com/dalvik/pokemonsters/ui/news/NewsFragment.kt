@@ -16,7 +16,8 @@ class NewsFragment : BaseFragment<FragmentHomeBinding, NewsViewModel, NewsViewMo
         get() = FragmentHomeBinding::inflate
 
     override fun bindViewModel(binding: FragmentHomeBinding, viewModel: NewsViewModel) {
-        binding.viewModel = viewModel    }
+        binding.viewModel = viewModel
+    }
 
     override fun setupUiBehavior() {
         viewModel.getNews()

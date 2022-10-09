@@ -46,7 +46,7 @@
             app:layout_constraintGuide_percent=".75" />
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline_25_v"
+            android:id="@+id/guideline_33_v"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -113,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:text="@{region.firstMedalName}"
-            app:layout_constraintEnd_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_33_v"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_region_name"
             tools:text="Roca" />
@@ -125,7 +125,7 @@
             android:contentDescription="@string/app_name"
             android:elevation="3dp"
             android:scaleType="fitCenter"
-            app:layout_constraintEnd_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_33_v"
             app:layout_constraintStart_toStartOf="@+id/text_first_medal"
             app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
             app:src="@{region.firstMedalImgUrl}" />
@@ -137,7 +137,7 @@
             android:layout_height="0dp"
             android:text="@{region.secondMedalName}"
             app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
-            app:layout_constraintStart_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_33_v"
             app:layout_constraintTop_toBottomOf="@+id/text_region_name"
             tools:text="Cascada" />
 
@@ -148,7 +148,7 @@
             android:elevation="3dp"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
-            app:layout_constraintStart_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_33_v"
             app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
             app:src="@{region.secondMedalImgUrl}" />
 
@@ -201,7 +201,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:text="@{region.fifthMedalName}"
-            app:layout_constraintEnd_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_33_v"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/img_first_medal"
             tools:text="Alma" />
@@ -212,7 +212,7 @@
             android:contentDescription="@string/app_name"
             android:elevation="3dp"
             android:scaleType="fitCenter"
-            app:layout_constraintEnd_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_33_v"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_fifth_medal"
             app:src="@{region.fifthMedalImgUrl}" />
@@ -223,7 +223,7 @@
             android:layout_height="0dp"
             android:text="@{region.sixthMedalName}"
             app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
-            app:layout_constraintStart_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_33_v"
             app:layout_constraintTop_toBottomOf="@+id/img_first_medal"
             tools:text="Pantano" />
 
@@ -234,7 +234,7 @@
             android:elevation="3dp"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
-            app:layout_constraintStart_toStartOf="@+id/guideline_25_v"
+            app:layout_constraintStart_toStartOf="@+id/guideline_33_v"
             app:layout_constraintTop_toBottomOf="@+id/text_fifth_medal"
             app:src="@{region.sixthMedalImgUrl}" />
 

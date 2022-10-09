@@ -17,5 +17,7 @@
     <!--Msg General-->
     <string name="general_error">Ocurrio un error intenta más tarde</string>
     <string name="internet_conextion">Error de conexión intenta más tarde</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

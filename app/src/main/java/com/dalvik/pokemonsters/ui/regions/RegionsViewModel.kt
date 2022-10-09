@@ -27,6 +27,7 @@ class RegionsViewModel @Inject constructor(
     fun getRegions() {
       val list = ArrayList<Region>()
         val regionKanto = Region(
+            1,
             "Kanto",
             "151",
             R.drawable.region_kanto,

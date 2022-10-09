@@ -22,9 +22,18 @@
         android:label="fragment_detail_news"
         tools:layout="@layout/fragment_detail_news" />
     <fragment
-        android:id="@+id/pokemonFragment"
-        android:name="com.dalvik.pokemonsters.PokemonFragment"
+        android:id="@+id/regionFragment"
+        android:name="com.dalvik.pokemonsters.RegionHomeFragment"
         android:label="fragment_pokemon"
-        tools:layout="@layout/fragment_pokemon_home" />
+        tools:layout="@layout/fragment_region_home" >
+        <action
+            android:id="@+id/action_regionFragment_to_regionPokemonFragment"
+            app:destination="@id/regionPokemonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/regionPokemonFragment"
+        android:name="com.dalvik.pokemonsters.ui.region_pokemon.RegionPokemonFragment"
+        android:label="fragment_region_pokemon"
+        tools:layout="@layout/fragment_region_pokemon" />
 
 </navigation>

@@ -1,0 +1,28 @@
+package com.dalvik.pokemonsters.network.model.pokemon
+
+data class DetailPokemon(
+    val name: String,
+    val image: String,
+    val images: ArrayList<String>,
+    val number: String,
+    val category: String,
+    val height: String,
+    val weight: String,
+    val hp: String,
+    val attack: String,
+    val defence: String,
+    val attack_special: String,
+    val defence_special: String,
+    val velocity_special: String,
+    val total: String,
+    val descriptionList: ArrayList<String>,
+    val type_first: String,
+    val type_second: String,
+    val first_pokemon: String,
+    val second_pokemon: String,
+    val third_pokemon: String,
+    val strengths_list: ArrayList<String>,
+    val weaknesses_list: ArrayList<String>,
+    val etymology: String,
+    val biology: String,
+)

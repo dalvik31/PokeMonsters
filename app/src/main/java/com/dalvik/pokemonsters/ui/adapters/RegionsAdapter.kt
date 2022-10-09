@@ -1,10 +1,14 @@
 package com.dalvik.pokemonsters.ui.adapters
 
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.ItemListRegionsBinding
 import com.dalvik.pokemonsters.network.model.regions.Region
+import com.dalvik.pokemonsters.utils.PARAM_ITEM_REGION
 
 class RegionsAdapter(private var regionslist: List<Region>) :
     RecyclerView.Adapter<RegionsAdapter.RegionViewHolder>() {
@@ -16,15 +20,15 @@ class RegionsAdapter(private var regionslist: List<Region>) :
             itemListRegionsBinding.region = region
             itemListRegionsBinding.executePendingBindings()
             itemListRegionsBinding.root.setOnClickListener {
-                /*it.findNavController().navigate(
-                    R.id.action_homeFragment_to_detailNewsFragment,
+                it.findNavController().navigate(
+                    R.id.action_regionFragment_to_regionPokemonFragment,
                     Bundle().apply {
-                        putParcelable(
-                            PARAM_ITEM_NEWS,
-                            news
+                        putInt(
+                            PARAM_ITEM_REGION,
+                            region.id
                         )
                     }
-                )*/
+                )
             }
         }
     }
