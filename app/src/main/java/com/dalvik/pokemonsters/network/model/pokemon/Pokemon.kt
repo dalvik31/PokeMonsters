@@ -1,12 +1,14 @@
 package com.dalvik.pokemonsters.network.model.pokemon
 
 import com.dalvik.pokemonsters.R
+import com.dalvik.pokemonsters.utils.App
 
 data class Pokemon(
-    val name: String,
-    val image: String,
-    val type_first: Int,
-    val type_second: Int,
+    val id: Int?,
+    val name: String?,
+    val image: String?,
+    val type_first: Int?,
+    val type_second: Int?,
 ) {
 
     fun getImgFirstType(): Int? {

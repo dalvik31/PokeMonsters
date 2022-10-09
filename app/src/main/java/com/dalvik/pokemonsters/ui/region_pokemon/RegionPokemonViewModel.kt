@@ -7,6 +7,7 @@ import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
 import com.dalvik.pokemonsters.uses_cases.GetNewsUseCase
+import com.dalvik.pokemonsters.uses_cases.GetPokemonRegionUseCase
 import com.dalvik.pokemonsters.utils.App
 import com.dalvik.pokemonsters.utils.CustomLoader
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -16,25 +17,33 @@ import kotlin.collections.ArrayList
 
 @HiltViewModel
 class RegionPokemonViewModel @Inject constructor(
-    private val newsUseCase: GetNewsUseCase
+    private val pokemonRegionUseCase: GetPokemonRegionUseCase
 ) : BaseViewModel(App.instance) {
 
     var itemList = MutableLiveData<ArrayList<Pokemon>>(arrayListOf())
-    var itemVideo = MutableLiveData("")
+    var _regionId = MutableLiveData<Int>()
 
 
-    fun getPokemons(regionId: Int) {
+    fun getPokemon(regionId: Int) {
+        _regionId.value = regionId
+        getPokemonRegion()
+    }
+
+    fun getPokemonRegion(){
         viewModelScope.launch {
-            when (val resultNews = newsUseCase(
-                loader = CustomLoader.Type.SOFT,
-                viewModel = this@RegionPokemonViewModel
-            )) {
-                is ResultData.Error -> {
-                    //Nothing here this error is management by BaseViewModel class
-                    //The same error is here resultCharacter.message to send viewmodel inside xml
-                }
-                is ResultData.Success -> {
-                    //itemList.postValue(resultNews.model)
+            _regionId.value?.let {
+                when (val resultPokemonRegion = pokemonRegionUseCase(
+                    loader = CustomLoader.Type.SOFT,
+                    params = it,
+                    viewModel = this@RegionPokemonViewModel
+                )) {
+                    is ResultData.Error -> {
+                        //Nothing here this error is management by BaseViewModel class
+                        //The same error is here resultCharacter.message to send viewmodel inside xml
+                    }
+                    is ResultData.Success -> {
+                        itemList.postValue(resultPokemonRegion.model)
+                    }
                 }
             }
         }

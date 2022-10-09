@@ -1,24 +1,17 @@
 package com.dalvik.pokemonsters.ui.regions
 
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.viewModelScope
 import com.dalvik.pokemonsters.R
-import com.dalvik.pokemonsters.network.ResultData
-import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.regions.Region
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
 import com.dalvik.pokemonsters.uses_cases.GetNewsUseCase
 import com.dalvik.pokemonsters.utils.App
-import com.dalvik.pokemonsters.utils.CustomLoader
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 import kotlin.collections.ArrayList
 
 @HiltViewModel
-class RegionsViewModel @Inject constructor(
-    private val newsUseCase: GetNewsUseCase
-) : BaseViewModel(App.instance) {
+class RegionsViewModel @Inject constructor() : BaseViewModel(App.instance) {
 
     var itemList = MutableLiveData<ArrayList<Region>>(arrayListOf())
     var itemVideo = MutableLiveData("")
@@ -26,31 +19,36 @@ class RegionsViewModel @Inject constructor(
 
     fun getRegions() {
       val list = ArrayList<Region>()
-        val regionKanto = Region(
-            1,
-            "Kanto",
-            "151",
-            R.drawable.region_kanto,
-            R.drawable.rock_medal,
-            "Roca",
-            R.drawable.watterfall_medal,
-            "Cascada",
-            R.drawable.thunder_medal,
-            "Trueno",
-            R.drawable.rainbow_medal,
-            "Arcoiris",
-            R.drawable.soul_medal,
-            "Alma",
-            R.drawable.swamp_medal,
-            "Pantano",
-            R.drawable.volcano_medal,
-            "Volcan",
-            R.drawable.earth_medal,
-            "Tierra",)
-        list.add(regionKanto)
-        list.add(regionKanto)
-        list.add(regionKanto)
-        list.add(regionKanto)
+        list.add(getRegion(1))
+        list.add(getRegion(2))
         itemList.postValue(list)
+    }
+
+    private fun getRegion(region: Int):Region{
+        return when(region){
+            1 -> Region()
+            2 -> Region(
+                id = App.instance.getString(R.string.jhoto_id).toInt(),
+                name =  App.instance.getString(R.string.jhoto_name),
+                totalPokemon = App.instance.getString(R.string.jhoto_total_pokemon),
+                imgUrl = R.drawable.region_jhoto,
+                firstMedalImgUrl = R.drawable.zafiro_medal,
+                firstMedalName =  App.instance.getString(R.string.jhoto_first_medal),
+                secondMedalImgUrl = R.drawable.colmena_medal,
+                secondMedalName =  App.instance.getString(R.string.jhoto_second_medal),
+                thirdMedalImgUrl = R.drawable.planicie_medal,
+                thirdMedalName =  App.instance.getString(R.string.jhoto_third_medal),
+                forthMedalImgUrl = R.drawable.niebla_medal,
+                forthMedalName =  App.instance.getString(R.string.jhoto_forth_medal),
+                fifthMedalImgUrl = R.drawable.tormenta_medal,
+                fifthMedalName =  App.instance.getString(R.string.jhoto_fifth_medal),
+                sixthMedalImgUrl = R.drawable.mineral_medal,
+                sixthMedalName =  App.instance.getString(R.string.jhoto_sixth_medal),
+                seventhMedalImgUrl = R.drawable.glaciar_medal,
+                seventhMedalName =  App.instance.getString(R.string.jhoto_seventh_medal),
+                eightMedalImgUrl = R.drawable.dragon_medal,
+                eightMedalName =  App.instance.getString(R.string.jhoto_eigth_medal))
+            else -> Region()
+        }
     }
 }

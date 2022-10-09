@@ -7,7 +7,7 @@
     <string name="search_textview_hint">Busca un pokémon</string>
 
     <string name="textview_news">Noticias</string>
-    <string name="error_download_news">Ocurrio un error al recuperar las noticias</string>
+
 
 
     <!--Menu home-->
@@ -17,7 +17,38 @@
     <!--Msg General-->
     <string name="general_error">Ocurrio un error intenta más tarde</string>
     <string name="internet_conextion">Error de conexión intenta más tarde</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Msg services-->
+    <string name="error_download_news">Ocurrio un error al recuperar las noticias</string>
+    <string name="error_download_pokemon_region">Ocurrio un error al recuperar los pokemon por region</string>
+
+    <!--Regions-->
+    <!--Region Kanto-->
+    <string name="kanto_id">1</string>
+    <string name="kanto_name">Kanto</string>
+    <string name="kanto_total_pokemon">151</string>
+    <string name="kanto_first_medal">Roca</string>
+    <string name="kanto_second_medal">Cascada</string>
+    <string name="kanto_third_medal">Trueno</string>
+    <string name="kanto_forth_medal">Arcoiris</string>
+    <string name="kanto_fifth_medal">Alma</string>
+    <string name="kanto_sixth_medal">Pantano</string>
+    <string name="kanto_seventh_medal">Volcan</string>
+    <string name="kanto_eigth_medal">Tierra</string>
+
+    <!--Region Jhoto-->
+    <string name="jhoto_id">2</string>
+    <string name="jhoto_name">Jhoto</string>
+    <string name="jhoto_total_pokemon">100</string>
+    <string name="jhoto_first_medal">Zafiro</string>
+    <string name="jhoto_second_medal">Colmena</string>
+    <string name="jhoto_third_medal">Planicie</string>
+    <string name="jhoto_forth_medal">Niebla</string>
+    <string name="jhoto_fifth_medal">Tormenta</string>
+    <string name="jhoto_sixth_medal">Mineral</string>
+    <string name="jhoto_seventh_medal">Glaciar</string>
+    <string name="jhoto_eigth_medal">Dragón</string>
+
 
 </resources>

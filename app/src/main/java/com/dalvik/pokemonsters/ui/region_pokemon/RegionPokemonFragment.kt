@@ -36,7 +36,7 @@ class RegionPokemonFragment :
 
     private fun searchArguments() {
         arguments?.getInt(PARAM_ITEM_REGION)?.let {
-            viewModel.getPokemons(it)
+            viewModel.getPokemon(it)
         }
     }
 

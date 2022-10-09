@@ -27,6 +27,44 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:background="@color/secondary_text"
+            app:layout_constraintBottom_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintEnd_toStartOf="@+id/text_first_medal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name" />
+
+        <TextView
+            android:id="@+id/text_first_medal"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_14sdp"
+            android:text="@string/textview_recent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            tools:text="Todas las regiones \nPokémon"/>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:background="@color/secondary_text"
+            app:layout_constraintBottom_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_first_medal"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name" />
+
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout"
             style="@style/SearchTextLayout"
@@ -45,7 +83,7 @@
             app:hintEnabled="true"
             app:layout_constraintEnd_toStartOf="@+id/btn_search"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
             app:startIconDrawable="@drawable/ic_search">
 
 
@@ -70,7 +108,7 @@
             android:src="@drawable/ic_arrow_right"
             app:layout_constraintBottom_toBottomOf="@+id/textInputLayout"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
             app:tint="@color/secondary_text" />
 
         <androidx.recyclerview.widget.RecyclerView

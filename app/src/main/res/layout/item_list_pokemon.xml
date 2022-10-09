@@ -8,13 +8,15 @@
         <variable
             name="pokemon"
             type="com.dalvik.pokemonsters.network.model.pokemon.Pokemon" />
+
+        <import type="android.view.View" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_150sdp"
-        android:background="@android:color/transparent"
-        android:layout_margin="@dimen/_5sdp">
+        android:layout_height="@dimen/_170sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@android:color/transparent">
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline_30_h"
@@ -38,7 +40,6 @@
             app:layout_constraintGuide_percent=".50" />
 
 
-
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="@dimen/_100sdp"
@@ -51,7 +52,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/region_kanto"/>
+            tools:src="@drawable/region_kanto" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -72,13 +73,54 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:elevation="2dp"
-            android:lines="1"
             android:gravity="center"
+            android:lines="1"
             android:text="@{pokemon.name}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
             tools:text="Bulbasaur" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_region_name">
+
+            <ImageView
+                android:id="@+id/imageType1"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imagePokemon"
+                app:src="@{pokemon.imgFirstType}"
+                tools:src="@drawable/ic_poison_2" />
+
+            <ImageView
+                android:id="@+id/imageType2"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:visibility="@{pokemon.type_second !=null  ? View.VISIBLE : View.GONE, default= visible }"
+                app:src="@{pokemon.imgSecondType}"
+                tools:src="@drawable/ic_poison_2" />
+
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/imageView2"
@@ -87,6 +129,7 @@
             android:contentDescription="@string/app_name"
             android:elevation="3dp"
             android:scaleType="fitCenter"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
             app:layout_constraintStart_toStartOf="@+id/cardView"
@@ -100,14 +143,13 @@
             android:contentDescription="@string/app_name"
             android:elevation="3dp"
             android:scaleType="fitCenter"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
             app:layout_constraintTop_toBottomOf="@+id/text_region_name"
             app:src="@{pokemon.imgSecondType}"
             tools:src="@drawable/ic_poison_2" />
-
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
