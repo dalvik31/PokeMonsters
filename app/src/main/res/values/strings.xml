@@ -5,10 +5,12 @@
     <string name="textview_regions">Regiones</string>
     <string name="textview_recent">Lo mas reciente</string>
     <string name="search_textview_hint">Busca un pokémon</string>
-
     <string name="textview_news">Noticias</string>
 
 
+    <!-- Fragment regiones-->
+    <string name="textview_subtitle_region">Busca en cualquier \nregión Pokémon</string>
+    <string name="textview_subtitle_region_pokemon"><b>%1$s</b> Pokémon encontrados \nen esta región</string>
 
     <!--Menu home-->
     <string name="menu_news">Noticias</string>

@@ -46,11 +46,11 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="@dimen/_14sdp"
-            android:text="@string/textview_recent"
+            android:text="@string/textview_subtitle_region"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_region_name"
-            tools:text="Todas las regiones \nPokémon"/>
+            tools:text="@string/textview_subtitle_region"/>
 
 
         <View
@@ -113,9 +113,9 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_height="0dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
