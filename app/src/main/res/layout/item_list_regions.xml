@@ -82,7 +82,7 @@
 
 
         <TextView
-            android:id="@+id/text_region_name"
+            android:id="@+id/text_pokemon_name"
             style="@style/TextViewTitleBold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -112,14 +112,14 @@
             tools:text="151" />
 
         <TextView
-            android:id="@+id/text_first_medal"
+            android:id="@+id/text_subtitle_category"
             style="@style/TextViewTitleRegions"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:text="@{region.firstMedalName}"
             app:layout_constraintEnd_toStartOf="@+id/guideline_33_v"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
             tools:text="Roca" />
 
         <ImageView
@@ -130,8 +130,8 @@
             android:elevation="3dp"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toStartOf="@+id/guideline_33_v"
-            app:layout_constraintStart_toStartOf="@+id/text_first_medal"
-            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintStart_toStartOf="@+id/text_subtitle_category"
+            app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category"
             app:src="@{region.firstMedalImgUrl}" />
 
 
@@ -142,7 +142,7 @@
             android:text="@{region.secondMedalName}"
             app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
             app:layout_constraintStart_toStartOf="@+id/guideline_33_v"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
             tools:text="Cascada" />
 
         <ImageView
@@ -153,7 +153,7 @@
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
             app:layout_constraintStart_toStartOf="@+id/guideline_33_v"
-            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category"
             app:src="@{region.secondMedalImgUrl}" />
 
 
@@ -164,7 +164,7 @@
             android:text="@{region.thirdMedalName}"
             app:layout_constraintEnd_toStartOf="@+id/guideline_75_v"
             app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
             tools:text="Trueno" />
 
         <ImageView
@@ -175,7 +175,7 @@
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toStartOf="@+id/guideline_75_v"
             app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
-            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category"
             app:src="@{region.thirdMedalImgUrl}" />
 
         <TextView
@@ -185,7 +185,7 @@
             android:text="@{region.forthMedalName}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline_75_v"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
             tools:text="Arcoiris" />
 
         <ImageView
@@ -196,7 +196,7 @@
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline_75_v"
-            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category"
             app:src="@{region.forthMedalImgUrl}" />
 
         <TextView

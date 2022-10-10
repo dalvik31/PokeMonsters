@@ -68,7 +68,7 @@
 
 
         <TextView
-            android:id="@+id/text_region_name"
+            android:id="@+id/text_pokemon_name"
             style="@style/TextViewDescriptionBold"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name">
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name">
 
             <ImageView
                 android:id="@+id/imageType1"
@@ -106,7 +106,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imagePokemon"
                 app:src="@{pokemon.imgFirstType}"
-                tools:src="@drawable/ic_poison_2" />
+                tools:src="@drawable/ic_grass" />
 
             <ImageView
                 android:id="@+id/imageType2"
@@ -118,7 +118,7 @@
                 android:scaleType="centerCrop"
                 android:visibility="@{pokemon.type_second !=null  ? View.VISIBLE : View.GONE, default= visible }"
                 app:src="@{pokemon.imgSecondType}"
-                tools:src="@drawable/ic_poison_2" />
+                tools:src="@drawable/ic_poison" />
 
         </LinearLayout>
 
@@ -133,7 +133,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
             app:layout_constraintStart_toStartOf="@+id/cardView"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
             app:src="@{pokemon.imgFirstType}"
             tools:src="@drawable/ic_grass_2" />
 
@@ -147,7 +147,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
             app:src="@{pokemon.imgSecondType}"
             tools:src="@drawable/ic_poison_2" />
 

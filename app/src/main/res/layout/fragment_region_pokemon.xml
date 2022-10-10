@@ -24,7 +24,7 @@
         tools:context=".RegionPokemonFragment">
 
         <TextView
-            android:id="@+id/text_region_name"
+            android:id="@+id/text_pokemon_name"
             style="@style/TextViewTitleBold"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -40,13 +40,13 @@
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
             android:background="@color/secondary_text"
-            app:layout_constraintBottom_toBottomOf="@+id/text_first_medal"
-            app:layout_constraintEnd_toStartOf="@+id/text_first_medal"
+            app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
+            app:layout_constraintEnd_toStartOf="@+id/text_subtitle_category"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name" />
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name" />
 
         <TextView
-            android:id="@+id/text_first_medal"
+            android:id="@+id/text_subtitle_category"
             style="@style/TextViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             android:text="@{subtitle}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name"
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
             tools:text="151 pokemon encontrados \nen esta region"/>
 
 
@@ -65,10 +65,10 @@
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
             android:background="@color/secondary_text"
-            app:layout_constraintBottom_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/text_first_medal"
-            app:layout_constraintTop_toBottomOf="@+id/text_region_name" />
+            app:layout_constraintStart_toEndOf="@+id/text_subtitle_category"
+            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name" />
 
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/swipe"
@@ -77,7 +77,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_first_medal"
+            app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category"
             app:onRefreshListener="@{() -> viewModel.getPokemonRegion()}"
             app:refreshing="@{viewModel.isLoading}">
 

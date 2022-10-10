@@ -28,12 +28,25 @@
         tools:layout="@layout/fragment_region_home" >
         <action
             android:id="@+id/action_regionFragment_to_regionPokemonFragment"
-            app:destination="@id/regionPokemonFragment" />
+            app:destination="@id/regionPokemonFragment"
+            app:enterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
     </fragment>
     <fragment
         android:id="@+id/regionPokemonFragment"
         android:name="com.dalvik.pokemonsters.ui.region_pokemon.RegionPokemonFragment"
         android:label="fragment_region_pokemon"
-        tools:layout="@layout/fragment_region_pokemon" />
+        tools:layout="@layout/fragment_region_pokemon" >
+        <action
+            android:id="@+id/action_regionPokemonFragment_to_detailPokemonFragment"
+            app:destination="@id/detailPokemonFragment"
+            app:enterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPokemonFragment"
+        android:name="com.dalvik.pokemonsters.ui.detail_pokemon.DetailPokemonFragment"
+        android:label="fragment_detail_pokemon"
+        tools:layout="@layout/fragment_detail_pokemon" />
 
 </navigation>

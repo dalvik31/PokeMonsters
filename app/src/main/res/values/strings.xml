@@ -12,6 +12,23 @@
     <string name="textview_subtitle_region">Busca en cualquier \nregión Pokémon</string>
     <string name="textview_subtitle_region_pokemon"><b>%1$s</b> Pokémon encontrados \nen esta región</string>
 
+    <!-- Fragment detail pokemon-->
+    <string name="textview_subtitle_detail_pokemon">%1$s es considerado \nel Pokémon %2$s</string>
+    <string name="pokemon_title_height">Altura</string>
+    <string name="pokemon_title_weight">Peso</string>
+    <string name="pokemon_title_category">Categoria</string>
+    <string name="pokemon_subtitle_stats">Estadisticas</string>
+    <string name="pokemon_title_stats_hp">Salud</string>
+    <string name="pokemon_title_stats_attack">Ataque</string>
+    <string name="pokemon_title_stats_defence">Defense</string>
+    <string name="pokemon_title_special_attack">At. Especial</string>
+    <string name="pokemon_title_special_defence">Def. Especial</string>
+    <string name="pokemon_title_speed">Velocidad</string>
+    <string name="pokemon_title_total">Total</string>
+    <string name="pokemon_subtitle_evolution">Linea evolutiva</string>
+    <string name="pokemon_subtitle_interesting_data">Datos interesantes</string>
+    <string name="textview_custom_param">%1$s</string>
+
     <!--Menu home-->
     <string name="menu_news">Noticias</string>
     <string name="menu_pokemon">Pokémon</string>
