@@ -31,10 +31,10 @@ data class DetailPokemon(
     val weaknesses_list: ArrayList<String>,
     val interestingData: String,
 ){
-    fun urlImage(numberPokemon: Int) :String{
+    fun getUrlImage(numberPokemon: String) :String{
         return "https://pokemon-project.com/pokedex/img/sprite/Home/128/".plus(numberPokemon).plus(".png")
     }
-    fun urlLargeImage(numberPokemon: Int) :String{
+    fun urlLargeImage(numberPokemon: String) :String{
         return "https://pokemon-project.com/pokedex/img/sprite/Home/".plus(numberPokemon).plus(".png")
     }
 

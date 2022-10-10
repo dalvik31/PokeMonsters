@@ -20,7 +20,7 @@
     <string name="pokemon_subtitle_stats">Estadisticas</string>
     <string name="pokemon_title_stats_hp">Salud</string>
     <string name="pokemon_title_stats_attack">Ataque</string>
-    <string name="pokemon_title_stats_defence">Defense</string>
+    <string name="pokemon_title_stats_defence">Defensa</string>
     <string name="pokemon_title_special_attack">At. Especial</string>
     <string name="pokemon_title_special_defence">Def. Especial</string>
     <string name="pokemon_title_speed">Velocidad</string>
