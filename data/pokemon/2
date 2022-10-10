@@ -1,0 +1,37 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+    
+    {
+        "id": "2",
+        "name": "Ivysaur",
+         "category": "Semilla",
+        "type_first": 1,
+       "type_second": 2,
+       "height": "1,0 m",
+        "weight": "13.0 kg",
+        "hp": 60,
+        "attack": 62,
+        "defence": 63,
+        "attack_special": 80,
+        "defence_special": 80,
+        "speed": 60,
+        "total": 415,
+        "first_name_pokemon": "Bulbasaur",
+        "first_num_pokemon": "1",
+        "second_name_pokemon": "Ivysaur",
+        "second_num_pokemon": "2",
+        "third_name_pokemon": "Venusaur",
+        "third_num_pokemon": "3",
+        "level_first_evolution": "16",
+        "level_second_evolution": "32",
+        "interestingData": "* Ivysaur fue diseñado por Ken Sugimori.\n\n* En Super Smash Bros. Brawl, Ivysaur pesa menos que Squirtle.\n\n* En su descripción de la Pokédex de Pokémon Rojo y Pokémon Azul, dice que le cuesta levantarse sobre sus patas traseras, pero en el sprite del mismo juego, se lo ve levantado sobre ellas sin problemas. Eso puede deberse al sprite de las ediciones japonesas de Rojo y Verde, en el cual apenas se puede mantener en pie."
+      }
+    ]
+  }
+}
