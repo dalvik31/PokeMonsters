@@ -49,6 +49,18 @@
           "type_second": 9
       },
         {
+        "id":"6-1" ,
+        "name": "Mega \nCharizard X",
+        "type_first": 8,
+          "type_second": 9
+      },
+        {
+        "id":"6-2" ,
+        "name": "Mega \nCharizard Y",
+        "type_first": 8,
+          "type_second": 9
+      },
+        {
         "id": "7",
         "name": "Squirtle",
         "type_first": 18
