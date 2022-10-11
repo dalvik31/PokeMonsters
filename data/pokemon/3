@@ -28,8 +28,8 @@
         "second_num_pokemon": "2",
         "third_name_pokemon": "Venusaur",
         "third_num_pokemon": "3",
-        "level_first_evolution": "16",
-        "level_second_evolution": "32",
+        "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Nivel 32",
         "interestingData": "* Venusaur fue diseñado por Ken Sugimori.\n\n* En Pokémon Battle Revolution se le ponen los ojos morados durante el combate."
       }
     ]
