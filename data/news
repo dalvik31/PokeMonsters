@@ -15,7 +15,6 @@
         "end_date": "1664577165000",
         "title": "Pokémon Scarlet y Violet: una nueva criatura y más mecánicas se muestran en el nuevo tráiler",
         "sub_title": "Farigiraf un nuevo Pokémon",
-             "name_new_pokemon": "Farigiraf",
             "img_new_pokemon": "https://www.cpokemon.com/wp-content/uploads/2022/10/scarlet-violet-pokemon-farigiraf-2-365x450.png.webp",
         "thumbnail": "https://www.cpokemon.com/wp-content/uploads/2022/10/habilidad-rumia-farigiraf-pokemonscarletviolet-795x450.jpg.webp",
         "image_url": "https://www.cpokemon.com/wp-content/uploads/2022/10/habilidad-rumia-farigiraf-pokemonscarletviolet-795x450.jpg.webp",
@@ -55,11 +54,7 @@
 
           "page_url": "",
            "pokemon_name": "Dratini",
-             "pokemon_num": "147",
-                "pokemon_name_second": "Dragonair",
-             "pokemon_num_second": "148",
-                "pokemon_name_third": "Dragonite",
-             "pokemon_num_third": "149"
+             "pokemon_num": "147"
       },
          {
         "id": "8",
@@ -67,17 +62,15 @@
         "start_date_string":"05 de octubre de 2022",
         "end_date": "1664577165000",
         "title": "Festival de las Luces 2022: pon un toque de luz en tu vida con los debuts de nuevos Pokémon y con encuentros deslumbrantes",
-        "sub_title": "Festival de las luces",
+        "sub_title": "Festival de la luz",
             "img_new_pokemon": "",
         "thumbnail": "https://lh3.googleusercontent.com/nLqOUDTmHR1PBnZmE2p1gWL6nKagHaZ17KpxkMm5ylKBiTayBfnF9xDxl3mS502LhiSNh0GldQADPHFL1fOYohwgvoQFZxxqmNZHbpmA_HK1Qg=e365-w800",
         "image_url": "https://lh3.googleusercontent.com/nLqOUDTmHR1PBnZmE2p1gWL6nKagHaZ17KpxkMm5ylKBiTayBfnF9xDxl3mS502LhiSNh0GldQADPHFL1fOYohwgvoQFZxxqmNZHbpmA_HK1Qg=s0",
         "description": "Entrenadores:\n\nEl Festival de las Luces es un evento ideal para estrechar lazos con los que os rodean, incluyendo vuestros Pokémon. Celebradlo con nosotros explorando el mundo y descubriendo Pokémon luminiscentes como Morelull, ¡que debuta en Pokémon GO!\n\nPor si fuera poco, según nuestra investigación, durante el evento algunos Pokémon brillarán por la noche, ¡así que aseguraos de buscarlos mientras podáis!\n\nFestival de las Luces\n\nDesde el viernes, 14 de octubre de 2022 a las 10:00, hasta el lunes, 17 de octubre de 2022 a las 20:00 (hora local)\n\nDebuts de Pokémon\n\n¡Morelull y Shiinotic, los Pokémon Luminiscentes, debutarán en Pokémon GO!\n* *Podéis utilizar 50 Caramelos de Morelull para evolucionar un Morelull en Shiinotic.",
           "page_url": "",
            "pokemon_name": "Morelull",
-             "pokemon_num": "755",
-                   "pokemon_name_second": "shiinotic",
-             "pokemon_num_second": "756"
-         },
+             "pokemon_num": "755"
+      },
        {
         "id": "7",
         "start_date": "1664577165000",
@@ -86,7 +79,6 @@
         "title": "Wiglett - Pokédex Escarlata y Púrpura",
         "sub_title": "Wiglett, en la pokedex",
             "img_new_pokemon": "https://www.cpokemon.com/wp-content/uploads/2022/09/wiglett-artwork-pokemon-escarlata-purpura-415x450.png.webp",
-                "name_new_pokemon": "Wiglet",
         "thumbnail": "https://i2.wp.com/www.cpokemon.com/wp-content/uploads/2022/09/wiglett-pokedex-pokemon-escarlata-purpura.jpg?ssl=1&resize=300%2C170&zoom=2",
         "image_url": "https://www.cpokemon.com/wp-content/uploads/2022/09/wiglett-captura-pokemon-escarlata-purpura-800x450.jpg.webp",
         "description": "Wiglett (ウミディグダ Umidiguda en japonés) es un Pokémon de tipo Agua introducido en la novena generación de Pokémon Escarlata y Púrpura (Scarlet/Violet) para Nintendo Switch. El Pokémon Cóngrido, fue revelado el 28 de septiembre de 2022. \n Descripción \nCon su olfato excepcional, Wiglett puede percibir olores que estén hasta a 20 metros de distancia. Es un Pokémon asustadizo y se mantiene alerta de todo lo que ocurre a su alrededor. Si su olfato detecta la presencia de otro Pokémon en la zona, se mete bajo la arena para ocultarse. \n Wiglett se alimenta sacando su cuerpo a la superficie. Su cuerpo debajo de la arena es un misterio y se desconoce cuanto puede llegar a medir realmente. Su gran parecido con Diglett podría ser una coincidencia, resultado de la adaptación que tuvo a su entorno.",
@@ -154,11 +146,7 @@
         "videoUrl": "",
          "page_url": "https://pokemongolive.com/es_mx/post/community-day-october-2022-litwick/",
                "pokemon_name": "Litwick",
-             "pokemon_num": "607",
-                    "pokemon_name_second": "Lampent",
-             "pokemon_num_second": "608",
-                "pokemon_name_third": "Chandelure",
-             "pokemon_num_third": "609"
+             "pokemon_num": "607"
       },
       {
         "id": "2",
@@ -178,3 +166,4 @@
     ]
   }
 }
+
