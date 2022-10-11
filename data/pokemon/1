@@ -28,8 +28,8 @@
         "second_num_pokemon": "2",
         "third_name_pokemon": "Venusaur",
         "third_num_pokemon": "3",
-        "level_first_evolution": "16",
-        "level_second_evolution": "32",
+        "level_first_evolution": "nivel 16",
+        "level_second_evolution": "nivel 32",
         "interestingData": "* Bulbasaur fue diseñado por Atsuko Nishida.\n\n* En su animación de combate en Pokémon X/Y, cuando ataca con placaje saca sus látigos, cosa que en el movimiento látigo cepa no hace, cuando sería más coherente. Permanece inmóvil mientras lo realiza"
       }
     ]
