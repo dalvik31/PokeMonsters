@@ -11,7 +11,7 @@
         "id": "1",
         "name": "Bulbasaur",
          "category": "Semilla",
-           "images": ["1", "https://static.wikia.nocookie.net/espokemon/images/c/c9/P01_Bulbasaur_y_clon.png/revision/latest?cb=20111118004432", "https://static.wikia.nocookie.net/espokemon/images/2/21/EP001_Bulbasaur_en_sueños.png/revision/latest?cb=20080911204119" ,"https://static.wikia.nocookie.net/espokemon/images/2/21/EP051_Bulbasaurs_salvajes.jpg/revision/latest?cb=20121130172247" ,"https://static.wikia.nocookie.net/espokemon/images/7/7e/EP104_Bulbasaur_del_alcalde.png/revision/latest?cb=20100103134916" ],
+           "images": ["Bulbasaur","1", "https://static.wikia.nocookie.net/espokemon/images/c/c9/P01_Bulbasaur_y_clon.png/revision/latest?cb=20111118004432", "https://static.wikia.nocookie.net/espokemon/images/2/21/EP001_Bulbasaur_en_sueños.png/revision/latest?cb=20080911204119" ,"https://static.wikia.nocookie.net/espokemon/images/2/21/EP051_Bulbasaurs_salvajes.jpg/revision/latest?cb=20121130172247" ,"https://static.wikia.nocookie.net/espokemon/images/7/7e/EP104_Bulbasaur_del_alcalde.png/revision/latest?cb=20100103134916" ],
         "type_first": 1,
        "type_second": 2,
        "height": "0,7 m",
