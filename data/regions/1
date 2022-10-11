@@ -28,9 +28,16 @@
       },
       {
         "id": "3-1",
-        "name": "Mega \nVenusaur",
+        "name": "Mega\nVenusaur",
         "type_first": 1,
          "type_second": 2
+      },
+      {
+        "id": "3-2",
+        "name": "Venusaur\nGigamax",
+        "type_first": 1,
+        "type_second": 2,
+        "alternateImage": "https://swordshield.pokemon.com/assets/img/articles/ex/pokemon_galar_gvenusaur_2x.png"
       },
         {
         "id": "4",
@@ -50,13 +57,13 @@
       },
         {
         "id":"6-1" ,
-        "name": "Mega \nCharizard X",
+        "name": "Mega\nCharizard X",
         "type_first": 8,
           "type_second": 5
       },
         {
         "id":"6-2" ,
-        "name": "Mega \nCharizard Y",
+        "name": "Mega\nCharizard Y",
         "type_first": 8,
           "type_second": 9
       },
