@@ -28,8 +28,8 @@
         "second_num_pokemon": "2",
         "third_name_pokemon": "Venusaur",
         "third_num_pokemon": "3",
-        "level_first_evolution": "nivel 16",
-        "level_second_evolution": "nivel 32",
+        "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Nivel 32",
         "interestingData": "* La energía Gigamax hace que la flor de Venusaur crezca hasta cubrirle todo el cuerpo. Sus pétalos se vuelven tan gruesos y elásticos que pueden repeler ataques que no sean suficientemente potentes.\n\n* En los combates, utiliza los pétalos como escudo y mueve sus gruesas lianas para atacar a su objetivo."
       }
     ]
