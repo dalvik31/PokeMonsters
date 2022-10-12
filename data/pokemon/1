@@ -11,7 +11,7 @@
         "name": "Bulbasaur",
         "category": "Semilla",
         "ability": "Espesura",
-        "ability_description": "Espesura aumenta la potencia de los movimientos de tipo planta del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.\nEste contenido proviene de wikidex.net, y debe darse atribución a sus autores, tal como especifica la licencia.\nSe prohíbe su uso a PlagioDex (el wiki de FANDOOM), por copiar reiteradamente sin dar atribución",
+        "ability_description": "Espesura aumenta la potencia de los movimientos de tipo planta del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
         "images": [
           "1",
           "https://pm1.narvii.com/6262/7b51f6dfcebec9ed88397d485e894f6c4749d823_hq.jpg",
