@@ -137,8 +137,8 @@
             "description": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
           }
         ],
-        "type_first": 1,
-        "type_second": 2,
+        "type_first": 2,
+        "type_second": 1,
         "height": "0,7 m",
         "weight": "6.9 kg",
         "hp": 45,
