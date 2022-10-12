@@ -1,5 +1,6 @@
 package com.dalvik.pokemonsters.ui.adapters
 
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.findNavController
@@ -9,6 +10,8 @@ import com.dalvik.pokemonsters.databinding.ItemListPokemonBinding
 import com.dalvik.pokemonsters.databinding.ItemListRegionsBinding
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.network.model.regions.Region
+import com.dalvik.pokemonsters.utils.PARAM_ITEM_NEWS
+import com.dalvik.pokemonsters.utils.PARAM_ITEM_POKEMON_ID
 
 class RegionsPokemonAdapter(private var pokemonlist: List<Pokemon>) :
     RecyclerView.Adapter<RegionsPokemonAdapter.PokemonViewHolder>() {
@@ -22,12 +25,12 @@ class RegionsPokemonAdapter(private var pokemonlist: List<Pokemon>) :
             itemListPokemonBinding.root.setOnClickListener {
                 it.findNavController().navigate(
                     R.id.action_regionPokemonFragment_to_detailPokemonFragment,
-                    /*Bundle().apply {
-                        putParcelable(
-                            PARAM_ITEM_NEWS,
-                            news
+                    Bundle().apply {
+                        putString(
+                            PARAM_ITEM_POKEMON_ID,
+                            pokemon.id
                         )
-                    }*/
+                    }
                 )
             }
         }

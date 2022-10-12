@@ -14,9 +14,11 @@
 
     <!-- Fragment detail pokemon-->
     <string name="textview_subtitle_detail_pokemon">%1$s es considerado \nel Pokémon %2$s</string>
+    <string name="textview_subtitle_detail_pokedex">¿Qué dice la pokedex sobre\n%1$s?</string>
     <string name="pokemon_title_height">Altura</string>
     <string name="pokemon_title_weight">Peso</string>
     <string name="pokemon_title_category">Categoria</string>
+    <string name="pokemon_title_ability">Habilidad</string>
     <string name="pokemon_subtitle_stats">Estadisticas</string>
     <string name="pokemon_title_stats_hp">Salud</string>
     <string name="pokemon_title_stats_attack">Ataque</string>
@@ -41,6 +43,7 @@
     <!--Msg services-->
     <string name="error_download_news">Ocurrio un error al recuperar las noticias</string>
     <string name="error_download_pokemon_region">Ocurrio un error al recuperar los pokemon por region</string>
+    <string name="error_download_pokemon_detail">Ocurrio un error al recuperar la informacion de este pokémon</string>
 
     <!--Regions-->
     <!--Region Kanto-->

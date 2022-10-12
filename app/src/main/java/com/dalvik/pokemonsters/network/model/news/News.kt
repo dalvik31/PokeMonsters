@@ -1,6 +1,9 @@
 package com.dalvik.pokemonsters.network.model.news
 
 import android.os.Parcelable
+import com.dalvik.pokemonsters.utils.getImage
+import com.dalvik.pokemonsters.utils.getThumbnail
+import com.dalvik.pokemonsters.utils.getThumbnailShiny
 import kotlinx.parcelize.Parcelize
 import java.text.SimpleDateFormat
 import java.time.Instant
@@ -32,27 +35,27 @@ data class News(
 ): Parcelable {
 
    fun getUrlImagePokemon():String{
-      return "https://www.cpokemon.com/pokes/home/".plus(pokemon_num).plus(".png")
+      return (pokemon_num ?: "").getImage()
    }
 
    fun getUrlImageShinyPokemon():String{
-      return "https://www.cpokemon.com/pokes/home/shiny/".plus(pokemon_num).plus(".png")
+      return  (pokemon_num ?: "").getThumbnailShiny()
    }
 
    fun getUrlSecondImagePokemon():String{
-      return "https://www.cpokemon.com/pokes/home/".plus(pokemon_num_second).plus(".png")
+      return  (pokemon_num_second ?: "").getImage()
    }
 
    fun getUrlSecondImageShinyPokemon():String{
-      return "https://www.cpokemon.com/pokes/home/shiny/".plus(pokemon_num_second).plus(".png")
+      return (pokemon_num_second ?: "").getThumbnailShiny()
    }
 
    fun getUrlThirdImagePokemon():String{
-      return "https://www.cpokemon.com/pokes/home/".plus(pokemon_num_third).plus(".png")
+      return  (pokemon_num_third ?: "").getImage()
    }
 
    fun getUrlThirdImageShinyPokemon():String{
-      return "https://www.cpokemon.com/pokes/home/shiny/".plus(pokemon_num_third).plus(".png")
+      return (pokemon_num_third ?: "").getThumbnailShiny()
    }
 
 }

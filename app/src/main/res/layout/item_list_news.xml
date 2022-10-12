@@ -59,16 +59,20 @@
                     android:imageUrl="@{news.thumbnail}"
                     android:scaleType="centerCrop" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:alpha="0.4"
-                    android:background="@color/black" />
+
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true">
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:background="@drawable/background_black_gradient_bottom"
+                        app:layout_constraintBottom_toTopOf="@+id/text_title"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
                     <TextView
                         android:id="@+id/text_title"
@@ -80,6 +84,7 @@
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingEnd="@dimen/_10sdp"
                         android:paddingBottom="0dp"
+                        android:background="@color/black_transparent"
                         android:text="@{news.sub_title}"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_10sdp"
@@ -94,6 +99,7 @@
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingTop="0dp"
                         android:paddingEnd="@dimen/_10sdp"
+                        android:background="@color/black_transparent"
                         android:paddingBottom="@dimen/_5sdp"
                         android:text="@{news.start_date_string}"
                         android:textColor="@color/white"

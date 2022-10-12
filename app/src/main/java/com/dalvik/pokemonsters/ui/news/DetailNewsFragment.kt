@@ -1,8 +1,8 @@
 package com.dalvik.pokemonsters.ui.news
 
-import android.support.annotation.NonNull
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.annotation.NonNull
 import com.dalvik.pokemonsters.databinding.FragmentDetailNewsBinding
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.ui.base.BaseFragment

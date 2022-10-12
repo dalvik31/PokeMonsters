@@ -71,11 +71,12 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:4.9.3'
 
     //Picasso
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
 
     //Lottie for animations with JSON files
     implementation "com.airbnb.android:lottie:5.0.3"
 
     //Youtube video player
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
+
 }

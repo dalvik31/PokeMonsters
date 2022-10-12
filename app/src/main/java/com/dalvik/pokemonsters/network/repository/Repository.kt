@@ -5,6 +5,7 @@ import com.dalvik.pokemonsters.network.ResultData
 import com.dalvik.pokemonsters.network.base.BaseRemoteCall
 import com.dalvik.pokemonsters.network.interfaces.PokemonDataSourceInterface
 import com.dalvik.pokemonsters.network.model.news.News
+import com.dalvik.pokemonsters.network.model.pokemon.DetailPokemon
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.network.services.PokeServices
 import com.dalvik.pokemonsters.utils.App
@@ -21,6 +22,11 @@ class Repository @Inject constructor(
     override suspend fun getRemotePokemonRegions(regionId: Int): ResultData<ArrayList<Pokemon>> =
         safeApiCallList(App.instance.getString(R.string.error_download_pokemon_region)) {
             pokeServices.getPokemonRegion(regionId)
+        }
+
+    override suspend fun getRemotePokemonById(pokemonId: String): ResultData<DetailPokemon> =
+        safeApiCallObject(App.instance.getString(R.string.error_download_pokemon_detail)) {
+            pokeServices.getPokemonById(pokemonId)
         }
 
 }

@@ -1,16 +1,28 @@
 package com.dalvik.pokemonsters.utils
 
+import android.graphics.drawable.Drawable
+import android.view.View
 import android.widget.ImageView
+import android.widget.LinearLayout
+import androidx.annotation.Nullable
+import androidx.core.content.ContextCompat
+import androidx.core.graphics.ColorUtils
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
+import androidx.viewpager2.widget.ViewPager2
+import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.DataSource
+import com.bumptech.glide.load.engine.GlideException
+import com.bumptech.glide.request.RequestListener
+import com.bumptech.glide.request.target.Target
+import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.network.model.regions.Region
-import com.dalvik.pokemonsters.ui.adapters.NewsAdapter
-import com.dalvik.pokemonsters.ui.adapters.RegionsAdapter
-import com.dalvik.pokemonsters.ui.adapters.RegionsPokemonAdapter
-import com.squareup.picasso.Callback
-import com.squareup.picasso.Picasso
+import com.dalvik.pokemonsters.network.model.text_pokedex.TextPokedex
+import com.dalvik.pokemonsters.ui.adapters.*
+import java.lang.Math.abs
 
 
 class BindingAdapters {
@@ -21,15 +33,34 @@ class BindingAdapters {
         @BindingAdapter("android:imageUrl")
         fun setImageUrl(imageView: ImageView, url: String?) {
             try {
-                imageView.alpha = 0f
-                Picasso.get().load(url).noFade().into(imageView, object : Callback {
-                    override fun onSuccess() {
-                        imageView.animate().setDuration(300).alpha(1f).start()
-                    }
+                url?.let {
+                    imageView.alpha = 0f
+                    Glide.with(imageView.context)
+                        .load(url)
+                        .listener(object : RequestListener<Drawable?> {
+                            override fun onLoadFailed(
+                                @Nullable e: GlideException?,
+                                model: Any,
+                                target: Target<Drawable?>,
+                                isFirstResource: Boolean
+                            ): Boolean {
+                                // log exception
+                                return false // important to return false so the error placeholder can be placed
+                            }
 
-                    override fun onError(e: Exception) {}
-                })
-
+                            override fun onResourceReady(
+                                resource: Drawable?,
+                                model: Any,
+                                target: Target<Drawable?>,
+                                dataSource: DataSource,
+                                isFirstResource: Boolean
+                            ): Boolean {
+                                imageView.animate().setDuration(300).alpha(1f).start()
+                                return false
+                            }
+                        })
+                        .into(imageView)
+                }
             } catch (e: Exception) {
                 e.printStackTrace()
             }
@@ -62,6 +93,35 @@ class BindingAdapters {
                 val characterAdapter = RegionsPokemonAdapter(pokemonsList)
                 recyclerView.setHasFixedSize(true)
                 recyclerView.adapter = characterAdapter
+            }
+        }
+
+        @JvmStatic
+        @BindingAdapter("app:listImages")
+        fun setListImagePokemon(viewPager: ViewPager2, imagesList: ArrayList<String>?) {
+            if (imagesList != null && imagesList.isNotEmpty()) {
+                val characterAdapter = ImagesAdapter(imagesList)
+                viewPager.offscreenPageLimit = 1
+                viewPager.adapter = characterAdapter
+                viewPager.setPageTransformer { page, position ->
+                    page.translationX = -40 * position
+                    page.scaleY = 1 - (0.40f * kotlin.math.abs(position))
+                }
+            }
+        }
+
+
+        @JvmStatic
+        @BindingAdapter("app:listText")
+        fun setListTextPokedexPokemon(viewPager: ViewPager2, textList: MutableList<TextPokedex>?) {
+            if (textList != null && textList.isNotEmpty()) {
+                val textAdapter = TextPokedexAdapter(textList)
+                viewPager.offscreenPageLimit = 1
+                viewPager.adapter = textAdapter
+                viewPager.setPageTransformer { page, position ->
+                    page.translationX = -40 * position
+                    page.scaleY = 1 - (0.40f * kotlin.math.abs(position))
+                }
             }
         }
 
