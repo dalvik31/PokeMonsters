@@ -11,32 +11,32 @@
     {
         "id": "1",
         "name": "Bulbasaur",   
-        "type_first": 1,
-         "type_second": 2
+        "type_first": 2,
+         "type_second": 1
       },
          {
         "id": "2",
         "name": "Ivysaur",
-        "type_first": 1,
-         "type_second": 2
+        "type_first": 2,
+         "type_second": 1
       },
       {
         "id": "3",
         "name": "Venusaur",
-        "type_first": 1,
-         "type_second": 2
+        "type_first": 2,
+         "type_second": 1
       },
       {
         "id": "3-1",
         "name": "Mega\nVenusaur",
-        "type_first": 1,
-         "type_second": 2
+        "type_first": 2,
+         "type_second": 1
       },
       {
         "id": "3-2",
         "name": "Venusaur\nGigamax",
-        "type_first": 1,
-        "type_second": 2,
+        "type_first": 2,
+        "type_second": 1,
         "alternateImage": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
       },
         {
