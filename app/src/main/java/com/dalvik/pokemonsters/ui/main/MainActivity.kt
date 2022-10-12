@@ -29,9 +29,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
-
-    fun exampleRevert(){
-
-    }
 }
