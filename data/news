@@ -1,4 +1,3 @@
-
 {
   "code": "1",
   "data": {
@@ -7,98 +6,93 @@
     "limit": 0,
     "offset": 0,
     "results": [
-    
-    {
+      {
         "id": "11",
         "start_date": "1664577165000",
-        "start_date_string":"06 de octubre de 2022",
+        "start_date_string": "06 de octubre de 2022",
         "end_date": "1664577165000",
         "title": "Pokémon Scarlet y Violet: una nueva criatura y más mecánicas se muestran en el nuevo tráiler",
         "sub_title": "Farigiraf un nuevo Pokémon",
-             "name_new_pokemon": "Farigiraf",
-            "img_new_pokemon": "https://www.cpokemon.com/wp-content/uploads/2022/10/scarlet-violet-pokemon-farigiraf-2-365x450.png.webp",
+        "img_new_pokemon": "https://www.cpokemon.com/wp-content/uploads/2022/10/scarlet-violet-pokemon-farigiraf-2-365x450.png.webp",
         "thumbnail": "https://www.cpokemon.com/wp-content/uploads/2022/10/habilidad-rumia-farigiraf-pokemonscarletviolet-795x450.jpg.webp",
         "image_url": "https://www.cpokemon.com/wp-content/uploads/2022/10/habilidad-rumia-farigiraf-pokemonscarletviolet-795x450.jpg.webp",
         "description": "Farigiraf es el resultado de la evolución de los Girafarig que viven en la región de Paldea. Su cabeza principal y la de su cola se han fusionado para formar una sola. Los dos cerebros de Farigiraf están conectados por sus gruesos nervios, incrementando su energía psíquica, y gracias a eso puede emitir ondas psíquicas desde la antena de su cabeza. \n\n Rumia \n\n Farigiraf tiene una nueva habilidad llamada Rumia (Cud Chew). Cuando un Pokémon con esta habilidad come una Baya, puede comer una más al final del turno siguiente. \n\n Cola Armadura \n\nTambién tiene otra nueva habilidad presentada en estos juegos llamada Cola Armadura (Armor Tail). Esta habilidad hace que los oponentes no puedan utilizar sus movimientos con prioridad. \n\nDatos de Farigiraf\n\n* Categoría: Pokémon Gran Cuello\n* Tipo: Normal y Psíquico \n* Altura: 3,2 m \n* Peso: 160 kg \n* Habilidad: Rumia o Cola Armadura",
-
-          "page_url": "",
-           "pokemon_name": "",
-             "pokemon_num": ""
+        "page_url": "",
+        "pokemon_name": "",
+        "pokemon_num": ""
       },
-        {
+      {
         "id": "10",
         "start_date": "1664577165000",
-        "start_date_string":"06 de octubre de 2022",
+        "start_date_string": "06 de octubre de 2022",
         "end_date": "1664577165000",
         "title": "Pokémon Scarlet y Violet: una nueva criatura y más mecánicas se muestran en el nuevo tráiler",
         "sub_title": "Nuevo trailer y criatura de Paldea",
-            "img_new_pokemon": "",
+        "img_new_pokemon": "",
         "thumbnail": "https://i0.wp.com/www.cpokemon.com/wp-content/uploads/2022/10/nuevo-trailer-pokemon-scarletviolet-2.jpg?ssl=1&resize=300%2C170&zoom=2",
         "image_url": "https://www.cpokemon.com/wp-content/uploads/2022/10/nuevo-trailer-pokemon-scarletviolet-2.jpg.webp",
         "description": "El nuevo gameplay de Pokémon Scarlet y Violet presenta a Farigiraf, la evolución de Girafarig en Paldea, Pícnics para pasar el tiempo con tus Pokémon y la Máquina MT para fabricar tus propias MT. \n\nUn nuevo tráiler de Pokémon Scarlet y Violet (Escarlata y Púrpura) ha sido revelado en el día de hoy. \n\nSe trata de un gameplay de 14 minutos donde muestran algunas novedades, desde la evolución de Girafarig hasta nuevas formas para pasar el tiempo con nuestros Pokémon, personalización del personaje, selfies y la mecánica de los MT y más. \n\nPícnics\n\n En Pokémon Scarlet y Violet podrás ir de Pícnic en cualquier parte de la extensa región, pudiendo cambiar los diseños del mantel de la mesa, vasos, termos y otros objetos de pícnic para crear un entorno a tu gusto. Cuando un Pokémon come un sándwich, no solo restaura sus Puntos de Salud (PS), también tendrá efectos que le servirán durante la aventura. \n\nCuidado y limpieza de tus Pokémon \n\nEn estos títulos, cuando los Pokémon caminan junto a ti o entablan un combate, comenzarán a ensuciarse. Al bañar a los Pokémon en el Pícnic, no solo tendrán una lustradita magistral, también recuperarán sus Puntos de Salud (PS) y tendrán un vínculo más fuerte contigo. \n\nMecánica para fabricar MTs\n\nLas Máquinas Técnicas (MT para abreviar) son una herramienta que permite a los Pokémon aprender nuevos movimientos. En Pokémon Scarlet y Violet, hay una instalación equipada en los Centro Pokémon llamada Máquina MT, que te permitirá crear tus propias MTs.",
         "video_url": "TYW7jGVPgVo",
-          "page_url": "",
-           "pokemon_name": "",
-             "pokemon_num": ""
+        "page_url": "",
+        "pokemon_name": "",
+        "pokemon_num": ""
       },
-         {
+      {
         "id": "9",
         "start_date": "1664577165000",
-        "start_date_string":"06 de octubre de 2022",
+        "start_date_string": "06 de octubre de 2022",
         "end_date": "1664577165000",
         "title": "Día de la Comunidad clásico: Soñando con Dratini",
         "sub_title": "Dia de la comunidad clásico",
-            "img_new_pokemon": "",
+        "img_new_pokemon": "",
         "thumbnail": "https://lh3.googleusercontent.com/Z0_4T7lwrChfHJbDaX7ESZz7NnAl1hdgAELQP19REAuYJnK-vzoqloSTl8C31AQLCzd7NoCw3cvPbIjm1U9CSlliVKzX0gPiv8GOoUz_dxnf=e365-w800",
         "image_url": "https://lh3.googleusercontent.com/Z0_4T7lwrChfHJbDaX7ESZz7NnAl1hdgAELQP19REAuYJnK-vzoqloSTl8C31AQLCzd7NoCw3cvPbIjm1U9CSlliVKzX0gPiv8GOoUz_dxnf=s0",
         "description": "Día de la Comunidad clásico de noviembre de 2022: Dratini\n\nSábado, 5 de noviembre de 2022, de 14:00 a 17:00, hora local\n\nEntrenadores:\n\n¡El Día de la Comunidad clásico vuelve en noviembre! ¡El evento tendrá como destacado a Dratini, el Pokémon Dragón!",
-
-          "page_url": "",
-           "pokemon_name": "Dratini",
-             "pokemon_num": "147",
-                "pokemon_name_second": "Dragonair",
-             "pokemon_num_second": "148",
-                "pokemon_name_third": "Dragonite",
-             "pokemon_num_third": "149"
+        "page_url": "",
+        "pokemon_name": "Dratini",
+        "pokemon_num": "147",
+        "pokemon_name_second": "Dragonair",
+        "pokemon_num_second": "148",
+        "pokemon_name_third": "Dragonite",
+        "pokemon_num_third": "149"
       },
-         {
+      {
         "id": "8",
         "start_date": "1664577165000",
-        "start_date_string":"05 de octubre de 2022",
+        "start_date_string": "05 de octubre de 2022",
         "end_date": "1664577165000",
         "title": "Festival de las Luces 2022: pon un toque de luz en tu vida con los debuts de nuevos Pokémon y con encuentros deslumbrantes",
-        "sub_title": "Festival de las luces",
-            "img_new_pokemon": "",
+        "sub_title": "Festival de la luz",
+        "img_new_pokemon": "",
         "thumbnail": "https://lh3.googleusercontent.com/nLqOUDTmHR1PBnZmE2p1gWL6nKagHaZ17KpxkMm5ylKBiTayBfnF9xDxl3mS502LhiSNh0GldQADPHFL1fOYohwgvoQFZxxqmNZHbpmA_HK1Qg=e365-w800",
         "image_url": "https://lh3.googleusercontent.com/nLqOUDTmHR1PBnZmE2p1gWL6nKagHaZ17KpxkMm5ylKBiTayBfnF9xDxl3mS502LhiSNh0GldQADPHFL1fOYohwgvoQFZxxqmNZHbpmA_HK1Qg=s0",
         "description": "Entrenadores:\n\nEl Festival de las Luces es un evento ideal para estrechar lazos con los que os rodean, incluyendo vuestros Pokémon. Celebradlo con nosotros explorando el mundo y descubriendo Pokémon luminiscentes como Morelull, ¡que debuta en Pokémon GO!\n\nPor si fuera poco, según nuestra investigación, durante el evento algunos Pokémon brillarán por la noche, ¡así que aseguraos de buscarlos mientras podáis!\n\nFestival de las Luces\n\nDesde el viernes, 14 de octubre de 2022 a las 10:00, hasta el lunes, 17 de octubre de 2022 a las 20:00 (hora local)\n\nDebuts de Pokémon\n\n¡Morelull y Shiinotic, los Pokémon Luminiscentes, debutarán en Pokémon GO!\n* *Podéis utilizar 50 Caramelos de Morelull para evolucionar un Morelull en Shiinotic.",
-          "page_url": "",
-           "pokemon_name": "Morelull",
-             "pokemon_num": "755",
-                   "pokemon_name_second": "shiinotic",
-             "pokemon_num_second": "756"
-         },
-       {
+        "page_url": "",
+        "pokemon_name": "Morelull",
+        "pokemon_num": "755",
+        "pokemon_name_second": "Shiinotic",
+        "pokemon_num_second": "756"
+      },
+      {
         "id": "7",
         "start_date": "1664577165000",
-        "start_date_string":"28 de septiembre de 2022",
+        "start_date_string": "28 de septiembre de 2022",
         "end_date": "1664577165000",
         "title": "Wiglett - Pokédex Escarlata y Púrpura",
         "sub_title": "Wiglett, en la pokedex",
-            "img_new_pokemon": "https://www.cpokemon.com/wp-content/uploads/2022/09/wiglett-artwork-pokemon-escarlata-purpura-415x450.png.webp",
-                "name_new_pokemon": "Wiglet",
+        "img_new_pokemon": "https://www.cpokemon.com/wp-content/uploads/2022/09/wiglett-artwork-pokemon-escarlata-purpura-415x450.png.webp",
         "thumbnail": "https://i2.wp.com/www.cpokemon.com/wp-content/uploads/2022/09/wiglett-pokedex-pokemon-escarlata-purpura.jpg?ssl=1&resize=300%2C170&zoom=2",
         "image_url": "https://www.cpokemon.com/wp-content/uploads/2022/09/wiglett-captura-pokemon-escarlata-purpura-800x450.jpg.webp",
         "description": "Wiglett (ウミディグダ Umidiguda en japonés) es un Pokémon de tipo Agua introducido en la novena generación de Pokémon Escarlata y Púrpura (Scarlet/Violet) para Nintendo Switch. El Pokémon Cóngrido, fue revelado el 28 de septiembre de 2022. \n Descripción \nCon su olfato excepcional, Wiglett puede percibir olores que estén hasta a 20 metros de distancia. Es un Pokémon asustadizo y se mantiene alerta de todo lo que ocurre a su alrededor. Si su olfato detecta la presencia de otro Pokémon en la zona, se mete bajo la arena para ocultarse. \n Wiglett se alimenta sacando su cuerpo a la superficie. Su cuerpo debajo de la arena es un misterio y se desconoce cuanto puede llegar a medir realmente. Su gran parecido con Diglett podría ser una coincidencia, resultado de la adaptación que tuvo a su entorno.",
         "video_url": "-bnwzMUu8Gk",
-          "page_url": "",
-           "pokemon_name": "",
-             "pokemon_num": ""
+        "page_url": "",
+        "pokemon_name": "",
+        "pokemon_num": ""
       },
       {
         "id": "6",
         "start_date": "1664577165000",
-        "start_date_string":"28 de septiembre de 2022",
+        "start_date_string": "28 de septiembre de 2022",
         "end_date": "1664577165000",
         "title": "Pokémon World Ecological Society presenta a Wiglett, un nuevo Pokémon de Escarlata y Púrpura",
         "sub_title": "Wiglett, un nuevo pokemon",
@@ -106,14 +100,14 @@
         "image_url": "https://www.cpokemon.com/wp-content/uploads/2022/09/wiglett-nuevo-pokemon-escarlata-purpura.jpg.webp",
         "description": "Durante la transmisión del Pokémon World Ecological Society, se reveló a un nuevo Pokémon para la novena generación de Pokémon Escarlata y Púrpura (Scarlet & Violet).  \n\nEn la transmisión, subtitulada en ingles, hubo varios actores comentando sobre el nuevo Pokémon, cada uno hablando en su idioma. Este nuevo Pokémon de la región de Paldea se llama Wiglett, y guarda un parecido con Diglett. \n\nSi bien se desconoce su tipo, este Pokémon, junto con Diglett introducen un nuevo concepto del mundo real al juego, la evolución convergente. \nLa evolución convergente es un proceso en el que organismos ocupan entornos similares y suelen parecerse entre sí, aunque su relación filogenética sea muy lejana. \n",
         "video_url": "VLgxOH-mmTo",
-          "page_url": "",
-           "pokemon_name": "",
-             "pokemon_num": ""
+        "page_url": "",
+        "pokemon_name": "",
+        "pokemon_num": ""
       },
       {
         "id": "5",
         "start_date": "1664577165000",
-        "start_date_string":"28 de septiembre de 2022",
+        "start_date_string": "28 de septiembre de 2022",
         "end_date": "1664577165000",
         "title": "¡Obtengan una visión cósmica con nuestro nuevo evento Estrellas de la Evolución!",
         "sub_title": "Estrellas de la Evolución",
@@ -121,30 +115,29 @@
         "image_url": "https://lh3.googleusercontent.com/2Z4nTBRTxs4AdiqyS97G1_8pckZNYfo2hCbKM8-8nZ38fjMpoTkBy_ccW0xOR5CsCBtUtdxf-Z1O1mVS9cncseJUl_l6uVieF06Y1bGccNUHnQ=s0",
         "description": "Entrenadores: \n\nEn Pokémon GO pueden evolucionar y crecer con sus Pokémon de muchas maneras, y es hora de celebrarlo con un nuevo evento: ¡Estrellas de la Evolución! \n\nLa estrella del evento es Cosmoem, el Pokémon Protostrella, que hará su debut en Pokémon GO. También pueden esperar una investigación de campo centrada en la evolución y un desafío de colección que otorga objetos de Evolución. Sigan leyendo para conocer más detalles. \n\nEstrellas de la Evolución \n\nDesde el miércoles, 5 de octubre de 2022 a las 10:00 hasta el domingo, 11 de octubre de 2022 a las 20:00 (hora local). \n\n¡La historia de la Temporada de Luz se desarrolla! \n\nUna nueva parte de la investigación especial de la temporada se desbloqueará durante el evento Estrellas de la Evolución; complétenla para dar un paso más en su aventura estelar con Cosmog.\n\nCosmoem \n\nCosmoem hará su debut en Pokémon GO. \n\nLos Entrenadores podrán hacer evolucionar a Cosmog en Cosmoem utilizando 25 caramelos Cosmog. Y no se preocupen por evolucionar su único Cosmog: se rumorea que los Entrenadores tendrán la oportunidad de encontrar más Cosmog en un futuro lejano.",
         "video_url": "Ooik5ck_6YQ",
-          "page_url": "https://pokemongolive.com/es_mx/post/evolving-stars-2022/",
-           "pokemon_name": "Cosmoem",
-             "pokemon_num": "790"
+        "page_url": "https://pokemongolive.com/es_mx/post/evolving-stars-2022/",
+        "pokemon_name": "Cosmoem",
+        "pokemon_num": "790"
       },
       {
         "id": "4",
         "start_date": "1664577165000",
-            "start_date_string":"20 de septiembre de 2022",
+        "start_date_string": "20 de septiembre de 2022",
         "end_date": "1664577165000",
-        
         "title": "¡Presume con Mareanie, Toxapex y los nuevos Pokémon disfrazados durante la Semana de la Moda!",
         "sub_title": "¡Nuevo Pokémon disfrazados!",
         "thumbnail": "https://lh3.googleusercontent.com/IzfjRjjW7xKrW6E9gudgRL9zPzGltIcgcvsorHaNE5soPPZOxHMv8QVozBnNDrAuK1KKqqGoNFilcL5ExmiSNxkwEkNildt5f-Or0gdnRjeFIy4=e365-w800",
         "image_url": "https://lh3.googleusercontent.com/IzfjRjjW7xKrW6E9gudgRL9zPzGltIcgcvsorHaNE5soPPZOxHMv8QVozBnNDrAuK1KKqqGoNFilcL5ExmiSNxkwEkNildt5f-Or0gdnRjeFIy4=s0",
         "description": "Entrenadores: Mareanie y varios Pokémon que lucen la última tendencia harán sus debuts en la pasarela en Pokémon GO. Furfrou también regresa para brillar en el escenario en sus varias formas. Estén atentos a los demás Pokémon a la moda que están listos para ser tendencia en estado salvaje, mediante tareas de investigación y a partir de los Huevos.",
         "videoUrl": "Ooik5ck_6YQ",
-               "page_url": "https://pokemongolive.com/es_mx/post/fashion-week-2022/",
-                     "pokemon_name": "",
-             "pokemon_num": ""
+        "page_url": "https://pokemongolive.com/es_mx/post/fashion-week-2022/",
+        "pokemon_name": "",
+        "pokemon_num": ""
       },
       {
         "id": "3",
         "start_date": "1664577165000",
-          "start_date_string":"19 de septiembre de 2022",
+        "start_date_string": "19 de septiembre de 2022",
         "end_date": "1664577165000",
         "title": "Día de la Comunidad de octubre de 2022: Litwick",
         "sub_title": "¡Día de la Comunidad: Litwick!",
@@ -152,18 +145,18 @@
         "image_url": "https://lh3.googleusercontent.com/8BPz6H64TzD-0YuVt_Wz7oFjg3gGQ07T_nHcIR_zlKAcCZmEdxOj0ZstmeUybWMSlHkFP4p9RZ8mBRn8NyrBf-IaDjnC2AFTJHnnIjftX9aZ=s0",
         "description": "Sábado, 15 de octubre de 2022, de 14:00 a 17:00 (hora local) Entrenadores: ¡Nos complace anunciar que Litwick, el Pokémon Vela, será el protagonista del Día de la Comunidad de octubre!",
         "videoUrl": "",
-         "page_url": "https://pokemongolive.com/es_mx/post/community-day-october-2022-litwick/",
-               "pokemon_name": "Litwick",
-             "pokemon_num": "607",
-                    "pokemon_name_second": "Lampent",
-             "pokemon_num_second": "608",
-                "pokemon_name_third": "Chandelure",
-             "pokemon_num_third": "609"
+        "page_url": "https://pokemongolive.com/es_mx/post/community-day-october-2022-litwick/",
+        "pokemon_name": "Litwick",
+        "pokemon_num": "607",
+        "pokemon_name_second": "Lampent",
+        "pokemon_num_second": "608",
+        "pokemon_name_third": "Chandelure",
+        "pokemon_num_third": "609"
       },
       {
         "id": "2",
         "start_date": "1664577165000",
-           "start_date_string":"12 de septiembre de 2022",
+        "start_date_string": "12 de septiembre de 2022",
         "end_date": "1664577165000",
         "title": "¡Equípense para enfrentarse a Ultraentes de tipo Acero, Mega-Aggron y Togedemaru en el nuevo evento Prueba Tu Valía",
         "sub_title": "¡Prueba Tu Valía!",
@@ -171,9 +164,9 @@
         "image_url": "https://lh3.googleusercontent.com/MKmsOs7w1Zk5-QdMonL2ldPzleMfNU2tIs6iOptdW9ozzl9NF7YYhc9C6H2sxdQQoA3z-x2DGLub_h2xYzZ8YQktgV8t0eCq7xtD7BO_TIBJCw=s0",
         "description": "Entrenadores: ¡A las armas! Los Ultraentes Celesteela y Kartana están emergiendo en Ultraumbrales de todo el mundo. Han avistado a Celesteela al sur del ecuador y a Kartana al norte. También están apareciendo otros Pokémon de tipo Acero por la naturaleza, ¡entre ellos Togedemaru, el Pokémon Bolita! Incluso hay otros que están empezando a armarse, como Mega-Aggron, ¡que debutará en las Megaincursiones de Pokémon GO! No podemos esperar a ver cómo los Entrenadores se enfrentan a estos desafíos con sus Pokémon de tipo Acero. Es el momento de conmemorar a los Pokémon más duros del mundo. ¡Vamos!",
         "videoUrl": "n1rpuYsEot0",
-          "page_url": "https://pokemongolive.com/es_mx/post/test-your-mettle/",
-                    "pokemon_name": "",
-             "pokemon_num": ""
+        "page_url": "https://pokemongolive.com/es_mx/post/test-your-mettle/",
+        "pokemon_name": "Aggron",
+        "pokemon_num": "306"
       }
     ]
   }

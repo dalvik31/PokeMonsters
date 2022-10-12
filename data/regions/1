@@ -9,62 +9,77 @@
     "results": [
     
     {
-        "id": 1,
-        "name": "Bulbasaur",
-        "image":"https://www.cpokemon.com/pokes/home/1.png",
-    
-        "type_first": 1,
-         "type_second": 2
+        "id": "1",
+        "name": "Bulbasaur",   
+        "type_first": 2,
+         "type_second": 1
       },
          {
-        "id": 2,
+        "id": "2",
         "name": "Ivysaur",
-        "image":"https://www.cpokemon.com/pokes/home/2.png",
-        "type_first": 1,
-         "type_second": 2
+        "type_first": 2,
+         "type_second": 1
       },
       {
-        "id": 3,
+        "id": "3",
         "name": "Venusaur",
-        "image":"https://www.cpokemon.com/pokes/home/3.png",
-        "type_first": 1,
-         "type_second": 2
+        "type_first": 2,
+         "type_second": 1
+      },
+      {
+        "id": "3-1",
+        "name": "Mega\nVenusaur",
+        "type_first": 2,
+         "type_second": 1
+      },
+      {
+        "id": "3-2",
+        "name": "Venusaur\nGigamax",
+        "type_first": 2,
+        "type_second": 1,
+        "alternateImage": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
       },
         {
-        "id": 4,
+        "id": "4",
         "name": "Charmander",
-        "image":"https://www.cpokemon.com/pokes/home/4.png",
         "type_first": 8
       },
         {
-        "id": 5,
+        "id": "5",
         "name": "Charmeleon",
-        "image":"https://www.cpokemon.com/pokes/home/5.png",
         "type_first": 8
       },
         {
-        "id": 6,
+        "id":"6" ,
         "name": "Charizard",
-        "image":"https://www.cpokemon.com/pokes/home/6.png",
         "type_first": 8,
           "type_second": 9
       },
         {
-        "id": 7,
+        "id":"6-1" ,
+        "name": "Mega\nCharizard X",
+        "type_first": 8,
+          "type_second": 5
+      },
+        {
+        "id":"6-2" ,
+        "name": "Mega\nCharizard Y",
+        "type_first": 8,
+          "type_second": 9
+      },
+        {
+        "id": "7",
         "name": "Squirtle",
-        "image":"https://www.cpokemon.com/pokes/home/7.png",
         "type_first": 18
       },
         {
-        "id": 8,
+        "id": "8",
         "name": "Wartortle",
-        "image":"https://www.cpokemon.com/pokes/home/8.png",
         "type_first": 18
       },
         {
-        "id": 9,
+        "id": "9",
         "name": "Blastoise",
-        "image":"https://www.cpokemon.com/pokes/home/9.png",
         "type_first": 18
       }
     ]

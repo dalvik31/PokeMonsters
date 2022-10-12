@@ -1,0 +1,37 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+    
+       {
+        "id": "3-2",
+        "name": "Venusaur\nGigamax",
+         "category": "Semilla",
+        "type_first": 1,
+       "type_second": 2,
+       "height": ">24 m",
+        "weight": "??? kg",
+        "hp": 80,
+        "attack": 100,
+        "defence": 123,
+        "attack_special": 122,
+        "defence_special": 120,
+        "speed": 80,
+        "total": 625,
+        "first_name_pokemon": "Bulbasaur",
+        "first_num_pokemon": "1",
+        "second_name_pokemon": "Ivysaur",
+        "second_num_pokemon": "2",
+        "third_name_pokemon": "Venusaur",
+        "third_num_pokemon": "3",
+        "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Nivel 32",
+        "interestingData": "* La energía Gigamax hace que la flor de Venusaur crezca hasta cubrirle todo el cuerpo. Sus pétalos se vuelven tan gruesos y elásticos que pueden repeler ataques que no sean suficientemente potentes.\n\n* En los combates, utiliza los pétalos como escudo y mueve sus gruesas lianas para atacar a su objetivo."
+      }
+    ]
+  }
+}
