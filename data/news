@@ -7,6 +7,20 @@
     "offset": 0,
     "results": [
      {
+        "id": "14",
+        "start_date": "1664577165000",
+        "start_date_string": "13 de octubre de 2022",
+        "end_date": "1664577165000",
+        "title": "¡La Parte I de Pokémon GO Halloween 2022 viene cargada de bonus de Caramelos y aparecerá Mega-Banette!",
+        "sub_title": "¡Entra Mega-Banette!",
+        "thumbnail": "https://lh3.googleusercontent.com/VKtj6R-0hTC143uop0TJt14BH3I87kkagY6u8P1BnzkN8ySfsMsVb3g1p5We-MPpRf1s51kOPCjJ2KUxixn_oFnRe3n5Uhgn1mGFIt9Xe7_M=e365-w800",
+        "image_url": "https://lh3.googleusercontent.com/VKtj6R-0hTC143uop0TJt14BH3I87kkagY6u8P1BnzkN8ySfsMsVb3g1p5We-MPpRf1s51kOPCjJ2KUxixn_oFnRe3n5Uhgn1mGFIt9Xe7_M=s0",
+        "description": "Entrenadores:\n\nPreparaos para la enorme celebración de Halloween de este año, ¡y nada menos que Mega-Banette llega por primera vez a Pokémon GO y a las megaincursiones!\n\nAl igual que el año pasado, el evento de Halloween de Pokémon GO tendrá dos partes. Habrá muchos sustos y chuches, como un remix de música de Pueblo Lavanda y una investigación especial temática de Halloween. ¡Sin olvidarnos de muchos Pokémon de tipo Fantasma que aparecerán salvajes!",
+        "page_url": "https://pokemongolive.com/es/post/halloween-2022-event-details-part-1/",
+       "pokemon_name": "Mega-Banette",
+        "pokemon_num": "354-1"
+      },
+     {
         "id": "13",
         "start_date": "1664577165000",
         "start_date_string": "12 de octubre de 2022",
