@@ -28,8 +28,12 @@
         "second_num_pokemon": "2",
         "third_name_pokemon": "Venusaur",
         "third_num_pokemon": "3",
+        "mega_name_pokemon": "Mega-Venusaur",
+        "mega_num_pokemon": "3-1",
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 32",
+        "isMega": true",
+        "elementMega": "Venusaurita",
         "interestingData": "* En Pokémon Battle Revolution se le ponen los ojos morados durante el combate en el que lo usas.\n\n* Junto con Charizard, Pikachu y Blastoise, son los únicos Pokémon no legendarios representantes de un juego"
       }
     ]
