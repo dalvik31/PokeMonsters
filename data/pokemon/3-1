@@ -9,7 +9,7 @@
     
        {
         "id": "3-1",
-        "name": "Mega \nVenusaur",
+        "name": "Mega\nVenusaur",
          "category": "Semilla",
         "type_first": 1,
        "type_second": 2,
@@ -28,7 +28,7 @@
         "second_num_pokemon": "2",
         "third_name_pokemon": "Venusaur",
         "third_num_pokemon": "3",
-        "mega_name_pokemon": "Mega-Venusaur",
+        "mega_name_pokemon": "Mega\nVenusaur",
         "mega_num_pokemon": "3-1",
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 32",
