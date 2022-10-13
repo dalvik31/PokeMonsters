@@ -6,16 +6,17 @@
     "limit": 0,
     "offset": 0,
     "results": [
-    
-    {
-        "id": "2",
+      {
+        "id": "1",
         "name": "Ivysaur",
-         "category": "Semilla",
-        "type_first": 1,
-       "type_second": 2,
-       "height": "1,0 m",
+        "category": "Semilla",
+        "ability": "Espesura",
+        "ability_description": "Espesura aumenta la potencia de los movimientos de tipo planta del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
+        "type_first": 2,
+        "type_second": 1,
+        "height": "1,0 m",
         "weight": "13.0 kg",
-        "hp": 60,
+       "hp": 60,
         "attack": 62,
         "defence": 63,
         "attack_special": 80,
@@ -30,6 +31,122 @@
         "third_num_pokemon": "3",
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 32",
+        "images": [
+          "2",
+          "https://i.pinimg.com/564x/ef/42/dd/ef42dd77da89add52f45ff76b0b63a57.jpg",
+          "https://i.pinimg.com/564x/b9/11/c8/b911c87fc0cce9e7573e980a0e2d1753.jpg",
+          "https://i.pinimg.com/564x/1b/8e/16/1b8e162d56e85c3b1882393aa3963c54.jpg",
+          "https://i.pinimg.com/564x/5a/42/68/5a4268fb90aec4dd7f87693bb7a621a0.jpg",
+      "https://i.pinimg.com/564x/2d/be/54/2dbe545681328c7bcc95ce8aeba5a9c5.jpg",
+          "https://i.pinimg.com/564x/c3/32/c5/c332c5acdc8673ce20ee4d010b523296.jpg",
+          "https://i.pinimg.com/564x/ec/6d/f2/ec6df2463d3fe8f72956ccb2f1119536.jpg",
+          "https://i.pinimg.com/564x/ca/28/37/ca2837c0435c806af185069330af676b.jpg",
+          "https://i.pinimg.com/564x/6b/f1/b9/6bf1b9e18e176f7f52776954d4c6682c.jpg",
+          "https://static.wikia.nocookie.net/pokemon/images/9/9a/Ivysaur_TB051.png/revision/latest?cb=20160531030645"
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Cuando el bulbo de su espalda crece, parece no poder ponerse de pie sobre sus patas traseras."
+          },
+          {
+            "id": 2,
+            "title": "Amarillo",
+            "description": "Su bulbo crece cuando absorbe energía. Desprende un fuerte aroma cuando florece."
+          },
+          {
+            "id": 3,
+            "title": "Oro",
+            "description": "Puede aumentar su fuerza con energía solar. Esta también hace que crezca el capullo de su lomo."
+          },
+          {
+            "id": 4,
+            "title": "Plata",
+            "description": "Si el capullo de su lomo comienza a oler dulce, indica que la gran flor pronto florecerá."
+          },
+          {
+            "id": 5,
+            "title": "Cristal",
+            "description": "El bulbo de la espalda crece al absorber nutrientes. Cuando florece, emite un aroma delicioso."
+          },
+          {
+            "id": 6,
+            "title": "Rubí y Zafiro",
+            "description": "Este Pokémon lleva un bulbo en el lomo y, para poder con su peso, tiene unas patas y un tronco gruesos y fuertes. Si empieza a pasar más tiempo al sol, será porque el bulbo está a punto de hacerse una flor grande."
+          },
+       
+          {
+            "id": 7,
+            "title": "Esmeralda",
+            "description": "Soporta el peso del bulbo gracias a sus fuertes patas y a su tronco. Si pasa mucho tiempo al sol, el bulbo se convierte en una enorme flor."
+          },
+          {
+            "id": 8,
+            "title": "Rojo Fuego",
+            "description": "Este Pokémon tiene un bulbo en el lomo. Dicen que, al absorber nutrientes, el bulbo se transforma en una flor grande."
+          },
+          {
+            "id": 9,
+            "title": "Verde Hoja",
+            "description": "Cuando el bulbo del lomo crece, le cuesta un poco ponerse de pie sobre las patas traseras."
+          },
+          {
+            "id": 10,
+            "title": "Diamante, Perla y Platino",
+            "description": "Cuando el bulbo de su lomo se hincha, desprende un dulce aroma para indicar el florecimiento."
+          },
+          {
+            "id": 11,
+            "title": "Oro HeartGold",
+            "description": "Puede aumentar su fuerza con energía solar. Esta también hace que crezca el capullo de su lomo."
+          },
+          {
+            "id": 12,
+            "title": "Plata SoulSilver",
+            "description": "Si el capullo de su lomo comienza a oler dulce, indica que la gran flor pronto florecerá."
+          },
+          {
+            "id": 13,
+            "title": "Negro, Blanco, Negro2 y Blanco2",
+            "description": "Cuando el capullo de su lomo se hincha, desprende un dulce aroma para indicar el florecimiento."
+          },
+          {
+            "id": 14,
+            "title": "Pokémon X",
+            "description": "Este Pokémon tiene un bulbo en el lomo. Dicen que, al absorber nutrientes, el bulbo se transforma en una flor grande."
+          },
+          {
+            "id": 15,
+            "title": "Pokémon Y",
+            "description": "Cuando el bulbo de su lomo se hincha, desprende un dulce aroma para indicar el florecimiento."
+          },
+          {
+            "id": 16,
+            "title": "Rubí Omega y Zafiro Alfa",
+            "description": "Este Pokémon lleva un bulbo en el lomo y, para poder con su peso, tiene unas patas y un tronco gruesos y fuertes. Si empieza a pasar más tiempo al sol, será porque el bulbo está a punto de hacerse una flor grande."
+          },
+          {
+            "id": 17,
+            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
+            "description": "Su bulbo crece a medida que absorbe nutrientes. Desprende un cierto aroma cuando está a punto de florecer."
+          },
+          {
+            "id": 18,
+            "title": "Espada",
+            "description": "Cuando le crece bastante el bulbo del lomo, pierde la capacidad de erguirse sobre las patas traseras."
+          },
+          {
+            "id": 19,
+            "title": "Escudo",
+            "description": "La luz del sol lo fortalece y hace que le crezca el capullo que tiene en el lomo."
+          },
+          {
+            "id": 20,
+            "title": "Pokémon GO",
+            "description": "Este Pokémon lleva un bulbo en el lomo y, para poder con su peso, tiene unas patas y un tronco gruesos y fuertes. Si empieza a pasar más tiempo al sol, será porque el bulbo está a punto de hacerse una flor grande."
+          }
+        ],
         "interestingData": "* Ivysaur fue diseñado por Ken Sugimori.\n\n* En Super Smash Bros. Brawl, Ivysaur pesa menos que Squirtle.\n\n* En su descripción de la Pokédex de Pokémon Rojo y Pokémon Azul, dice que le cuesta levantarse sobre sus patas traseras, pero en el sprite del mismo juego, se lo ve levantado sobre ellas sin problemas. Eso puede deberse al sprite de las ediciones japonesas de Rojo y Verde, en el cual apenas se puede mantener en pie."
       }
     ]
