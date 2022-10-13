@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:indeterminateDuration="@integer/material_motion_duration_long_1"
-        android:indeterminateTint="@color/primary_text"
+        android:indeterminateTint="@color/primary_yellow"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

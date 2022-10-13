@@ -1,28 +1,21 @@
 package com.dalvik.pokemonsters.utils
 
 import android.graphics.drawable.Drawable
-import android.view.View
 import android.widget.ImageView
-import android.widget.LinearLayout
 import androidx.annotation.Nullable
-import androidx.core.content.ContextCompat
-import androidx.core.graphics.ColorUtils
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.network.model.regions.Region
 import com.dalvik.pokemonsters.network.model.text_pokedex.TextPokedex
 import com.dalvik.pokemonsters.ui.adapters.*
-import java.lang.Math.abs
 
 
 class BindingAdapters {
@@ -44,8 +37,7 @@ class BindingAdapters {
                                 target: Target<Drawable?>,
                                 isFirstResource: Boolean
                             ): Boolean {
-                                // log exception
-                                return false // important to return false so the error placeholder can be placed
+                                return false
                             }
 
                             override fun onResourceReady(

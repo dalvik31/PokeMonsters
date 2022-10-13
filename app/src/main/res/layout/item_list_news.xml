@@ -49,7 +49,7 @@
                     android:adjustViewBounds="true"
                     android:alpha="0.3"
                     android:background="@drawable/ic_pokeball"
-                    android:backgroundTint="@color/secondary_text"
+                    android:backgroundTint="@color/primary_gray"
                     android:contentDescription="@string/app_name" />
 
                 <ImageView
@@ -58,7 +58,6 @@
                     android:contentDescription="@string/app_name"
                     android:imageUrl="@{news.thumbnail}"
                     android:scaleType="centerCrop" />
-
 
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -80,11 +79,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@color/black_transparent"
                         android:maxLines="2"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingEnd="@dimen/_10sdp"
                         android:paddingBottom="0dp"
-                        android:background="@color/black_transparent"
                         android:text="@{news.sub_title}"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_10sdp"
@@ -96,10 +95,10 @@
                         style="@style/TextViewTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@color/black_transparent"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingTop="0dp"
                         android:paddingEnd="@dimen/_10sdp"
-                        android:background="@color/black_transparent"
                         android:paddingBottom="@dimen/_5sdp"
                         android:text="@{news.start_date_string}"
                         android:textColor="@color/white"

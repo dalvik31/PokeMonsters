@@ -59,28 +59,27 @@
                 android:id="@+id/imageShiny"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_40sdp"
                 android:contentDescription="@string/app_name"
                 android:elevation="3dp"
+                android:visibility="@{hideImage ? View.GONE : View.VISIBLE}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginTop="@dimen/_40sdp"
-                android:visibility="@{hideImage ? View.GONE : View.VISIBLE}"
                 app:layout_constraintStart_toStartOf="@+id/guideline_50_v"
-                app:layout_constraintTop_toTopOf="parent"
-               />
+                app:layout_constraintTop_toTopOf="parent" />
 
 
             <ImageView
                 android:id="@+id/ic_shiny"
                 android:layout_width="@dimen/_20sdp"
                 android:layout_height="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
                 android:contentDescription="@string/app_name"
                 android:elevation="3dp"
                 android:src="@drawable/ic_shiny"
                 android:visibility="@{hideImage ? View.GONE : View.VISIBLE}"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginBottom="@dimen/_30sdp"/>
+                app:layout_constraintEnd_toEndOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -88,15 +87,14 @@
                 android:layout_height="0dp"
                 android:contentDescription="@string/app_name"
                 android:elevation="3dp"
-                android:visibility="@{hideImage ? View.GONE : View.VISIBLE}"
                 android:imageUrl="@{normal_image}"
                 android:scaleType="fitCenter"
+                android:visibility="@{hideImage ? View.GONE : View.VISIBLE}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/guideline_50_v"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:src="@drawable/region_kanto" />
-
 
 
             <androidx.constraintlayout.widget.Guideline
@@ -118,21 +116,21 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src="@drawable/region_kanto"/>
+                tools:src="@drawable/region_kanto" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/container_only_image"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/container_only_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -5,7 +5,7 @@ import com.dalvik.pokemonsters.network.ResultData
 import com.dalvik.pokemonsters.network.data
 import com.dalvik.pokemonsters.network.dataList
 import com.dalvik.pokemonsters.utils.App
-import com.dalvik.superhero.model.base.ResponseModel
+import com.dalvik.pokemonsters.network.model.ResponseModel
 import retrofit2.Response
 
 abstract class BaseRemoteCall {

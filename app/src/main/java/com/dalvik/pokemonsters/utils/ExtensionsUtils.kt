@@ -3,18 +3,20 @@ package com.dalvik.pokemonsters.utils
 
 import com.dalvik.pokemonsters.R
 
-fun String.getThumbnail() : String{
+fun String.getThumbnail(): String {
     return "https://pokemon-project.com/pokedex/img/sprite/Home/256/".plus(this ?: "1").plus(".png")
 }
-fun String.getThumbnailShiny() : String{
-    return "https://pokemon-project.com/pokedex/img/sprite/Home/shiny/".plus(this ?: "1").plus(".png")
+
+fun String.getThumbnailShiny(): String {
+    return "https://pokemon-project.com/pokedex/img/sprite/Home/shiny/".plus(this ?: "1")
+        .plus(".png")
 }
 
-fun String.getImage() : String{
+fun String.getImage(): String {
     return "https://pokemon-project.com/pokedex/img/sprite/Home/".plus(this ?: "1").plus(".png")
 }
 
-fun Int.getPokemonType(): Int{
+fun Int.getPokemonType(): Int {
     return when (this ?: 1) {
         1 -> R.drawable.ic_poison
         2 -> R.drawable.ic_grass

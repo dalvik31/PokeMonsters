@@ -1,7 +1,7 @@
 package com.dalvik.pokemonsters.network
 
 import androidx.annotation.StringRes
-import com.dalvik.superhero.model.base.ResponseModel
+import com.dalvik.pokemonsters.network.model.ResponseModel
 
 sealed class ResultData<out T : Any> {
     data class Success<out T : Any>(val model: T) : ResultData<T>()

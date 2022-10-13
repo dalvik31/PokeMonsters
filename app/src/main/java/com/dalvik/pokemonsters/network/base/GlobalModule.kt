@@ -37,7 +37,6 @@ object GlobalModule {
         okHttpClient.connectTimeout(45, TimeUnit.SECONDS)
         okHttpClient.readTimeout(45, TimeUnit.SECONDS)
         okHttpClient.writeTimeout(45, TimeUnit.SECONDS)
-        okHttpClient.addInterceptor(PokeInterceptor)
         if (BuildConfig.DEBUG) {
             val interceptor = HttpLoggingInterceptor()
             interceptor.level = HttpLoggingInterceptor.Level.BODY

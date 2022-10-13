@@ -2,13 +2,8 @@ package com.dalvik.pokemonsters.network.model.news
 
 import android.os.Parcelable
 import com.dalvik.pokemonsters.utils.getImage
-import com.dalvik.pokemonsters.utils.getThumbnail
 import com.dalvik.pokemonsters.utils.getThumbnailShiny
 import kotlinx.parcelize.Parcelize
-import java.text.SimpleDateFormat
-import java.time.Instant
-import java.time.ZoneId
-import java.util.*
 
 @Parcelize
 data class News(

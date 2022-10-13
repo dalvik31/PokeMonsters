@@ -11,7 +11,6 @@ import android.widget.LinearLayout
 import androidx.core.view.isVisible
 import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.AlertSnackViewBinding
-import com.dalvik.pokemonsters.ui.getActivity
 
 
 class SnackAlertView(context: Context?) : LinearLayout(context) {

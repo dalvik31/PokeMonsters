@@ -1,7 +1,5 @@
 package com.dalvik.pokemonsters.network.model.pokemon
 
-import com.dalvik.pokemonsters.R
-import com.dalvik.pokemonsters.utils.App
 import com.dalvik.pokemonsters.utils.getPokemonType
 import com.dalvik.pokemonsters.utils.getThumbnail
 

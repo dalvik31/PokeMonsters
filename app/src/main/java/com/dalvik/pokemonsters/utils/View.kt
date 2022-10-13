@@ -1,4 +1,4 @@
-package com.dalvik.pokemonsters.ui
+package com.dalvik.pokemonsters.utils
 
 import android.app.Activity
 import android.content.ContextWrapper

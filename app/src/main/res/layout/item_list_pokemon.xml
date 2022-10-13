@@ -69,14 +69,15 @@
 
         <TextView
             android:id="@+id/text_pokemon_name"
-            style="@style/TextViewDescriptionBold"
+            style="@style/TextViewDescriptionPokemon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:elevation="2dp"
             android:gravity="center"
-            android:maxLines="2"
             android:lines="2"
+            android:maxLines="2"
             android:text="@{pokemon.name}"
+            android:textColor="@color/primary_gray"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"

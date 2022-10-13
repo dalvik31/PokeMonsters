@@ -30,7 +30,6 @@
                 android:layout_height="@dimen/_200sdp"
                 app:contentScrim="@color/purple_700"
                 app:expandedTitleMarginBottom="94dp"
-                app:expandedTitleTextAppearance="@style/CollapsingTextAppearance.Inverse"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
 
@@ -42,7 +41,7 @@
                     android:layout_marginEnd="-70dp"
                     android:alpha="0.3"
                     android:background="@drawable/ic_pokeball"
-                    android:backgroundTint="@color/secondary_text"
+                    android:backgroundTint="@color/primary_gray"
                     android:contentDescription="@string/app_name" />
 
 
@@ -97,7 +96,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@{news.title}"
-                            android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold" />
@@ -114,7 +112,6 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:text="@{news.name_new_pokemon}"
-                            android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/purple_700"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold"
@@ -159,7 +156,6 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:text="@{news.pokemon_name}"
-                            android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/purple_700"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold"
@@ -195,7 +191,6 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:text="@{news.pokemon_name_second}"
-                            android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/purple_700"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold"
@@ -232,7 +227,6 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:text="@{news.pokemon_name_third}"
-                            android:textAppearance="@style/TextAppearance.Header"
                             android:textColor="@color/purple_700"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold"
@@ -262,7 +256,7 @@
             android:contentDescription="@string/app_name"
             android:elevation="8dp"
             android:src="@drawable/ic_open_browser"
-            app:backgroundTint="@color/red_primary"
+            app:backgroundTint="@color/primary_red"
             app:tint="@color/white" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

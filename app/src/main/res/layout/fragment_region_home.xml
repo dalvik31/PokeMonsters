@@ -33,7 +33,7 @@
             android:layout_height="2dp"
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
-            android:background="@color/secondary_text"
+            android:background="@color/primary_gray"
             app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
             app:layout_constraintEnd_toStartOf="@+id/text_subtitle_category"
             app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +50,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
-            tools:text="@string/textview_subtitle_region"/>
+            tools:text="@string/textview_subtitle_region" />
 
 
         <View
@@ -58,7 +58,7 @@
             android:layout_height="2dp"
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
-            android:background="@color/secondary_text"
+            android:background="@color/primary_gray"
             app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/text_subtitle_category"
@@ -67,7 +67,6 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout"
-            style="@style/SearchTextLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_14sdp"
@@ -94,7 +93,7 @@
                 android:gravity="center_vertical"
                 android:hint="@string/search_textview_hint"
                 android:inputType="textPersonName|textCapWords"
-                android:textColorHint="@color/text_hint" />
+                android:textColorHint="@color/secondary_purple_700" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -109,7 +108,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/textInputLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category"
-            app:tint="@color/secondary_text" />
+            app:tint="@color/primary_gray" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="0dp"

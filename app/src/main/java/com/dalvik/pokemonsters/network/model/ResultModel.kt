@@ -1,4 +1,4 @@
-package com.dalvik.superhero.model.base
+package com.dalvik.pokemonsters.network.model
 
 class ResultModel<T>(
     val offset: Int,

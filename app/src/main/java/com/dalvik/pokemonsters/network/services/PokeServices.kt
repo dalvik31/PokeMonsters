@@ -3,7 +3,7 @@ package com.dalvik.pokemonsters.network.services
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.DetailPokemon
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
-import com.dalvik.superhero.model.base.ResponseModel
+import com.dalvik.pokemonsters.network.model.ResponseModel
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
