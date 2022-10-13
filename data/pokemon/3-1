@@ -6,15 +6,16 @@
     "limit": 0,
     "offset": 0,
     "results": [
-    
-       {
+      {
         "id": "3-1",
         "name": "Mega\nVenusaur",
-         "category": "Semilla",
-        "type_first": 1,
-       "type_second": 2,
-       "height": "2,4 m",
-        "weight": "155,5 kg",
+        "category": "Semilla",
+        "ability": "Sebo",
+        "ability_description": "Los movimientos de tipo hielo o tipo fuego solo le producirán la mitad del daño normal a un Pokémon con esta habilidad.",
+        "type_first": 2,
+        "type_second": 1,
+        "height": "2,4 m",
+        "weight": "155.5 kg",
         "hp": 80,
         "attack": 100,
         "defence": 123,
@@ -32,9 +33,121 @@
         "mega_num_pokemon": "3-1",
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 32",
-        "isMega": true,
+         "isMega": true,
         "elementMega": "Venusaurita",
-        "interestingData": "* En Pokémon Battle Revolution se le ponen los ojos morados durante el combate en el que lo usas.\n\n* Junto con Charizard, Pikachu y Blastoise, son los únicos Pokémon no legendarios representantes de un juego"
+        "images": [
+          "3-1",
+          "https://static.wikia.nocookie.net/pokemon/images/2/20/Trainer_Mega_Venusaur.png/revision/latest?cb=20151030070628",
+          "https://assets.reedpopcdn.com/pokemon-go-a-mega-moment-header.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/pokemon-go-a-mega-moment-header.jpg",
+          "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2022/06/image-21-2.jpg",
+          "http://pa1.narvii.com/5723/818f6d481ccf9b7bbcbaddf2c3fb03a9abf09ea7_00.gif",
+          "https://thumbs.gfycat.com/BiodegradableMatureJohndory-size_restricted.gif",
+          "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/09/Mega-Venusaur-via-Pokemon-Wiki-Fandom.jpg",
+          "http://i.imgur.com/O4LN4dA.png"
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "La planta florece cuando absorbe energía solar. Ésta le obliga a ponerse en busca de la luz solar."
+          },
+          {
+            "id": 2,
+            "title": "Amarillo",
+            "description": "La flor de su espalda recoge los rayos del sol. Los transforma en energía."
+          },
+          {
+            "id": 3,
+            "title": "Oro",
+            "description": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor."
+          },
+          {
+            "id": 4,
+            "title": "Plata",
+            "description": "Puede convertir la luz del sol en energía. Por esa razón, es más poderoso en verano."
+          },
+          {
+            "id": 5,
+            "title": "Cristal",
+            "description": "Cuando se calienta al absorber la luz del sol, sus pétalos emiten una placentera fragancia."
+          },
+          {
+            "id": 6,
+            "title": "Rubí y Zafiro",
+            "description": "Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas."
+          },
+          {
+            "id": 7,
+            "title": "Esmeralda",
+            "description": "Según parece, la flor de Venusaur adquiere unos colores muy vivos con una buena nutrición y mucho sol. El aroma delicado de esta flor calma los ánimos."
+          },
+          {
+            "id": 8,
+            "title": "Rojo Fuego",
+            "description": "La flor que tiene en el lomo libera un delicado aroma. En combate, este aroma tiene un efecto relajante."
+          },
+          {
+            "id": 9,
+            "title": "Verde Hoja",
+            "description": "La planta florece cuando absorbe energía solar, por eso le obliga a buscar luz del Sol."
+          },
+          {
+            "id": 10,
+            "title": "Diamante, Perla y Platino",
+            "description": "Después de un día de lluvia, la flor de su lomo tiene un aroma más potente y atrae a otros Pokémon."
+          },
+          {
+            "id": 11,
+            "title": "Oro HeartGold",
+            "description": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor."
+          },
+          {
+            "id": 12,
+            "title": "Plata SoulSilver",
+            "description": "Puede convertir la luz del sol en energía. Por esa razón, es más poderoso en verano."
+          },
+          {
+            "id": 13,
+            "title": "Negro, Blanco, Negro2 y Blanco2",
+            "description": "Después de un día de lluvia, la flor de su lomo tiene un aroma más potente y atrae a otros Pokémon."
+          },
+          {
+            "id": 14,
+            "title": "Pokémon X",
+            "description": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor."
+          },
+          {
+            "id": 15,
+            "title": "Pokémon Y",
+            "description": "Después de un día de lluvia, la flor de su lomo tiene un aroma más potente y atrae a otros Pokémon."
+          },
+          {
+            "id": 16,
+            "title": "Rubí Omega y Zafiro Alfa",
+            "description": "Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas."
+          },
+          {
+            "id": 17,
+            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
+            "description": "La flor que tiene en el lomo puede recoger los rayos solares para transformarlos en energía."
+          },
+          {
+            "id": 18,
+            "title": "Espada",
+            "description": "La planta florece cuando absorbe energía solar, lo cual le obliga a buscar siempre la luz del sol."
+          },
+          {
+            "id": 19,
+            "title": "Escudo",
+            "description": "La flor que tiene en el lomo libera un delicado aroma, que tiene un efecto relajante en combate."
+          },
+          {
+            "id": 20,
+            "title": "Pokémon GO",
+            "description": "Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas."
+          }
+        ],
+        "interestingData": "* En Pokémon Battle Revolution se le ponen los ojos morados durante el combate en el que lo usas.\n\n* Junto con Charizard, Pikachu y Blastoise, son los únicos Pokémon no legendarios representantes de un juego."
       }
     ]
   }
