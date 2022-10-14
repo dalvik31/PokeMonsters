@@ -33,17 +33,34 @@
         "mega_num_pokemon": "3-1",
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 32",
-         "isMega": true,
+        "isMega": true,
         "elementMega": "Venusaurita",
         "images": [
-          "3-1",
-          "https://static.wikia.nocookie.net/pokemon/images/2/20/Trainer_Mega_Venusaur.png/revision/latest?cb=20151030070628",
-          "https://assets.reedpopcdn.com/pokemon-go-a-mega-moment-header.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/pokemon-go-a-mega-moment-header.jpg",
-          "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2022/06/image-21-2.jpg",
-          "http://pa1.narvii.com/5723/818f6d481ccf9b7bbcbaddf2c3fb03a9abf09ea7_00.gif",
-          "https://thumbs.gfycat.com/BiodegradableMatureJohndory-size_restricted.gif",
-          "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/09/Mega-Venusaur-via-Pokemon-Wiki-Fandom.jpg",
-          "http://i.imgur.com/O4LN4dA.png"
+          {
+            "thumbnail": "3-1",
+            "thumbnailShiny": "3-1"
+          },
+          {
+            "thumbnail": "https://static.wikia.nocookie.net/pokemon/images/2/20/Trainer_Mega_Venusaur.png/revision/latest?cb=20151030070628"
+          },
+          {
+            "thumbnail": "https://assets.reedpopcdn.com/pokemon-go-a-mega-moment-header.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/pokemon-go-a-mega-moment-header.jpg"
+          },
+          {
+            "thumbnail": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2022/06/image-21-2.jpg"
+          },
+          {
+            "thumbnail": "http://pa1.narvii.com/5723/818f6d481ccf9b7bbcbaddf2c3fb03a9abf09ea7_00.gif"
+          },
+          {
+            "thumbnail": "https://thumbs.gfycat.com/BiodegradableMatureJohndory-size_restricted.gif"
+          },
+          {
+            "thumbnail": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/09/Mega-Venusaur-via-Pokemon-Wiki-Fandom.jpg"
+          },
+          {
+            "thumbnail": "http://i.imgur.com/O4LN4dA.png"
+          }
         ],
         "descriptionList": [
           {
