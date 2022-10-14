@@ -32,19 +32,61 @@
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 32",
         "images": [
-          "1",
-          "https://pm1.narvii.com/6262/7b51f6dfcebec9ed88397d485e894f6c4749d823_hq.jpg",
-          "https://i.pinimg.com/originals/5c/5c/23/5c5c2330d074add95a6585c27c5b62ff.gif",
-          "https://i.pinimg.com/originals/60/81/58/60815899bc68723fa95fca8043225ef3.gif",
-          "https://i.pinimg.com/564x/50/33/fc/5033fccf43d94380d4aed446a04faaf9.jpg",
-          "https://i.pinimg.com/564x/09/10/1a/09101a9271772ab337a9e0b82191c8ab.jpg",
-          "https://images.wikidexcdn.net/mwuploads/wikidex/d/d8/latest/20150904230709/EP846_Bulbasaur_usando_rayo_solar.png",
-          "https://i.pinimg.com/564x/17/bc/29/17bc299b69d8ee7cf18d206b10b879ea.jpg",
-          "https://i.pinimg.com/736x/9b/a9/eb/9ba9ebac5ae5d77eee0860ef9578124a.jpg",
-          "https://i.pinimg.com/564x/c7/31/01/c73101e63f9a6b67f71deada463db3bb.jpg",
-          "https://i.pinimg.com/originals/6a/10/b5/6a10b599a18c94595654b991ea9c0f55.gif",
-          "https://i.pinimg.com/564x/36/2f/ef/362fefafca52bf5141e5c3ee7765e6a3.jpg"
-          
+          {
+            "id": "1",
+            "isThumbnail": true,
+            "url": "https://pm1.narvii.com/6262/7b51f6dfcebec9ed88397d485e894f6c4749d823_hq.jpg"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/originals/5c/5c/23/5c5c2330d074add95a6585c27c5b62ff.gif"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/originals/60/81/58/60815899bc68723fa95fca8043225ef3.gif"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/564x/50/33/fc/5033fccf43d94380d4aed446a04faaf9.jpg"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/564x/09/10/1a/09101a9271772ab337a9e0b82191c8ab.jpg"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d8/latest/20150904230709/EP846_Bulbasaur_usando_rayo_solar.png"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/564x/17/bc/29/17bc299b69d8ee7cf18d206b10b879ea.jpg"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/736x/9b/a9/eb/9ba9ebac5ae5d77eee0860ef9578124a.jpg"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/564x/c7/31/01/c73101e63f9a6b67f71deada463db3bb.jpg"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/originals/6a/10/b5/6a10b599a18c94595654b991ea9c0f55.gif"
+          },
+          {
+            "id": "",
+            "isThumbnail": false,
+            "url": "https://i.pinimg.com/564x/36/2f/ef/362fefafca52bf5141e5c3ee7765e6a3.jpg"
+          }
         ],
         "descriptionList": [
           {
