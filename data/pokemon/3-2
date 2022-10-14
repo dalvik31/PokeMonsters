@@ -38,40 +38,32 @@
         "elementMega": "Energía\nGigamax",
         "images": [
           {
-            "isThumbnail": true,
-            "url": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
+            "thumbnail": "https://www.serebii.net/swordshield/pokemon/003-gi.png",
+            "thumbnailShiny": "https://www.serebii.net/Shiny/SWSH/003-gi.png"
           },
           {
-            "isThumbnail": true,
-            "url": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
+            "thumbnail": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
           },
           {
-            "isThumbnail": false,
-            "url": "https://img.game8.co/3249840/5df4c9560452ba95b9c01dccaec57bf5.jpeg/show"
+            "thumbnail": "https://img.game8.co/3249840/5df4c9560452ba95b9c01dccaec57bf5.jpeg/show"
           },
           {
-            "isThumbnail": false,
-            "url": "https://img.game8.co/3249839/af65327cfff172e4a70de9f39f24306b.jpeg/show"
+            "thumbnail": "https://img.game8.co/3249839/af65327cfff172e4a70de9f39f24306b.jpeg/show"
           },
           {
-            "isThumbnail": false,
-            "url": "https://swordshield.pokemon.com/assets/img/screenshots/6_02_p07_02.jpg"
+            "thumbnail": "https://swordshield.pokemon.com/assets/img/screenshots/6_02_p07_02.jpg"
           },
           {
-            "isThumbnail": false,
-            "url": "https://i.pinimg.com/originals/92/41/e5/9241e58b56fd21a4054708660ebdd9d4.jpg"
+            "thumbnail": "https://i.pinimg.com/originals/92/41/e5/9241e58b56fd21a4054708660ebdd9d4.jpg"
           },
           {
-            "isThumbnail": false,
-            "url": "https://64.media.tumblr.com/d51dfa8014832f58eaf2522fc18ddee5/ccbfcd84013cd1e1-62/s540x810/b388ddac7f00dc54c8757c679af7723ed0ae25fb.pnj"
+            "thumbnail": "https://64.media.tumblr.com/d51dfa8014832f58eaf2522fc18ddee5/ccbfcd84013cd1e1-62/s540x810/b388ddac7f00dc54c8757c679af7723ed0ae25fb.pnj"
           },
           {
-            "isThumbnail": false,
-            "url": "https://image.pngaaa.com/802/4734802-middle.png"
+            "thumbnail": "https://image.pngaaa.com/802/4734802-middle.png"
           },
           {
-            "isThumbnail": false,
-            "url": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
+            "thumbnail": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
           }
         ],
         "descriptionList": [
