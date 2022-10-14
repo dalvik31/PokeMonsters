@@ -32,17 +32,40 @@
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 32",
         "images": [
-          "2",
-          "https://i.pinimg.com/564x/ef/42/dd/ef42dd77da89add52f45ff76b0b63a57.jpg",
-          "https://i.pinimg.com/564x/b9/11/c8/b911c87fc0cce9e7573e980a0e2d1753.jpg",
-          "https://i.pinimg.com/564x/1b/8e/16/1b8e162d56e85c3b1882393aa3963c54.jpg",
-          "https://i.pinimg.com/564x/5a/42/68/5a4268fb90aec4dd7f87693bb7a621a0.jpg",
-      "https://i.pinimg.com/564x/2d/be/54/2dbe545681328c7bcc95ce8aeba5a9c5.jpg",
-          "https://i.pinimg.com/564x/c3/32/c5/c332c5acdc8673ce20ee4d010b523296.jpg",
-          "https://i.pinimg.com/564x/ec/6d/f2/ec6df2463d3fe8f72956ccb2f1119536.jpg",
-          "https://i.pinimg.com/564x/ca/28/37/ca2837c0435c806af185069330af676b.jpg",
-          "https://i.pinimg.com/564x/6b/f1/b9/6bf1b9e18e176f7f52776954d4c6682c.jpg",
-          "https://static.wikia.nocookie.net/pokemon/images/9/9a/Ivysaur_TB051.png/revision/latest?cb=20160531030645"
+            {
+            "thumbnail": "2",
+            "thumbnailShiny": "2"
+          },
+            {
+            "thumbnail": "https://i.pinimg.com/564x/ef/42/dd/ef42dd77da89add52f45ff76b0b63a57.jpg"
+          },
+           {
+            "thumbnail": "https://i.pinimg.com/564x/b9/11/c8/b911c87fc0cce9e7573e980a0e2d1753.jpg"
+          },
+            {
+            "thumbnail": "https://i.pinimg.com/564x/1b/8e/16/1b8e162d56e85c3b1882393aa3963c54.jpg"
+          },
+           {
+            "thumbnail": "https://i.pinimg.com/564x/5a/42/68/5a4268fb90aec4dd7f87693bb7a621a0.jpg"
+          },
+             {
+            "thumbnail": "https://i.pinimg.com/564x/2d/be/54/2dbe545681328c7bcc95ce8aeba5a9c5.jpg"
+          },
+           {
+            "thumbnail": "https://i.pinimg.com/564x/c3/32/c5/c332c5acdc8673ce20ee4d010b523296.jpg"
+          },
+           {
+            "thumbnail": "https://i.pinimg.com/564x/ec/6d/f2/ec6df2463d3fe8f72956ccb2f1119536.jpg"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/564x/ca/28/37/ca2837c0435c806af185069330af676b.jpg"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/564x/6b/f1/b9/6bf1b9e18e176f7f52776954d4c6682c.jpg"
+          },
+          {
+            "thumbnail": "https://static.wikia.nocookie.net/pokemon/images/9/9a/Ivysaur_TB051.png/revision/latest?cb=20160531030645"
+          }
         ],
         "descriptionList": [
           {
