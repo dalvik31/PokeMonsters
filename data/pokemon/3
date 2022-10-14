@@ -32,15 +32,34 @@
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 32",
         "images": [
-          "3",
-          "https://pa1.narvii.com/6428/bab4d0601727d7d220f345d042dc51d0046cd3c5_hq.gif",
-          "https://www.thefactsite.com/wp-content/uploads/2019/12/venusaur-flowers.jpg",
-          "https://depor.com/resizer/tGHiP6fmj4nDSmQbXdgAfbfPPmA=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/4JEWAZVMGZEYHBNQDKP6AVEGYI.jpg",
-          "https://static.fandomspot.com/images/11/10347/11-venusaur-pokemon-anime-screenshot.jpg",
-          "https://i.ytimg.com/vi/O2j3VfwG7n0/maxresdefault.jpg",
-          "https://64.media.tumblr.com/ea604a31fcbaf6a3cebab39a7ded9321/tumblr_o4yqu9SYhZ1rpn9eno1_540.gif",
-          "https://gifimage.net/wp-content/uploads/2018/06/venusaur-gif-12.gif",
-          "https://gifs.eco.br/wp-content/uploads/2022/04/gifs-do-venusaur-3.gif"
+          {
+            "thumbnail": "3",
+            "thumbnailShiny": "3"
+          },
+          {
+            "thumbnail": "https://pa1.narvii.com/6428/bab4d0601727d7d220f345d042dc51d0046cd3c5_hq.gif"
+          },
+          {
+            "thumbnail": "https://www.thefactsite.com/wp-content/uploads/2019/12/venusaur-flowers.jpg"
+          },
+          {
+            "thumbnail": "https://depor.com/resizer/tGHiP6fmj4nDSmQbXdgAfbfPPmA=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/4JEWAZVMGZEYHBNQDKP6AVEGYI.jpg"
+          },
+          {
+            "thumbnail": "https://static.fandomspot.com/images/11/10347/11-venusaur-pokemon-anime-screenshot.jpg"
+          },
+          {
+            "thumbnail": "https://i.ytimg.com/vi/O2j3VfwG7n0/maxresdefault.jpg"
+          },
+          {
+            "thumbnail": "https://64.media.tumblr.com/ea604a31fcbaf6a3cebab39a7ded9321/tumblr_o4yqu9SYhZ1rpn9eno1_540.gif"
+          },
+          {
+            "thumbnail": "https://gifimage.net/wp-content/uploads/2018/06/venusaur-gif-12.gif"
+          },
+          {
+            "thumbnail": "https://gifs.eco.br/wp-content/uploads/2022/04/gifs-do-venusaur-3.gif"
+          }
         ],
         "descriptionList": [
           {
