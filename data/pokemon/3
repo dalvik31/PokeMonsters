@@ -9,6 +9,7 @@
       {
         "id": "1",
         "name": "Venusaur",
+        "originalName": "フシギバナ (Fushigibana)",
         "category": "Semilla",
         "ability": "Espesura",
         "ability_description": "Espesura aumenta la potencia de los movimientos de tipo planta del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
