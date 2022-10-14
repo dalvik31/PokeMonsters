@@ -1,3 +1,4 @@
+
 {
   "code": "1",
   "data": {
@@ -6,154 +7,80 @@
     "limit": 0,
     "offset": 0,
     "results": [
+    
+    {
+        "id": "1",
+        "name": "Bulbasaur",   
+        "type_first": 2,
+         "type_second": 1
+      },
+         {
+        "id": "2",
+        "name": "Ivysaur",
+        "type_first": 2,
+         "type_second": 1
+      },
+      {
+        "id": "3",
+        "name": "Venusaur",
+        "type_first": 2,
+         "type_second": 1
+      },
+      {
+        "id": "3-1",
+        "name": "Mega\nVenusaur",
+        "type_first": 2,
+         "type_second": 1
+      },
       {
         "id": "3-2",
-        "name": "Mega\nGigantamax",
-        "category": "Semilla",
-        "ability": "Espesura",
-        "ability_description": "Espesura aumenta la potencia de los movimientos de tipo planta del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
+        "name": "Venusaur\nGigamax",
         "type_first": 2,
         "type_second": 1,
-        "height": "> 24 m",
-        "weight": "??? kg",
-        "hp": 80,
-        "attack": 100,
-        "defence": 123,
-        "attack_special": 122,
-        "defence_special": 120,
-        "speed": 80,
-        "total": 625,
-        "first_name_pokemon": "Bulbasaur",
-        "first_num_pokemon": "1",
-        "second_name_pokemon": "Ivysaur",
-        "second_num_pokemon": "2",
-        "third_name_pokemon": "Venusaur",
-        "third_num_pokemon": "3",
-        "mega_name_pokemon": "Mega\nVenusaur",
-        "mega_num_pokemon": "",
-        "mega_url_pokemon": "https://www.serebii.net/swordshield/pokemon/003-gi.png",
-        "level_first_evolution": "Nivel 16",
-        "level_second_evolution": "Nivel 32",
-         "isMega": true,
-        "elementMega": "Energía\nGigamax",
-        "images": [
-          "https://www.serebii.net/swordshield/pokemon/003-gi.png",
-          "https://img.game8.co/3249840/5df4c9560452ba95b9c01dccaec57bf5.jpeg/show",
-          "https://img.game8.co/3249839/af65327cfff172e4a70de9f39f24306b.jpeg/show",
-          "https://swordshield.pokemon.com/assets/img/screenshots/6_02_p07_02.jpg",
-          "https://i.pinimg.com/originals/92/41/e5/9241e58b56fd21a4054708660ebdd9d4.jpg",
-          "https://64.media.tumblr.com/d51dfa8014832f58eaf2522fc18ddee5/ccbfcd84013cd1e1-62/s540x810/b388ddac7f00dc54c8757c679af7723ed0ae25fb.pnj",
-          "https://image.pngaaa.com/802/4734802-middle.png",
-          "https://www.serebii.net/swordshield/pokemon/003-gi.png"
-        ],
-        "descriptionList": [
-          {
-            "id": 1,
-            "title": "Rojo y Azul",
-            "description": "La planta florece cuando absorbe energía solar. Ésta le obliga a ponerse en busca de la luz solar."
-          },
-          {
-            "id": 2,
-            "title": "Amarillo",
-            "description": "La flor de su espalda recoge los rayos del sol. Los transforma en energía."
-          },
-          {
-            "id": 3,
-            "title": "Oro",
-            "description": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor."
-          },
-          {
-            "id": 4,
-            "title": "Plata",
-            "description": "Puede convertir la luz del sol en energía. Por esa razón, es más poderoso en verano."
-          },
-          {
-            "id": 5,
-            "title": "Cristal",
-            "description": "Cuando se calienta al absorber la luz del sol, sus pétalos emiten una placentera fragancia."
-          },
-          {
-            "id": 6,
-            "title": "Rubí y Zafiro",
-            "description": "Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas."
-          },
-          {
-            "id": 7,
-            "title": "Esmeralda",
-            "description": "Según parece, la flor de Venusaur adquiere unos colores muy vivos con una buena nutrición y mucho sol. El aroma delicado de esta flor calma los ánimos."
-          },
-          {
-            "id": 8,
-            "title": "Rojo Fuego",
-            "description": "La flor que tiene en el lomo libera un delicado aroma. En combate, este aroma tiene un efecto relajante."
-          },
-          {
-            "id": 9,
-            "title": "Verde Hoja",
-            "description": "La planta florece cuando absorbe energía solar, por eso le obliga a buscar luz del Sol."
-          },
-          {
-            "id": 10,
-            "title": "Diamante, Perla y Platino",
-            "description": "Después de un día de lluvia, la flor de su lomo tiene un aroma más potente y atrae a otros Pokémon."
-          },
-          {
-            "id": 11,
-            "title": "Oro HeartGold",
-            "description": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor."
-          },
-          {
-            "id": 12,
-            "title": "Plata SoulSilver",
-            "description": "Puede convertir la luz del sol en energía. Por esa razón, es más poderoso en verano."
-          },
-          {
-            "id": 13,
-            "title": "Negro, Blanco, Negro2 y Blanco2",
-            "description": "Después de un día de lluvia, la flor de su lomo tiene un aroma más potente y atrae a otros Pokémon."
-          },
-          {
-            "id": 14,
-            "title": "Pokémon X",
-            "description": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor."
-          },
-          {
-            "id": 15,
-            "title": "Pokémon Y",
-            "description": "Después de un día de lluvia, la flor de su lomo tiene un aroma más potente y atrae a otros Pokémon."
-          },
-          {
-            "id": 16,
-            "title": "Rubí Omega y Zafiro Alfa",
-            "description": "Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas."
-          },
-          {
-            "id": 17,
-            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
-            "description": "La flor que tiene en el lomo puede recoger los rayos solares para transformarlos en energía."
-          },
-          {
-            "id": 18,
-            "title": "Espada",
-            "description": "La planta florece cuando absorbe energía solar, lo cual le obliga a buscar siempre la luz del sol."
-          },
-          {
-            "id": 19,
-            "title": "Escudo",
-            "description": "La flor que tiene en el lomo libera un delicado aroma, que tiene un efecto relajante en combate."
-          },
-          {
-            "id": 20,
-            "title": "Pokémon GO",
-            "description": "Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas."
-          },
-          {
-            "id": 21,
-            "title": "Movimiento Gigamax",
-            "description": "Gigalianas - Causa daño al rival al que alcanza e inflige daño durante 4 turnos a cualquier Pokémon que no sea de tipo Planta."
-          }
-        ],
-        "interestingData": "* En Pokémon Battle Revolution se le ponen los ojos morados durante el combate en el que lo usas.\n\n* Junto con Charizard, Pikachu y Blastoise, son los únicos Pokémon no legendarios representantes de un juego."
+        "alternateImage": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
+      },
+        {
+        "id": "4",
+        "name": "Charmander",
+        "type_first": 8
+      },
+        {
+        "id": "5",
+        "name": "Charmeleon",
+        "type_first": 8
+      },
+        {
+        "id":"6" ,
+        "name": "Charizard",
+        "type_first": 8,
+          "type_second": 9
+      },
+        {
+        "id":"6-1" ,
+        "name": "Mega\nCharizard X",
+        "type_first": 8,
+          "type_second": 5
+      },
+        {
+        "id":"6-2" ,
+        "name": "Mega\nCharizard Y",
+        "type_first": 8,
+          "type_second": 9
+      },
+        {
+        "id": "7",
+        "name": "Squirtle",
+        "type_first": 18
+      },
+        {
+        "id": "8",
+        "name": "Wartortle",
+        "type_first": 18
+      },
+        {
+        "id": "9",
+        "name": "Blastoise",
+        "type_first": 18
       }
     ]
   }
