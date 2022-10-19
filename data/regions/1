@@ -1,4 +1,3 @@
-
 {
   "code": "1",
   "data": {
@@ -7,30 +6,29 @@
     "limit": 0,
     "offset": 0,
     "results": [
-    
-    {
+      {
         "id": "1",
-        "name": "Bulbasaur",   
+        "name": "Bulbasaur",
         "type_first": 2,
-         "type_second": 1
+        "type_second": 1
       },
-         {
+      {
         "id": "2",
         "name": "Ivysaur",
         "type_first": 2,
-         "type_second": 1
+        "type_second": 1
       },
       {
         "id": "3",
         "name": "Venusaur",
         "type_first": 2,
-         "type_second": 1
+        "type_second": 1
       },
       {
         "id": "3-1",
         "name": "Mega\nVenusaur",
         "type_first": 2,
-         "type_second": 1
+        "type_second": 1
       },
       {
         "id": "3-2",
@@ -39,48 +37,341 @@
         "type_second": 1,
         "alternateImage": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
       },
-        {
+      {
         "id": "4",
         "name": "Charmander",
         "type_first": 8
       },
-        {
+      {
         "id": "5",
         "name": "Charmeleon",
         "type_first": 8
       },
-        {
-        "id":"6" ,
+      {
+        "id": "6",
         "name": "Charizard",
         "type_first": 8,
-          "type_second": 9
+        "type_second": 9
       },
-        {
-        "id":"6-1" ,
+      {
+        "id": "6-1",
         "name": "Mega\nCharizard X",
         "type_first": 8,
-          "type_second": 5
+        "type_second": 5
       },
-        {
-        "id":"6-2" ,
+      {
+        "id": "6-2",
         "name": "Mega\nCharizard Y",
         "type_first": 8,
-          "type_second": 9
+        "type_second": 9
       },
-        {
+      {
         "id": "7",
         "name": "Squirtle",
         "type_first": 18
       },
-        {
+      {
         "id": "8",
         "name": "Wartortle",
         "type_first": 18
       },
-        {
+      {
         "id": "9",
         "name": "Blastoise",
         "type_first": 18
+      },
+      {
+        "id": "10",
+        "name": "Caterpie",
+        "type_first": 3
+      },
+      {
+        "id": "11",
+        "name": "Metapod",
+        "type_first": 3
+      },
+      {
+        "id": "12",
+        "name": "Butterfree",
+        "type_first": 3,
+        "type_second": 9
+      },
+      {
+        "id": "12-gmax",
+        "name": "Butterfree\nGigamax",
+        "type_first": 3,
+        "type_second": 9
+      },
+      {
+        "id": "13",
+        "name": "Weedle",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "14",
+        "name": "Kakuna",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "15",
+        "name": "Beedrill",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "15-1",
+        "name": "Mega\nBeedrill",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "16",
+        "name": "Pidgey",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "17",
+        "name": "Pidgeotto",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "18",
+        "name": "Pidgeot",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "18-1",
+        "name": "Pidgeot",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "19",
+        "name": "Rattata",
+        "type_first": 14
+      },
+      {
+        "id": "20",
+        "name": "Raticate",
+        "type_first": 14
+      },
+      {
+        "id": "21",
+        "name": "Spearow",
+        "type_first": 14
+      },
+      {
+        "id": "22",
+        "name": "Fearow",
+        "type_first": 14
+      },
+      {
+        "id": "23",
+        "name": "Ekans",
+        "type_first": 1
+      },
+      {
+        "id": "24",
+        "name": "Arbok",
+        "type_first": 1
+      },
+      {
+        "id": "25",
+        "name": "Pikachu",
+        "type_first": 11
+      },
+      {
+        "id": "25-gmax",
+        "name": "Mega\nPikachu",
+        "type_first": 11
+      },
+      {
+        "id": "26",
+        "name": "Raichu",
+        "type_first": 11
+      },
+      {
+        "id": "27",
+        "name": "Sandshrew",
+        "type_first": 12
+      },
+      {
+        "id": "28",
+        "name": "Sandslash",
+        "type_first": 12
+      },
+      {
+        "id": "29",
+        "name": "Nidoran♀",
+        "type_first": 1
+      },
+      {
+        "id": "30",
+        "name": "Nidorina",
+        "type_first": 1
+      },
+      {
+        "id": "31",
+        "name": "Nidoqueen",
+        "type_first": 1,
+        "type_second": 12
+      },
+      {
+        "id": "32",
+        "name": "Nidoran♂",
+        "type_first": 1
+      },
+      {
+        "id": "33",
+        "name": "Nidorino",
+        "type_first": 1
+      },
+      {
+        "id": "34",
+        "name": "Nidoking",
+        "type_first": 1,
+        "type_second": 12
+      },
+      {
+        "id": "35",
+        "name": "Clefairy",
+        "type_first": 6
+      },
+      {
+        "id": "36",
+        "name": "Clefable",
+        "type_first": 6
+      },
+      {
+        "id": "37",
+        "name": "Vulpix",
+        "type_first": 8
+      },
+      {
+        "id": "38",
+        "name": "Ninetales",
+        "type_first": 8
+      },
+      {
+        "id": "39",
+        "name": "Jigglypuff",
+        "type_first": 14,
+        "type_second": 8
+      },
+      {
+        "id": "40",
+        "name": "Wigglytuff",
+        "type_first": 14,
+        "type_second": 8
+      },
+      {
+        "id": "41",
+        "name": "Zubat",
+        "type_first": 1,
+        "type_second": 9
+      },
+      {
+        "id": "42",
+        "name": "Golbat",
+        "type_first": 1,
+        "type_second": 9
+      },
+      {
+        "id": "43",
+        "name": "Oddish",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "44",
+        "name": "Gloom",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "45",
+        "name": "Vileplume",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "46",
+        "name": "Paras",
+        "type_first": 3,
+        "type_second": 2
+      },
+      {
+        "id": "47",
+        "name": "Parasect",
+        "type_first": 3,
+        "type_second": 2
+      },
+      {
+        "id": "48",
+        "name": "Venonat",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "49",
+        "name": "Venomoth",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "50",
+        "name": "Diglett",
+        "type_first": 12
+      },
+      {
+        "id": "51",
+        "name": "Dugtrio",
+        "type_first": 12
+      },
+      {
+        "id": "52",
+        "name": "Meowth",
+        "type_first": 14
+      },
+      {
+        "id": "53",
+        "name": "Persian",
+        "type_first": 14
+      },
+      {
+        "id": "54",
+        "name": "Psyduck",
+        "type_first": 18
+      },
+      {
+        "id": "55",
+        "name": "Golduck",
+        "type_first": 18
+      },
+      {
+        "id": "56",
+        "name": "Mankey",
+        "type_first": 7
+      },
+      {
+        "id": "57",
+        "name": "Primeape",
+        "type_first": 7
+      },
+      {
+        "id": "59",
+        "name": "Growlithe",
+        "type_first": 8
+      },
+      {
+        "id": "60",
+        "name": "Arcanine",
+        "type_first": 8
       }
     ]
   }
