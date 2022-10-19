@@ -1,13 +1,16 @@
 package com.dalvik.pokemonsters.network.model.pokemon
 
+import com.dalvik.pokemonsters.network.model.images.Images
 import com.dalvik.pokemonsters.network.model.text_pokedex.TextPokedex
 import com.dalvik.pokemonsters.utils.getPokemonType
 import com.dalvik.pokemonsters.utils.getThumbnail
+import com.dalvik.pokemonsters.utils.numberFormat
 
 data class DetailPokemon(
     val id: String?,
     val name: String?,
-    val images: ArrayList<String>?,
+    val originalName: String?,
+    val images: ArrayList<Images>?,
     val category: String?,
     val ability: String?,
     val ability_description: String?,
@@ -29,15 +32,19 @@ data class DetailPokemon(
     val second_num_pokemon: String?,
     val third_name_pokemon: String?,
     val third_num_pokemon: String?,
+    val mega_name_pokemon: String?,
+    val mega_num_pokemon: String?,
+    val mega_url_pokemon: String?,
     val level_first_evolution: String?,
     val level_second_evolution: String?,
     val strengths_list: ArrayList<String>?,
     val weaknesses_list: ArrayList<String>?,
     val interestingData: String?,
     val isMega: Boolean?,
+    val elementMega: String?,
 ) {
 
-    fun getThumbnail(idPokemon : String): String{
+    fun getThumbnail(idPokemon: String): String {
         return idPokemon.getThumbnail()
     }
 
@@ -45,8 +52,16 @@ data class DetailPokemon(
         return type.getPokemonType()
     }
 
-    fun getOrderDescriptionList():  MutableList<TextPokedex>{
+    fun getOrderDescriptionList(): MutableList<TextPokedex> {
         val array = (descriptionList ?: arrayListOf())
         return array.toMutableList().asReversed()
+    }
+
+    fun getFormatNumber(number: String?): String {
+        return (number ?: "").numberFormat()
+    }
+
+    fun getThumbnailMega(megaNumber: String?): String {
+        return (mega_url_pokemon ?: (megaNumber ?: "").getThumbnail())
     }
 }

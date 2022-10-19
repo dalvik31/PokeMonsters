@@ -10,6 +10,9 @@
             name="news"
             type="com.dalvik.pokemonsters.network.model.news.News" />
 
+        <variable
+            name="showFabWebView"
+            type="Boolean" />
         <import type="android.view.View" />
     </data>
 
@@ -248,13 +251,14 @@
         </androidx.core.widget.NestedScrollView>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/flexible.example.fab"
+            android:id="@+id/fab_open_web"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
             android:layout_margin="@dimen/_32sdp"
             android:contentDescription="@string/app_name"
             android:elevation="8dp"
+            android:visibility="@{showFabWebView ? View.VISIBLE :  View.GONE, default = gone }"
             android:src="@drawable/ic_open_browser"
             app:backgroundTint="@color/primary_red"
             app:tint="@color/white" />

@@ -4,10 +4,12 @@ package com.dalvik.pokemonsters.utils
 import com.dalvik.pokemonsters.R
 
 fun String.getThumbnail(): String {
+    if (this.length > 10) return this
     return "https://pokemon-project.com/pokedex/img/sprite/Home/256/".plus(this ?: "1").plus(".png")
 }
 
 fun String.getThumbnailShiny(): String {
+    if (this.length > 10) return this
     return "https://pokemon-project.com/pokedex/img/sprite/Home/shiny/".plus(this ?: "1")
         .plus(".png")
 }
@@ -38,4 +40,8 @@ fun Int.getPokemonType(): Int {
         18 -> R.drawable.ic_water
         else -> R.drawable.ic_grass
     }
+}
+
+fun String.numberFormat(): String {
+    return String.format("#%03d", this.toInt() ?: 0);
 }

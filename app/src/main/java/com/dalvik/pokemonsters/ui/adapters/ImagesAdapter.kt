@@ -8,29 +8,31 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.ItemImagesPokemonBinding
+import com.dalvik.pokemonsters.network.model.images.Images
 import com.dalvik.pokemonsters.utils.getThumbnail
 import com.dalvik.pokemonsters.utils.getThumbnailShiny
 
-class ImagesAdapter(private var imagesList: ArrayList<String>) :
+class ImagesAdapter(private var imagesList: ArrayList<Images>) :
     RecyclerView.Adapter<ImagesAdapter.ImageViewHolder>() {
 
 
     class ImageViewHolder(private val itemListImagesBinding: ItemImagesPokemonBinding) :
         RecyclerView.ViewHolder(itemListImagesBinding.root) {
-        fun bindCharacter(images: String, position: Int) {
-            if (position == 0) {
+        fun bindCharacter(image: Images, position: Int) {
+
+            if(position == 0){
                 itemListImagesBinding.hideImage = false
-                itemListImagesBinding.normalImage = images.getThumbnail()
-                itemListImagesBinding.shinyImage = images.getThumbnailShiny()
                 itemListImagesBinding.icShiny.visibility = View.VISIBLE
+                itemListImagesBinding.normalImage =  (image.thumbnail ?: "").getThumbnail()
+                itemListImagesBinding.shinyImage = (image.thumbnailShiny ?: "").getThumbnailShiny()
                 Glide.with(itemListImagesBinding.imageShiny.context)
                     .load(R.drawable.shiny9)
                     .diskCacheStrategy(DiskCacheStrategy.ALL)
                     .into(itemListImagesBinding.imageShiny)
-            } else {
+            }else{
                 itemListImagesBinding.hideImage = true
                 itemListImagesBinding.icShiny.visibility = View.GONE
-                itemListImagesBinding.image = images
+                itemListImagesBinding.image = image.thumbnail ?: ""
             }
 
         }

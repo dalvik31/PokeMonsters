@@ -20,7 +20,7 @@ class NewsViewModel @Inject constructor(
 
     var itemList = MutableLiveData<ArrayList<News>>(arrayListOf())
     var itemVideo = MutableLiveData("")
-
+    var urlNews = MutableLiveData("")
 
     fun getNews() {
         viewModelScope.launch {
@@ -34,6 +34,7 @@ class NewsViewModel @Inject constructor(
                 }
                 is ResultData.Success -> {
                     itemList.postValue(resultNews.model)
+                    urlNews
                 }
             }
         }

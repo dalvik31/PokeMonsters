@@ -11,6 +11,7 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
+import com.dalvik.pokemonsters.network.model.images.Images
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.network.model.regions.Region
@@ -90,7 +91,7 @@ class BindingAdapters {
 
         @JvmStatic
         @BindingAdapter("app:listImages")
-        fun setListImagePokemon(viewPager: ViewPager2, imagesList: ArrayList<String>?) {
+        fun setListImagePokemon(viewPager: ViewPager2, imagesList: ArrayList<Images>?) {
             if (imagesList != null && imagesList.isNotEmpty()) {
                 val characterAdapter = ImagesAdapter(imagesList)
                 viewPager.offscreenPageLimit = 1

@@ -1,11 +1,9 @@
-package com.dalvik.pokemonsters
+package com.dalvik.pokemonsters.ui.regions
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.dalvik.pokemonsters.databinding.FragmentRegionHomeBinding
 import com.dalvik.pokemonsters.ui.base.BaseFragment
-import com.dalvik.pokemonsters.ui.news.NewsViewModel
-import com.dalvik.pokemonsters.ui.regions.RegionsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 

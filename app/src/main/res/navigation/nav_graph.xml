@@ -20,7 +20,11 @@
         android:id="@+id/detailNewsFragment"
         android:name="com.dalvik.pokemonsters.ui.news.DetailNewsFragment"
         android:label="fragment_detail_news"
-        tools:layout="@layout/fragment_detail_news" />
+        tools:layout="@layout/fragment_detail_news" >
+        <action
+            android:id="@+id/action_detailNewsFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
     <fragment
         android:id="@+id/regionFragment"
         android:name="com.dalvik.pokemonsters.ui.regions.RegionHomeFragment"
@@ -48,5 +52,10 @@
         android:name="com.dalvik.pokemonsters.ui.detail_pokemon.DetailPokemonFragment"
         android:label="fragment_detail_pokemon"
         tools:layout="@layout/fragment_detail_pokemon" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.dalvik.pokemonsters.ui.news.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
 
 </navigation>
