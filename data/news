@@ -6,6 +6,58 @@
     "limit": 0,
     "offset": 0,
     "results": [
+       {
+        "id": "15",
+        "start_date": "1664577165000",
+        "start_date_string": "14 de octubre de 2022",
+        "end_date": "1664577165000",
+        "img_new_pokemon": "https://www.cpokemon.com/wp-content/uploads/2022/10/pokemon-scarlet-violet-bellibolt-artwork-425x450.png.webp",
+        "title": "Pokémon Escarlata y Púrpura presenta a Bellibolt, el nuevo Pokémon Electrorrana",
+        "sub_title": "Bellibolt - Pokédex Escarlata y Púrpura",
+        "thumbnail": "https://media.vandal.net/i/620x348/10-2022/2022101415503042_4.jpg",
+        "image_url": "https://media.vandal.net/i/1280x720/10-2022/2022101415503042_1.jpg.webp",
+        "description": "Bellibolt (ハラバリー Harabarī en japonés) es un Pokémon de tipo Eléctrico introducido en la novena generación de Pokémon Escarlata y Púrpura (Scarlet/Violet) para Nintendo Switch. El Pokémon Electrorrana, fue revelado el 14 de octubre de 2022.\n\nCuando se publicó el último tráiler de Pokémon Escarlata y Púrpura, aquel en el que conocimos a la líder e-Nigma, se dejó caer que próximamente se presentaría a un nuevo Pokémon, el acompañante de esta entrenadora. Hoy por fin hemos podido ver a la nueva criatura que ampliará la Pokédex de Paldea, región en la que se ambienta la nueva entrega de la saga: se trata de Bellibolt, una especie de rana eléctrica capaz de producir energía con su ombligo.\n\nTal y como contó su entrenadora en el anterior vídeo, este nuevo Pokémon destaca por varias cosas: es tipo Eléctrico, es bastante lento y puede requerir que le ataquen antes de empezar a combatir, ya que es de naturaleza apacible. Además, su diseño llama la atención porque en realidad sus ojos no son las dos protuberancias blancas que vemos a cada lado de su cabeza, sino los pequeños orificios amarillos que tiene justo encima de la boca. Podéis ver el nuevo tráiler de Pokémon Escarlata y Púrpura a continuación.\n\nAsí es Bellibolt, el nuevo Pokémon de Escarlata y Púrpura\n\nBellibolt expande y contrae su elástico cuerpo para generar electricidad por un órgano que se asemeja a un ombligo podemos leer en la descripción oficial de este nuevo Pokémon. Toda esa energía generada se descarga a través de las dos protuberancias que tiene en la cabeza, que pueden confundirse con ojos. Sus verdaderos ojos son pequeños y adorables, así que Bellibolt aprovecha esta confusión cuando quiere intimidar a su oponente.\n\nA continuación podéis ver las principales características de Bellibolt:\n\n* Categoría: Pokémon Electrorrana\n\n* Tipo: Eléctrico\n\n* Altura: 1,2 m\n\n* Peso: 113 kg\n\n* Habilidad: Dinamo o Electricidad Estática\n\n Al igual que con Farigiraf, este nuevo Pokémon dispone de una habilidad inédita en la saga: se trata de Dinamo, que permite que el cuerpo de Bellibolt se cargue de electricidad al recibir daño, lo que potencia su siguiente movimiento de tipo Eléctrico. Es la primera vez que esta habilidad aparece en los juegos.\n\nBellibolt será el Pokémon acompañante de la entrenadora e-Nigma, líder del gimnasio de Ciudad Leudal. Podremos enfrentarnos a ella a partir del próximo 18 de noviembre, fecha en la que se lanzará Pokémon Escarlata y Púrpura de forma exclusiva para Nintendo Switch. Bajo estas líneas podéis ver una galería con las primeras imágenes de Bellibolt.",
+        "page_url": "https://www.cpokemon.com/escarlata-purpura/pokemon/bellibolt/"
+      },
+     {
+        "id": "14",
+        "start_date": "1664577165000",
+        "start_date_string": "13 de octubre de 2022",
+        "end_date": "1664577165000",
+        "title": "¡La Parte I de Pokémon GO Halloween 2022 viene cargada de bonus de Caramelos y aparecerá Mega-Banette!",
+        "sub_title": "¡Entra Mega-Banette!",
+        "thumbnail": "https://lh3.googleusercontent.com/VKtj6R-0hTC143uop0TJt14BH3I87kkagY6u8P1BnzkN8ySfsMsVb3g1p5We-MPpRf1s51kOPCjJ2KUxixn_oFnRe3n5Uhgn1mGFIt9Xe7_M=e365-w800",
+        "image_url": "https://lh3.googleusercontent.com/VKtj6R-0hTC143uop0TJt14BH3I87kkagY6u8P1BnzkN8ySfsMsVb3g1p5We-MPpRf1s51kOPCjJ2KUxixn_oFnRe3n5Uhgn1mGFIt9Xe7_M=s0",
+        "description": "Entrenadores:\n\nPreparaos para la enorme celebración de Halloween de este año, ¡y nada menos que Mega-Banette llega por primera vez a Pokémon GO y a las megaincursiones!\n\nAl igual que el año pasado, el evento de Halloween de Pokémon GO tendrá dos partes. Habrá muchos sustos y chuches, como un remix de música de Pueblo Lavanda y una investigación especial temática de Halloween. ¡Sin olvidarnos de muchos Pokémon de tipo Fantasma que aparecerán salvajes!",
+        "page_url": "https://pokemongolive.com/es/post/halloween-2022-event-details-part-1/",
+       "pokemon_name": "Mega-Banette",
+        "pokemon_num": "354-1"
+      },
+     {
+        "id": "13",
+        "start_date": "1664577165000",
+        "start_date_string": "12 de octubre de 2022",
+        "end_date": "1664577165000",
+        "title": "Revelada e-Nigma, la nueva líder de gimnasio de Pokémon Scarlet & Violet",
+        "sub_title": "Conoce a e-Nigma",
+        "thumbnail": "https://scarletviolet.pokemon.com/_images/news/oct_14/10_14_video.jpg",
+        "image_url": "https://www.cpokemon.com/wp-content/uploads/2022/10/artwork-e-nigma-electrostreamer-pokemonscarletviolet.jpg.webp",
+        "description": "Conoce a e-Nigma, la influencer, streamer y Líder de Gimnasio experta en Pokémon de tipo Eléctrico.\n\ne-Nigma, especialista en los Pokémon de tipo Eléctrico es una de las líderes de gimnasio de la región de Paldea, y además es influencer!\n\nEl canal oficial de Pokémon en YouTube presentó a través de una transmisión en «vivo» a un nuevo personaje de Pokémon Scarlet & Violet (Escarlata y Púrpura).\n\nSe trata de la electrostreamer e-Nigma (Iono), líder del Gimnasio de Ciudad Leudal, especialista en los Pokémon de tipo Eléctrico. e-Nigma es una influencer de la región de Paldea, y si bien parece que lleva unos Magnemite en la cabeza, en realidad son dos broches para el cabello.\n\nEn el tráiler de presentación nos invita a jugar con ella para adivinar quién es su compañero Pokémon. ¿Qué opinan?",
+        "page_url": "https://www.cpokemon.com/2022/10/12/revelada-e-nigma-la-nueva-lider-de-gimnasio-de-pokemon-scarlet-violet/",
+         "video_url": "Q7lGNl8ULHg"
+      },
+      {
+        "id": "12",
+        "start_date": "1664577165000",
+        "start_date_string": "07 de octubre de 2022",
+        "end_date": "1664577165000",
+        "title": "El nuevo tráiler de Pokémon Escarlata y Púrpura revela por error 5 nuevos Pokémon",
+        "sub_title": "Se revelan por error 5 nuevos pokémon",
+        "img_new_pokemon": "https://pbs.twimg.com/media/FeY9xSQUcAAO_MH?format=jpg&name=small",
+        "thumbnail": "https://media.vandal.net/i/1280x720/10-2022/202210717581774_1.jpg.webp",
+        "image_url": "https://media.vandal.net/i/1280x720/10-2022/202210717581774_1.jpg.webp",
+        "description": "La versión para Occidente del completo gameplay cercano a los 15 minutos de Pokémon Escarlata y Púrpura muestra una versión anterior a la de la versión japonesa y revela cinco criaturas.\n\nPokémon Escarlata y Púrpura se mostraron ayer en un completo gameplay cercano a los quince minutos de duración en el que se ahondó en algunas de las mecánicas básicas del título. En dicho tráiler se reveló la existencia de un nuevo Pokémon conocido como Farigiraf, el cual es una evolución directa de Girafarig. Sin embargo, según han reportado varios medios, hasta cinco nuevos monstruos de bolsillos fueron revelados por error en el tráiler que recibimos en Occidente, y es que al parecer la versión japonesa no incluye algunas imágenes que sí se muestran en esta.\n\n"
+      },
       {
         "id": "11",
         "start_date": "1664577165000",

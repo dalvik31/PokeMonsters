@@ -1,0 +1,176 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "4",
+        "name": "Charmander",
+        "originalName": "ヒトカゲ (Hitokage)",
+        "category": "Lagartija",
+        "ability": "Mar llamas",
+        "ability_description": "Mar llamas aumenta la potencia de los movimientos de tipo fuego del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
+        "type_first": 8,
+        "height": "0,6 m",
+        "weight": "8.5 kg",
+        "hp": 39,
+        "attack": 52,
+        "defence": 43,
+        "attack_special": 60,
+        "defence_special": 50,
+        "speed": 65,
+        "total": 309,
+        "first_name_pokemon": "Charmander",
+        "first_num_pokemon": "4",
+        "second_name_pokemon": "Charmeleon",
+        "second_num_pokemon": "5",
+        "third_name_pokemon": "Charizard",
+        "third_num_pokemon": "6",
+        "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Nivel 36",
+        "images": [
+          {
+            "thumbnail": "4",
+            "thumbnailShiny": "4"
+          },
+          {
+            "thumbnail": "http://ekladata.com/IuwAizvjt23N11EVgRbJ4IAgmlA.gif"
+          },
+          {
+            "thumbnail": "https://www.giantbomb.com/a/uploads/original/10/103251/1634412-what03.png"
+          },
+          {
+            "thumbnail": "https://pbs.twimg.com/media/CthZ7vIUsAAGznB.jpg"
+          },
+          {
+            "thumbnail": "http://2.bp.blogspot.com/-hKowzE1ueYY/W3jtLZwu0MI/AAAAAAAARrM/0bSAkhcyqhs80mt19sFHWPF_goymQqEFwCK4BGAYYCw/s1600/IMG_0102.PNG"
+          },
+          {
+            "thumbnail": "https://s.yimg.com/uu/api/res/1.2/2T5UY25PeGEVQF0l2wkNhg--~B/aD0yOTE7dz01MzA7YXBwaWQ9eXRhY2h5b24-/https://www.blogcdn.com/www.joystiq.com/media/2013/08/pokemontheorigin.png"
+          },
+          {
+            "thumbnail": "https://nerdreactor.com/wp-content/uploads/2013/10/Pokemon.jpg"
+          },
+          {
+            "thumbnail": "https://nintheorist.files.wordpress.com/2016/09/pokemon_origins_1_1920x768.jpg"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/originals/8a/13/67/8a136717413d1a4768aca5d27a5848ef.jpg"
+          },
+          {
+            "thumbnail": "https://data.whicdn.com/images/50557325/original.gif"
+          },
+          {
+            "thumbnail": "https://thumbs.gfycat.com/JoyousParallelDuiker-size_restricted.gif"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Prefiere los sitios calientes. Dicen que cuando llueve sale vapor de la punta de su cola."
+          },
+          {
+            "id": 2,
+            "title": "Amarillo",
+            "description": "La llama en la punta de su cola chisporrotea al arder. Sólo se oye en lugares silenciosos."
+          },
+          {
+            "id": 3,
+            "title": "Oro",
+            "description": "La llama de su cola indica su fuerza vital. Si está débil, la llama arderá más tenue."
+          },
+          {
+            "id": 4,
+            "title": "Plata",
+            "description": "La llama de su cola indica la fuerza vital de Charmander. Será brillante si está sano."
+          },
+          {
+            "id": 5,
+            "title": "Cristal",
+            "description": "Si está sano, la llama que tiene en la cola arderá vigorosamente, aunque se le moje un poco."
+          },
+          {
+            "id": 6,
+            "title": "Rubí y Zafiro",
+            "description": "La llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado."
+          },
+          {
+            "id": 7,
+            "title": "Esmeralda",
+            "description": "La llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado."
+          },
+          {
+            "id": 8,
+            "title": "Rojo Fuego",
+            "description": "Este Pokémon nace con una llama en la punta de la cola. Si la llama se apagara, el Pokémon se debilitaría."
+          },
+          {
+            "id": 9,
+            "title": "Verde Hoja",
+            "description": "Prefiere los sitios cálidos. Dicen que cuando llueve le sale vapor de la punta de la cola."
+          },
+          {
+            "id": 10,
+            "title": "Diamante, Perla y Platino",
+            "description": "La llama de la punta de su cola indica su salud. Si Charmander está sano, arderá con más fuerza."
+          },
+          {
+            "id": 11,
+            "title": "Oro HeartGold",
+            "description": "La llama de su cola indica su fuerza vital. Si está débil, la llama arderá más tenue."
+          },
+          {
+            "id": 12,
+            "title": "Plata SoulSilver",
+            "description": "La llama de su cola indica la fuerza de Charmander. Será brillante si está sano."
+          },
+          {
+            "id": 13,
+            "title": "Negro, Blanco, Negro2 y Blanco2",
+            "description": "La llama de la punta de su cola indica su salud. Si Charmander está sano, arderá con más fuerza."
+          },
+          {
+            "id": 14,
+            "title": "Pokémon X",
+            "description": "La llama de su cola indica la fuerza vital de Charmander. Será brillante si está sano."
+          },
+          {
+            "id": 15,
+            "title": "Pokémon Y",
+            "description": "Este Pokémon nace con una llama en la punta de la cola. Si la llama se apagara, el Pokémon se debilitaría."
+          },
+          {
+            "id": 16,
+            "title": "Rubí Omega y Zafiro Alfa",
+            "description": "a llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado."
+          },
+          {
+            "id": 17,
+            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
+            "description": "En lugares silenciosos se puede oír el débil chisporroteo de la llama que le arde en la punta de su cola."
+          },
+          {
+            "id": 20,
+            "title": "Espada",
+            "description": "Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor de la cola."
+          },
+          {
+            "id": 21,
+            "title": "Escudo",
+            "description": "Este Pokémon nace con una llama en la punta de la cola. Si se le apagara, fallecería."
+          },
+          {
+            "id": 22,
+            "title": "Pokémon GO",
+            "description": "La llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado."
+          }
+        ],
+        "interestingData": "* Su nombre está conformado por charcoal que significa carbon y mander parte de salamander que significa salamandra que es el animales que charmander está basado\n\n* Se dice que charmander muere si su flama se apaga ya que la flama puede ser su corazón\n\n* Al evolucionar un charmander cambia de personalidad haciéndolo desobedecer a su entrenador un claro ejemplo es el charmander de ash\n\n* Una encuesta deducido que charmander es el inicial más escogido y más en Pokemon rojo fuego ya que ahí es imposible capturar uno salvaje"
+      }
+    ]
+  }
+}
