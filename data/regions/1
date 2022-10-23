@@ -88,6 +88,11 @@
       },
       {
         "id": "9-1",
+        "name": "Mega\nBlastoise",
+        "type_first": 18
+      },
+      {
+        "id": "9-2",
         "name": "Blastoise\nGigamax",
         "type_first": 18,
         "alternateImage": "https://www.serebii.net/swordshield/pokemon/009-gi.png"
@@ -593,7 +598,188 @@
         "id": "78-1",
         "name": "Rapidash\nGalar",
         "type_first": 8
+      },
+      {
+        "id": "79",
+        "name": "Slowpoke",
+        "type_first": 18,
+        "type_second": 15
+      },
+      {
+        "id": "79-1",
+        "name": "Slowpoke\nGalar",
+        "type_first": 15
+      },
+      {
+        "id": "80",
+        "name": "Slowbro",
+        "type_first": 18,
+        "type_second": 15
+      },
+      {
+        "id": "80-2",
+        "name": "Slowbro\nGalar",
+        "type_first": 18,
+        "type_second": 1
+      },
+      {
+        "id": "80-1",
+        "name": "Mega\nSlowbro",
+        "type_first": 18,
+        "type_second": 15
+      },
+      {
+        "id": "81",
+        "name": "Magnemite",
+        "type_first": 11,
+        "type_second": 17
+      },
+      {
+        "id": "82",
+        "name": "Magneton",
+        "type_first": 11,
+        "type_second": 17
+      },
+      {
+        "id": "83",
+        "name": "Farfetch'd",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "83-1",
+        "name": "Farfetch'd\nGalar",
+        "type_first": 7
+      },
+      {
+        "id": "84",
+        "name": "Doduo",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "85",
+        "name": "Dodrio",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "86",
+        "name": "Seel",
+        "type_first": 18
+      },
+      {
+        "id": "87",
+        "name": "Dewgong",
+        "type_first": 18,
+        "type_second": 13
       }
+,
+      {
+        "id": "88",
+        "name": "Grimer",
+        "type_first": 1
+      },
+      {
+        "id": "88-1",
+        "name": "Grimer\nAlola",
+        "type_first": 1,
+        "type_second": 4
+      },
+      {
+        "id": "89",
+        "name": "Muk",
+        "type_first": 1
+      },
+      {
+        "id": "89-1",
+        "name": "Muk",
+        "type_first": 1,
+        "type_second": 4
+      },
+      {
+        "id": "90",
+        "name": "Shellder",
+        "type_first": 18
+      },
+      {
+        "id": "91",
+        "name": "Cloyster",
+        "type_first": 18,
+        "type_second": 13
+      },
+      {
+        "id": "92",
+        "name": "Gastly",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "93",
+        "name": "Haunter",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "94",
+        "name": "Gengar",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "94-1",
+        "name": "Mega\nGengar",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "94-gmax",
+        "name": "Gengar\nGigamax",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "95",
+        "name": "Onix",
+        "type_first": 16,
+        "type_second": 12
+      },
+      {
+        "id": "96",
+        "name": "Drowzee",
+        "type_first": 15
+      },
+      {
+        "id": "97",
+        "name": "Hypno",
+        "type_first": 15
+      },
+      {
+        "id": "98",
+        "name": "Krabby",
+        "type_first": 18
+      },
+      {
+        "id": "99",
+        "name": "Kingler",
+        "type_first": 18
+      },
+      {
+        "id": "99-gmax",
+        "name": "Kingler\nGigamax",
+        "type_first": 18
+      },
+      {
+        "id": "100",
+        "name": "Voltorb",
+        "type_first": 11
+      },
+      {
+        "id": "101",
+        "name": "Electrode",
+        "type_first": 11
+      }
+      
     ]
   }
 }
