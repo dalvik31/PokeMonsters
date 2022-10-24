@@ -159,6 +159,11 @@
             "id": 20,
             "title": "Pokémon GO",
             "description": "Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas."
+          },
+          {
+            "id": 21,
+            "title": "Guía oficial",
+            "description": "La planta florece cuando absrobe energía solar, lo cual le obliga a buscar siempre la luz del sol."
           }
         ],
         "interestingData": "* En Pokémon Battle Revolution se le ponen los ojos morados durante el combate en el que lo usas.\n\n* Junto con Charizard, Pikachu y Blastoise, son los únicos Pokémon no legendarios representantes de un juego."
