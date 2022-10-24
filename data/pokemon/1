@@ -96,88 +96,83 @@
           },
           {
             "id": 6,
-            "title": "Rubí",
+            "title": "Rubí y Zafiro",
             "description": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
           },
           {
             "id": 7,
-            "title": "Zafiro",
-            "description": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
-          },
-          {
-            "id": 8,
             "title": "Esmeralda",
             "description": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
           },
           {
-            "id": 9,
+            "id": 8,
             "title": "Rojo Fuego",
             "description": "Este Pokémon nace con una semilla en el lomo. Con el tiempo, la semilla brota."
           },
           {
-            "id": 10,
+            "id": 9,
             "title": "Verde Hoja",
             "description": "Una rara semilla le fue plantada en el lomo al nacer. La planta brota y crece con este Pokémon."
           },
           {
-            "id": 11,
+            "id": 10,
             "title": "Diamante, Perla y Platino",
             "description": "Después de nacer, crece alimentándose de las semillas de su lomo."
           },
           {
-            "id": 12,
+            "id": 11,
             "title": "Oro HeartGold",
             "description": "La semilla de su lomo está llena de nutrientes. La semilla brota a medida que el Pokémon crece."
           },
           {
-            "id": 13,
+            "id": 12,
             "title": "Plata SoulSilver",
             "description": "Lleva una semilla en su lomo desde que nació. A medida que crece, la semilla se hace más grande."
           },
           {
-            "id": 14,
+            "id": 13,
             "title": "Negro, Blanco, Negro2 y Blanco2",
             "description": "Después de nacer, crece alimentándose de las semillas de su lomo."
           },
           {
-            "id": 15,
+            "id": 14,
             "title": "Pokémon X",
             "description": "Una rara semilla le fue plantada en el lomo al nacer. La planta brota y crece con este Pokémon."
           },
           {
-            "id": 16,
+            "id": 15,
             "title": "Pokémon Y",
             "description": "Después de nacer, crece alimentándose de las semillas de su lomo."
           },
           {
+            "id": 16,
+            "title": "Rubí Omega, Zafiro Alfa",
+            "description": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
+          },
+          {
             "id": 17,
-            "title": "Rubí Omega",
-            "description": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
-          },
-          {
-            "id": 18,
-            "title": "Zafiro Alfa",
-            "description": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
-          },
-          {
-            "id": 19,
             "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
             "description": "Puede sobrevivir largo tiempo sin probar bocado gracias a los nutrientes que guarda en el bulbo del lomo."
           },
           {
-            "id": 20,
+            "id": 18,
             "title": "Espada",
             "description": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo."
           },
           {
-            "id": 21,
+            "id": 19,
             "title": "Escudo",
             "description": "Desde que nace, crece alimentándose de los nutrientes que contiene la semilla de su lomo."
           },
           {
-            "id": 22,
+            "id": 20,
             "title": "Pokémon GO",
             "description": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
+          },
+          {
+            "id": 21,
+            "title": "Guía oficial",
+            "description": "Este Pokémon nace con una semilla en lomo, que brota con el paso del tiempo.\nDesde que nace, crece alimentándose de los nutrientes que contiene la semilla de su lomo."
           }
         ],
         "interestingData": "*Bulbasaur es el único inicial de doble tipo en su estapa básica\n\n* Bulbasaur fue diseñado por Atsuko Nishida.\n\n* En su animación de combate en Pokémon X/Y, cuando ataca con placaje saca sus látigos, cosa que en el movimiento látigo cepa no hace, cuando sería más coherente. Permanece inmóvil mientras lo realiza"
