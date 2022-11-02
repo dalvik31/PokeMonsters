@@ -1,0 +1,189 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "6-2",
+        "name": "Mega\nCharizard Y",
+        "originalName": "メガリザードンX (MegaRizardon Y)",
+        "category": "Llama",
+        "ability": "Sequía",
+        "ability_description": "El clima soleado ahora dura 5 turnos, a menos que el Pokémon que posea esta habilidad lleve equipada una roca calor, en cuyo caso la duración será de 8 turnos. Si hay sol abrasador, diluvio o turbulencias sequía no se activará.",
+        "type_first": 8,
+        "type_second": 9,
+        "height": "1,7 m",
+        "weight": "100,5 kg",
+        "hp": 78,
+        "attack": 104,
+        "defence": 78,
+        "attack_special": 159,
+        "defence_special": 115,
+        "speed": 100,
+        "total": 634,
+        "first_name_pokemon": "Charmander",
+        "first_num_pokemon": "4",
+        "second_name_pokemon": "Charmeleon",
+        "second_num_pokemon": "5",
+        "third_name_pokemon": "Charizard",
+        "third_num_pokemon": "6",
+        "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Nivel 36",
+        "mega_name_pokemon": "Mega\nCharizard y",
+        "mega_num_pokemon": "6-2",
+        "isMega": true,
+        "elementMega": "Charizardita y",
+        "images": [
+          {
+            "thumbnail": "6-2",
+            "thumbnailShiny": "6-2"
+          },
+          {
+            "thumbnail": "https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/0aa78a0061bda9d88cbb0bbf739cd9cc56522fe9.png"
+          },
+          {
+            "thumbnail": "https://media.tenor.com/Occh8IGPz5wAAAAC/charizard-mega-charizard-y.gif"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/originals/0c/7b/57/0c7b5716092b7a2fc44f0b8b2b990346.gif"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/474x/8f/1f/fd/8f1ffde239e06f37ffe6bcccff7343ac.jpg"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/474x/8f/1f/fd/8f1ffde239e06f37ffe6bcccff7343ac.jpg"
+          },
+          {
+            "thumbnail": "http://pa1.narvii.com/6919/01211deb07296858ea707551df7d2f6b7f2c3a0er1-500-262_00.gif"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/736x/1a/1b/49/1a1b49c858b3777c96923d182ad5556f--mega-evolution-pokemon-stuff.jpg"
+          },
+          {
+            "thumbnail": "https://64.media.tumblr.com/246a11c53c1722a5f5a6ee91a6d0d7f1/tumblr_o9lslrJ93y1rc3jkko3_400.gif"
+          },
+          {
+            "thumbnail": "https://64.media.tumblr.com/e3faa709c999a32b3d316afbaf77540c/tumblr_o9p7r96Dif1v68t0mo1_500.gif"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/originals/1d/78/20/1d7820d6f86ae69c2fecac2f687dcc7f.png"
+          },
+          {
+            "thumbnail": "https://i.ytimg.com/vi/O3gOqVHQePk/maxresdefault.jpg"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Escupe fuego tan caliente que funde las rocas. Causa incendios forestales sin querer."
+          },
+          {
+            "id": 2,
+            "title": "Amarillo",
+            "description": "Cuando lanza una descarga de fuego súper caliente, la roja llama de su cola brilla más intensamente."
+          },
+          {
+            "id": 3,
+            "title": "Oro",
+            "description": "Si Charizard se enfurece, la llama de la punta de su cola producirá destellos de color azul claro."
+          },
+          {
+            "id": 4,
+            "title": "Plata",
+            "description": "Con sus intensas llamas, derrite casi cualquier cosa. Su aliento causa un terrible dolor al enemigo."
+          },
+          {
+            "id": 5,
+            "title": "Cristal",
+            "description": "Utiliza las alas para volar muy alto. La temperatura de su fuego aumenta al ganar experiencia."
+          },
+          {
+            "id": 6,
+            "title": "Rubí y Zafiro",
+            "description": "Charizard se dedica a volar por los cielos en busca de oponentes fuertes. Echa fuego por la boca y es capaz de derretir cualquier cosa. No obstante, si su rival es más débil que él, no usará este ataque."
+          },
+          {
+            "id": 7,
+            "title": "Esmeralda",
+            "description": "Charizard va volando en busca de rivales fuertes. Echa fuego por la boca y es capaz de derretirlo todo. Ahora bien, si su rival es más débil que él, no usará este ataque."
+          },
+          {
+            "id": 8,
+            "title": "Rojo Fuego",
+            "description": "Con las alas que tiene puede alcanzar una altura de casi 1.400 m. Suele escupir fuego por la boca."
+          },
+          {
+            "id": 9,
+            "title": "Verde Hoja",
+            "description": "Escupe fuego tan caliente que funde las rocas. Causa incendios forestales sin querer."
+          },
+          {
+            "id": 10,
+            "title": "Diamante, Perla y Platino",
+            "description": "Se dice que el fuego de Charizard arde con más fuerza si ha vivido duras batallas."
+          },
+          {
+            "id": 11,
+            "title": "Oro HeartGold",
+            "description": "Si Charizard se enfurece, la llama de la punta de su cola producirá destellos de color azul claro."
+          },
+          {
+            "id": 12,
+            "title": "Plata SoulSilver",
+            "description": "Con sus intensas llamas, derrite casi cualquier cosa. Su aliento causa un terrible dolor al enemigo."
+          },
+          {
+            "id": 13,
+            "title": "Negro, Blanco, Negro2 y Blanco2",
+            "description": "Se dice que el fuego de Charizard arde con más fuerza si ha vivido duras batallas."
+          },
+          {
+            "id": 14,
+            "title": "Pokémon X",
+            "description": "Cuando lanza una descarga de fuego supercaliente, la roja llama de su cola brilla más intensamente."
+          },
+          {
+            "id": 15,
+            "title": "Pokémon Y",
+            "description": "Con las alas que tiene puede alcanzar una altura de casi 1400 m. Suele escupir fuego por la boca."
+          },
+          {
+            "id": 16,
+            "title": "Rubí Omega y Zafiro Alfa",
+            "description": "Charizard se dedica a volar por los cielos en busca de oponentes fuertes. Echa fuego por la boca y es capaz de derretir cualquier cosa. No obstante, si su rival es más débil que él, no usará este ataque."
+          },
+          {
+            "id": 17,
+            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
+            "description": "La extraordinaria energía que fluye por su cuerpo le ha ennegrecido la piel y provocado la aparición de intensas llamas azules."
+          },
+          {
+            "id": 18,
+            "title": "Espada",
+            "description": "Escupe un fuego tan caliente que funde rocas. Causa incendios forestales sin querer."
+          },
+          {
+            "id": 19,
+            "title": "Escudo",
+            "description": "Sus potentes alas le permiten volar a una altura de 1400 m. Escupe llamaradas que llegan a alcanzar temperaturas elevadísimas."
+          },
+          {
+            "id": 20,
+            "title": "Pokémon GO",
+            "description": "Charizard se dedica a volar por los cielos en busca de oponentes fuertes. Echa fuego por la boca y es capaz de derretir cualquier cosa. No obstante, si su rival es más débil que él, no usará este ataque."
+          },
+          {
+            "id": 21,
+            "title": "Guía oficial ",
+            "description": "Escupe un fuego tan caliente que funde las rocas. Causa incendios forestales sin querer.\nSus potentes alas le permiten volar a una altura de 1400m. Escupe llamaradas que llegan a alcanzar temperaturas elevadísimas."
+          }
+        ],
+        "interestingData": "*Charizard es el Pokémon favorito de Atsuko Nishida\n\n*Charizard no puede aprender a volar en los juegos Pokémon originales\n\n* Prácticamente Charizard fue el culpable de que Ash no avanzara mas en la liga índigo\n\n* Charizard fue votado como el Pokémon de generación I más popular en una encuesta de 2020\n\n* Fue el primer Pokémon en aparecer en el anime japonés Pokémon"
+      }
+    ]
+  }
+}
