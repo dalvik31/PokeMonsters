@@ -3,9 +3,11 @@
     <item
         android:id="@+id/homeFragment"
         android:icon="@drawable/ic_news"
+        android:menuCategory="secondary"
         android:title="@string/menu_news" />
     <item
         android:id="@+id/regionFragment"
         android:icon="@drawable/ic_pokeball"
+        android:menuCategory="secondary"
         android:title="@string/menu_pokemon" />
 </menu>
