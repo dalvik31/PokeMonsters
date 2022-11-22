@@ -1,4 +1,3 @@
-
 {
   "code": "1",
   "data": {
@@ -6,31 +5,31 @@
     "count": 0,
     "limit": 0,
     "offset": 0,
+    "url_caps": "https://www.pokemon.com/el/episodios-pokemon/episodios-pokemon/temporadas-de-tv-pokemon/1/",
     "results": [
-    
-    {
+      {
         "id": "1",
-        "name": "Bulbasaur",   
+        "name": "Bulbasaur",
         "type_first": 2,
-         "type_second": 1
+        "type_second": 1
       },
-         {
+      {
         "id": "2",
         "name": "Ivysaur",
         "type_first": 2,
-         "type_second": 1
+        "type_second": 1
       },
       {
         "id": "3",
         "name": "Venusaur",
         "type_first": 2,
-         "type_second": 1
+        "type_second": 1
       },
       {
         "id": "3-1",
         "name": "Mega\nVenusaur",
         "type_first": 2,
-         "type_second": 1
+        "type_second": 1
       },
       {
         "id": "3-2",
@@ -39,48 +38,943 @@
         "type_second": 1,
         "alternateImage": "https://www.serebii.net/swordshield/pokemon/003-gi.png"
       },
-        {
+      {
         "id": "4",
         "name": "Charmander",
         "type_first": 8
       },
-        {
+      {
         "id": "5",
         "name": "Charmeleon",
         "type_first": 8
       },
-        {
-        "id":"6" ,
+      {
+        "id": "6",
         "name": "Charizard",
         "type_first": 8,
-          "type_second": 9
+        "type_second": 9
       },
-        {
-        "id":"6-1" ,
+      {
+        "id": "6-1",
         "name": "Mega\nCharizard X",
         "type_first": 8,
-          "type_second": 5
+        "type_second": 5
       },
-        {
-        "id":"6-2" ,
+      {
+        "id": "6-2",
         "name": "Mega\nCharizard Y",
         "type_first": 8,
-          "type_second": 9
+        "type_second": 9
       },
-        {
+      {
+        "id": "6-gmax",
+        "name": "Charizard\nGigamax",
+        "type_first": 8,
+        "type_second": 9
+      },
+      {
         "id": "7",
         "name": "Squirtle",
         "type_first": 18
       },
-        {
+      {
         "id": "8",
         "name": "Wartortle",
         "type_first": 18
       },
-        {
+      {
         "id": "9",
         "name": "Blastoise",
         "type_first": 18
+      },
+      {
+        "id": "9-1",
+        "name": "Mega\nBlastoise",
+        "type_first": 18
+      },
+      {
+        "id": "9-2",
+        "name": "Blastoise\nGigamax",
+        "type_first": 18,
+        "alternateImage": "https://www.serebii.net/swordshield/pokemon/009-gi.png"
+      },
+      {
+        "id": "10",
+        "name": "Caterpie",
+        "type_first": 3
+      },
+      {
+        "id": "11",
+        "name": "Metapod",
+        "type_first": 3
+      },
+      {
+        "id": "12",
+        "name": "Butterfree",
+        "type_first": 3,
+        "type_second": 9
+      },
+      {
+        "id": "12-gmax",
+        "name": "Butterfree\nGigamax",
+        "type_first": 3,
+        "type_second": 9
+      },
+      {
+        "id": "13",
+        "name": "Weedle",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "14",
+        "name": "Kakuna",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "15",
+        "name": "Beedrill",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "15-1",
+        "name": "Mega\nBeedrill",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "16",
+        "name": "Pidgey",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "17",
+        "name": "Pidgeotto",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "18",
+        "name": "Pidgeot",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "18-1",
+        "name": "Pidgeot",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "19",
+        "name": "Rattata",
+        "type_first": 14
+      },
+      {
+        "id": "20",
+        "name": "Raticate",
+        "type_first": 14
+      },
+      {
+        "id": "21",
+        "name": "Spearow",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "22",
+        "name": "Fearow",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "23",
+        "name": "Ekans",
+        "type_first": 1
+      },
+      {
+        "id": "24",
+        "name": "Arbok",
+        "type_first": 1
+      },
+      {
+        "id": "25",
+        "name": "Pikachu",
+        "type_first": 11
+      },
+      {
+        "id": "25-gmax",
+        "name": "Pikachu\nGigamax",
+        "type_first": 11
+      },
+      {
+        "id": "26",
+        "name": "Raichu",
+        "type_first": 11
+      },
+      {
+        "id": "27",
+        "name": "Sandshrew",
+        "type_first": 12
+      },
+      {
+        "id": "28",
+        "name": "Sandslash",
+        "type_first": 12
+      },
+      {
+        "id": "29",
+        "name": "Nidoran♀",
+        "type_first": 1
+      },
+      {
+        "id": "30",
+        "name": "Nidorina",
+        "type_first": 1
+      },
+      {
+        "id": "31",
+        "name": "Nidoqueen",
+        "type_first": 1,
+        "type_second": 12
+      },
+      {
+        "id": "32",
+        "name": "Nidoran♂",
+        "type_first": 1
+      },
+      {
+        "id": "33",
+        "name": "Nidorino",
+        "type_first": 1
+      },
+      {
+        "id": "34",
+        "name": "Nidoking",
+        "type_first": 1,
+        "type_second": 12
+      },
+      {
+        "id": "35",
+        "name": "Clefairy",
+        "type_first": 6
+      },
+      {
+        "id": "36",
+        "name": "Clefable",
+        "type_first": 6
+      },
+      {
+        "id": "37",
+        "name": "Vulpix",
+        "type_first": 8
+      },
+      {
+        "id": "38",
+        "name": "Ninetales",
+        "type_first": 8
+      },
+      {
+        "id": "39",
+        "name": "Jigglypuff",
+        "type_first": 14,
+        "type_second": 6
+      },
+      {
+        "id": "40",
+        "name": "Wigglytuff",
+        "type_first": 14,
+        "type_second": 6
+      },
+      {
+        "id": "41",
+        "name": "Zubat",
+        "type_first": 1,
+        "type_second": 9
+      },
+      {
+        "id": "42",
+        "name": "Golbat",
+        "type_first": 1,
+        "type_second": 9
+      },
+      {
+        "id": "43",
+        "name": "Oddish",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "44",
+        "name": "Gloom",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "45",
+        "name": "Vileplume",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "46",
+        "name": "Paras",
+        "type_first": 3,
+        "type_second": 2
+      },
+      {
+        "id": "47",
+        "name": "Parasect",
+        "type_first": 3,
+        "type_second": 2
+      },
+      {
+        "id": "48",
+        "name": "Venonat",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "49",
+        "name": "Venomoth",
+        "type_first": 3,
+        "type_second": 1
+      },
+      {
+        "id": "50",
+        "name": "Diglett",
+        "type_first": 12
+      },
+      {
+        "id": "51",
+        "name": "Dugtrio",
+        "type_first": 12
+      },
+      {
+        "id": "52",
+        "name": "Meowth",
+        "type_first": 14
+      },
+      {
+        "id": "52-gmax",
+        "name": "Meowth\nGigamax",
+        "type_first": 14
+      },
+      {
+        "id": "53",
+        "name": "Persian",
+        "type_first": 14
+      },
+      {
+        "id": "54",
+        "name": "Psyduck",
+        "type_first": 18
+      },
+      {
+        "id": "55",
+        "name": "Golduck",
+        "type_first": 18
+      },
+      {
+        "id": "56",
+        "name": "Mankey",
+        "type_first": 7
+      },
+      {
+        "id": "57",
+        "name": "Primeape",
+        "type_first": 7
+      },
+      {
+        "id": "58",
+        "name": "Growlithe",
+        "type_first": 8
+      },
+      {
+        "id": "59",
+        "name": "Arcanine",
+        "type_first": 8
+      },
+      {
+        "id": "60",
+        "name": "Poliwag",
+        "type_first": 18
+      },
+      {
+        "id": "61",
+        "name": "Poliwhirl",
+        "type_first": 18
+      },
+      {
+        "id": "62",
+        "name": "Poliwrath",
+        "type_first": 18,
+        "type_second": 7
+      },
+      {
+        "id": "63",
+        "name": "Abra",
+        "type_first": 15
+      },
+      {
+        "id": "64",
+        "name": "Kadabra",
+        "type_first": 15
+      },
+      {
+        "id": "65",
+        "name": "Alakazam",
+        "type_first": 15
+      },
+      {
+        "id": "65-1",
+        "name": "Mega\nAlakazam",
+        "type_first": 15
+      },
+      {
+        "id": "66",
+        "name": "Machop",
+        "type_first": 7
+      },
+      {
+        "id": "67",
+        "name": "Machoke",
+        "type_first": 7
+      },
+      {
+        "id": "68",
+        "name": "Machamp",
+        "type_first": 7
+      },
+      {
+        "id": "68-gmax",
+        "name": "Machamp\nGigamax",
+        "type_first": 7
+      },
+      {
+        "id": "69",
+        "name": "Bellsprout",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "70",
+        "name": "Weepinbell",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "71",
+        "name": "Victreebel",
+        "type_first": 2,
+        "type_second": 1
+      },
+      {
+        "id": "72",
+        "name": "Tentacool",
+        "type_first": 18,
+        "type_second": 1
+      },
+      {
+        "id": "73",
+        "name": "Tentacruel",
+        "type_first": 18,
+        "type_second": 1
+      },
+      {
+        "id": "74",
+        "name": "Geodude",
+        "type_first": 16,
+        "type_second": 12
+      },
+      {
+        "id": "75",
+        "name": "Graveler",
+        "type_first": 16,
+        "type_second": 12
+      },
+      {
+        "id": "76",
+        "name": "Golem",
+        "type_first": 16,
+        "type_second": 12
+      },
+      {
+        "id": "77",
+        "name": "Ponyta",
+        "type_first": 8
+      },
+      {
+        "id": "78",
+        "name": "Rapidash",
+        "type_first": 8
+      },
+      {
+        "id": "79",
+        "name": "Slowpoke",
+        "type_first": 18,
+        "type_second": 15
+      },
+      {
+        "id": "80",
+        "name": "Slowbro",
+        "type_first": 18,
+        "type_second": 15
+      },
+      {
+        "id": "80-1",
+        "name": "Mega\nSlowbro",
+        "type_first": 18,
+        "type_second": 15
+      },
+      {
+        "id": "81",
+        "name": "Magnemite",
+        "type_first": 11,
+        "type_second": 17
+      },
+      {
+        "id": "82",
+        "name": "Magneton",
+        "type_first": 11,
+        "type_second": 17
+      },
+      {
+        "id": "83",
+        "name": "Farfetch'd",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "84",
+        "name": "Doduo",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "85",
+        "name": "Dodrio",
+        "type_first": 14,
+        "type_second": 9
+      },
+      {
+        "id": "86",
+        "name": "Seel",
+        "type_first": 18
+      },
+      {
+        "id": "87",
+        "name": "Dewgong",
+        "type_first": 18,
+        "type_second": 13
+      },
+      {
+        "id": "88",
+        "name": "Grimer",
+        "type_first": 1
+      },
+      {
+        "id": "89",
+        "name": "Muk",
+        "type_first": 1
+      },
+      {
+        "id": "90",
+        "name": "Shellder",
+        "type_first": 18
+      },
+      {
+        "id": "91",
+        "name": "Cloyster",
+        "type_first": 18,
+        "type_second": 13
+      },
+      {
+        "id": "92",
+        "name": "Gastly",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "93",
+        "name": "Haunter",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "94",
+        "name": "Gengar",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "94-1",
+        "name": "Mega\nGengar",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "94-gmax",
+        "name": "Gengar\nGigamax",
+        "type_first": 10,
+        "type_second": 1
+      },
+      {
+        "id": "95",
+        "name": "Onix",
+        "type_first": 16,
+        "type_second": 12
+      },
+      {
+        "id": "96",
+        "name": "Drowzee",
+        "type_first": 15
+      },
+      {
+        "id": "97",
+        "name": "Hypno",
+        "type_first": 15
+      },
+      {
+        "id": "98",
+        "name": "Krabby",
+        "type_first": 18
+      },
+      {
+        "id": "99",
+        "name": "Kingler",
+        "type_first": 18
+      },
+      {
+        "id": "99-gmax",
+        "name": "Kingler\nGigamax",
+        "type_first": 18
+      },
+      {
+        "id": "100",
+        "name": "Voltorb",
+        "type_first": 11
+      },
+      {
+        "id": "101",
+        "name": "Electrode",
+        "type_first": 11
+      },
+      {
+        "id": "102",
+        "name": "Exeggcute",
+        "type_first": 2,
+        "type_second": 15
+      },
+      {
+        "id": "103",
+        "name": "Exeggutor",
+        "type_first": 2,
+        "type_second": 15
+      },
+      {
+        "id": "104",
+        "name": "Cubone",
+        "type_first": 12
+      },
+      {
+        "id": "105",
+        "name": "Marowak",
+        "type_first": 12
+      },
+      {
+        "id": "106",
+        "name": "Hitmonlee",
+        "type_first": 7
+      },
+      {
+        "id": "107",
+        "name": "Hitmonchan",
+        "type_first": 7
+      },
+      {
+        "id": "108",
+        "name": "Lickitung",
+        "type_first": 14
+      },
+      {
+        "id": "109",
+        "name": "Koffing",
+        "type_first": 1
+      },
+      {
+        "id": "110",
+        "name": "Weezing",
+        "type_first": 1
+      },
+      {
+        "id": "111",
+        "name": "Rhyhorn",
+        "type_first": 12,
+        "type_second": 16
+      },
+      {
+        "id": "112",
+        "name": "Rhydon",
+        "type_first": 12,
+        "type_second": 16
+      },
+      {
+        "id": "113",
+        "name": "Chansey",
+        "type_first": 14
+      },
+      {
+        "id": "114",
+        "name": "Tangela",
+        "type_first": 2
+      },
+      {
+        "id": "115",
+        "name": "Kangaskhan",
+        "type_first": 14
+      },
+      {
+        "id": "115-1",
+        "name": "Mega\nKangaskhan",
+        "type_first": 14
+      },
+      {
+        "id": "116",
+        "name": "Horsea",
+        "type_first": 18
+      },
+      {
+        "id": "117",
+        "name": "Seadra",
+        "type_first": 18
+      },
+      {
+        "id": "118",
+        "name": "Goldeen",
+        "type_first": 18
+      },
+      {
+        "id": "119",
+        "name": "Seaking",
+        "type_first": 18
+      },
+      {
+        "id": "120",
+        "name": "Staryu",
+        "type_first": 18
+      },
+      {
+        "id": "121",
+        "name": "Starmie",
+        "type_first": 18,
+        "type_second": 15
+      },
+      {
+        "id": "122",
+        "name": "Mr. Mime",
+        "type_first": 15,
+        "type_second": 6
+      },
+      {
+        "id": "123",
+        "name": "Scyther",
+        "type_first": 3,
+        "type_second": 9
+      },
+      {
+        "id": "124",
+        "name": "Jynx",
+        "type_first": 13,
+        "type_second": 15
+      },
+      {
+        "id": "125",
+        "name": "Electabuzz",
+        "type_first": 11
+      },
+      {
+        "id": "126",
+        "name": "Magmar",
+        "type_first": 8
+      },
+      {
+        "id": "127",
+        "name": "Pinsir",
+        "type_first": 3
+      },
+      {
+        "id": "127-1",
+        "name": "Mega\nPinsir",
+        "type_first": 3,
+        "type_second": 9
+      },
+      {
+        "id": "128",
+        "name": "Tauros",
+        "type_first": 14
+      },
+      {
+        "id": "129",
+        "name": "Magikarp",
+        "type_first": 18
+      },
+      {
+        "id": "130",
+        "name": "Gyarados",
+        "type_first": 18,
+        "type_second": 9
+      },
+      {
+        "id": "131",
+        "name": "Lapras",
+        "type_first": 18,
+        "type_second": 13
+      },
+      {
+        "id": "131-gmax",
+        "name": "Lapras\nGigamax",
+        "type_first": 18,
+        "type_second": 13
+      },
+      {
+        "id": "132",
+        "name": "Ditto",
+        "type_first": 14
+      },
+      {
+        "id": "133",
+        "name": "Eevee",
+        "type_first": 14
+      },
+      {
+        "id": "133-gmax",
+        "name": "Eevee\nGigamax",
+        "type_first": 14
+      },
+      {
+        "id": "134",
+        "name": "Vaporeon",
+        "type_first": 18
+      },
+      {
+        "id": "135",
+        "name": "Jolteon",
+        "type_first": 11
+      },
+      {
+        "id": "136",
+        "name": "Flareon",
+        "type_first": 8
+      },
+      {
+        "id": "137",
+        "name": "Porygon",
+        "type_first": 14
+      },
+      {
+        "id": "138",
+        "name": "Omanyte",
+        "type_first": 16,
+        "type_second": 18
+      },
+      {
+        "id": "139",
+        "name": "Omastar",
+        "type_first": 16,
+        "type_second": 18
+      },
+      {
+        "id": "140",
+        "name": "Kabuto",
+        "type_first": 16,
+        "type_second": 18
+      },
+      {
+        "id": "141",
+        "name": "Kabutops",
+        "type_first": 16,
+        "type_second": 18
+      },
+      {
+        "id": "142",
+        "name": "Aerodactyl",
+        "type_first": 16,
+        "type_second": 9
+      },
+      {
+        "id": "142-1",
+        "name": "Mega\nAerodactyl",
+        "type_first": 16,
+        "type_second": 9
+      },
+      {
+        "id": "143",
+        "name": "Snorlax",
+        "type_first": 14
+      },
+      {
+        "id": "143-gmax",
+        "name": "Snorlax\nGigamax",
+        "type_first": 14
+      },
+      {
+        "id": "144",
+        "name": "Articuno",
+        "type_first": 13,
+        "type_second": 9
+      },
+      {
+        "id": "145",
+        "name": "Zapdos",
+        "type_first": 11,
+        "type_second": 9
+      },
+      {
+        "id": "146",
+        "name": "Moltres",
+        "type_first": 8,
+        "type_second": 9
+      },
+      {
+        "id": "147",
+        "name": "Dratini",
+        "type_first": 5
+      },
+      {
+        "id": "148",
+        "name": "Dragonair",
+        "type_first": 5
+      },
+      {
+        "id": "149",
+        "name": "Dragonite",
+        "type_first": 5,
+        "type_second": 9
+      },
+      {
+        "id": "150",
+        "name": "Mewtwo",
+        "type_first": 15
+      },
+      {
+        "id": "150-1",
+        "name": "Mega\nMewtwo X",
+        "type_first": 15,
+        "type_second": 7
+      },
+      {
+        "id": "150-2",
+        "name": "Mega\nMewtwo Y",
+        "type_first": 15
+      },
+      {
+        "id": "151",
+        "name": "Mew",
+        "type_first": 15
       }
     ]
   }

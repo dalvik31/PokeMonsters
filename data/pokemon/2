@@ -7,7 +7,7 @@
     "offset": 0,
     "results": [
       {
-        "id": "1",
+        "id": "2",
         "name": "Ivysaur",
         "originalName": "フシギソウ (Fushigisou)",
         "category": "Semilla",
@@ -169,6 +169,11 @@
             "id": 20,
             "title": "Pokémon GO",
             "description": "Este Pokémon lleva un bulbo en el lomo y, para poder con su peso, tiene unas patas y un tronco gruesos y fuertes. Si empieza a pasar más tiempo al sol, será porque el bulbo está a punto de hacerse una flor grande."
+          },
+          {
+            "id": 21,
+            "title": "Guía oficial",
+            "description": "Cuando le crece bastante el bulbo del lomo, pierde la capacidad erguirse sobre las patas traseras.\nLa luz del sol fortalece y hace que le crezca el capullo que tiene en el lomo."
           }
         ],
         "interestingData": "* Ivysaur fue diseñado por Ken Sugimori.\n\n* En Super Smash Bros. Brawl, Ivysaur pesa menos que Squirtle.\n\n* En su descripción de la Pokédex de Pokémon Rojo y Pokémon Azul, dice que le cuesta levantarse sobre sus patas traseras, pero en el sprite del mismo juego, se lo ve levantado sobre ellas sin problemas. Eso puede deberse al sprite de las ediciones japonesas de Rojo y Verde, en el cual apenas se puede mantener en pie."

@@ -1,0 +1,181 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "5",
+        "name": "Charmeleon",
+        "originalName": "リザード (Lizardo)",
+        "category": "Llama",
+        "ability": "Mar llamas",
+        "ability_description": "Mar llamas aumenta la potencia de los movimientos de tipo fuego del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
+        "type_first": 8,
+        "height": "1,1 m",
+        "weight": "19 kg",
+        "hp": 58,
+        "attack": 64,
+        "defence": 58,
+        "attack_special": 80,
+        "defence_special": 65,
+        "speed": 80,
+        "total": 405,
+        "first_name_pokemon": "Charmander",
+        "first_num_pokemon": "4",
+        "second_name_pokemon": "Charmeleon",
+        "second_num_pokemon": "5",
+        "third_name_pokemon": "Charizard",
+        "third_num_pokemon": "6",
+        "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Nivel 36",
+        "images": [
+          {
+            "thumbnail": "5",
+            "thumbnailShiny": "5"
+          },
+          {
+            "thumbnail": "https://www.theclick.gg/wp-content/uploads/2021/12/Pokemon-Anime-Charmeleon.jpg"
+          },
+          {
+            "thumbnail": "https://thumbs.gfycat.com/ArtisticAgedLacewing-size_restricted.gif"
+          },
+          {
+            "thumbnail": "https://c.tenor.com/uyvK8hbmxBIAAAAC/charmeleon-pokemon-charmeleon.gif"
+          },
+          {
+            "thumbnail": "https://thumbs.gfycat.com/ImmaterialQualifiedGoosefish-size_restricted.gif"
+          },
+          {
+            "thumbnail": "https://64.media.tumblr.com/189f7d304c9fab589f89e5cd65a109ea/tumblr_mr8jriFfDA1qhd8sao1_500.gifv"
+          },
+          {
+            "thumbnail": "https://i.gifer.com/origin/e7/e7aaefb637baabe5fcf3cbd89d64faad.gif"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/originals/64/2b/2f/642b2f9f59c945b6aeee06a3ddb69038.gif"
+          },
+          {
+            "thumbnail": "https://static.wikia.nocookie.net/pokemon/images/7/7b/TB044_13.jpg/revision/latest/scale-to-width-down/640?cb=20131127235813"
+          },
+          {
+            "thumbnail": "https://64.media.tumblr.com/792905afa1bc8e289a37a6fc6272c1f3/tumblr_mjcv8foqq01s6xi35o1_640.png"
+          },
+          {
+            "thumbnail": "https://i.pinimg.com/originals/f0/e1/67/f0e1678a0328045e3931c5cdbac3c076.gif"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Cuando está luchando su llama arde vivamente, esto eleva las temperaturas."
+          },
+          {
+            "id": 2,
+            "title": "Amarillo",
+            "description": "Las duras luchas excitan a este Pokémon. Entonces, lanzará llamaradas blanco-azuladas."
+          },
+          {
+            "id": 3,
+            "title": "Oro",
+            "description": "Es testarudo por naturaleza, siempre busca rivales para combatir, solo se calma cuando gana."
+          },
+          {
+            "id": 4,
+            "title": "Plata",
+            "description": "De naturaleza bárbara, en la batalla esgrime su fiera cola, y araña con sus afiladas garras."
+          },
+          {
+            "id": 5,
+            "title": "Cristal",
+            "description": "Prefiere luchar usando las garras, si se encuentra en peligro, la llama crecerá."
+          },
+          {
+            "id": 6,
+            "title": "Rubí y Zafiro",
+            "description": "Charmeleon derrota a sus enemigos usando las garras, si se encuentra con un rival poderoso, la llama adquiere un tono azul."
+          },
+          {
+            "id": 7,
+            "title": "Esmeralda",
+            "description": "Charmeleon derrota a sus enemigos usando las garras, si se encuentra con un rival poderoso, la llama adquiere un tono azul."
+          },
+          {
+            "id": 8,
+            "title": "Rojo Fuego",
+            "description": "Suele usar la cola para derribar a su rival. Cuando lo tira, se vale de sus afiladas garras para acabar con él."
+          },
+          {
+            "id": 9,
+            "title": "Verde Hoja",
+            "description": "Cuando agita su cola, se elevan grandes temperaturas."
+          },
+          {
+            "id": 10,
+            "title": "Diamante, Perla y Platino",
+            "description": "En las montañas rocosas donde viven los Charmeleon, sus colas ardientes brillan como estrellas."
+          },
+          {
+            "id": 11,
+            "title": "Oro HeartGold",
+            "description": "Por naturaleza, se acalora con facilidad; siempre está buscando enemigos. Solo se calma cuando gana."
+          },
+          {
+            "id": 12,
+            "title": "Plata SoulSilver",
+            "description": "De naturaleza bárbara, en la batalla esgrime su fiera cola, y araña con sus afiladas garras."
+          },
+          {
+            "id": 13,
+            "title": "Negro, Blanco, Negro2 y Blanco2",
+            "description": "En las montañas rocosas donde viven los Charmeleon, sus colas ardientes brillan como estrellas."
+          },
+          {
+            "id": 14,
+            "title": "Pokémon X",
+            "description": "Suele usar su cola para derribar a su rival. Cuando lo tira, se vale de sus afiladas garras para acabar con él."
+          },
+          {
+            "id": 15,
+            "title": "Pokémon Y",
+            "description": "Cuando balancea la ardiente cola, eleva la temperatura a niveles muy altos."
+          },
+          {
+            "id": 16,
+            "title": "Rubí Omega y Zafiro Alfa",
+            "description": "Charmeleon no tiene reparo en acabar con su rival usando las afiladas garras que tiene. Si su enemigo es fuerte, se vuelve agresivo, y la llama que tiene en el extremo de la cola empieza a arder con mayor intensidad tornándose azulada."
+          },
+          {
+            "id": 17,
+            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
+            "description": "Librar combates intensos lo entusiasma tanto que en ocasiones lanza llamas de tono blanco azulado."
+          },
+          {
+            "id": 18,
+            "title": "Espada",
+            "description": "Este Pokémon de naturaleza agresiva ataca en combate con su cola llameante y hace trizas al rival con sus afiladas garras."
+          },
+          {
+            "id": 19,
+            "title": "Escudo",
+            "description": "Si se exalta en combate, expulsa intensas llamaradas que incineran todo a su alrededor."
+          },
+          {
+            "id": 20,
+            "title": "Pokémon GO",
+            "description": "Charmeleon no tiene reparo en acabar con su rival usando las afiladas garras que tiene. Si su enemigo es fuerte, se vuelve agresivo, y la llama que tiene en el extremo de la cola empieza a arder con mayor intensidad tornándose azulada."
+          },
+          {
+            "id": 21,
+            "title": "Guía oficial ",
+            "description": "Este Pokémon de naturaleza agresiva ataca en combate con su cola llameante y haces trizas al rival con sus afiladas garras.\n\nSi se exalta en combate, expulsa intensas llamaradas que incineran todo a su alrededor."
+          }
+        ],
+        "interestingData": "* Charmeleon fue diseñado por Atsuko Nishida.\n\n* Su nombre japonés es “Lizardo”, que es un poco soso, por decir lo menos. Lizardo en sí mismo es una bastardización de la palabra inglesa «lizard» si no lo has descubierto tú mismo.\n\n* Los Charmeleons no se pueden atrapar en la naturaleza en ninguno de los juegos de Pokémon. La única forma de obtener uno es evolucionar un Charmander o cambiarlo de un juego diferente."
+      }
+    ]
+  }
+}
