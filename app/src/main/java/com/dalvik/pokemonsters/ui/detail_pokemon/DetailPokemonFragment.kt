@@ -33,9 +33,7 @@ class DetailPokemonFragment :
 
     override fun subscribeToEvents() {
         viewModel.pokemon.observe(this){
-            it?.let {
-                binding.pokemon = it
-            }
+            binding.pokemon = it
         }
     }
 
