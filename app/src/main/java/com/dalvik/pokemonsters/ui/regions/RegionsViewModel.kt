@@ -32,6 +32,7 @@ class RegionsViewModel @Inject constructor() : BaseViewModel(App.instance) {
                 name =  App.instance.getString(R.string.jhoto_name),
                 totalPokemon = App.instance.getString(R.string.jhoto_total_pokemon),
                 imgUrl = R.drawable.region_jhoto,
+                serieUrl = "https://www.pokemon.com/el/episodios-pokemon/episodios-pokemon/temporadas-de-tv-pokemon/2/",
                 firstMedalImgUrl = R.drawable.zafiro_medal,
                 firstMedalName =  App.instance.getString(R.string.jhoto_first_medal),
                 secondMedalImgUrl = R.drawable.colmena_medal,

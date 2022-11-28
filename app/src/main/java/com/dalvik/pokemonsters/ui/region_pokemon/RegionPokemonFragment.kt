@@ -7,10 +7,7 @@ import androidx.navigation.findNavController
 import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.FragmentRegionPokemonBinding
 import com.dalvik.pokemonsters.ui.base.BaseFragment
-import com.dalvik.pokemonsters.utils.PARAM_ITEM_REGION
-import com.dalvik.pokemonsters.utils.PARAM_ITEM_REGION_NAME
-import com.dalvik.pokemonsters.utils.PARAM_ITEM_REGION_TOTAL
-import com.dalvik.pokemonsters.utils.PARAM_URL_NEWS
+import com.dalvik.pokemonsters.utils.*
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -39,7 +36,7 @@ class RegionPokemonFragment :
                 Bundle().apply {
                     putString(
                         PARAM_URL_NEWS,
-                        "https://www.pokemon.com/el/episodios-pokemon/episodios-pokemon/temporadas-de-tv-pokemon/1/"
+                        viewModel.serieUrl.value
                     )
                 }
             )
@@ -59,8 +56,11 @@ class RegionPokemonFragment :
                 binding.subtitle = getString(R.string.textview_subtitle_region_pokemon,it)
             }
             Bundle.getString(PARAM_ITEM_REGION_NAME).let {
-                binding.showFabWebView = true
                 binding.nameRegion = it
+            }
+            Bundle.getString(PARAM_ITEM_REGION_SERIE_URL).let {
+                binding.showFabWebView = true
+                viewModel.serieUrl.postValue(it)
             }
         }
     }

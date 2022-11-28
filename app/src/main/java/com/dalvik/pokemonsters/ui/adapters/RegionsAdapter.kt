@@ -10,6 +10,7 @@ import com.dalvik.pokemonsters.databinding.ItemListRegionsBinding
 import com.dalvik.pokemonsters.network.model.regions.Region
 import com.dalvik.pokemonsters.utils.PARAM_ITEM_REGION
 import com.dalvik.pokemonsters.utils.PARAM_ITEM_REGION_NAME
+import com.dalvik.pokemonsters.utils.PARAM_ITEM_REGION_SERIE_URL
 import com.dalvik.pokemonsters.utils.PARAM_ITEM_REGION_TOTAL
 
 class RegionsAdapter(private var regionslist: List<Region>) :
@@ -36,6 +37,10 @@ class RegionsAdapter(private var regionslist: List<Region>) :
                         putString(
                             PARAM_ITEM_REGION_TOTAL,
                             region.totalPokemon
+                        )
+                        putString(
+                            PARAM_ITEM_REGION_SERIE_URL,
+                            region.serieUrl
                         )
                     }
                 )

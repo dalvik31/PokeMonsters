@@ -22,6 +22,7 @@ class RegionPokemonViewModel @Inject constructor(
 
     var itemList = MutableLiveData<ArrayList<Pokemon>>(arrayListOf())
     var _regionId = MutableLiveData<Int>()
+    var serieUrl = MutableLiveData<String>()
 
 
     fun getPokemon(regionId: Int) {
