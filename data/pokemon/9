@@ -1,0 +1,151 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "9",
+        "name": "Blastoise",
+        "originalName": "カメックス (Kamex)",
+        "category": "Armazón",
+        "ability": "",
+        "ability_description": "",
+        "type_first": 18,
+        "height": "85,5 kg",
+        "weight": "1,6 m",
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "attack_special": 0,
+        "defence_special": 0,
+        "speed": 0,
+        "total": 0,
+        "first_name_pokemon": "Squirtle",
+        "first_num_pokemon": "7",
+        "second_name_pokemon": "Wartortle",
+        "second_num_pokemon": "8",
+        "third_name_pokemon": "Blastoise",
+        "third_num_pokemon": "9",
+        "level_first_evolution": "",
+        "level_second_evolution": "",
+        "images": [
+          {
+            "thumbnail": "9",
+            "thumbnailShiny": "9"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": ""
+          },
+          {
+            "id": 2,
+            "title": "Amarillo",
+            "description": ""
+          },
+          {
+            "id": 3,
+            "title": "Oro",
+            "description": ""
+          },
+          {
+            "id": 4,
+            "title": "Plata",
+            "description": ""
+          },
+          {
+            "id": 5,
+            "title": "Cristal",
+            "description": ""
+          },
+          {
+            "id": 6,
+            "title": "Rubí y Zafiro",
+            "description": ""
+          },
+          {
+            "id": 7,
+            "title": "Esmeralda",
+            "description": ""
+          },
+          {
+            "id": 8,
+            "title": "Rojo Fuego",
+            "description": ""
+          },
+          {
+            "id": 9,
+            "title": "Verde Hoja",
+            "description": ""
+          },
+          {
+            "id": 10,
+            "title": "Diamante, Perla y Platino",
+            "description": ""
+          },
+          {
+            "id": 11,
+            "title": "Oro HeartGold",
+            "description": ""
+          },
+          {
+            "id": 12,
+            "title": "Plata SoulSilver",
+            "description": ""
+          },
+          {
+            "id": 13,
+            "title": "Negro, Blanco, Negro2 y Blanco2",
+            "description": ""
+          },
+          {
+            "id": 14,
+            "title": "Pokémon X",
+            "description": ""
+          },
+          {
+            "id": 15,
+            "title": "Pokémon Y",
+            "description": ""
+          },
+          {
+            "id": 16,
+            "title": "Rubí Omega y Zafiro Alfa",
+            "description": ""
+          },
+          {
+            "id": 17,
+            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
+            "description": ""
+          },
+          {
+            "id": 18,
+            "title": "Espada",
+            "description": ""
+          },
+          {
+            "id": 19,
+            "title": "Escudo",
+            "description": ""
+          },
+          {
+            "id": 20,
+            "title": "Pokémon GO",
+            "description": ""
+          },
+          {
+            "id": 21,
+            "title": "Guía oficial ",
+            "description": ""
+          }
+        ],
+        "interestingData": ""
+      }
+    ]
+  }
+}
