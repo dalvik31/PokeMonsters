@@ -12,6 +12,10 @@
         "originalName": "ゼニガメ (Zenigame)",
         "category": "Tortuguita",
         "type_first": 18,
+        "height": "0,5 m",
+        "weight": "9 kg",
+          "ability": "Torrente",
+        "ability_description": "Torrente aumenta la potencia de los movimientos de tipo agua del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
         "first_name_pokemon": "Squirtle",
         "first_num_pokemon": "7",
         "second_name_pokemon": "Wartortle",
@@ -30,7 +34,7 @@
           {
             "id": 1,
             "title": "Rojo y Azul",
-            "description": "Tras nacer, su espalda se hincha y endurece como una concha. Echa potente espuma por la boca"
+            "description": "Tras nacer, su espalda se hincha y endurece como una concha. Echa potente espuma por la boca."
           }
         ]
       }
