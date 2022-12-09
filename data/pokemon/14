@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "14",
+        "name": "Kakuna",
+        "originalName": "コクーン (Cocoon)",
+        "category": "Capullo",
+        "type_first": 3,
+          "type_second": 1,
+        "height": "0,6 m",
+        "weight": "10 kg",
+          "ability": "Mudar",
+        "ability_description": "Mudar tiene una probabilidad del 30% de curar los problemas de estado persistentes al final de cada turno.",
+        "first_name_pokemon": "Weedle",
+        "first_num_pokemon": "13",
+        "second_name_pokemon": "Kakuna",
+        "second_num_pokemon": "14",
+        "third_name_pokemon": "Beedrill",
+        "third_num_pokemon": "15",
+        "level_first_evolution": "Nivel 7",
+        "level_second_evolution": "Nivel 10",
+        "images": [
+          {
+            "thumbnail": "14",
+            "thumbnailShiny": "14"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Casi incapaz de moverse, este Pokémon sólo puede endurecer su caparazón para protegerse."
+          }
+        ]
+      }
+    ]
+  }
+}
