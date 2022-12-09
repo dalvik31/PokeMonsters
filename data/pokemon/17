@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "17",
+        "name": "Pidgeotto",
+        "originalName": "ピジョン (Pigeon)",
+        "category": "Pájaro",
+        "type_first": 14,
+          "type_second": 9,
+        "height": "1,1 m",
+        "weight": "30.0 kg",
+          "ability": "Vista lince y Tumbos",
+        "ability_description": "Vista lince: Vista lince evita que baje la precisión del Pokémon que tenga esta habilidad. \n\nTumbos: Tumbos aumenta la evasión en un 20% cuando el Pokémon poseedor está confuso.\nEn la saga Pokémon Mundo Misterioso, aumenta la evasión del Pokémon cuando está confuso o alucinado.",
+        "first_name_pokemon": "Pidgey",
+        "first_num_pokemon": "16",
+        "second_name_pokemon": "Pidgeotto",
+        "second_num_pokemon": "17",
+        "third_name_pokemon": "Pidgeot",
+        "third_num_pokemon": "18",
+        "level_first_evolution": "Nivel 18",
+        "level_second_evolution": "Nivel 36",
+        "images": [
+          {
+            "thumbnail": "17",
+            "thumbnailShiny": "17"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Muy protector de su amplio territorio, este Pokémon picoteará ferozmente a todo intruso."
+          }
+        ]
+      }
+    ]
+  }
+}
