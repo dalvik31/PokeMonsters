@@ -23,7 +23,9 @@
         tools:layout="@layout/fragment_detail_news" >
         <action
             android:id="@+id/action_detailNewsFragment_to_webViewFragment"
-            app:destination="@id/webViewFragment" />
+            app:destination="@id/webViewFragment"
+            app:enterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
     </fragment>
     <fragment
         android:id="@+id/regionFragment"
@@ -37,7 +39,9 @@
             app:popExitAnim="@anim/slide_down" />
         <action
             android:id="@+id/action_regionFragment_to_detailPokemonFragment"
-            app:destination="@id/detailPokemonFragment" />
+            app:destination="@id/detailPokemonFragment"
+            app:enterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
     </fragment>
     <fragment
         android:id="@+id/regionPokemonFragment"
@@ -51,7 +55,9 @@
             app:popExitAnim="@anim/slide_down" />
         <action
             android:id="@+id/action_regionPokemonFragment_to_webViewFragment"
-            app:destination="@id/webViewFragment" />
+            app:destination="@id/webViewFragment"
+            app:enterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
     </fragment>
     <fragment
         android:id="@+id/detailPokemonFragment"
@@ -60,7 +66,9 @@
         tools:layout="@layout/fragment_detail_pokemon" >
         <action
             android:id="@+id/action_detailPokemonFragment_to_typeDetailsFragment"
-            app:destination="@id/typeDetailsFragment" />
+            app:destination="@id/typeDetailsFragment"
+            app:enterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
     </fragment>
     <fragment
         android:id="@+id/webViewFragment"
@@ -74,7 +82,9 @@
         tools:layout="@layout/fragment_table_type" >
         <action
             android:id="@+id/action_tableTypeFragment_to_typeDetailsFragment"
-            app:destination="@id/typeDetailsFragment" />
+            app:destination="@id/typeDetailsFragment"
+            app:enterAnim="@anim/slide_up"
+            app:popExitAnim="@anim/slide_down" />
     </fragment>
     <fragment
         android:id="@+id/typeDetailsFragment"
