@@ -11,26 +11,19 @@
         "name": "Squirtle",
         "originalName": "ゼニガメ (Zenigame)",
         "category": "Tortuguita",
-        "ability": "",
-        "ability_description": "",
         "type_first": 18,
-        "height": "",
-        "weight": "",
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "attack_special": 0,
-        "defence_special": 0,
-        "speed": 0,
-        "total": 0,
+        "height": "0,5 m",
+        "weight": "9 kg",
+          "ability": "Torrente",
+        "ability_description": "Torrente aumenta la potencia de los movimientos de tipo agua del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
         "first_name_pokemon": "Squirtle",
         "first_num_pokemon": "7",
         "second_name_pokemon": "Wartortle",
         "second_num_pokemon": "8",
         "third_name_pokemon": "Blastoise",
         "third_num_pokemon": "9",
-        "level_first_evolution": "",
-        "level_second_evolution": "",
+        "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Nivel 36",
         "images": [
           {
             "thumbnail": "7",
@@ -41,110 +34,9 @@
           {
             "id": 1,
             "title": "Rojo y Azul",
-            "description": ""
-          },
-          {
-            "id": 2,
-            "title": "Amarillo",
-            "description": ""
-          },
-          {
-            "id": 3,
-            "title": "Oro",
-            "description": ""
-          },
-          {
-            "id": 4,
-            "title": "Plata",
-            "description": ""
-          },
-          {
-            "id": 5,
-            "title": "Cristal",
-            "description": ""
-          },
-          {
-            "id": 6,
-            "title": "Rubí y Zafiro",
-            "description": ""
-          },
-          {
-            "id": 7,
-            "title": "Esmeralda",
-            "description": ""
-          },
-          {
-            "id": 8,
-            "title": "Rojo Fuego",
-            "description": ""
-          },
-          {
-            "id": 9,
-            "title": "Verde Hoja",
-            "description": ""
-          },
-          {
-            "id": 10,
-            "title": "Diamante, Perla y Platino",
-            "description": ""
-          },
-          {
-            "id": 11,
-            "title": "Oro HeartGold",
-            "description": ""
-          },
-          {
-            "id": 12,
-            "title": "Plata SoulSilver",
-            "description": ""
-          },
-          {
-            "id": 13,
-            "title": "Negro, Blanco, Negro2 y Blanco2",
-            "description": ""
-          },
-          {
-            "id": 14,
-            "title": "Pokémon X",
-            "description": ""
-          },
-          {
-            "id": 15,
-            "title": "Pokémon Y",
-            "description": ""
-          },
-          {
-            "id": 16,
-            "title": "Rubí Omega y Zafiro Alfa",
-            "description": ""
-          },
-          {
-            "id": 17,
-            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
-            "description": ""
-          },
-          {
-            "id": 18,
-            "title": "Espada",
-            "description": ""
-          },
-          {
-            "id": 19,
-            "title": "Escudo",
-            "description": ""
-          },
-          {
-            "id": 20,
-            "title": "Pokémon GO",
-            "description": ""
-          },
-          {
-            "id": 21,
-            "title": "Guía oficial ",
-            "description": ""
+            "description": "Tras nacer, su espalda se hincha y endurece como una concha. Echa potente espuma por la boca."
           }
-        ],
-        "interestingData": ""
+        ]
       }
     ]
   }

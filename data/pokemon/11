@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "11",
+        "name": "Metapod",
+        "originalName": "トランセル (Trancell)",
+        "category": "Capullo",
+        "type_first": 3,
+        "height": "0,7 m",
+        "weight": "9.9 kg",
+          "ability": "Mudar",
+        "ability_description": "Mudar tiene una probabilidad del 30% de curar los problemas de estado persistentes al final de cada turno.",
+        "first_name_pokemon": "Caterpie",
+        "first_num_pokemon": "10",
+        "second_name_pokemon": "Metapod",
+        "second_num_pokemon": "11",
+        "third_name_pokemon": "Butterfree",
+        "third_num_pokemon": "12",
+        "level_first_evolution": "Nivel 7",
+        "level_second_evolution": "Nivel 10",
+        "images": [
+          {
+            "thumbnail": "11",
+            "thumbnailShiny": "11"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Este Pokémon es vulnerable al ataque cuando su concha es blanda, dejando expuesto su frágil cuerpo."
+          }
+        ]
+      }
+    ]
+  }
+}

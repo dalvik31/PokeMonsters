@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "10",
+        "name": "Caterpie",
+        "originalName": "キャタピー (Caterpie)",
+        "category": "Gusano",
+        "type_first": 3,
+        "height": "0,3 m",
+        "weight": "2.9 kg",
+          "ability": "Polvo escudo",
+        "ability_description": "Polvo escudo anula los efectos secundarios que pueden provocar los ataques de los oponentes al poseedor de la habilidad (como la parálisis en golpe cuerpo o el retroceso en sorpresa).\nLos efectos de movimientos que no producen daño no son considerados efectos secundarios, por lo que no son anulados (como fuego fatuo). Tampoco son anulados los efectos secundarios que son inducidos al propio oponente (como el aumento de velocidad al usar nitrocarga).",
+        "first_name_pokemon": "Caterpie",
+        "first_num_pokemon": "10",
+        "second_name_pokemon": "Metapod",
+        "second_num_pokemon": "11",
+        "third_name_pokemon": "Butterfree",
+        "third_num_pokemon": "12",
+        "level_first_evolution": "Nivel 7",
+        "level_second_evolution": "Nivel 10",
+        "images": [
+          {
+            "thumbnail": "10",
+            "thumbnailShiny": "10"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Sus cortas patas están recubiertas de ventosas que le permiten subir incansable por muros y cuestas."
+          }
+        ]
+      }
+    ]
+  }
+}
