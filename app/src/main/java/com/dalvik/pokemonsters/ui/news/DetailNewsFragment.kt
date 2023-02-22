@@ -1,7 +1,10 @@
 package com.dalvik.pokemonsters.ui.news
 
+
+
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.NonNull
 import androidx.navigation.findNavController
@@ -11,6 +14,7 @@ import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.ui.base.BaseFragment
 import com.dalvik.pokemonsters.utils.PARAM_ITEM_NEWS
 import com.dalvik.pokemonsters.utils.PARAM_URL_NEWS
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import dagger.hilt.android.AndroidEntryPoint
@@ -32,6 +36,8 @@ class DetailNewsFragment : BaseFragment<FragmentDetailNewsBinding, NewsViewModel
 
     override fun setupUiBehavior() {
         searchArguments()
+        (requireActivity().findViewById<View>(com.dalvik.pokemonsters.R.id.main_fragment_bottom_navigation_view) as BottomNavigationView).selectedItemId =
+            com.dalvik.pokemonsters.R.id.detailNewsFragment
 
         val youTubePlayerView = binding.youtubePlayerView
         lifecycle.addObserver(youTubePlayerView)

@@ -15,13 +15,14 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginEnd="@dimen/_25sdp"
-        app:cardBackgroundColor="@color/purple_500"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
         app:cardCornerRadius="@dimen/_10sdp">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
+            android:background="@color/purple_500"
             android:layout_height="match_parent">
 
             <TextView

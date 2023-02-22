@@ -1,10 +1,10 @@
 package com.dalvik.pokemonsters.ui.regions
 
+import android.annotation.SuppressLint
 import androidx.lifecycle.MutableLiveData
 import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.network.model.regions.Region
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
-import com.dalvik.pokemonsters.uses_cases.GetNewsUseCase
 import com.dalvik.pokemonsters.utils.App
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
@@ -17,6 +17,7 @@ class RegionsViewModel @Inject constructor() : BaseViewModel(App.instance) {
     var itemVideo = MutableLiveData("")
 
 
+    @SuppressLint("SuspiciousIndentation")
     fun getRegions() {
       val list = ArrayList<Region>()
         list.add(getRegion(1))

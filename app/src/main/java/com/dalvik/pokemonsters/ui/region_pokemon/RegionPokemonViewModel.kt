@@ -6,7 +6,6 @@ import com.dalvik.pokemonsters.network.ResultData
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
-import com.dalvik.pokemonsters.uses_cases.GetNewsUseCase
 import com.dalvik.pokemonsters.uses_cases.GetPokemonRegionUseCase
 import com.dalvik.pokemonsters.utils.App
 import com.dalvik.pokemonsters.utils.CustomLoader

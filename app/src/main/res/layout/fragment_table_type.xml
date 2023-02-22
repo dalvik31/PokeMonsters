@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viemodel"
+            type="com.dalvik.pokemonsters.ui.table_type.TableTypeViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        tools:context=".RegionPokemonFragment">
+
+        <TextView
+            android:id="@+id/tvTableTypeTitle"
+            style="@style/TextViewTitleBold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/table_type_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:background="@color/primary_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
+            app:layout_constraintEnd_toStartOf="@+id/text_subtitle_category"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/text_subtitle_category" />
+
+        <TextView
+            android:id="@+id/text_subtitle_category"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_14sdp"
+            android:text='@string/table_type_subtitle'
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTableTypeTitle"
+            tools:text="@string/table_type_subtitle" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:background="@color/primary_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_subtitle_category"
+            app:layout_constraintTop_toTopOf="@+id/text_subtitle_category" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            tools:listitem="@layout/item_type"
+            app:spanCount="3"
+            app:listTypesPokemon="@{viemodel.listTypesPokemon}"
+            tools:itemCount="5"
+            app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

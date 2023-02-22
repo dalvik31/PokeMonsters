@@ -35,6 +35,9 @@
             app:destination="@id/regionPokemonFragment"
             app:enterAnim="@anim/slide_up"
             app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_regionFragment_to_detailPokemonFragment"
+            app:destination="@id/detailPokemonFragment" />
     </fragment>
     <fragment
         android:id="@+id/regionPokemonFragment"
@@ -54,11 +57,29 @@
         android:id="@+id/detailPokemonFragment"
         android:name="com.dalvik.pokemonsters.ui.detail_pokemon.DetailPokemonFragment"
         android:label="fragment_detail_pokemon"
-        tools:layout="@layout/fragment_detail_pokemon" />
+        tools:layout="@layout/fragment_detail_pokemon" >
+        <action
+            android:id="@+id/action_detailPokemonFragment_to_typeDetailsFragment"
+            app:destination="@id/typeDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/webViewFragment"
         android:name="com.dalvik.pokemonsters.ui.news.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/tableTypeFragment"
+        android:name="com.dalvik.pokemonsters.ui.table_type.TableTypeFragment"
+        android:label="fragment_table_type"
+        tools:layout="@layout/fragment_table_type" >
+        <action
+            android:id="@+id/action_tableTypeFragment_to_typeDetailsFragment"
+            app:destination="@id/typeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/typeDetailsFragment"
+        android:name="com.dalvik.pokemonsters.ui.table_type.TypeDetailsFragment"
+        android:label="fragment_type_details"
+        tools:layout="@layout/fragment_type_details" />
 
 </navigation>

@@ -2,7 +2,9 @@ package com.dalvik.pokemonsters.utils
 
 import android.graphics.drawable.Drawable
 import android.widget.ImageView
+import androidx.annotation.DrawableRes
 import androidx.annotation.Nullable
+import androidx.core.content.ContextCompat
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
@@ -11,11 +13,13 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
+import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.network.model.images.Images
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.network.model.regions.Region
 import com.dalvik.pokemonsters.network.model.text_pokedex.TextPokedex
+import com.dalvik.pokemonsters.network.model.type.TypePokemon
 import com.dalvik.pokemonsters.ui.adapters.*
 
 
@@ -57,6 +61,14 @@ class BindingAdapters {
             } catch (e: Exception) {
                 e.printStackTrace()
             }
+        }
+
+        @JvmStatic
+        @BindingAdapter("android:imageSrc")
+        fun setImageSrc(imageView: ImageView, @DrawableRes drawableSrc: Int?) {
+            imageView.setImageResource(
+                drawableSrc ?: R.drawable.ic_normal
+            )
         }
 
         @JvmStatic
@@ -111,13 +123,24 @@ class BindingAdapters {
                 val textAdapter = TextPokedexAdapter(textList)
                 viewPager.offscreenPageLimit = 1
                 viewPager.adapter = textAdapter
-                viewPager.setPageTransformer { page, position ->
-                    page.translationX = -40 * position
-                    page.scaleY = 1 - (0.40f * kotlin.math.abs(position))
+                if(textList.size > 1){
+                    viewPager.setPageTransformer { page, position ->
+                        page.translationX = -80 * position
+                        page.scaleY = 1 - (0.40f * kotlin.math.abs(position))
+                    }
                 }
             }
         }
 
+
+        @JvmStatic
+        @BindingAdapter("app:listTypesPokemon")
+        fun setListTypesPokemon(recyclerView: RecyclerView, textList: MutableList<TypePokemon>?) {
+            if (textList != null && textList.isNotEmpty()) {
+                val textAdapter = TypePokemonAdapter(textList)
+                recyclerView.adapter = textAdapter
+            }
+        }
 
         @JvmStatic
         @BindingAdapter("app:src")

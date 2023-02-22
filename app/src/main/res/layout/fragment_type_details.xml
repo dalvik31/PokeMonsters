@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viemodel"
+            type="com.dalvik.pokemonsters.ui.table_type.TableTypeViewModel" />
+
+        <variable
+            name="pokemonName"
+            type="Integer" />
+        <variable
+            name="pokemonSrc"
+            type="Integer" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        tools:context=".RegionPokemonFragment">
+
+        <TextView
+            android:id="@+id/tvTableTypeTitle"
+            style="@style/TextViewTitleBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_detail_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imageSrc="@{pokemonSrc}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="@dimen/_16sdp"/>
+
+        <TextView
+            android:id="@+id/tvType"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text='@{pokemonName}'
+            android:layout_marginTop="@dimen/_8sdp"
+            android:textSize="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="@+id/imgType"
+            app:layout_constraintStart_toStartOf="@+id/imgType"
+            app:layout_constraintTop_toBottomOf="@+id/imgType" />
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTableTypeTitle">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/primary_gray"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvEffective"
+                    app:layout_constraintEnd_toStartOf="@+id/tvEffective"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvEffective" />
+
+                <TextView
+                    android:id="@+id/tvEffective"
+                    style="@style/TextViewMsgBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/_14sdp"
+                    android:text='@string/type_detail_effective'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/type_detail_effective" />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/primary_gray"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvEffective"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvEffective"
+                    app:layout_constraintTop_toTopOf="@+id/tvEffective" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/containerEffective"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvEffective">
+
+                    <TextView
+                        android:id="@+id/tvNone"
+                        style="@style/TextViewTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/_18sdp"
+                        android:text='@string/type_detail_none'
+                        android:textColor="@android:color/holo_red_dark"
+                        android:visibility="@{viemodel.listEffective.size() > 0 ? View.GONE: View.VISIBLE}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="@string/type_detail_none" />
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/listEffective"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="@{viemodel.listEffective.size() > 0  ? View.VISIBLE: View.GONE}"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:listTypesPokemon="@{viemodel.listEffective}"
+                        app:spanCount="3"
+                        tools:itemCount="3"
+                        tools:listitem="@layout/item_type" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <View
+
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/primary_gray"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvWeak"
+                    app:layout_constraintEnd_toStartOf="@+id/tvWeak"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvWeak" />
+
+                <TextView
+                    android:id="@+id/tvWeak"
+                    style="@style/TextViewMsgBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/_14sdp"
+                    android:text='@string/type_detail_weak'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/containerEffective"
+                    tools:text="@string/type_detail_weak" />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/primary_gray"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvWeak"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvWeak"
+                    app:layout_constraintTop_toTopOf="@+id/tvWeak" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/containerWeak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvWeak">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        style="@style/TextViewTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/_18sdp"
+                        android:text='@string/type_detail_none'
+                        android:textColor="@android:color/holo_red_dark"
+                        android:visibility="@{viemodel.listWeak.size() > 0 ? View.GONE: View.VISIBLE}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="@string/type_detail_none" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/listWeak"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:listTypesPokemon="@{viemodel.listWeak}"
+                        app:spanCount="3"
+                        tools:itemCount="3"
+                        tools:listitem="@layout/item_type" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <View
+
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/primary_gray"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvResist"
+                    app:layout_constraintEnd_toStartOf="@+id/tvResist"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvResist" />
+
+                <TextView
+                    android:id="@+id/tvResist"
+                    style="@style/TextViewMsgBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/_14sdp"
+                    android:text='@string/type_detail_resist'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/containerWeak"
+                    tools:text="@string/type_detail_resist" />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/primary_gray"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvResist"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvResist"
+                    app:layout_constraintTop_toTopOf="@+id/tvResist" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/containerResist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvResist">
+
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        style="@style/TextViewTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/_18sdp"
+                        android:text='@string/type_detail_none'
+                        android:textColor="@android:color/holo_red_dark"
+                        android:visibility="@{viemodel.listResist.size() > 0 ? View.GONE: View.VISIBLE}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="@string/type_detail_none" />
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/listResist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:listTypesPokemon="@{viemodel.listResist}"
+                        app:spanCount="3"
+                        tools:itemCount="3"
+                        tools:listitem="@layout/item_type" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/primary_gray"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvVulnerability"
+                    app:layout_constraintEnd_toStartOf="@+id/tvVulnerability"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvVulnerability" />
+
+                <TextView
+                    android:id="@+id/tvVulnerability"
+                    style="@style/TextViewMsgBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/_14sdp"
+                    android:text='@string/type_detail_vulnerability'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/containerResist"
+                    tools:text="@string/type_detail_vulnerability" />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/primary_gray"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvVulnerability"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvVulnerability"
+                    app:layout_constraintTop_toTopOf="@+id/tvVulnerability" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/containerVulnerability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvVulnerability">
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        style="@style/TextViewTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/_18sdp"
+                        android:text='@string/type_detail_none'
+                        android:textColor="@android:color/holo_red_dark"
+                        android:visibility="@{viemodel.listVulnerability.size() > 0 ? View.GONE: View.VISIBLE}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="@string/type_detail_none" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/listVulnerability"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:listTypesPokemon="@{viemodel.listVulnerability}"
+                        app:spanCount="3"
+                        tools:itemCount="3"
+                        tools:listitem="@layout/item_type" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

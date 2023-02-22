@@ -3,6 +3,7 @@ package com.dalvik.pokemonsters.network.model.pokemon
 import com.dalvik.pokemonsters.network.model.images.Images
 import com.dalvik.pokemonsters.network.model.text_pokedex.TextPokedex
 import com.dalvik.pokemonsters.utils.getPokemonType
+import com.dalvik.pokemonsters.utils.getPokemonTypeString
 import com.dalvik.pokemonsters.utils.getThumbnail
 import com.dalvik.pokemonsters.utils.numberFormat
 
@@ -44,13 +45,22 @@ data class DetailPokemon(
     val elementMega: String?,
 ) {
 
-    fun getThumbnail(idPokemon: String): String {
+    fun getThumbnail(idPokemon: String?): String {
+        if(idPokemon.isNullOrEmpty()) return ""
         return idPokemon.getThumbnail()
     }
 
     fun getType(type: Int): Int {
         return type.getPokemonType()
     }
+    fun getTypeName(): Int {
+        return (type_first ?: 0).getPokemonTypeString()
+    }
+
+    fun getTypeSrc(): Int {
+        return (type_first ?: 0).getPokemonType()
+    }
+
 
     fun getOrderDescriptionList(): MutableList<TextPokedex> {
         val array = (descriptionList ?: arrayListOf())
@@ -58,7 +68,8 @@ data class DetailPokemon(
     }
 
     fun getFormatNumber(number: String?): String {
-        return (number ?: "").numberFormat()
+        if(number.isNullOrEmpty()) return ""
+        return number.numberFormat()
     }
 
     fun getThumbnailMega(megaNumber: String?): String {

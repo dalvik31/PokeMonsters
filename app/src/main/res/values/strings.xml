@@ -4,12 +4,12 @@
     <!-- Activity main-->
     <string name="textview_regions">Regiones</string>
     <string name="textview_recent">Lo mas reciente</string>
-    <string name="search_textview_hint">Busca un pokémon</string>
+    <string name="search_textview_hint">Ingresa el numero del pokemon</string>
     <string name="textview_news">Noticias</string>
 
 
     <!-- Fragment regiones-->
-    <string name="textview_subtitle_region">Busca en cualquier \nregión Pokémon</string>
+    <string name="textview_subtitle_region">Busca un Pokémon\nen cualquier</string>
     <string name="textview_subtitle_region_pokemon"><b>%1$s</b> Pokémon encontrados \nen esta región</string>
 
     <!-- Fragment detail pokemon-->
@@ -33,9 +33,23 @@
     <string name="msg_pokemon_empty">No se encontro información</string>
 
 
+    <!-- Fragment tabla de tipos-->
+    <string name="table_type_title">Tabla de tipos</string>
+    <string name="table_type_subtitle">Selecciona un tipo para ver el detalle</string>
+
+
+    <!-- Fragment detalle de tipos-->
+    <string name="type_detail_title">Fortalezas y Debilidades</string>
+    <string name="type_detail_none">Ninguno</string>
+    <string name="type_detail_effective">Super eficaz</string>
+    <string name="type_detail_weak">Poco eficaz</string>
+    <string name="type_detail_resist">Inmune</string>
+    <string name="type_detail_vulnerability">Vulnerable</string>
+
     <!--Menu home-->
     <string name="menu_news">Noticias</string>
     <string name="menu_pokemon">Pokémon</string>
+    <string name="menu_table_type">Tabla de tipos</string>
 
     <!--Msg General-->
     <string name="general_error">Ocurrio un error intenta más tarde</string>
@@ -46,6 +60,26 @@
     <string name="error_download_news">Ocurrio un error al recuperar las noticias</string>
     <string name="error_download_pokemon_region">Ocurrio un error al recuperar los pokemon por region</string>
     <string name="error_download_pokemon_detail">Ocurrio un error al recuperar la informacion de este pokémon</string>
+
+    <!--Types-->
+    <string name="type_normal">NORMAL</string>
+    <string name="type_fighting">LUCHA</string>
+    <string name="type_flying">VOLADOR</string>
+    <string name="type_poison">VENENO</string>
+    <string name="type_ground">TIERRA</string>
+    <string name="type_rock">ROCA</string>
+    <string name="type_bug">BICHO</string>
+    <string name="type_ghost">FANTASMA</string>
+    <string name="type_steel">ACERO</string>
+    <string name="type_fire">FUEGO</string>
+    <string name="type_water">AGUA</string>
+    <string name="type_grass">HIERBA</string>
+    <string name="type_electric">ELECTRICO</string>
+    <string name="type_psychic">PSIQUICO</string>
+    <string name="type_ice">HIELO</string>
+    <string name="type_dragon">DRAGON</string>
+    <string name="type_fairy">HADA</string>
+    <string name="type_dark">SINIESTRO</string>
 
     <!--Regions-->
     <!--Region Kanto-->

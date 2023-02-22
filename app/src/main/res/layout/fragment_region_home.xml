@@ -45,6 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:imeOptions="actionDone"
             android:padding="@dimen/_14sdp"
             android:text="@string/textview_subtitle_region"
             app:layout_constraintEnd_toEndOf="parent"
@@ -87,6 +88,7 @@
 
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etSearch"
                 style="@style/SearchEdittext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

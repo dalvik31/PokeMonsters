@@ -42,6 +42,30 @@ fun Int.getPokemonType(): Int {
     }
 }
 
+fun Int.getPokemonTypeString(): Int {
+    return when (this ?: 1) {
+        1 -> R.string.type_poison
+        2 -> R.string.type_grass
+        3 -> R.string.type_bug
+        4 -> R.string.type_dark
+        5 -> R.string.type_dragon
+        6 -> R.string.type_fairy
+        7 -> R.string.type_fighting
+        8 -> R.string.type_fire
+        9 -> R.string.type_flying
+        10 -> R.string.type_ghost
+        11 -> R.string.type_electric
+        12 -> R.string.type_ground
+        13 -> R.string.type_ice
+        14 -> R.string.type_normal
+        15 -> R.string.type_psychic
+        16 -> R.string.type_rock
+        17 -> R.string.type_steel
+        18 -> R.string.type_water
+        else -> R.string.type_normal
+    }
+}
+
 fun String.numberFormat(): String {
     return String.format("#%03d", this.toInt() ?: 0);
 }
