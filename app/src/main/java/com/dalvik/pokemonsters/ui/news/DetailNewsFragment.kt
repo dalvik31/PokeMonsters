@@ -1,7 +1,6 @@
 package com.dalvik.pokemonsters.ui.news
 
 
-
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -39,7 +38,7 @@ class DetailNewsFragment : BaseFragment<FragmentDetailNewsBinding, NewsViewModel
         (requireActivity().findViewById<View>(com.dalvik.pokemonsters.R.id.main_fragment_bottom_navigation_view) as BottomNavigationView).selectedItemId =
             com.dalvik.pokemonsters.R.id.detailNewsFragment
 
-        val youTubePlayerView = binding.youtubePlayerView
+        val youTubePlayerView = binding.youtubePlayer
         lifecycle.addObserver(youTubePlayerView)
 
         youTubePlayerView.addYouTubePlayerListener(object : AbstractYouTubePlayerListener() {

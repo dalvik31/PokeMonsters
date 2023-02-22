@@ -8,7 +8,7 @@ import com.dalvik.pokemonsters.ui.base.BaseViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class TableTypeFragment: BaseFragment<FragmentTableTypeBinding, TableTypeViewModel, BaseViewModel>(
+class TableTypeFragment : BaseFragment<FragmentTableTypeBinding, TableTypeViewModel, BaseViewModel>(
     TableTypeViewModel::class.java,
     BaseViewModel::class.java
 ) {

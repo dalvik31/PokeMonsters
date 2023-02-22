@@ -1,16 +1,12 @@
 package com.dalvik.pokemonsters.ui.table_type
 
-import android.annotation.SuppressLint
 import androidx.lifecycle.MutableLiveData
 import com.dalvik.pokemonsters.R
-import com.dalvik.pokemonsters.network.model.regions.Region
 import com.dalvik.pokemonsters.network.model.type.TypePokemon
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
 import com.dalvik.pokemonsters.utils.App
 import dagger.hilt.android.lifecycle.HiltViewModel
-import java.lang.reflect.Type
 import javax.inject.Inject
-import kotlin.collections.ArrayList
 
 @HiltViewModel
 class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
@@ -27,24 +23,24 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
 
     fun loadListTypes() {
         var arrayList = ArrayList<TypePokemon>()
-        arrayList.add(TypePokemon(R.string.type_normal, R.drawable.ic_normal,true))
-        arrayList.add(TypePokemon(R.string.type_fighting, R.drawable.ic_fighting,true))
-        arrayList.add(TypePokemon(R.string.type_flying, R.drawable.ic_flying,true))
-        arrayList.add(TypePokemon(R.string.type_poison, R.drawable.ic_poison,true))
-        arrayList.add(TypePokemon(R.string.type_ground, R.drawable.ic_ground,true))
-        arrayList.add(TypePokemon(R.string.type_rock, R.drawable.ic_rock,true))
-        arrayList.add(TypePokemon(R.string.type_bug, R.drawable.ic_bug,true))
-        arrayList.add(TypePokemon(R.string.type_ghost, R.drawable.ic_ghost,true))
-        arrayList.add(TypePokemon(R.string.type_steel, R.drawable.ic_steel,true))
-        arrayList.add(TypePokemon(R.string.type_fire, R.drawable.ic_fire,true))
-        arrayList.add(TypePokemon(R.string.type_water, R.drawable.ic_water,true))
-        arrayList.add(TypePokemon(R.string.type_grass, R.drawable.ic_grass,true))
-        arrayList.add(TypePokemon(R.string.type_electric, R.drawable.ic_electric,true))
-        arrayList.add(TypePokemon(R.string.type_psychic, R.drawable.ic_psychic,true))
-        arrayList.add(TypePokemon(R.string.type_ice, R.drawable.ic_ice,true))
-        arrayList.add(TypePokemon(R.string.type_dragon, R.drawable.ic_dragon,true))
-        arrayList.add(TypePokemon(R.string.type_fairy, R.drawable.ic_fairy,true))
-        arrayList.add(TypePokemon(R.string.type_dark, R.drawable.ic_dark,true))
+        arrayList.add(TypePokemon(R.string.type_normal, R.drawable.ic_normal, true))
+        arrayList.add(TypePokemon(R.string.type_fighting, R.drawable.ic_fighting, true))
+        arrayList.add(TypePokemon(R.string.type_flying, R.drawable.ic_flying, true))
+        arrayList.add(TypePokemon(R.string.type_poison, R.drawable.ic_poison, true))
+        arrayList.add(TypePokemon(R.string.type_ground, R.drawable.ic_ground, true))
+        arrayList.add(TypePokemon(R.string.type_rock, R.drawable.ic_rock, true))
+        arrayList.add(TypePokemon(R.string.type_bug, R.drawable.ic_bug, true))
+        arrayList.add(TypePokemon(R.string.type_ghost, R.drawable.ic_ghost, true))
+        arrayList.add(TypePokemon(R.string.type_steel, R.drawable.ic_steel, true))
+        arrayList.add(TypePokemon(R.string.type_fire, R.drawable.ic_fire, true))
+        arrayList.add(TypePokemon(R.string.type_water, R.drawable.ic_water, true))
+        arrayList.add(TypePokemon(R.string.type_grass, R.drawable.ic_grass, true))
+        arrayList.add(TypePokemon(R.string.type_electric, R.drawable.ic_electric, true))
+        arrayList.add(TypePokemon(R.string.type_psychic, R.drawable.ic_psychic, true))
+        arrayList.add(TypePokemon(R.string.type_ice, R.drawable.ic_ice, true))
+        arrayList.add(TypePokemon(R.string.type_dragon, R.drawable.ic_dragon, true))
+        arrayList.add(TypePokemon(R.string.type_fairy, R.drawable.ic_fairy, true))
+        arrayList.add(TypePokemon(R.string.type_dark, R.drawable.ic_dark, true))
         listTypesPokemon.postValue(arrayList)
     }
 
@@ -83,7 +79,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         listVulnerability.postValue(arrayListVulnerability)
     }
 
-    fun loadListFlying(){
+    fun loadListFlying() {
         arrayListEffective.add(TypePokemon(R.string.type_fighting, R.drawable.ic_fighting))
         arrayListEffective.add(TypePokemon(R.string.type_bug, R.drawable.ic_bug))
         arrayListEffective.add(TypePokemon(R.string.type_grass, R.drawable.ic_grass))
@@ -102,7 +98,8 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         arrayListVulnerability.add(TypePokemon(R.string.type_ice, R.drawable.ic_ice))
         listVulnerability.postValue(arrayListVulnerability)
     }
-    fun loadListSteel(){
+
+    fun loadListSteel() {
         arrayListEffective.add(TypePokemon(R.string.type_ice, R.drawable.ic_ice))
         arrayListEffective.add(TypePokemon(R.string.type_rock, R.drawable.ic_rock))
         arrayListEffective.add(TypePokemon(R.string.type_fairy, R.drawable.ic_fairy))
@@ -126,7 +123,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
 
     }
 
-    fun loadListWater(){
+    fun loadListWater() {
         arrayListEffective.add(TypePokemon(R.string.type_fire, R.drawable.ic_fire))
         arrayListEffective.add(TypePokemon(R.string.type_ground, R.drawable.ic_ground))
         arrayListEffective.add(TypePokemon(R.string.type_rock, R.drawable.ic_rock))
@@ -143,7 +140,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
     }
 
 
-    fun loadListIce(){
+    fun loadListIce() {
         arrayListEffective.add(TypePokemon(R.string.type_flying, R.drawable.ic_flying))
         arrayListEffective.add(TypePokemon(R.string.type_dragon, R.drawable.ic_dragon))
         arrayListEffective.add(TypePokemon(R.string.type_grass, R.drawable.ic_grass))
@@ -163,7 +160,8 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         listVulnerability.postValue(arrayListVulnerability)
 
     }
-    fun loadListGrass(){
+
+    fun loadListGrass() {
         arrayListEffective.add(TypePokemon(R.string.type_water, R.drawable.ic_water))
         arrayListEffective.add(TypePokemon(R.string.type_ground, R.drawable.ic_ground))
         arrayListEffective.add(TypePokemon(R.string.type_rock, R.drawable.ic_rock))
@@ -186,7 +184,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         listVulnerability.postValue(arrayListVulnerability)
     }
 
-    fun loadListBug(){
+    fun loadListBug() {
         arrayListEffective.add(TypePokemon(R.string.type_grass, R.drawable.ic_grass))
         arrayListEffective.add(TypePokemon(R.string.type_psychic, R.drawable.ic_psychic))
         arrayListEffective.add(TypePokemon(R.string.type_dark, R.drawable.ic_dark))
@@ -207,7 +205,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         listVulnerability.postValue(arrayListVulnerability)
     }
 
-    fun loadListElectric(){
+    fun loadListElectric() {
         arrayListEffective.add(TypePokemon(R.string.type_flying, R.drawable.ic_flying))
         arrayListEffective.add(TypePokemon(R.string.type_water, R.drawable.ic_water))
         listEffective.postValue(arrayListEffective)
@@ -221,7 +219,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         listVulnerability.postValue(arrayListVulnerability)
     }
 
-    fun loadListRock(){
+    fun loadListRock() {
         arrayListEffective.add(TypePokemon(R.string.type_flying, R.drawable.ic_flying))
         arrayListEffective.add(TypePokemon(R.string.type_ice, R.drawable.ic_ice))
         arrayListEffective.add(TypePokemon(R.string.type_bug, R.drawable.ic_bug))
@@ -241,7 +239,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         listVulnerability.postValue(arrayListVulnerability)
     }
 
-    fun loadListGround(){
+    fun loadListGround() {
         arrayListEffective.add(TypePokemon(R.string.type_steel, R.drawable.ic_steel))
         arrayListEffective.add(TypePokemon(R.string.type_electric, R.drawable.ic_electric))
         arrayListEffective.add(TypePokemon(R.string.type_rock, R.drawable.ic_rock))
@@ -262,7 +260,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         listVulnerability.postValue(arrayListVulnerability)
     }
 
-    fun loadListFire(){
+    fun loadListFire() {
         arrayListEffective.add(TypePokemon(R.string.type_steel, R.drawable.ic_steel))
         arrayListEffective.add(TypePokemon(R.string.type_ice, R.drawable.ic_ice))
         arrayListEffective.add(TypePokemon(R.string.type_grass, R.drawable.ic_grass))
@@ -281,7 +279,7 @@ class TableTypeViewModel @Inject constructor() : BaseViewModel(App.instance) {
         listVulnerability.postValue(arrayListVulnerability)
     }
 
-    fun loadListFairy(){
+    fun loadListFairy() {
         arrayListEffective.add(TypePokemon(R.string.type_fighting, R.drawable.ic_fighting))
         arrayListEffective.add(TypePokemon(R.string.type_dragon, R.drawable.ic_dragon))
         arrayListEffective.add(TypePokemon(R.string.type_dark, R.drawable.ic_dark))

@@ -3,7 +3,6 @@ package com.dalvik.pokemonsters.ui.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.dalvik.pokemonsters.databinding.ItemImagesPokemonBinding
 import com.dalvik.pokemonsters.databinding.ItemPokedexTextPokemonBinding
 import com.dalvik.pokemonsters.network.model.text_pokedex.TextPokedex
 

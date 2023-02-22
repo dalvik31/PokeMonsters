@@ -11,7 +11,6 @@ import com.dalvik.pokemonsters.utils.CustomLoader
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-import kotlin.collections.ArrayList
 
 @HiltViewModel
 class NewsViewModel @Inject constructor(

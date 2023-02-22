@@ -22,17 +22,15 @@
         android:background="@color/purple_700">
 
         <com.google.android.material.appbar.AppBarLayout
-            android:id="@+id/appbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
             <com.google.android.material.appbar.CollapsingToolbarLayout
-                android:id="@+id/flexible.example.collapsing"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_200sdp"
                 app:contentScrim="@color/purple_700"
-                app:expandedTitleMarginBottom="94dp"
+                app:expandedTitleMarginBottom="@dimen/_90sdp"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
 
@@ -56,7 +54,6 @@
                     android:scaleType="fitXY" />
 
                 <androidx.appcompat.widget.Toolbar
-                    android:id="@+id/flexible.example.toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     android:background="@null"
@@ -77,16 +74,15 @@
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/flexible.example.cardview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/_16sdp"
                     app:cardBackgroundColor="@android:color/white"
-                    app:cardCornerRadius="4dp"
-                    app:cardElevation="4dp"
+                    app:cardCornerRadius="@dimen/_4sdp"
+                    app:cardElevation="@dimen/_4sdp"
                     app:contentPaddingBottom="@dimen/_70sdp"
-                    app:contentPaddingLeft="16dp"
-                    app:contentPaddingRight="16dp">
+                    app:contentPaddingLeft="@dimen/_16sdp"
+                    app:contentPaddingRight="@dimen/_16sdp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -122,7 +118,7 @@
                             tools:text="Name pkemon" />
 
                         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-                            android:id="@+id/youtube_player_view"
+                            android:id="@+id/youtubePlayer"
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/_150sdp"
                             android:visibility="@{news.video_url != null ? View.VISIBLE :  View.GONE, default = gone }"
@@ -251,13 +247,13 @@
         </androidx.core.widget.NestedScrollView>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab_open_web"
+            android:id="@+id/fabOpenWeb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
             android:layout_margin="@dimen/_32sdp"
             android:contentDescription="@string/app_name"
-            android:elevation="8dp"
+            android:elevation="@dimen/_8sdp"
             android:visibility="@{showFabWebView ? View.VISIBLE :  View.GONE, default = gone }"
             android:src="@drawable/ic_open_browser"
             app:backgroundTint="@color/primary_red"

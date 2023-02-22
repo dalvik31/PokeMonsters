@@ -86,7 +86,7 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:contentDescription="@string/app_name"
-                android:elevation="3dp"
+                android:elevation="@dimen/_3sdp"
                 android:imageUrl="@{normal_image}"
                 android:scaleType="fitCenter"
                 android:visibility="@{hideImage ? View.GONE : View.VISIBLE}"

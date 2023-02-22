@@ -10,4 +10,4 @@ data class TypePokemon(
     @StringRes val name: Int,
     @DrawableRes val image: Int,
     val isClickable: Boolean = false
-): Parcelable
+) : Parcelable

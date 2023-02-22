@@ -72,5 +72,4 @@ object GlobalModule {
         Repository(pokeServices)
 
 
-
 }

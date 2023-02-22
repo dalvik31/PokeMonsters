@@ -123,7 +123,7 @@ class BindingAdapters {
                 val textAdapter = TextPokedexAdapter(textList)
                 viewPager.offscreenPageLimit = 1
                 viewPager.adapter = textAdapter
-                if(textList.size > 1){
+                if (textList.size > 1) {
                     viewPager.setPageTransformer { page, position ->
                         page.translationX = -80 * position
                         page.scaleY = 1 - (0.40f * kotlin.math.abs(position))

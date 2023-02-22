@@ -18,20 +18,19 @@ class DetailPokemonViewModel @Inject constructor(
 ) : BaseViewModel(App.instance) {
 
     var pokemon = MutableLiveData<DetailPokemon>()
-    var _pokemonId = MutableLiveData<String>()
+    var pokemonId = MutableLiveData<String>()
     var pokemonType = MutableLiveData<Int>()
     var pokemonSrc = MutableLiveData<Int>()
 
     fun getPokemon(pokemonId: String) {
-        _pokemonId.value = pokemonId
+        this.pokemonId.value = pokemonId
         getPokemonById()
     }
 
 
-
-    private fun getPokemonById (){
+    private fun getPokemonById() {
         viewModelScope.launch {
-            _pokemonId.value?.let {
+            pokemonId.value?.let {
                 when (val resultPokemonDetail = pokemonByIdUseCase(
                     loader = CustomLoader.Type.SOFT,
                     params = it,
@@ -42,10 +41,10 @@ class DetailPokemonViewModel @Inject constructor(
                         //The same error is here resultCharacter.message to send viewmodel inside xml
                     }
                     is ResultData.Success -> {
-                        val pokemonDeatil = resultPokemonDetail.model
-                        pokemonSrc.postValue(pokemonDeatil.getTypeSrc())
-                        pokemonType.postValue(pokemonDeatil.getTypeName())
-                        pokemon.postValue(pokemonDeatil)
+                        val pokemonDetail = resultPokemonDetail.model
+                        pokemonSrc.postValue(pokemonDetail.getTypeSrc())
+                        pokemonType.postValue(pokemonDetail.getTypeName())
+                        pokemon.postValue(pokemonDetail)
                     }
                 }
             }

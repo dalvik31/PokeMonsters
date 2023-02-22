@@ -32,9 +32,6 @@ abstract class BaseFragment<BINDING : ViewDataBinding, VIEW_MODEL : BaseViewMode
 
     private var isInitialized = false
 
-    /**
-     * LiveData to notify a activity/fragment when service is start/end to block UI if necessary
-     */
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -55,27 +52,6 @@ abstract class BaseFragment<BINDING : ViewDataBinding, VIEW_MODEL : BaseViewMode
             subscribeToEvents()
             subscribeToBaseEvents()
         }
-    }
-
-    /**
-     * If you enable this, and then access parent view model, it will crash
-     */
-    open fun ignoreParentViewMode(): Boolean {
-        return false
-    }
-
-    /**
-     * Override if you receive arguments (Only called if arguments != null)
-     */
-    open fun getArgs() {
-        //do nothing
-    }
-
-    /**
-     * Override if no arguments are found
-     */
-    open fun noArgs() {
-        //do nothing
     }
 
     abstract fun bindViewModel(binding: BINDING, viewModel: VIEW_MODEL)

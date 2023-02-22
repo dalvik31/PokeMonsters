@@ -61,15 +61,18 @@ class WebViewFragment : BaseFragment<FragmentWebViewBinding, NewsViewModel, News
         requireActivity().requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
     }
 
-    private fun loadUrl(url:String){
+    private fun loadUrl(url: String) {
 
         binding.webviewPageUrl.loadUrl(url)
         binding.webviewPageUrl.settings.javaScriptEnabled = true
         binding.webviewPageUrl.settings.domStorageEnabled = true
         binding.webviewPageUrl.settings.mediaPlaybackRequiresUserGesture = false
         binding.webviewPageUrl.webViewClient = object : WebViewClient() {
-            override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
-                view?.loadUrl( request?.url.toString())
+            override fun shouldOverrideUrlLoading(
+                view: WebView?,
+                request: WebResourceRequest?
+            ): Boolean {
+                view?.loadUrl(request?.url.toString())
                 return super.shouldOverrideUrlLoading(view, request)
             }
 
@@ -83,7 +86,11 @@ class WebViewFragment : BaseFragment<FragmentWebViewBinding, NewsViewModel, News
                 super.onPageFinished(view, url)
             }
 
-            override fun onReceivedError(view: WebView, request: WebResourceRequest, error: WebResourceError) {
+            override fun onReceivedError(
+                view: WebView,
+                request: WebResourceRequest,
+                error: WebResourceError
+            ) {
                 super.onReceivedError(view, request, error)
             }
         }

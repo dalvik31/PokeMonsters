@@ -12,10 +12,11 @@ import dagger.hilt.android.AndroidEntryPoint
 
 
 @AndroidEntryPoint
-class RegionHomeFragment : BaseFragment<FragmentRegionHomeBinding, RegionsViewModel, RegionsViewModel>(
-    RegionsViewModel::class.java,
-    RegionsViewModel::class.java
-) {
+class RegionHomeFragment :
+    BaseFragment<FragmentRegionHomeBinding, RegionsViewModel, RegionsViewModel>(
+        RegionsViewModel::class.java,
+        RegionsViewModel::class.java
+    ) {
 
     override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentRegionHomeBinding
         get() = FragmentRegionHomeBinding::inflate

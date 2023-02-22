@@ -53,7 +53,7 @@ class RegionPokemonFragment :
                 viewModel.getPokemon(it)
             }
             Bundle.getString(PARAM_ITEM_REGION_TOTAL).let {
-                binding.subtitle = getString(R.string.textview_subtitle_region_pokemon,it)
+                binding.subtitle = getString(R.string.textview_subtitle_region_pokemon, it)
             }
             Bundle.getString(PARAM_ITEM_REGION_NAME).let {
                 binding.nameRegion = it

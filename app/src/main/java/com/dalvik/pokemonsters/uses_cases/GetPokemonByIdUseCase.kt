@@ -1,7 +1,6 @@
 package com.dalvik.pokemonsters.uses_cases
 
 import com.dalvik.pokemonsters.network.ResultData
-import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.DetailPokemon
 import com.dalvik.pokemonsters.network.repository.Repository
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
@@ -10,7 +9,7 @@ import javax.inject.Inject
 
 
 class GetPokemonByIdUseCase @Inject constructor(private val repository: Repository) :
-    BaseUseCaseWithParams<String,ResultData<DetailPokemon>>() {
+    BaseUseCaseWithParams<String, ResultData<DetailPokemon>>() {
     override suspend fun invoke(
         viewModel: BaseViewModel,
         params: String,
@@ -20,7 +19,6 @@ class GetPokemonByIdUseCase @Inject constructor(private val repository: Reposito
             loader,
             suspend { repository.getRemotePokemonById(params) })
     }
-
 
 
 }

@@ -4,16 +4,11 @@ import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.network.ResultData
 import com.dalvik.pokemonsters.network.data
 import com.dalvik.pokemonsters.network.dataList
-import com.dalvik.pokemonsters.utils.App
 import com.dalvik.pokemonsters.network.model.ResponseModel
+import com.dalvik.pokemonsters.utils.App
 import retrofit2.Response
 
 abstract class BaseRemoteCall {
-
-    /**
-     * Wrap a suspending API in try/catch. In case an exception is thrown, a [ResultData.Error] is
-     * created based on the [errorMessage].
-     */
     private suspend fun <T : Any> safeApiCallBody(
         errorMessage: String,
         apiCall: suspend () -> Response<T>,
@@ -23,7 +18,7 @@ abstract class BaseRemoteCall {
             if (response.isSuccessful)
                 ResultData.Success(response.body()!!)
             else {
-                val responseErrorMessage = App.instance.getString(R.string.general_error,)
+                val responseErrorMessage = App.instance.getString(R.string.general_error)
 
                 ResultData.Error(
                     code = R.string.general_error,

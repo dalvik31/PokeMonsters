@@ -33,7 +33,7 @@
             tools:visibility="gone">
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/imgPokemonEmpty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/app_name"
@@ -45,12 +45,11 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView15"
                 style="@style/TextViewMsgBold"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/msg_pokemon_empty"
-                app:layout_constraintBottom_toTopOf="@+id/imageView6"
+                app:layout_constraintBottom_toTopOf="@+id/imgPokemonEmpty"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -59,7 +58,6 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:visibility="@{pokemon != null ? View.VISIBLE : View.GONE}"
@@ -71,7 +69,7 @@
 
 
             <TextView
-                android:id="@+id/text_pokemon_name"
+                android:id="@+id/textPokemonName"
                 style="@style/TextViewTitleBold"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -82,19 +80,18 @@
                 tools:text="Bulbasaur" />
 
             <View
-                android:id="@+id/view"
                 android:layout_width="0dp"
-                android:layout_height="2dp"
+                android:layout_height="@dimen/_1sdp"
                 android:layout_marginStart="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
                 android:background="@color/primary_gray"
-                app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
-                app:layout_constraintEnd_toStartOf="@+id/text_subtitle_category"
+                app:layout_constraintBottom_toBottomOf="@+id/textSubtitleCategory"
+                app:layout_constraintEnd_toStartOf="@+id/textSubtitleCategory"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name" />
+                app:layout_constraintTop_toBottomOf="@+id/textPokemonName" />
 
             <TextView
-                android:id="@+id/text_subtitle_category"
+                android:id="@+id/textSubtitleCategory"
                 style="@style/TextViewTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -103,41 +100,38 @@
                 android:text='@{@string/textview_subtitle_detail_pokemon(pokemon.name,pokemon.category)}'
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
+                app:layout_constraintTop_toBottomOf="@+id/textPokemonName"
                 tools:text="Bulbasaur es considerado \nel Pokémon semilla" />
 
 
             <View
-                android:id="@+id/gradient_view"
                 android:layout_width="0dp"
-                android:layout_height="2dp"
+                android:layout_height="@dimen/_1sdp"
                 android:layout_marginStart="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
                 android:background="@color/primary_gray"
-                app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
+                app:layout_constraintBottom_toBottomOf="@+id/textSubtitleCategory"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/text_subtitle_category"
-                app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name" />
+                app:layout_constraintStart_toEndOf="@+id/textSubtitleCategory"
+                app:layout_constraintTop_toBottomOf="@+id/textPokemonName" />
 
             <View
-                android:id="@+id/view5"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_20sdp"
                 android:background="@drawable/background_primary_gradient_top"
-                android:elevation="3dp"
+                android:elevation="@dimen/_3sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category" />
+                app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory" />
 
 
             <ScrollView
-                android:id="@+id/scrollView2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category">
+                app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory">
 
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -160,7 +154,7 @@
 
 
                     <androidx.viewpager2.widget.ViewPager2
-                        android:id="@+id/viewpager_images"
+                        android:id="@+id/viewpagerImages"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_200sdp"
                         android:layout_margin="0dp"
@@ -177,7 +171,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/_40sdp"
                         android:background="@drawable/background_primary_gradient_bottom"
-                        app:layout_constraintBottom_toBottomOf="@+id/viewpager_images"
+                        app:layout_constraintBottom_toBottomOf="@+id/viewpagerImages"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
 
@@ -189,7 +183,7 @@
                         android:layout_marginEnd="-50dp"
                         android:layout_marginBottom="-50dp"
                         android:alpha="0.3"
-                        android:elevation="4dp"
+                        android:elevation="@dimen/_4sdp"
                         android:gravity="center"
                         android:letterSpacing="0.2"
                         android:lines="1"
@@ -201,81 +195,79 @@
                         tools:text="Bulbasaur" />
 
                     <TextView
-                        android:id="@+id/text_pokemon_name_description"
+                        android:id="@+id/textPokemonNameDescription"
                         style="@style/TextViewDescriptionBold"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:elevation="2dp"
+                        android:elevation="@dimen/_2sdp"
                         android:gravity="center"
                         android:lines="1"
                         android:paddingTop="0dp"
                         android:text="@{pokemon.name}"
                         android:textSize="@dimen/_20sdp"
-                        app:layout_constraintEnd_toStartOf="@+id/imageType1"
+                        app:layout_constraintEnd_toStartOf="@+id/imgTypeOne"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/viewpager_images"
+                        app:layout_constraintTop_toBottomOf="@+id/viewpagerImages"
                         tools:text="Bulbasaur" />
 
                     <TextView
-                        android:id="@+id/text_pokemon_name_anime_description"
+                        android:id="@+id/textPokemonNameAnimeDescription"
                         style="@style/TextViewDescriptionBold"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="0dp"
-                        android:elevation="2dp"
+                        android:elevation="@dimen/_2sdp"
                         android:gravity="center"
                         android:lines="1"
                         android:padding="0dp"
                         android:text="@{pokemon.originalName}"
-                        app:layout_constraintEnd_toEndOf="@+id/text_pokemon_name_description"
+                        app:layout_constraintEnd_toEndOf="@+id/textPokemonNameDescription"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name_description"
+                        app:layout_constraintTop_toBottomOf="@+id/textPokemonNameDescription"
                         tools:text="フシギバナ (Fushigibana)" />
 
 
                     <ImageView
-                        android:id="@+id/imageType1"
+                        android:id="@+id/imgTypeOne"
                         android:layout_width="@dimen/_25sdp"
                         android:layout_height="@dimen/_25sdp"
                         android:layout_margin="@dimen/_20sdp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerCrop"
-                        android:textSize="14sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/text_pokemon_name_anime_description"
-                        app:layout_constraintEnd_toStartOf="@+id/imageView9"
-                        app:layout_constraintTop_toTopOf="@+id/text_pokemon_name_description"
+                        app:layout_constraintBottom_toBottomOf="@+id/textPokemonNameAnimeDescription"
+                        app:layout_constraintEnd_toStartOf="@+id/imgTypeTwo"
+                        app:layout_constraintTop_toTopOf="@+id/textPokemonNameDescription"
                         app:src="@{pokemon.getType(pokemon.type_first)}"
                         tools:src="@drawable/ic_grass" />
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/imgTypeTwo"
                         android:layout_width="@dimen/_25sdp"
                         android:layout_height="@dimen/_25sdp"
                         android:layout_margin="@dimen/_20sdp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerCrop"
-                        android:textSize="14sp"
                         android:visibility="@{pokemon.type_second !=null  ? View.VISIBLE : View.INVISIBLE, default= invisible }"
-                        app:layout_constraintBottom_toBottomOf="@+id/text_pokemon_name_anime_description"
+                        app:layout_constraintBottom_toBottomOf="@+id/textPokemonNameAnimeDescription"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@+id/text_pokemon_name_description"
+                        app:layout_constraintTop_toTopOf="@+id/textPokemonNameDescription"
                         app:src="@{pokemon.getType(pokemon.type_second)}"
                         tools:src="@drawable/ic_poison" />
 
 
                     <View
                         android:layout_width="0dp"
-                        android:layout_height="2dp"
+                        android:layout_height="@dimen/_1sdp"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:layout_marginEnd="@dimen/_5sdp"
                         android:background="@color/primary_gray"
-                        app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_pokedex"
-                        app:layout_constraintEnd_toStartOf="@+id/text_subtitle_pokedex"
+                        app:layout_constraintBottom_toBottomOf="@+id/textSubtitlePokedex"
+                        app:layout_constraintEnd_toStartOf="@+id/textSubtitlePokedex"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name_anime_description" />
+                        app:layout_constraintTop_toBottomOf="@+id/textPokemonNameAnimeDescription" />
 
                     <TextView
-                        android:id="@+id/text_subtitle_pokedex"
+                        android:id="@+id/textSubtitlePokedex"
                         style="@style/TextViewTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -285,30 +277,30 @@
                         android:text='@{@string/textview_subtitle_detail_pokedex(pokemon.name)}'
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name_anime_description"
+                        app:layout_constraintTop_toBottomOf="@+id/textPokemonNameAnimeDescription"
                         tools:text="¿Qué dice la pokedex sobre\nBulbasaur?" />
 
 
                     <View
                         android:layout_width="0dp"
-                        android:layout_height="2dp"
+                        android:layout_height="@dimen/_1sdp"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:layout_marginEnd="@dimen/_5sdp"
                         android:background="@color/primary_gray"
-                        app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_pokedex"
+                        app:layout_constraintBottom_toBottomOf="@+id/textSubtitlePokedex"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/text_subtitle_pokedex"
-                        app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name_anime_description" />
+                        app:layout_constraintStart_toEndOf="@+id/textSubtitlePokedex"
+                        app:layout_constraintTop_toBottomOf="@+id/textPokemonNameAnimeDescription" />
 
                     <androidx.viewpager2.widget.ViewPager2
-                        android:id="@+id/viewpager_text_pokedex"
+                        android:id="@+id/viewpagerTextPokedex"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_150sdp"
                         android:layout_margin="0dp"
                         android:clipToPadding="false"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/text_subtitle_pokedex"
+                        app:layout_constraintTop_toBottomOf="@+id/textSubtitlePokedex"
                         app:listText="@{pokemon.getOrderDescriptionList}"
                         tools:visibility="visible" />
 
@@ -323,11 +315,10 @@
                         android:textColor="@color/primary_yellow"
                         app:layout_constraintEnd_toStartOf="@+id/guideline_33_v"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/viewpager_text_pokedex"
+                        app:layout_constraintTop_toBottomOf="@+id/viewpagerTextPokedex"
                         tools:text="2, 04''" />
 
                     <TextView
-                        android:id="@+id/textView2"
                         style="@style/TextViewDescription"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -351,11 +342,11 @@
                         android:textColor="@color/primary_yellow"
                         app:layout_constraintEnd_toStartOf="@+id/guideline_66_v"
                         app:layout_constraintStart_toStartOf="@+id/guideline_33_v"
-                        app:layout_constraintTop_toBottomOf="@+id/viewpager_text_pokedex"
+                        app:layout_constraintTop_toBottomOf="@+id/viewpagerTextPokedex"
                         tools:text="15.2" />
 
                     <TextView
-                        android:id="@+id/text_title_weight"
+                        android:id="@+id/textTitleWeight"
                         style="@style/TextViewDescription"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -379,7 +370,7 @@
                         android:textColor="@color/primary_yellow"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="@+id/guideline_66_v"
-                        app:layout_constraintTop_toBottomOf="@+id/viewpager_text_pokedex"
+                        app:layout_constraintTop_toBottomOf="@+id/viewpagerTextPokedex"
                         tools:text="Semilla" />
 
                     <TextView
@@ -422,7 +413,7 @@
                         android:textColor="@color/primary_yellow"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/text_title_weight"
+                        app:layout_constraintTop_toBottomOf="@+id/textTitleWeight"
                         tools:text="Espesura" />
 
 
@@ -443,7 +434,7 @@
                     <View
                         android:id="@+id/view2"
                         android:layout_width="0dp"
-                        android:layout_height="2dp"
+                        android:layout_height="@dimen/_1sdp"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:layout_marginTop="@dimen/_20sdp"
                         android:layout_marginEnd="@dimen/_5sdp"
@@ -473,7 +464,7 @@
                     <View
                         android:id="@+id/view4"
                         android:layout_width="0dp"
-                        android:layout_height="2dp"
+                        android:layout_height="@dimen/_1sdp"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:layout_marginTop="@dimen/_20sdp"
                         android:layout_marginEnd="@dimen/_5sdp"
@@ -812,7 +803,7 @@
                     <View
                         android:id="@+id/view3"
                         android:layout_width="0dp"
-                        android:layout_height="2dp"
+                        android:layout_height="@dimen/_2sdp"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:layout_marginTop="@dimen/_20sdp"
                         android:layout_marginEnd="@dimen/_5sdp"
@@ -839,7 +830,7 @@
 
                     <View
                         android:layout_width="0dp"
-                        android:layout_height="2dp"
+                        android:layout_height="@dimen/_2sdp"
                         android:layout_marginEnd="@dimen/_5sdp"
                         android:background="@color/primary_gray"
                         app:layout_constraintBottom_toBottomOf="@+id/text_evolutive"
@@ -1090,7 +1081,7 @@
                     <View
                         android:id="@+id/view6"
                         android:layout_width="0dp"
-                        android:layout_height="2dp"
+                        android:layout_height="@dimen/_2sdp"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:layout_marginEnd="@dimen/_5sdp"
                         android:background="@color/primary_gray"
@@ -1117,7 +1108,7 @@
 
                     <View
                         android:layout_width="0dp"
-                        android:layout_height="2dp"
+                        android:layout_height="@dimen/_2sdp"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:layout_marginEnd="@dimen/_5sdp"
                         android:background="@color/primary_gray"
@@ -1154,7 +1145,7 @@
             android:layout_gravity="end|bottom"
             android:layout_margin="@dimen/_32sdp"
             android:contentDescription="@string/app_name"
-            android:elevation="8dp"
+            android:elevation="@dimen/_8sdp"
             android:visibility="gone"
             android:src="@drawable/ic_table_type"
             app:backgroundTint="@color/primary_red"

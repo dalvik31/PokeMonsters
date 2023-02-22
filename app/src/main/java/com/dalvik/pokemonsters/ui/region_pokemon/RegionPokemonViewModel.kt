@@ -3,7 +3,6 @@ package com.dalvik.pokemonsters.ui.region_pokemon
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.dalvik.pokemonsters.network.ResultData
-import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
 import com.dalvik.pokemonsters.uses_cases.GetPokemonRegionUseCase
@@ -12,7 +11,6 @@ import com.dalvik.pokemonsters.utils.CustomLoader
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-import kotlin.collections.ArrayList
 
 @HiltViewModel
 class RegionPokemonViewModel @Inject constructor(
@@ -29,7 +27,7 @@ class RegionPokemonViewModel @Inject constructor(
         getPokemonRegion()
     }
 
-    fun getPokemonRegion(){
+    fun getPokemonRegion() {
         viewModelScope.launch {
             _regionId.value?.let {
                 when (val resultPokemonRegion = pokemonRegionUseCase(

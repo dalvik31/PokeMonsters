@@ -7,10 +7,7 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.ItemListPokemonBinding
-import com.dalvik.pokemonsters.databinding.ItemListRegionsBinding
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
-import com.dalvik.pokemonsters.network.model.regions.Region
-import com.dalvik.pokemonsters.utils.PARAM_ITEM_NEWS
 import com.dalvik.pokemonsters.utils.PARAM_ITEM_POKEMON_ID
 
 class RegionsPokemonAdapter(private var pokemonlist: List<Pokemon>) :

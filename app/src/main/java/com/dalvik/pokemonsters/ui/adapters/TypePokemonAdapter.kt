@@ -20,7 +20,7 @@ class TypePokemonAdapter(private var typeList: MutableList<TypePokemon>) :
         fun bindCharacter(type: TypePokemon) {
             itemTypeBinding.tvType.setText(type.name)
             itemTypeBinding.imgType.setImageResource(type.image)
-            if(type.isClickable){
+            if (type.isClickable) {
                 itemTypeBinding.root.setOnClickListener {
                     it.findNavController().navigate(
                         R.id.action_tableTypeFragment_to_typeDetailsFragment,

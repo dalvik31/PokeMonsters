@@ -18,7 +18,7 @@
         tools:context=".PokemonFragment">
 
         <TextView
-            android:id="@+id/text_pokemon_name"
+            android:id="@+id/textPokemonName"
             style="@style/TextViewTitleBold"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -30,17 +30,17 @@
         <View
             android:id="@+id/view"
             android:layout_width="0dp"
-            android:layout_height="2dp"
+            android:layout_height="@dimen/_2sdp"
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
             android:background="@color/primary_gray"
-            app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
-            app:layout_constraintEnd_toStartOf="@+id/text_subtitle_category"
+            app:layout_constraintBottom_toBottomOf="@+id/textSubtitleCategory"
+            app:layout_constraintEnd_toStartOf="@+id/textSubtitleCategory"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name" />
+            app:layout_constraintTop_toBottomOf="@+id/textPokemonName" />
 
         <TextView
-            android:id="@+id/text_subtitle_category"
+            android:id="@+id/textSubtitleCategory"
             style="@style/TextViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,20 +50,20 @@
             android:text="@string/textview_subtitle_region"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name"
+            app:layout_constraintTop_toBottomOf="@+id/textPokemonName"
             tools:text="@string/textview_subtitle_region" />
 
 
         <View
             android:layout_width="0dp"
-            android:layout_height="2dp"
+            android:layout_height="@dimen/_2sdp"
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
             android:background="@color/primary_gray"
-            app:layout_constraintBottom_toBottomOf="@+id/text_subtitle_category"
+            app:layout_constraintBottom_toBottomOf="@+id/textSubtitleCategory"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/text_subtitle_category"
-            app:layout_constraintTop_toBottomOf="@+id/text_pokemon_name" />
+            app:layout_constraintStart_toEndOf="@+id/textSubtitleCategory"
+            app:layout_constraintTop_toBottomOf="@+id/textPokemonName" />
 
 
         <com.google.android.material.textfield.TextInputLayout
@@ -73,17 +73,17 @@
             android:layout_marginStart="@dimen/_14sdp"
             android:gravity="center"
             app:boxBackgroundColor="@android:color/transparent"
-            app:boxCornerRadiusBottomEnd="8dp"
-            app:boxCornerRadiusBottomStart="8dp"
-            app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp"
+            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+            app:boxCornerRadiusTopStart="@dimen/_8sdp"
             app:boxStrokeWidth="0dp"
             app:boxStrokeWidthFocused="0dp"
             app:endIconMode="clear_text"
             app:hintEnabled="true"
             app:layout_constraintEnd_toStartOf="@+id/btn_search"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category"
+            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory"
             app:startIconDrawable="@drawable/ic_search">
 
 
@@ -109,7 +109,7 @@
             android:src="@drawable/ic_arrow_right"
             app:layout_constraintBottom_toBottomOf="@+id/textInputLayout"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_subtitle_category"
+            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory"
             app:tint="@color/primary_gray" />
 
         <androidx.recyclerview.widget.RecyclerView

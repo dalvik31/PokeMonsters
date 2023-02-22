@@ -46,13 +46,14 @@ data class DetailPokemon(
 ) {
 
     fun getThumbnail(idPokemon: String?): String {
-        if(idPokemon.isNullOrEmpty()) return ""
+        if (idPokemon.isNullOrEmpty()) return ""
         return idPokemon.getThumbnail()
     }
 
     fun getType(type: Int): Int {
         return type.getPokemonType()
     }
+
     fun getTypeName(): Int {
         return (type_first ?: 0).getPokemonTypeString()
     }
@@ -68,7 +69,7 @@ data class DetailPokemon(
     }
 
     fun getFormatNumber(number: String?): String {
-        if(number.isNullOrEmpty()) return ""
+        if (number.isNullOrEmpty()) return ""
         return number.numberFormat()
     }
 

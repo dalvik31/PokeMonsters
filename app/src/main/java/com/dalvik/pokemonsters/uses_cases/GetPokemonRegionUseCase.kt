@@ -20,5 +20,4 @@ class GetPokemonRegionUseCase @Inject constructor(private val repository: Reposi
             suspend { repository.getRemotePokemonRegions(params) })
     }
 
-
 }

@@ -12,7 +12,7 @@ data class Pokemon(
     val alternateImage: String?,
 ) {
 
-    fun getThumbnail(): String{
+    fun getThumbnail(): String {
         return alternateImage ?: (id ?: "").getThumbnail()
     }
 

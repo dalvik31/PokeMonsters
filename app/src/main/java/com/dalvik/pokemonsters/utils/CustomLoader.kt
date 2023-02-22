@@ -9,7 +9,6 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.LoaderBinding
-import com.dalvik.pokemonsters.utils.getActivity
 
 /**
  * Custom ui loader to easy show over current activity/fragment

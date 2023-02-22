@@ -20,16 +20,16 @@ class ImagesAdapter(private var imagesList: ArrayList<Images>) :
         RecyclerView.ViewHolder(itemListImagesBinding.root) {
         fun bindCharacter(image: Images, position: Int) {
 
-            if(position == 0){
+            if (position == 0) {
                 itemListImagesBinding.hideImage = false
                 itemListImagesBinding.icShiny.visibility = View.VISIBLE
-                itemListImagesBinding.normalImage =  (image.thumbnail ?: "").getThumbnail()
+                itemListImagesBinding.normalImage = (image.thumbnail ?: "").getThumbnail()
                 itemListImagesBinding.shinyImage = (image.thumbnailShiny ?: "").getThumbnailShiny()
                 Glide.with(itemListImagesBinding.imageShiny.context)
                     .load(R.drawable.shiny9)
                     .diskCacheStrategy(DiskCacheStrategy.ALL)
                     .into(itemListImagesBinding.imageShiny)
-            }else{
+            } else {
                 itemListImagesBinding.hideImage = true
                 itemListImagesBinding.icShiny.visibility = View.GONE
                 itemListImagesBinding.image = image.thumbnail ?: ""

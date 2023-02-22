@@ -56,8 +56,6 @@ class DetailPokemonFragment :
             it?.let {
                 binding.fabOpenTableTypes.visibility = View.VISIBLE
                 binding.pokemon = it
-            } ?: kotlin.run {
-
             }
         }
     }

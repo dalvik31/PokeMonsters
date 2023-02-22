@@ -4,15 +4,15 @@ import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.utils.App
 
 data class Region(
-    val id: Int =  App.instance.getString(R.string.kanto_id).toInt(),
+    val id: Int = App.instance.getString(R.string.kanto_id).toInt(),
     val name: String = App.instance.getString(R.string.kanto_name),
-    val totalPokemon: String =  App.instance.getString(R.string.kanto_total_pokemon),
+    val totalPokemon: String = App.instance.getString(R.string.kanto_total_pokemon),
     val imgUrl: Int = R.drawable.region_kanto,
     val serieUrl: String = "https://www.pokemon.com/el/episodios-pokemon/episodios-pokemon/temporadas-de-tv-pokemon/1/",
     val firstMedalImgUrl: Int = R.drawable.rock_medal,
     val firstMedalName: String = App.instance.getString(R.string.kanto_first_medal),
     val secondMedalImgUrl: Int = R.drawable.watterfall_medal,
-    val secondMedalName: String =App.instance.getString(R.string.kanto_second_medal),
+    val secondMedalName: String = App.instance.getString(R.string.kanto_second_medal),
     val thirdMedalImgUrl: Int = R.drawable.thunder_medal,
     val thirdMedalName: String = App.instance.getString(R.string.kanto_third_medal),
     val forthMedalImgUrl: Int = R.drawable.rainbow_medal,
