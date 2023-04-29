@@ -1,0 +1,41 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "22",
+        "name": "Fearow",
+        "originalName": "オニドリル (Onidrill)",
+        "category": "Pico",
+        "type_first": 14,
+          "type_second": 9,
+        "height": "1,2 m",
+        "weight": "38,0 kg",
+          "ability": "Vista lince",
+        "ability_description": "Vista lince: Evita que baje la precisión del Pokémon que tenga esta habilidad",
+        "first_name_pokemon": "Spearow",
+        "first_num_pokemon": "21",
+        "third_name_pokemon": "Fearow",
+        "third_num_pokemon": "22",
+        "level_second_evolution": "Nivel 20",
+        "images": [
+          {
+            "thumbnail": "22",
+            "thumbnailShiny": "22"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Con sus enormes y magníficas alas, puede seguir volando sin tener que aterrizar para descansar."
+          }
+        ]
+      }
+    ]
+  }
+}
