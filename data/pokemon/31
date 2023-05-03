@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "31",
+        "name": "Nidoqueen",
+        "originalName": "ニドクイン (Nidoqueen)",
+        "category": "Taladro",
+        "type_first": 1,
+        "height": "1,3 m",
+        "weight": "60,0 kg",
+          "ability": "Punto tóxico",
+        "ability_description": "Punto tóxico: Si un Pokémon con punto tóxico es golpeado con un movimiento de contacto, el atacante tiene una probabilidad del 30% de ser envenenado.",
+        "first_name_pokemon": "Nidoran♀",
+        "first_num_pokemon": "29",
+        "second_name_pokemon": "Nidorina",
+        "second_num_pokemon": "30",
+        "third_name_pokemon": "Nidoqueen",
+        "third_num_pokemon": "31",
+            "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Piedra lunar",
+        "images": [
+          {
+            "thumbnail": "31",
+            "thumbnailShiny": "31"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Sus duras escamas lo protegen. Usa su gran corpulencia para ejecutar potentes movimientos."
+          }
+        ]
+      }
+    ]
+  }
+}
