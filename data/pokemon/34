@@ -12,6 +12,7 @@
         "originalName": "ニドキング (Nidoking)",
         "category": "Taladro",
         "type_first": 1,
+            "type_second": 12,
         "height": "1,4 m",
         "weight": "62,0 kg",
           "ability": "Punto tóxico",
