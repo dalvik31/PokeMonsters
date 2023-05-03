@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "29",
+        "name": "Nidoran♀",
+        "originalName": "ニドラン♀ (Nidoran♀)",
+        "category": "Pin veneno",
+        "type_first": 1,
+        "height": "0,4 m",
+        "weight": "7,0 kg",
+          "ability": "Punto tóxico",
+        "ability_description": "Punto tóxico: Si un Pokémon con punto tóxico es golpeado con un movimiento de contacto, el atacante tiene una probabilidad del 30% de ser envenenado.",
+        "first_name_pokemon": "Nidoran♀",
+        "first_num_pokemon": "29",
+        "second_name_pokemon": "Nidorina",
+        "second_num_pokemon": "30",
+        "third_name_pokemon": "Nidoqueen",
+        "third_num_pokemon": "31",
+            "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Piedra lunar",
+        "images": [
+          {
+            "thumbnail": "29",
+            "thumbnailShiny": "29"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Aunque pequeñas, sus venenosas púas son muy peligrosas. La hembra tiene pequeños cuernos."
+          }
+        ]
+      }
+    ]
+  }
+}
