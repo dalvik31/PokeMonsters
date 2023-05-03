@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "35",
+        "name": "Clefairy",
+        "originalName": "ピッピ (Pippi)",
+        "category": "Hada",
+        "type_first": 6,
+        "height": "0,6 m",
+        "weight": "7,5 kg",
+          "ability": "Gran encanto",
+        "ability_description": "Gran encanto: Si un Pokémon golpea con un movimiento de contacto a otro con esta habilidad y es del sexo opuesto, tiene una probabilidad del 30% de quedarse enamorado.",
+        "first_name_pokemon": "Cleffa",
+        "first_num_pokemon": "173",
+        "second_name_pokemon": "Clefairy",
+        "second_num_pokemon": "35",
+        "third_name_pokemon": "Clefable",
+        "third_num_pokemon": "36",
+            "level_first_evolution": "Amistad + nivel",
+        "level_second_evolution": "Piedra lunar",
+        "images": [
+          {
+            "thumbnail": "35",
+            "thumbnailShiny": "35"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Su mágico y adorable aspecto atrae a la gente. Es raro y solo aparece en ciertas áreas."
+          }
+        ]
+      }
+    ]
+  }
+}
