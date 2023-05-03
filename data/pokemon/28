@@ -1,0 +1,40 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "28",
+        "name": "Sandslash",
+        "originalName": "サンドパン (Sandpan)",
+        "category": "Ratón",
+        "type_first": 12,
+        "height": "1,0 m",
+        "weight": "29,5 kg",
+          "ability": "Velo arena",
+        "ability_description": "Velo arena: Disminuye en un 20% la precisión de los movimientos usados contra el poseedor en presencia de tormenta de arena. También hace al poseedor inmune a recibir daño de la tormenta de arena.",
+        "first_name_pokemon": "Sandshrew",
+        "first_num_pokemon": "27",
+        "third_name_pokemon": "Sandslash",
+        "third_num_pokemon": "28",
+        "level_second_evolution": "Nivel 22",
+        "images": [
+          {
+            "thumbnail": "27",
+            "thumbnailShiny": "27"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Ante el peligro se acurruca en un espinoso ovillo. De esta forma puede rodar para atacar o escapar."
+          }
+        ]
+      }
+    ]
+  }
+}
