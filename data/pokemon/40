@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "41",
+        "name": "Wigglytuff",
+        "originalName": "プクリン (Pukurin)",
+        "category": "Globo",
+        "type_first": 14,
+            "type_second": 6,
+        "height": "1,0 m",
+        "weight": "12,0 kg",
+          "ability": "Gran encanto",
+        "ability_description": "Gran encanto: Si un Pokémon golpea con un movimiento de contacto a otro con esta habilidad y es del sexo opuesto, tiene una probabilidad del 30% de quedarse enamorado.",
+        "first_name_pokemon": "Igglybuff",
+        "first_num_pokemon": "174",
+        "second_name_pokemon": "Jigglypuff",
+        "second_num_pokemon": "39",
+        "third_name_pokemon": "Wigglytuff",
+        "third_num_pokemon": "40",
+        "level_first_evolution": "Amistad + nivel",
+             "level_second_evolution": "Piedra lunar",
+        "images": [
+          {
+            "thumbnail": "40",
+            "thumbnailShiny": "40"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Su cuerpo es blando y gomoso. Cuando se enfada traga aire y se hincha enormemente."
+          }
+        ]
+      }
+    ]
+  }
+}
