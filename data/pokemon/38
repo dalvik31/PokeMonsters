@@ -1,0 +1,40 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "38",
+        "name": "Ninetales",
+        "originalName": "キュウコン (Kyukon)",
+        "category": "Zorro",
+        "type_first": 8,
+        "height": "1,1 m",
+        "weight": "19,9 kg",
+          "ability": "Absorbe fuego",
+        "ability_description": "Absorbe fuego: Hace al poseedor inmune a los movimientos de tipo fuego, y potencia en un 50% sus ataques de tipo fuego hasta que sea cambiado o finalice el combate. Si se reciben varios ataques de tipo fuego, solo el primero aumenta la potencia de los movimientos de tipo fuego, mientras que los posteriores simplemente serán anulados. Si un Pokémon con esta habilidad está congelado, la habilidad se desactiva, haciendo que el primer movimiento recibido de tipo fuego cause daño y permita la descongelación del poseedor.",
+        "first_name_pokemon": "Vulpix",
+        "first_num_pokemon": "37",
+        "third_name_pokemon": "Ninetales",
+        "third_num_pokemon": "38",
+        "level_first_evolution": "Piedra fuego",
+        "images": [
+          {
+            "thumbnail": "38",
+            "thumbnailShiny": "38"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Muy inteligente y vengativo. Agarrar una de sus colas podría causar 1000 años de maldición"
+          }
+        ]
+      }
+    ]
+  }
+}
