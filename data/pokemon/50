@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "50",
+        "name": "Diglett",
+        "originalName": "ディグダ (Digda)",
+        "category": "Topo",
+        "type_first": 12,
+        "height": "0,8 kg",
+        "weight": "0,2 m",
+          "ability": "Velo arena",
+        "ability_description": "Velo arena. Disminuye en un 20% la precisión de los movimientos usados contra el poseedor en presencia de tormenta de arena. También hace al poseedor inmune a recibir daño de la tormenta de arena.",
+        "first_name_pokemon": "Diglett",
+        "first_num_pokemon": "50",
+        "third_name_pokemon": "Dugtrio",
+        "third_num_pokemon": "51",
+             "level_second_evolution": "Nivel 26",
+          
+    
+        "images": [
+          {
+            "thumbnail": "50",
+            "thumbnailShiny": "50"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Vive un metro por debajo del suelo, donde se alimenta de raíces. También aparece en la superficie."
+          }
+        ]
+      }
+    ]
+  }
+}
