@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "59",
+        "name": "Arcanine",
+        "originalName": "ウインディ (Windie)",
+        "category": "Leyenda",
+        "type_first": 8,
+        "height": "155,0 kg",
+        "weight": "1,9 m",
+          "ability": "Intimidación",
+        "ability_description": "Intimidación: Reduce en un nivel el ataque del oponente al entrar a combatir. En combates dobles y combates triples afecta a los oponentes adyacentes al poseedor.",
+        "first_name_pokemon": "Growlithe",
+        "first_num_pokemon": "58",
+        "third_name_pokemon": "Arcanine",
+        "third_num_pokemon": "59",
+             "level_second_evolution": "Piedra fuego",
+          
+    
+        "images": [
+          {
+            "thumbnail": "59",
+            "thumbnailShiny": "59"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un Pokémon muy admirado desde la antigüedad por su belleza. Corre ágilmente como si tuviera alas."
+          }
+        ]
+      }
+    ]
+  }
+}
