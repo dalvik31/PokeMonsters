@@ -1,0 +1,49 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "43",
+        "name": "Oddish",
+        "originalName": "ナゾノクサ (Nazonokusa)",
+        "category": "Hierbajo",
+        "type_first": 2,
+            "type_second": 1,
+        "height": "0,5 m",
+        "weight": "5,4 kg",
+          "ability": "Clorofila",
+        "ability_description": "Clorofila: Duplica la velocidad del poseedor en sol o en sol abrasador.",
+        "first_name_pokemon": "Oddish",
+        "first_num_pokemon": "43",
+        "second_name_pokemon": "Gloom",
+        "second_num_pokemon": "44",
+        "third_name_pokemon": "Vileplume",
+        "third_num_pokemon": "45",
+        "level_first_evolution": "Nivel 21",
+             "level_second_evolution": "Piedra hoja",
+               "isMega": true,
+        "elementMega": "Piedra solar",
+          "mega_num_pokemon": "182",
+          "pokemon_num_evol": "44",
+               "pokemon_name_evol": "Gloom",
+        "images": [
+          {
+            "thumbnail": "43",
+            "thumbnailShiny": "43"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Durante el día entierra su cara en el suelo. Merodea por la noche plantando sus semillas."
+          }
+        ]
+      }
+    ]
+  }
+}
