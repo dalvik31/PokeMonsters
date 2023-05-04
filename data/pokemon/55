@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "55",
+        "name": "Golduck",
+        "originalName": "ゴルダック (Golduck)",
+        "category": "Pato",
+        "type_first": 18,
+        "height": "76,6 kg",
+        "weight": "1,7 m",
+          "ability": "Humedad",
+        "ability_description": "Humedad: Impide la ejecución de los movimientos autodestrucción, explosión, cabeza sorpresa y bruma explosiva a todos los Pokémon presentes en combate, haciendo que estos fallen y que su usuario no se debilite. También impide la activación de la habilidad detonación.",
+        "first_name_pokemon": "Psyduck",
+        "first_num_pokemon": "54",
+        "third_name_pokemon": "Golduck",
+        "third_num_pokemon": "55",
+             "level_second_evolution": "Nivel 33",
+          
+    
+        "images": [
+          {
+            "thumbnail": "55",
+            "thumbnailShiny": "55"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Suele ser visto nadando elegante por los lagos. Es confundido con el monstruo japonés, Kappa."
+          }
+        ]
+      }
+    ]
+  }
+}
