@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "63",
+        "name": "Abra",
+        "originalName": "ケーシィ (Casey)",
+        "category": "Psi",
+        "type_first": 15,
+        "height": "19,5 kg",
+        "weight": "0,9 m",
+          "ability": "Sincronía",
+        "ability_description": "Sincronía: Si el poseedor de esta habilidad resulta envenenado, paralizado o quemado por el oponente, el oponente pasará a tener el mismo problema de estado del poseedor, siempre y cuando no sea impedido por tipos, habilidades o velo sagrado y campo de niebla. Sin embargo, sí que se puede transmitir el estado a un Pokémon que se encuentre detrás de un sustituto.",
+        "first_name_pokemon": "Abra",
+        "first_num_pokemon": "63",
+           "second_name_pokemon": " Kadabra",
+        "second_num_pokemon": "64",
+        "third_name_pokemon": "Alakazam",
+        "third_num_pokemon": "65",
+             "level_first_evolution": "Nivel 16",
+             "level_second_evolution": "Intercambio o cordon unión",
+             
+        "images": [
+          {
+            "thumbnail": "63",
+            "thumbnailShiny": "63"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Con su capacidad de leer la mente, detecta cualquier peligro y se teletransporta a un lugar seguro."
+          }
+        ]
+      }
+    ]
+  }
+}
