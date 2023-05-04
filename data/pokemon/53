@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "53",
+        "name": "Persian",
+        "originalName": "ペルシアン (Persian)",
+        "category": "Gato fino",
+        "type_first": 12,
+        "height": "32,0 kg",
+        "weight": "1,0 m",
+          "ability": "Flexibilidad",
+        "ability_description": "Flexibilidad: Evita que el poseedor de la habilidad pueda ser paralizado. Un Pokémon paralizado con esta habilidad se curará de la parálisis de inmediato.",
+        "first_name_pokemon": "Meowth",
+        "first_num_pokemon": "52",
+        "third_name_pokemon": "Persian",
+        "third_num_pokemon": "53",
+             "level_second_evolution": "Nivel 28",
+          
+    
+        "images": [
+          {
+            "thumbnail": "53",
+            "thumbnailShiny": "53"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Aunque es muy admirado por su pelo, es difícil de entrenar como mascota por su voluble maldad."
+          }
+        ]
+      }
+    ]
+  }
+}
