@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "48",
+        "name": "Venonat",
+        "originalName": "コンパン (Kongpang)",
+        "category": "Insecto",
+        "type_first": 3,
+            "type_second": 1,
+        "height": "30,0 kg",
+        "weight": "1,0 m",
+          "ability": "Ojo compuesto",
+        "ability_description": "Ojo compuesto: Aumenta en un 30% la precisión de los movimientos. Por ejemplo, en el caso de vendaval, cuya precisión original es del 70%, gracias a esta habilidad dicho movimiento tiene una precisión del 91% (70% x 1.3 = 91%).",
+        "first_name_pokemon": "Venonat",
+        "first_num_pokemon": "48",
+        "third_name_pokemon": "Venomoth",
+        "third_num_pokemon": "49",
+             "level_second_evolution": "Nivel 31",
+          
+    
+        "images": [
+          {
+            "thumbnail": "48",
+            "thumbnailShiny": "48"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Vive entre las sombras de altos árboles, donde come insectos. Le atrae la luz por la noche."
+          }
+        ]
+      }
+    ]
+  }
+}
