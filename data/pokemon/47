@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "47",
+        "name": "Parasect",
+        "originalName": "パラセクト (Parasect)",
+        "category": "Hongo",
+        "type_first": 3,
+            "type_second": 2,
+        "height": "29,5 kg",
+        "weight": "1,0 m",
+          "ability": "Efecto espora",
+        "ability_description": "Efecto espora: Tiene una probabilidad del 30% de dormir, paralizar o envenenar a Pokémon que realicen un movimiento de contacto contra el poseedor de la habilidad. Hay una probabilidad del 10% para cada uno de los estados.",
+        "first_name_pokemon": "Paras",
+        "first_num_pokemon": "46",
+        "third_name_pokemon": "Parasect",
+        "third_num_pokemon": "47",
+             "level_second_evolution": "Nivel 24",
+          
+    
+        "images": [
+          {
+            "thumbnail": "47",
+            "thumbnailShiny": "47"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Una pareja de parásitos en la que la seta ha ocupado al bicho. Prefieren los sitios húmedos."
+          }
+        ]
+      }
+    ]
+  }
+}
