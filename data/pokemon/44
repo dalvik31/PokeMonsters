@@ -1,0 +1,49 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "44",
+        "name": "Gloom",
+        "originalName": "クサイハナ (Kusaihana)",
+        "category": "Hierbajo",
+        "type_first": 2,
+            "type_second": 1,
+        "height": "0,8 m",
+        "weight": "8,6 kg",
+          "ability": "Clorofila",
+        "ability_description": "Clorofila: Duplica la velocidad del poseedor en sol o en sol abrasador.",
+        "first_name_pokemon": "Oddish",
+        "first_num_pokemon": "43",
+        "second_name_pokemon": "Gloom",
+        "second_num_pokemon": "44",
+        "third_name_pokemon": "Vileplume",
+        "third_num_pokemon": "45",
+        "level_first_evolution": "Nivel 21",
+             "level_second_evolution": "Piedra hoja",
+               "isMega": true,
+        "elementMega": "Piedra solar",
+          "mega_num_pokemon": "182",
+          "pokemon_num_evol": "44",
+               "pokemon_name_evol": "Gloom",
+        "images": [
+          {
+            "thumbnail": "44",
+            "thumbnailShiny": "44"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "El fluido que gotea de su boca no son babas. Es un néctar que usa para atraer a sus presas."
+          }
+        ]
+      }
+    ]
+  }
+}
