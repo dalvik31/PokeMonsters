@@ -1,0 +1,45 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "56",
+        "name": "Mankey",
+        "originalName": "マンキー (Mankey)",
+        "category": "Mono cerdo",
+        "type_first": 7,
+        "height": "28,0 kg",
+        "weight": "0,5 m",
+          "ability": "Espíritu vital",
+        "ability_description": "Espíritu vital: Evita que el poseedor pueda dormirse. Si un Pokémon con esta habilidad usa descanso, el movimiento fallará. Si un Pokémon dormido adquiere esta habilidad (mediante abatidoras, intercambio, etc.) se despertará.",
+        "first_name_pokemon": "Mankey",
+        "first_num_pokemon": "56",
+        "second_name_pokemon": "Primeape",
+        "second_num_pokemon": "57",
+        "third_name_pokemon": "Annihilape",
+        "third_num_pokemon": "979",
+           "level_first_evolution": "Nivel 28",
+             "level_second_evolution": "20 veces puño furia + nivel",
+          
+    
+        "images": [
+          {
+            "thumbnail": "56",
+            "thumbnailShiny": "56"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Se enfada muy fácilmente. Puede pasar de la tranquilidad a la ira en apenas un segundo."
+          }
+        ]
+      }
+    ]
+  }
+}
