@@ -1,0 +1,45 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "70",
+        "name": "Weepinbell",
+        "originalName": "ウツドン (Utsudon)",
+        "category": "Matamoscas",
+        "type_first": 2,
+            "type_second": 1,
+        "height": "6,4 kg",
+        "weight": "1,0 m",
+          "ability": "Clorofila",
+        "ability_description": "Clorofila: Duplica la velocidad del poseedor en sol o en sol abrasador.",
+        "first_name_pokemon": "Bellsprout",
+        "first_num_pokemon": "69",
+           "second_name_pokemon": " Weepinbell",
+        "second_num_pokemon": "70",
+        "third_name_pokemon": "Victreebel",
+        "third_num_pokemon": "71",
+             "level_first_evolution": "Nivel 21",
+             "level_second_evolution": "Piedra hoja",
+             
+        "images": [
+          {
+            "thumbnail": "70",
+            "thumbnailShiny": "70"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Escupe polvo-veneno para envenenar al enemigo, y luego lo liquida con su ácido."
+          }
+        ]
+      }
+    ]
+  }
+}
