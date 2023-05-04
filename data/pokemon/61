@@ -1,0 +1,49 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "61",
+        "name": "Poliwhirl",
+        "originalName": "ニョロゾ (Nyorozo)",
+        "category": "Renacuajo",
+        "type_first": 18,
+        "height": "20,0 kg",
+        "weight": "1,0 m",
+          "ability": "Absorbe agua",
+        "ability_description": "Absorbe agua: Hace al poseedor inmune a movimientos de tipo agua y recuperar un 25% de sus PS máximos al recibir un movimiento de este tipo. Esta habilidad impide la activación del tubérculo y el musgo brillante al activarse antes que el objeto, también anula el efecto de gota vital. Si el poseedor está bajo los efectos de anticura, este seguirá siendo inmune a movimientos de tipo agua, pero no se curará al recibirlos.",
+        "first_name_pokemon": "Poliwag",
+        "first_num_pokemon": "60",
+           "second_name_pokemon": "Poliwhirl",
+        "second_num_pokemon": "61",
+        "third_name_pokemon": "Poliwrath",
+        "third_num_pokemon": "62",
+             "level_first_evolution": "Nivel 25",
+             "level_second_evolution": "Piedra agua",
+              "isMega": true,
+        "elementMega": "Roca del rey",
+          "mega_num_pokemon": "186",
+          "pokemon_num_evol": "61",
+               "pokemon_name_evol": "Poliwhirl",
+    
+        "images": [
+          {
+            "thumbnail": "61",
+            "thumbnailShiny": "61"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Capaz de vivir dentro o fuera del agua. Fuera del agua suda para mantener su cuerpo baboso."
+          }
+        ]
+      }
+    ]
+  }
+}
