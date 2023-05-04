@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "46",
+        "name": "Paras",
+        "originalName": "パラス (Paras)",
+        "category": "Hongo",
+        "type_first": 3,
+            "type_second": 2,
+        "height": "5,4 kg",
+        "weight": "0,3 m",
+          "ability": "Efecto espora",
+        "ability_description": "Efecto espora: Tiene una probabilidad del 30% de dormir, paralizar o envenenar a Pokémon que realicen un movimiento de contacto contra el poseedor de la habilidad. Hay una probabilidad del 10% para cada uno de los estados.",
+        "first_name_pokemon": "Paras",
+        "first_num_pokemon": "46",
+        "third_name_pokemon": "Parasect",
+        "third_num_pokemon": "47",
+             "level_second_evolution": "Nivel 24",
+          
+    
+        "images": [
+          {
+            "thumbnail": "46",
+            "thumbnailShiny": "46"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Cava para chupar las raíces de los árboles. Las setas de su espalda crecen a sus expensas."
+          }
+        ]
+      }
+    ]
+  }
+}
