@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "72",
+        "name": "Tentacool",
+        "originalName": "メノクラゲ (Menokurage)",
+        "category": "Medusa",
+        "type_first": 18,
+            "type_second": 1,
+        "height": "45,5 kg",
+        "weight": "0,9 m",
+          "ability": "Cuerpo puro",
+        "ability_description": "Cuerpo puro: Evita que bajen las estadísticas a causa de un movimiento del oponente. Habilidades como intimidación o movimientos como gruñido o látigo no tendrán ningún efecto sobre el poseedor. Sin embargo, sí se verá afectado por reducciones en sus características causadas por movimientos que él mismo realice, como machada o maldición si el poseedor no es de tipo fantasma.",
+        "first_name_pokemon": "Tentacool",
+        "first_num_pokemon": "72",
+        "third_name_pokemon": "Tentacruel",
+        "third_num_pokemon": "73",
+        
+             "level_second_evolution": "Nivel 30",
+             
+        "images": [
+          {
+            "thumbnail": "72",
+            "thumbnailShiny": "72"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Va a la deriva a poca profundidad. Si es pescado por accidente, el castigo será su punzante ácido."
+          }
+        ]
+      }
+    ]
+  }
+}
