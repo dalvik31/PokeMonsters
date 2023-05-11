@@ -1,0 +1,41 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "146",
+        "name": "Moltres",
+        "originalName": "ファイヤー (Fire)",
+        "category": "Llama",
+        "type_first": 8,
+          "type_second": 9,
+        "height": "60,0 kg",
+        "weight": "2,0 m",
+          "ability": "Presión",
+        "ability_description": "Presión hace que se consuma un PP extra de los movimientos que sean dirigidos al Pokémon poseedor de esta habilidad, de forma que cada vez que el adversario use un movimiento, este gastará 2 PP del movimiento en vez de 1. Si un movimiento afecta a varios Pokémon con esta habilidad se reducirá un PP por cada uno de los Pokémon. Esta habilidad también afecta a Pokémon aliados en combates dobles.",
+        "first_name_pokemon": "Moltres",
+        "first_num_pokemon": "146",
+    
+            
+
+        "images": [
+          {
+            "thumbnail": "146",
+            "thumbnailShiny": "146"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Más conocido como el legendario pájaro de fuego. Con cada aleteo crea brillantes llamas."
+          }
+        ]
+      }
+    ]
+  }
+}
