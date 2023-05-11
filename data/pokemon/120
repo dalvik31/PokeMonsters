@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "120",
+        "name": "Staryu",
+        "originalName": "ヒトデマン (Hitodeman)",
+        "category": "Estrella",
+        "type_first": 18,
+        "height": "34,5 kg",
+        "weight": "0,8 m",
+          "ability": "Iluminación",
+        "ability_description": "Iluminación no tiene ningún efecto en combate.",
+        "first_name_pokemon": "Staryu",
+        "first_num_pokemon": "120",
+
+               "third_name_pokemon": "Starmie",
+        "third_num_pokemon": "121",
+           "level_second_evolution": "Piedra agua",
+
+        "images": [
+          {
+            "thumbnail": "120",
+            "thumbnailShiny": "120"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un enigmático Pokémon que puede regenerar con facilidad todo apéndice que pierda luchando."
+          }
+        ]
+      }
+    ]
+  }
+}
