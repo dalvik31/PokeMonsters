@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "100",
+        "name": "Voltorb",
+        "originalName": "ビリリダマ (Biriridama)",
+        "category": "Bola",
+        "type_first": 11,
+        "height": "10,4 kg",
+        "weight": "0,5 m",
+          "ability": "Corte fuerte",
+        "ability_description": "Corte fuerte: Evita que los oponentes bajen el ataque del poseedor. Las reducciones por usar movimientos propios, como fuerza bruta o por quemaduras siguen ocurriendo con normalidad. Los movimientos cambia fuerza, cambia almas e isofuerza sí pueden llegar a bajar el ataque del poseedor, ya que su efecto se basa en intercambio de modificadores en las características, más que una disminución directa.",
+        "first_name_pokemon": "Voltorb",
+        "first_num_pokemon": "100",
+
+        "third_name_pokemon": " Electrode",
+        "third_num_pokemon": "101",
+             "level_second_evolution": "Nivel 30",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "100",
+            "thumbnailShiny": "100"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Suele vivir en centrales de energía. Mucha gente muere al confundirlo con una Poké Ball."
+          }
+        ]
+      }
+    ]
+  }
+}
