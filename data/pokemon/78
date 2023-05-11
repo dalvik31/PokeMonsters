@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "78",
+        "name": "Rapidash",
+        "originalName": "ギャロップ (Gallop)",
+        "category": "Caballo fuego",
+        "type_first": 8,
+        "height": "95,0 kg",
+        "weight": "1,7 m",
+          "ability": "Fuga",
+        "ability_description": "Fuga: Permite al poseedor escapar siempre de combates contra Pokémon salvajes, ignorando habilidades y movimientos que atrapen al Pokémon como sombra trampa, acoso o bloqueo. Fuga no tiene ningún efecto a la hora de cambiar un Pokémon por otro ni en combates contra entrenadores.",
+        "first_name_pokemon": "Ponyta",
+        "first_num_pokemon": "77",
+        "third_name_pokemon": "Rapidash",
+        "third_num_pokemon": "78",
+      
+             "level_second_evolution": "Nivel 40",
+             
+        "images": [
+          {
+            "thumbnail": "78",
+            "thumbnailShiny": "78"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Muy competitivo, este Pokémon perseguirá a todo lo que se mueva rápido, esperando ganarle."
+          }
+        ]
+      }
+    ]
+  }
+}
