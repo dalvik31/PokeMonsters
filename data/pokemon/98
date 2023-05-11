@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "98",
+        "name": "Krabby",
+        "originalName": "クラブ (Crab)",
+        "category": "Cangrejo",
+        "type_first": 18,
+        "height": "6,5 kg",
+        "weight": "0,4 m",
+          "ability": "Corte fuerte",
+        "ability_description": "Corte fuerte: Evita que los oponentes bajen el ataque del poseedor. Las reducciones por usar movimientos propios, como fuerza bruta o por quemaduras siguen ocurriendo con normalidad. Los movimientos cambia fuerza, cambia almas e isofuerza sí pueden llegar a bajar el ataque del poseedor, ya que su efecto se basa en intercambio de modificadores en las características, más que una disminución directa.",
+        "first_name_pokemon": "Krabby",
+        "first_num_pokemon": "98",
+
+        "third_name_pokemon": "Kingler",
+        "third_num_pokemon": "99",
+             "level_second_evolution": "Nivel 28",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "98",
+            "thumbnailShiny": "98"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Sus pinzas son potentes armas, además de usarlas para equilibrarse cuando camina lateralmente."
+          }
+        ]
+      }
+    ]
+  }
+}
