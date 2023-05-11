@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "88",
+        "name": "Grimer",
+        "originalName": "ベトベター (Betbeter)",
+        "category": "Lodo",
+        "type_first": 1,
+        "height": "30,0 kg",
+        "weight": "0,9 m",
+          "ability": "Hedor",
+        "ability_description": "Hedor: No tiene ningún efecto en combate.",
+        "first_name_pokemon": "Grimer",
+        "first_num_pokemon": "88",
+        "third_name_pokemon": "Muk",
+        "third_num_pokemon": "89",
+             "level_second_evolution": "Nivel 38",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "88",
+            "thumbnailShiny": "88"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Aparece en zonas asquerosas. Crece absorbiendo los residuos tóxicos expulsados por las fábricas."
+          }
+        ]
+      }
+    ]
+  }
+}
