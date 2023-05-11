@@ -1,0 +1,45 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "148",
+        "name": "Dragonair",
+        "originalName": "ハクリュー (Hakuryu)",
+        "category": "Dragón",
+        "type_first": 5,
+        "height": "3,3 kg",
+        "weight": "1,8 m",
+          "ability": "Mudar",
+        "ability_description": "Mudar tiene una probabilidad del 30% de curar los estados de dormido, paralizado, quemado, envenenado, gravemente envenenado o congelado al final de cada turno. La cura se produce antes de que las quemaduras o el veneno puedan causar daño.",
+        "first_name_pokemon": "Dratini",
+        "first_num_pokemon": "147",
+                "second_name_pokemon": "Dragonair",
+        "second_num_pokemon": "148",
+               "third_name_pokemon": " Dragonite",
+        "third_num_pokemon": "149",
+                 "level_first_evolution": "Nivel 30",
+             
+                 "level_second_evolution": "Nivel 55",
+
+        "images": [
+          {
+            "thumbnail": "148",
+            "thumbnailShiny": "148"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un místico Pokémon rodeado de una sutil aura y con capacidad de cambiar la climatología"
+          }
+        ]
+      }
+    ]
+  }
+}
