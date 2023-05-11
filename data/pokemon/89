@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "89",
+        "name": "Muk",
+        "originalName": "ベトベトン (Betbeton)",
+        "category": "Lodo",
+        "type_first": 1,
+        "height": "30,0 kg",
+        "weight": "1,2 m",
+          "ability": "Hedor",
+        "ability_description": "Hedor: No tiene ningún efecto en combate.",
+        "first_name_pokemon": "Grimer",
+        "first_num_pokemon": "88",
+        "third_name_pokemon": "Muk",
+        "third_num_pokemon": "89",
+             "level_second_evolution": "Nivel 38",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "89",
+            "thumbnailShiny": "89"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Está cubierto por un repugnante lodo. Es tan tóxico que hasta sus huellas son venenosas."
+          }
+        ]
+      }
+    ]
+  }
+}
