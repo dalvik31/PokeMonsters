@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "77",
+        "name": "Ponyta",
+        "originalName": "ポニータ (Ponyta)",
+        "category": "Caballo fuego",
+        "type_first": 8,
+        "height": "30,0 kg",
+        "weight": "1,0 m",
+          "ability": "Fuga",
+        "ability_description": "Fuga: Permite al poseedor escapar siempre de combates contra Pokémon salvajes, ignorando habilidades y movimientos que atrapen al Pokémon como sombra trampa, acoso o bloqueo. Fuga no tiene ningún efecto a la hora de cambiar un Pokémon por otro ni en combates contra entrenadores.",
+        "first_name_pokemon": "Ponyta",
+        "first_num_pokemon": "77",
+        "third_name_pokemon": "Rapidash",
+        "third_num_pokemon": "78",
+      
+             "level_second_evolution": "Nivel 40",
+             
+        "images": [
+          {
+            "thumbnail": "77",
+            "thumbnailShiny": "77"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Sus cascos son 10 veces más duros que el diamante. Puede pisotear cualquier cosa en poco tiempo."
+          }
+        ]
+      }
+    ]
+  }
+}
