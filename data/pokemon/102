@@ -1,0 +1,45 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "102",
+        "name": "Exeggcute",
+        "originalName": "タマタマ (Tamatama)",
+        "category": "Huevo",
+        "type_first": 2,
+               "type_second": 15,
+        "height": "2,5 kg",
+        "weight": "0,4 m",
+          "ability": "Clorofila",
+        "ability_description": "Clorofila: Duplica la velocidad del poseedor en sol o en sol abrasador.",
+        "first_name_pokemon": "Exeggcute",
+        "first_num_pokemon": "102",
+
+        "third_name_pokemon": " Exeggutor",
+        "third_num_pokemon": "103",
+             "level_second_evolution": "Piedra hoja",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "102",
+            "thumbnailShiny": "102"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Son muy parecidos a los huevos. Cuando se les molesta, se agrupan y atacan todos juntos."
+          }
+        ]
+      }
+    ]
+  }
+}
