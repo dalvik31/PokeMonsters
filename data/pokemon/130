@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "130",
+        "name": "Gyarados",
+        "originalName": "ギャラドス (Gyarados)",
+        "category": "Atrocidad",
+        "type_first": 18,
+            "type_second": 9,
+        "height": "10,0 kg",
+        "weight": "0,9 m",
+          "ability": "Intimidación",
+        "ability_description": "Intimidación reduce en un nivel el ataque del oponente al entrar a combatir. En combates dobles y combates triples afecta a los oponentes adyacentes al poseedor.",
+        "first_name_pokemon": "Magikarp",
+        "first_num_pokemon": "129",
+
+               "third_name_pokemon": "Gyarados",
+        "third_num_pokemon": "130",
+                "level_first_evolution": "Nivel 20",
+
+        "images": [
+          {
+            "thumbnail": "130",
+            "thumbnailShiny": "130"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Poco visto en la naturaleza. Enorme y malo, es capaz de destruir ciudades enteras de un ataque."
+          }
+        ]
+      }
+    ]
+  }
+}
