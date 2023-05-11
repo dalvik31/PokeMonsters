@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "121",
+        "name": "Starmie",
+        "originalName": "スターミー (Starmie)",
+        "category": "Misterioso",
+        "type_first": 18,
+            "type_second": 15,
+        "height": "80,0 kg",
+        "weight": "1,1 m",
+          "ability": "Iluminación",
+        "ability_description": "Iluminación no tiene ningún efecto en combate.",
+        "first_name_pokemon": "Staryu",
+        "first_num_pokemon": "120",
+
+               "third_name_pokemon": "Starmie",
+        "third_num_pokemon": "121",
+           "level_second_evolution": "Piedra agua",
+
+        "images": [
+          {
+            "thumbnail": "121",
+            "thumbnailShiny": "121"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Su núcleo central brilla con los 7 colores del arco iris. Es valorado como gema por algunos."
+          }
+        ]
+      }
+    ]
+  }
+}
