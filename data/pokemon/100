@@ -14,8 +14,8 @@
         "type_first": 11,
         "height": "10,4 kg",
         "weight": "0,5 m",
-          "ability": "Corte fuerte",
-        "ability_description": "Corte fuerte: Evita que los oponentes bajen el ataque del poseedor. Las reducciones por usar movimientos propios, como fuerza bruta o por quemaduras siguen ocurriendo con normalidad. Los movimientos cambia fuerza, cambia almas e isofuerza sí pueden llegar a bajar el ataque del poseedor, ya que su efecto se basa en intercambio de modificadores en las características, más que una disminución directa.",
+          "ability": "Insonorizar",
+        "ability_description": "Insonorizar: Hace inmune al Pokémon poseedor de la habilidad ante movimientos que basan su efecto en el sonido incluyendo los movimientos propios.",
         "first_name_pokemon": "Voltorb",
         "first_num_pokemon": "100",
 
