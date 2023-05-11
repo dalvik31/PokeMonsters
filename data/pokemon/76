@@ -1,0 +1,45 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "76",
+        "name": "Golem",
+        "originalName": "ゴローニャ (Golonya)",
+        "category": "Megatón",
+        "type_first": 16,
+            "type_second": 12,
+        "height": "300,0 kg",
+        "weight": "1,4 m",
+          "ability": "Cabeza roca",
+        "ability_description": "Cabeza roca: Evita el daño de retroceso al usar movimientos que los causen. Sin embargo, no protege contra el daño de retroceso del movimiento forcejeo.",
+        "first_name_pokemon": "Geodude",
+        "first_num_pokemon": "74",
+        "second_name_pokemon": "Graveler",
+        "second_num_pokemon": "75",
+        "third_name_pokemon": "Golem",
+        "third_num_pokemon": "76",
+              "level_first_evolution": "Nivel 25",
+             "level_second_evolution": "Intercambio o Cordón unión",
+             
+        "images": [
+          {
+            "thumbnail": "75",
+            "thumbnailShiny": "75"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Su cuerpo rocoso es super duro. Soporta las explosiones de dinamita sin sufrir daño."
+          }
+        ]
+      }
+    ]
+  }
+}
