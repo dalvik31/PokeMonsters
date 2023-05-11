@@ -1,0 +1,39 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "131",
+        "name": "Lapras",
+        "originalName": "ラプラス (Laplace)",
+        "category": "Transporte",
+        "type_first": 18,
+            "type_second": 13,
+        "height": "220,0 kg",
+        "weight": "2,5 m",
+          "ability": "Absorbe agua",
+        "ability_description": "Absorbe agua: Hace al poseedor inmune a movimientos de tipo agua y recuperar un 25% de sus PS máximos al recibir un movimiento de este tipo. Esta habilidad impide la activación del tubérculo y el musgo brillante al activarse antes que el objeto, también anula el efecto de gota vital. Si el poseedor está bajo los efectos de anticura, este seguirá siendo inmune a movimientos de tipo agua, pero no se curará al recibirlos.",
+        "first_name_pokemon": "Lapras",
+        "first_num_pokemon": "131",
+
+        "images": [
+          {
+            "thumbnail": "131",
+            "thumbnailShiny": "131"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un Pokémon que ha sido cazado casi hasta la extinción. Puede llevar a la gente por el agua."
+          }
+        ]
+      }
+    ]
+  }
+}
