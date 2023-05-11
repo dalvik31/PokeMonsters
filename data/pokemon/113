@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "113",
+        "name": "Chansey",
+        "originalName": "ラッキー (Lucky)",
+        "category": "Huevo",
+        "type_first": 14,
+        "height": "34,6 kg",
+        "weight": "1,1 m",
+          "ability": "Cura natural",
+        "ability_description": "Cura natural: Cura los problemas de estado del poseedor de la habilidad al cambiar de Pokémon.",
+        "first_name_pokemon": "Happiny",
+        "first_num_pokemon": "440",
+   "second_name_pokemon": "Chansey",
+        "second_num_pokemon": "113",
+        "third_name_pokemon": "Blissey",
+        "third_num_pokemon": "242",
+         "level_firt_evolution": "Nivel (día) Día equipada con Piedra oval",
+             "level_second_evolution": "Amistad + nivel",
+        "images": [
+          {
+            "thumbnail": "113",
+            "thumbnailShiny": "113"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un raro y evasivo Pokémon que, según dicen, trae la felicidad a aquellos que lo atrapan."
+          }
+        ]
+      }
+    ]
+  }
+}
