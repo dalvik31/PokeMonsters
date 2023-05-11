@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "138",
+        "name": "Omanyte",
+        "originalName": "オムナイト (Omnite)",
+        "category": "Espiral",
+        "type_first": 16,
+              "type_second": 18,
+        "height": "7,5 kg",
+        "weight": "0,4 m",
+          "ability": "Nado rápido",
+        "ability_description": "Nado rápido duplica la velocidad del poseedor de la habilidad en clima lluvioso.",
+        "first_name_pokemon": "Omanyte",
+        "first_num_pokemon": "138",
+               "third_name_pokemon": "Omastar",
+        "third_num_pokemon": "139",
+             
+                 "level_second_evolution": "Nivel 40",
+
+        "images": [
+          {
+            "thumbnail": "138",
+            "thumbnailShiny": "138"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Aunque extinto, en algunas ocasiones puede ser resucitado genéticamente de los fósiles."
+          }
+        ]
+      }
+    ]
+  }
+}
