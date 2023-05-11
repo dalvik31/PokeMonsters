@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "86",
+        "name": "Seel",
+        "originalName": "パウワウ (Pawou)",
+        "category": "León marino",
+        "type_first": 18,
+        "height": "90,0 kg",
+        "weight": "1,1 m",
+          "ability": "Sebo",
+        "ability_description": "Sebo: Los movimientos de tipo hielo o tipo fuego solo le producirán la mitad del daño normal a un Pokémon con esta habilidad.",
+        "first_name_pokemon": "Seel",
+        "first_num_pokemon": "86",
+        "third_name_pokemon": "Dewgong",
+        "third_num_pokemon": "87",
+             "level_second_evolution": "Nivel 34",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "86",
+            "thumbnailShiny": "86"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "El cuerno que sobresale de su cabeza es muy duro. Suele usarlo para romper el hielo."
+          }
+        ]
+      }
+    ]
+  }
+}
