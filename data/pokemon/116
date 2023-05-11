@@ -22,6 +22,8 @@
         "second_num_pokemon": "117",
                "third_name_pokemon": "Kingdra",
         "third_num_pokemon": "230",
+                  "level_first_evolution": "Nivel 32",
+              "level_second_evolution": "Intercambio equipado con Escama dragón",
 
         "images": [
           {
