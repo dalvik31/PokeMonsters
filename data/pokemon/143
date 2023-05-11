@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "143",
+        "name": "Snorlax",
+        "originalName": "カビゴン (Kabigon)",
+        "category": "Dormir",
+        "type_first": 14,
+        "height": "460,0 kg",
+        "weight": "2,1 m",
+          "ability": "Sebo",
+        "ability_description": "Los movimientos de tipo hielo o tipo fuego solo le producirán la mitad del daño normal a un Pokémon con esta habilidad.",
+        "first_name_pokemon": "Munchlax",
+        "first_num_pokemon": "446",
+               "third_name_pokemon": "Snorlax",
+        "third_num_pokemon": "143",
+             
+                 "level_second_evolution": "Amistad + nivel",
+
+        "images": [
+          {
+            "thumbnail": "143",
+            "thumbnailShiny": "143"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Es muy vago. Sólo come y duerme. A medida que engorda se vuelve cada vez más perezoso."
+          }
+        ]
+      }
+    ]
+  }
+}
