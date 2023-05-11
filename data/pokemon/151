@@ -1,0 +1,40 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "151",
+        "name": "Mew",
+        "originalName": "ミュウ (Mew)",
+        "category": "Nueva especie",
+        "type_first": 15,
+  
+        "height": "4,0 kg",
+        "weight": "0,4 m",
+          "ability": "Sincronía",
+        "ability_description": "Si el poseedor de esta habilidad resulta envenenado, paralizado o quemado por el oponente, el oponente pasará a tener el mismo problema de estado del poseedor, siempre y cuando no sea impedido por tipos, habilidades o velo sagrado y campo de niebla. Sin embargo, sí que se puede transmitir el estado a un Pokémon que se encuentre detrás de un sustituto. Si el poseedor de esta habilidad recibe un envenenamiento grave, transmitirá al enemigo un envenenamiento normal.",
+        "first_name_pokemon": "Mew",
+        "first_num_pokemon": "151",
+ 
+
+        "images": [
+          {
+            "thumbnail": "151",
+            "thumbnailShiny": "151"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Es tan raro que muchos expertos opinan que es solo una ilusión. Solo unos pocos lo han visto."
+          }
+        ]
+      }
+    ]
+  }
+}
