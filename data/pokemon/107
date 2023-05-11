@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "107",
+        "name": "Hitmonchan",
+        "originalName": "エビワラー (Ebiwalar)",
+        "category": "Puñetazo",
+        "type_first": 7,
+        "height": "49,8 kg",
+        "weight": "1,5 m",
+          "ability": "Vista lince",
+        "ability_description": "Vista lince: Evita que baje la precisión del Pokémon que tenga esta habilidad.",
+        "first_name_pokemon": "Tyrogue",
+        "first_num_pokemon": "236",
+
+        "third_name_pokemon": " Hitmonchan",
+        "third_num_pokemon": "107",
+             "level_second_evolution": "Nivel 20 Ataque < Defensa",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "107",
+            "thumbnailShiny": "107"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Aunque parezca que no hace nada, sus rápidos puñetazos-voleas son imposibles de ver."
+          }
+        ]
+      }
+    ]
+  }
+}
