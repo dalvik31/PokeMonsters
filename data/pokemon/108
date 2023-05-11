@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "108",
+        "name": "Lickitung",
+        "originalName": "ベロリンガ (Beroringa)",
+        "category": "Lametazo",
+        "type_first": 14,
+        "height": "65,5 kg",
+        "weight": "1,2 m",
+          "ability": "Despiste",
+        "ability_description": "Despiste: Evita que el poseedor sea afectado por atracción, seducción y gran encanto.",
+        "first_name_pokemon": "Lickitung",
+        "first_num_pokemon": "108",
+
+        "third_name_pokemon": " Lickilicky",
+        "third_num_pokemon": "463",
+             "level_second_evolution": "Conociendo rodar + nivel",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "108",
+            "thumbnailShiny": "108"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Su lengua se extiende como la de un camaleón. Cuando lame a sus enemigos, éstos se estremecen."
+          }
+        ]
+      }
+    ]
+  }
+}
