@@ -8,12 +8,12 @@
     "results": [
       {
         "id": "119",
-        "name": "Goldeen",
-        "originalName": "トサキント (Tosakinto)",
+        "name": "Seaking",
+        "originalName": "アズマオウ (Azumao)",
         "category": "Pez color",
         "type_first": 18,
-        "height": "15,0 kg",
-        "weight": "0,6 m",
+        "height": "39,0 kg",
+        "weight": "1,3 m",
           "ability": "Nado rápido",
         "ability_description": "Nado rápido duplica la velocidad del poseedor de la habilidad en clima lluvioso.",
         "first_name_pokemon": "Goldeen",
@@ -25,15 +25,15 @@
 
         "images": [
           {
-            "thumbnail": "118",
-            "thumbnailShiny": "118"
+            "thumbnail": "119",
+            "thumbnailShiny": "119"
           }
         ],
         "descriptionList": [
           {
             "id": 1,
             "title": "Rojo y Azul",
-            "description": "La aleta de su cola se hincha como un elegante traje de baile. Es llamado Reina del Agua."
+            "description": "En otoño, cuando se reproducen, pueden ser vistos nadando con energía por ríos y arroyos."
           }
         ]
       }
