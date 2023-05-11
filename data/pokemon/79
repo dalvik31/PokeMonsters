@@ -1,0 +1,49 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "79",
+        "name": "Slowpoke",
+        "originalName": "ヤドン (Yadon)",
+        "category": "Atontado",
+        "type_first": 18,
+         "type_second": 15,
+        "height": "95,0 kg",
+        "weight": "1,7 m",
+          "ability": "Despiste",
+        "ability_description": "Despiste: Evita que el poseedor sea afectado por atracción, seducción y gran encanto.",
+        "first_name_pokemon": "Slowpoke",
+        "first_num_pokemon": "79",
+        "third_name_pokemon": "Slowbro",
+        "third_num_pokemon": "80",
+      
+             "level_second_evolution": "Nivel 37",
+             
+                 "isMega": true,
+        "elementMega": "Intercambio equipado con roca del rey",
+          "mega_num_pokemon": "199",
+          "pokemon_num_evol": "79",
+               "pokemon_name_evol": "Slowpoke",
+             
+        "images": [
+          {
+            "thumbnail": "79",
+            "thumbnailShiny": "79"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Increíblemente lento y torpe. Tardará 5 segundos en sentir dolor si es atacado."
+          }
+        ]
+      }
+    ]
+  }
+}
