@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "112",
+        "name": "Rhydon",
+        "originalName": "サイドン (Saidon)",
+        "category": "Taladro",
+        "type_first": 12,
+        "type_second": 16,
+        "height": "120,0 kg",
+        "weight": "1,9 m",
+          "ability": "Pararrayos",
+        "ability_description": "Pararrayos: Causa que todos los ataques eléctricos que afectan a un solo objetivo usados por los oponentes, se dirijan al Pokémon poseedor de esta habilidad independientemente del objetivo seleccionado. Poder oculto de tipo eléctrico no se ve afectado.",
+        "first_name_pokemon": "Rhyhorn",
+        "first_num_pokemon": "111",
+   "first_name_pokemon": "Rhydon",
+        "first_num_pokemon": "112",
+        "third_name_pokemon": "Rhyperior",
+        "third_num_pokemon": "464",
+         "level_firt_evolution": "Nivel 42",
+             "level_second_evolution": "Intercambio equipado con protector",
+        "images": [
+          {
+            "thumbnail": "112",
+            "thumbnailShiny": "112"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Protegido por una piel tipo-escudo, puede vivir en lava líquida a 3.600 grados de temperatura."
+          }
+        ]
+      }
+    ]
+  }
+}
