@@ -1,0 +1,45 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "80",
+        "name": "Slowbro",
+        "originalName": "ヤドラン (Yadoran)",
+        "category": "Ermitaño",
+        "type_first": 18,
+         "type_second": 15,
+        "height": "78,5 kg",
+        "weight": "1,6 m",
+          "ability": "Despiste",
+        "ability_description": "Despiste: Evita que el poseedor sea afectado por atracción, seducción y gran encanto.",
+        "first_name_pokemon": "Slowpoke",
+        "first_num_pokemon": "79",
+        "third_name_pokemon": "Slowbro",
+        "third_num_pokemon": "80",
+      
+             "level_second_evolution": "Nivel 37",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "80",
+            "thumbnailShiny": "80"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Dicen que el Shellder pegado a la cola de Slowpoke se nutre de los residuos del anfitrión."
+          }
+        ]
+      }
+    ]
+  }
+}
