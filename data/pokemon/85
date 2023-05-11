@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "85",
+        "name": "Dodrio",
+        "originalName": "ドードリオ (Dodorio)",
+        "category": "Ave gemela",
+        "type_first": 14,
+         "type_second": 9,
+        "height": "85,2 kg",
+        "weight": "1,8 m",
+          "ability": "Fuga",
+        "ability_description": "Fuga permite al poseedor escapar siempre de combates contra Pokémon salvajes, ignorando habilidades y movimientos que atrapen al Pokémon como sombra trampa, acoso o bloqueo. Fuga no tiene ningún efecto a la hora de cambiar un Pokémon por otro ni en combates contra entrenadores.",
+        "first_name_pokemon": "Doduo",
+        "first_num_pokemon": "84",
+        "third_name_pokemon": " Dodrio",
+        "third_num_pokemon": "85",
+             "level_second_evolution": "Nivel 31",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "85",
+            "thumbnailShiny": "85"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Para tramar sus planes usa sus tres cerebros. Cuando 2 cabezas duermen, la otra sigue despierta."
+          }
+        ]
+      }
+    ]
+  }
+}
