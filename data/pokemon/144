@@ -1,0 +1,41 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "144",
+        "name": "Articuno",
+        "originalName": "フリーザー (Freezer)",
+        "category": "Congelar",
+        "type_first": 13,
+          "type_second": 9,
+        "height": "55,4 kg",
+        "weight": "1,7 m",
+          "ability": "Presión",
+        "ability_description": "Presión hace que se consuma un PP extra de los movimientos que sean dirigidos al Pokémon poseedor de esta habilidad, de forma que cada vez que el adversario use un movimiento, este gastará 2 PP del movimiento en vez de 1. Si un movimiento afecta a varios Pokémon con esta habilidad se reducirá un PP por cada uno de los Pokémon. Esta habilidad también afecta a Pokémon aliados en combates dobles.",
+        "first_name_pokemon": "Articuno",
+        "first_num_pokemon": "144",
+    
+            
+
+        "images": [
+          {
+            "thumbnail": "144",
+            "thumbnailShiny": "144"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un legendario pájaro Pokémon. Se aparece a la gente que se ha perdido en las heladas montañas."
+          }
+        ]
+      }
+    ]
+  }
+}
