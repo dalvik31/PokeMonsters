@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "124",
+        "name": "Jynx",
+        "originalName": "ルージュラ (Rougela)",
+        "category": "Forma humana",
+        "type_first": 13,
+            "type_second": 15,
+        "height": "40,6 kg",
+        "weight": "1,4 m",
+          "ability": "Despiste",
+        "ability_description": "Despiste: Evita que el poseedor sea afectado por atracción, seducción y gran encanto.",
+        "first_name_pokemon": "Smoochum",
+        "first_num_pokemon": "238",
+
+               "third_name_pokemon": "Jynx",
+        "third_num_pokemon": "12",
+           "level_second_evolution": "Nivel 30",
+
+        "images": [
+          {
+            "thumbnail": "124",
+            "thumbnailShiny": "124"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Mueve sus caderas seductoramente al caminar. Puede hacer que la gente baile al unísono."
+          }
+        ]
+      }
+    ]
+  }
+}
