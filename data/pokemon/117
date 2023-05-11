@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "117",
+        "name": "Seadra",
+        "originalName": "シードラ (Seadra)",
+        "category": "Dragón",
+        "type_first": 18,
+        "height": "25,0 kg",
+        "weight": "1,2 m",
+          "ability": "Punto tóxico",
+        "ability_description": "Si un Pokémon con punto tóxico es golpeado con un movimiento de contacto, el atacante tiene una probabilidad del 30% de ser envenenado.",
+        "first_name_pokemon": "Horsea",
+        "first_num_pokemon": "116",
+       "second_name_pokemon": "Seadra",
+        "second_num_pokemon": "117",
+               "third_name_pokemon": "Kingdra",
+        "third_num_pokemon": "230",
+
+        "images": [
+          {
+            "thumbnail": "117",
+            "thumbnailShiny": "117"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Puede nadar hacia atrás moviendo rápidamente sus aletas pectorales y su robusta cola."
+          }
+        ]
+      }
+    ]
+  }
+}
