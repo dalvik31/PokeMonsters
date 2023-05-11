@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "122",
+        "name": "Mr. Mime",
+        "originalName": "バリヤード (Barrierd)",
+        "category": "Barrera",
+        "type_first": 15,
+            "type_second": 6,
+        "height": "54,5 kg",
+        "weight": "1,3 m",
+          "ability": "Insonorizar",
+        "ability_description": "Insonorizar hace inmune al Pokémon poseedor de la habilidad ante movimientos que basan su efecto en el sonido incluyendo los movimientos propios.",
+        "first_name_pokemon": "Mime Jr.",
+        "first_num_pokemon": "439",
+
+               "third_name_pokemon": "Mr. Mime",
+        "third_num_pokemon": "122",
+           "level_second_evolution": "Conociendo mimético + nivel",
+
+        "images": [
+          {
+            "thumbnail": "122",
+            "thumbnailShiny": "122"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Si alguien lo interrumpe mientras excava, él le abofeteará con sus enormes manos."
+          }
+        ]
+      }
+    ]
+  }
+}
