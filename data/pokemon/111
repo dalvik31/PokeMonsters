@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "111",
+        "name": "Rhyhorn",
+        "originalName": "サイホーン (Sihorn)",
+        "category": "Clavos",
+        "type_first": 12,
+        "type_second": 16,
+        "height": "115,0 kg",
+        "weight": "1,0 m",
+          "ability": "Pararrayos",
+        "ability_description": "Pararrayos: Causa que todos los ataques eléctricos que afectan a un solo objetivo usados por los oponentes, se dirijan al Pokémon poseedor de esta habilidad independientemente del objetivo seleccionado. Poder oculto de tipo eléctrico no se ve afectado.",
+        "first_name_pokemon": "Rhyhorn",
+        "first_num_pokemon": "111",
+   "first_name_pokemon": "Rhydon",
+        "first_num_pokemon": "112",
+        "third_name_pokemon": "Rhyperior",
+        "third_num_pokemon": "464",
+         "level_firt_evolution": "Nivel 42",
+             "level_second_evolution": "Intercambio equipado con protector",
+        "images": [
+          {
+            "thumbnail": "111",
+            "thumbnailShiny": "111"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Sus huesos son 1000 veces más macizos que los humanos. Famoso por su gran fuerza."
+          }
+        ]
+      }
+    ]
+  }
+}
