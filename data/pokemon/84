@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "84",
+        "name": "Doduo",
+        "originalName": "ドードー (Dodo)",
+        "category": "Ave gemela",
+        "type_first": 14,
+         "type_second": 9,
+        "height": "39,2 kg",
+        "weight": "1,4 m",
+          "ability": "Fuga",
+        "ability_description": "Fuga permite al poseedor escapar siempre de combates contra Pokémon salvajes, ignorando habilidades y movimientos que atrapen al Pokémon como sombra trampa, acoso o bloqueo. Fuga no tiene ningún efecto a la hora de cambiar un Pokémon por otro ni en combates contra entrenadores.",
+        "first_name_pokemon": "Doduo",
+        "first_num_pokemon": "84",
+        "third_name_pokemon": " Dodrio",
+        "third_num_pokemon": "85",
+             "level_second_evolution": "Nivel 31",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "84",
+            "thumbnailShiny": "84"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un pájaro que compensa su pobre vuelo caminando muy rápidamente. Deja enormes huellas."
+          }
+        ]
+      }
+    ]
+  }
+}
