@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "91",
+        "name": "Cloyster",
+        "originalName": "パルシェン (Parshen)",
+        "category": "Bivalvo",
+        "type_first": 18,
+             "type_second": 13,
+        "height": "132,5 kg",
+        "weight": "1,5 m",
+          "ability": "Caparazón",
+        "ability_description": "Caparazón: Evita que el poseedor reciba golpes críticos.",
+        "first_name_pokemon": "Shellder",
+        "first_num_pokemon": "90",
+        "third_name_pokemon": "Cloyster",
+        "third_num_pokemon": "91",
+             "level_second_evolution": "Piedra agua",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "91",
+            "thumbnailShiny": "91"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Cuando es atacado lanza sus cuernos con gran rapidez. Sus entrañas jamás han sido vistas."
+          }
+        ]
+      }
+    ]
+  }
+}
