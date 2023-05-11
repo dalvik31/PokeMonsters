@@ -1,0 +1,38 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "132",
+        "name": "Ditto",
+        "originalName": "メタモン (Metamon)",
+        "category": "Transformación",
+        "type_first": 14,
+        "height": "4,0 kg",
+        "weight": "0,3 m",
+          "ability": "Flexibilidad",
+        "ability_description": "Flexibilidad evita que el poseedor de la habilidad pueda ser paralizado. Un Pokémon paralizado con esta habilidad se curará de la parálisis de inmediato.",
+        "first_name_pokemon": "Ditto",
+        "first_num_pokemon": "132",
+
+        "images": [
+          {
+            "thumbnail": "132",
+            "thumbnailShiny": "132"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Puede copiar el código genético de un enemigo y transformarse en una réplica de éste."
+          }
+        ]
+      }
+    ]
+  }
+}
