@@ -1,0 +1,43 @@
+a{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "90",
+        "name": "Shellder",
+        "originalName": "シェルダー (Shellder)",
+        "category": "Bivalvo",
+        "type_first": 18,
+        "height": "4,0 kg",
+        "weight": "0,3 m",
+          "ability": "Caparazón",
+        "ability_description": "Caparazón: Evita que el poseedor reciba golpes críticos.",
+        "first_name_pokemon": "Shellder",
+        "first_num_pokemon": "90",
+        "third_name_pokemon": "Cloyster",
+        "third_num_pokemon": "91",
+             "level_second_evolution": "Piedra agua",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "90",
+            "thumbnailShiny": "90"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Su caparazón repele cualquier tipo de ataque. Sólo cuando abre su caparazón es vulnerable."
+          }
+        ]
+      }
+    ]
+  }
+}
