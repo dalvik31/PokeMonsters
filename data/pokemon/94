@@ -1,0 +1,47 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "94",
+        "name": "Gengar",
+        "originalName": "ゲンガー (Gangar)",
+        "category": "Sombra",
+        "type_first": 10,
+             "type_second": 1,
+        "height": "40,5 kg",
+        "weight": "1,5 m",
+          "ability": "Levitación",
+        "ability_description": "Levitación proporciona al Pokémon poseedor inmunidad a todos los ataques de tipo tierra, excepto a ataque arena. Los Pokémon con esta habilidad también son inmunes a caída libre, campo de hierba, campo de niebla, campo eléctrico, campo psíquico, púas, púas tóxicas, y a la habilidad trampa arena.",
+        "first_name_pokemon": "Gastly",
+        "first_num_pokemon": "92",
+         "second_name_pokemon": "Haunter",
+        "second_num_pokemon": "93",
+        "third_name_pokemon": "Gengar",
+        "third_num_pokemon": "94",
+             "level_first_evolution": "Nivel 25",
+             "level_second_evolution": "Intercambio o cordón unión",
+             
+  
+             
+        "images": [
+          {
+            "thumbnail": "94",
+            "thumbnailShiny": "94"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "En luna llena, a este Pokémon le gusta imitar las sombras de la gente y burlarse de sus miedos."
+          }
+        ]
+      }
+    ]
+  }
+}
