@@ -8,7 +8,7 @@
     "results": [
       {
         "id": "6-gmax",
-        "name": "Charizard GIGAMAX",
+        "name": "Charizard\nGigantamax",
         "originalName": "",
         "category": "Llama",
         "ability": "Mar llamas",
@@ -31,6 +31,8 @@
         "third_num_pokemon": "6",
         "level_first_evolution": "Nivel 16",
         "level_second_evolution": "Nivel 36",
+          "mega_name_pokemon": "Charizard\nGigantamax",
+             "mega_url_pokemon": "https://pokemon-project.com/pokedex/img/sprite/Home/256/6-gmax.png",
               "isMega": true,
         "elementMega": "Energía\nGigamax",
         "images": [
