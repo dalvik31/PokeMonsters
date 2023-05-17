@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "52-gmax",
+        "name": "Meowth\nGigantamax",
+        "originalName": "ニャース (Nyarth)",
+        "category": "Gato araña",
+        "type_first": 14,
+        "height": "??",
+        "weight": "33 m",
+          "ability": "Recogida",
+        "ability_description": "Recogida no tiene ningún efecto en combate.",
+        "first_name_pokemon": "Meowth",
+        "first_num_pokemon": "52",
+        "third_name_pokemon": "Persian",
+        "third_num_pokemon": "53",
+             "level_second_evolution": "Nivel 28",
+               "mega_name_pokemon": "Meowth\nGigantamax",
+        "mega_num_pokemon": "52-gmax",
+        "isMega": true,
+        "elementMega": "Energía\nGigamax",
+        "images": [
+          {
+            "thumbnail": "52",
+            "thumbnailShiny": "52"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Adora los objetos redondos. De noche, camina por las calles en busca de monedas perdidas."
+          }
+        ]
+      }
+    ]
+  }
+}
