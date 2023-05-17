@@ -21,6 +21,8 @@
         "first_num_pokemon": "150",
         "mega_name_pokemon": "Mega\nMewtwo X",
         "mega_num_pokemon": "150-1",
+             "pokemon_num_evol": "150",
+               "pokemon_name_evol": "Mewtwo",
    "isMega": true,
         "elementMega": "Mewtwoita X",
         "images": [
