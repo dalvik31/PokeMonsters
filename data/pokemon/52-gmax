@@ -25,7 +25,8 @@
                 "pokemon_name_evol": "Meowth",
         "mega_num_pokemon": "52-gmax",
         "isMega": true,
-            "mega_num_pokemon": "52",
+              "pokemon_num_evol": "52",
+               "pokemon_name_evol": "Meowth",
         "elementMega": "Energía\nGigamax",
         "images": [
           {
