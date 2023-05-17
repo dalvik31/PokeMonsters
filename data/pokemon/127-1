@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "127-1",
+        "name": "Mega\nPinsir",
+        "originalName": "カイロス (Kailios)",
+        "category": "Escarabajo",
+        "type_first": 3,
+        "height": "55,0 kg",
+        "weight": "1,5 m",
+          "ability": "Corte fuerte",
+        "ability_description": "Corte fuerte evita que los oponentes bajen el ataque del poseedor. Las reducciones por usar movimientos propios, como fuerza bruta o por quemaduras siguen ocurriendo con normalidad. Los movimientos cambia fuerza, cambia almas e isofuerza sí pueden llegar a bajar el ataque del poseedor, ya que su efecto se basa en intercambio de modificadores en las características, más que una disminución directa.",
+        "first_name_pokemon": "Pinsir",
+        "first_num_pokemon": "127",
+        "mega_name_pokemon": "Mega\nPinsir",
+        "mega_num_pokemon": "127-1",
+              "pokemon_num_evol": "127",
+               "pokemon_name_evol": "Pinsir",
+       "isMega": true,
+        "elementMega": "Pinsirita",
+        "images": [
+          {
+            "thumbnail": "127-1",
+            "thumbnailShiny": "127-1"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Si no consigue triturar a su víctima con sus pinzas, le dará vueltas y la arrojará lejos."
+          }
+        ]
+      }
+    ]
+  }
+}
