@@ -1,0 +1,48 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "18-1",
+        "name": "Mega\nPidgeot",
+        "originalName": "ピジョット (Pigeot)",
+        "category": "Pájaro",
+        "type_first": 14,
+          "type_second": 9,
+        "height": "2,2 m",
+        "weight": "50,5 kg",
+          "ability": "Vista lince y Tumbos",
+        "ability_description": "Vista lince: Vista lince evita que baje la precisión del Pokémon que tenga esta habilidad. \n\nTumbos: Tumbos aumenta la evasión en un 20% cuando el Pokémon poseedor está confuso.\nEn la saga Pokémon Mundo Misterioso, aumenta la evasión del Pokémon cuando está confuso o alucinado.",
+        "first_name_pokemon": "Pidgey",
+        "first_num_pokemon": "16",
+        "second_name_pokemon": "Pidgeotto",
+        "second_num_pokemon": "17",
+        "third_name_pokemon": "Pidgeot",
+        "third_num_pokemon": "18",
+        "level_first_evolution": "Nivel 18",
+        "level_second_evolution": "Nivel 36",
+            "isMega": true,
+        "elementMega": "Pidgeotita",
+             "mega_name_pokemon": "Mega\nPidgeot",
+        "mega_num_pokemon": "18-1",
+        "images": [
+          {
+            "thumbnail": "18-1",
+            "thumbnailShiny": "18-1"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Cuando caza, vuela muy deprisa a ras del agua, y sorprende a inocentes presas como Magikarp."
+          }
+        ]
+      }
+    ]
+  }
+}
