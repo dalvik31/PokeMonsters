@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "142-1",
+        "name": "Mega\nAerodactyl",
+        "originalName": "プテラ (Ptera)",
+        "category": "Fósil",
+        "type_first": 16,
+              "type_second": 9,
+        "height": "79,0 kg",
+        "weight": "2,1 m",
+          "ability": "Cabeza roca",
+        "ability_description": "Cabeza roca evita el daño de retroceso al usar movimientos que los causen. Sin embargo, no protege contra el daño de retroceso del movimiento forcejeo.",
+        "first_name_pokemon": "Aerodactyl",
+        "first_num_pokemon": "142",
+         "pokemon_num_evol": "142",
+               "pokemon_name_evol": "Aerodactyl",
+                "isMega": true,
+        "elementMega": "Aerodactylita",
+               "mega_name_pokemon": "Mega\nAerodactyl",
+        "mega_num_pokemon": "142-1",
+        "images": [
+          {
+            "thumbnail": "142-1",
+            "thumbnailShiny": "142-1"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un prehistórico y feroz Pokémon que ataca con sus colmillos la garganta del enemigo."
+          }
+        ]
+      }
+    ]
+  }
+}
