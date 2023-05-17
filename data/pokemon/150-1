@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "150-1",
+        "name": "Mega\nMewtwo X",
+        "originalName": "ミュウツー (Mewtwo)",
+        "category": "Genético",
+        "type_first": 15,
+    "type_second": 7,
+        "height": "122,0 kg",
+        "weight": "2,0 m",
+          "ability": "Presión",
+        "ability_description": "Presión hace que se consuma un PP extra de los movimientos que sean dirigidos al Pokémon poseedor de esta habilidad, de forma que cada vez que el adversario use un movimiento, este gastará 2 PP del movimiento en vez de 1. Si un movimiento afecta a varios Pokémon con esta habilidad se reducirá un PP por cada uno de los Pokémon. Esta habilidad también afecta a Pokémon aliados en combates dobles.",
+        "first_name_pokemon": "Mewtwo",
+        "first_num_pokemon": "150",
+        "mega_name_pokemon": "Mega\nMewtwo X",
+        "mega_num_pokemon": "150-1",
+   "isMega": true,
+        "elementMega": "Mewtwoita X",
+        "images": [
+          {
+            "thumbnail": "150-1",
+            "thumbnailShiny": "150-1"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Fue creado por un científico tras años de horribles experimentos de ingeniería genética."
+          }
+        ]
+      }
+    ]
+  }
+}
