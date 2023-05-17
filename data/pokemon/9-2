@@ -33,6 +33,8 @@
         "level_second_evolution": "Nivel 36",
              "mega_num_pokemon": "",
         "mega_url_pokemon": "https://www.serebii.net/swordshield/pokemon/009-gi.png",
+             "isMega": true,
+        "elementMega": "Energía\nGigamax",
         "images": [
           {
             "thumbnail": "https://www.serebii.net/swordshield/pokemon/009-gi.png",
