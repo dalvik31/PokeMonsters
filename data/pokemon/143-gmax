@@ -1,0 +1,45 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "143-gmax",
+        "name": "Snorlax\nGigantamax",
+        "originalName": "カビゴン (Kabigon)",
+        "category": "Dormir",
+        "type_first": 14,
+        "height": "?? kg",
+        "weight": "35.0 m",
+          "ability": "Sebo",
+        "ability_description": "Los movimientos de tipo hielo o tipo fuego solo le producirán la mitad del daño normal a un Pokémon con esta habilidad.",
+        "first_name_pokemon": "Munchlax",
+        "first_num_pokemon": "446",
+               "third_name_pokemon": "Snorlax",
+        "third_num_pokemon": "143",
+                    "isMega": true,
+        "elementMega": "Energía\nGigamax",
+              "mega_name_pokemon": "Snorlax\nGigantamax",
+        "mega_num_pokemon": "143-gmax",
+                 "level_second_evolution": "Amistad + nivel",
+
+        "images": [
+          {
+            "thumbnail": "143-gmax",
+            "thumbnailShiny": "143-gmax"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Es muy vago. Sólo come y duerme. A medida que engorda se vuelve cada vez más perezoso."
+          }
+        ]
+      }
+    ]
+  }
+}
