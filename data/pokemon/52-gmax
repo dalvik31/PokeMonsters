@@ -24,6 +24,7 @@
                "mega_name_pokemon": "Meowth\nGigantamax",
         "mega_num_pokemon": "52-gmax",
         "isMega": true,
+            "mega_num_pokemon": "52",
         "elementMega": "Energía\nGigamax",
         "images": [
           {
