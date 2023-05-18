@@ -12,8 +12,8 @@
         "originalName": "ピカチュウ (Pikachu)",
         "category": "Ratón",
         "type_first": 11,
-        "height": "21 m",
-        "weight": "??",
+        "height": ">21 m",
+        "weight": "??? kg",
           "ability": "Electricidad estática",
         "ability_description": "Todo Pokémon que golpee con un ataque de contacto a un Pokémon con esta habilidad tiene una probabilidad del 30% de resultar paralizado. A pesar de paralizar con electricidad, puede afectar a Pokémon de tipo tierra",
         "first_name_pokemon": "Pichu",
@@ -27,6 +27,8 @@
                "isMega": true,
         "elementMega": "Energía\nGigamax",
                 "mega_name_pokemon": "Pikachu\nGigantamax",
+                     "pokemon_num_evol": "25",
+               "pokemon_name_evol": "Pikachu",
         "mega_num_pokemon": "25-gmax",
         "images": [
           {
