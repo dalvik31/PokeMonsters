@@ -14,8 +14,8 @@
         "ability": "Torrente",
         "ability_description": "Torrente: Aumenta la potencia de los movimientos de tipo agua del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
         "type_first": 18,
-        "height": "??",
-        "weight": "> 25 m",
+        "height": "> 25 m",
+        "weight": "??? kg",
         "hp": 79,
         "attack": 83,
         "defence": 100,
@@ -144,8 +144,13 @@
           },
           {
             "id": 21,
-            "title": "Guía oficial ",
+            "title": "Guía oficial",
             "description": "Para acabar con su enemigo, lo aplasta con el peso de su cuerpo. En momentos de apuro se esconde en el caparazon"
+          },
+          {
+            "id": 22,
+            "title": "Movimiento Gigamax",
+            "description": "Gigacañonazo causa daño al objetivo y, al final de cada turno, inflige daño a todos los Pokémon rivales que no sean de tipo agua durante 4 turnos, restándoles 1/6 de sus PS máximos. Este efecto siempre permanece activo esos 4 turnos aunque los oponentes sean cambiados o Blastoise Gigamax se debilite o revierta a su forma normal."
           }
         ],
         "interestingData": ""
