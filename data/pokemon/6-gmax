@@ -15,7 +15,7 @@
         "ability_description": "Mar llamas aumenta la potencia de los movimientos de tipo fuego del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
         "type_first": 8,
         "height": "> 28 m",
-        "weight": "??",
+        "weight": "??? kg",
         "hp": 78,
         "attack": 84,
         "defence": 78,
@@ -182,7 +182,7 @@
           {
             "id": 22,
             "title": "Movimiento Gigamax",
-            "description": "Gigallamarada - Gigallamarada causa daño al objetivo y, al final de cada turno, inflige daño a todos los Pokémon rivales que no sean de tipo fuego durante 4 turnos, restándoles 1/6 de sus PS máximos. Este efecto siempre permanece activo esos 4 turnos aunque los oponentes sean cambiados o Charizard Gigamax se debilite o revierta a su forma normal."
+            "description": "Gigallamarada - Causa daño al objetivo y, al final de cada turno, inflige daño a todos los Pokémon rivales que no sean de tipo fuego durante 4 turnos, restándoles 1/6 de sus PS máximos. Este efecto siempre permanece activo esos 4 turnos aunque los oponentes sean cambiados o Charizard Gigamax se debilite o revierta a su forma normal."
           }
         ],
         "interestingData": "*Charizard es el Pokémon favorito de Atsuko Nishida\n\n*Charizard no puede aprender a volar en los juegos Pokémon originales\n\n* Prácticamente Charizard fue el culpable de que Ash no avanzara mas en la liga índigo\n\n* Charizard fue votado como el Pokémon de generación I más popular en una encuesta de 2020\n\n* Fue el primer Pokémon en aparecer en el anime japonés Pokémon"
