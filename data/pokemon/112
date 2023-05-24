@@ -13,8 +13,8 @@
         "category": "Taladro",
         "type_first": 12,
         "type_second": 16,
-        "height": "120,0 kg",
-        "weight": "1,9 m",
+        "height": "1,9 m",
+        "weight": "120,0 kg",
           "ability": "Pararrayos",
         "ability_description": "Pararrayos: Causa que todos los ataques eléctricos que afectan a un solo objetivo usados por los oponentes, se dirijan al Pokémon poseedor de esta habilidad independientemente del objetivo seleccionado. Poder oculto de tipo eléctrico no se ve afectado.",
         "first_name_pokemon": "Rhyhorn",
@@ -23,7 +23,7 @@
         "second_num_pokemon": "112",
         "third_name_pokemon": "Rhyperior",
         "third_num_pokemon": "464",
-         "level_firt_evolution": "Nivel 42",
+         "level_first_evolution": "Nivel 42",
              "level_second_evolution": "Intercambio equipado con protector",
         "images": [
           {
