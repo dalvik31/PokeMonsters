@@ -12,8 +12,8 @@
         "originalName": "ラッキー (Lucky)",
         "category": "Huevo",
         "type_first": 14,
-        "height": "34,6 kg",
-        "weight": "1,1 m",
+        "height": "1,1 m",
+        "weight": "34,6 kg",
           "ability": "Cura natural",
         "ability_description": "Cura natural: Cura los problemas de estado del poseedor de la habilidad al cambiar de Pokémon.",
         "first_name_pokemon": "Happiny",
@@ -22,7 +22,7 @@
         "second_num_pokemon": "113",
         "third_name_pokemon": "Blissey",
         "third_num_pokemon": "242",
-         "level_firt_evolution": "Nivel (día) Día equipada con Piedra oval",
+         "level_first_evolution": "Nivel (día) Día equipada con Piedra oval",
              "level_second_evolution": "Amistad + nivel",
         "images": [
           {
