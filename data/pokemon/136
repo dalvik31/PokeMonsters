@@ -12,8 +12,8 @@
         "originalName": "ブースター (Booster)",
         "category": "Llama",
         "type_first": 8,
-        "height": "25,0 kg",
-        "weight": "0,9 m",
+        "height": "0,9 m",
+        "weight": "25,0 kg",
           "ability": "Absorbe fuego",
         "ability_description": "Absorbe fuego hace al poseedor inmune a los movimientos de tipo fuego, y potencia en un 50% sus ataques de tipo fuego hasta que sea cambiado o finalice el combate. Si se reciben varios ataques de tipo fuego, solo el primero aumenta la potencia de los movimientos de tipo fuego, mientras que los posteriores simplemente serán anulados. Si un Pokémon con esta habilidad está congelado, la habilidad se desactiva, haciendo que el primer movimiento recibido de tipo fuego cause daño y permita la descongelación del poseedor.",
         "first_name_pokemon": "Eevee",
@@ -21,7 +21,7 @@
 
                "third_name_pokemon": "Flareon",
         "third_num_pokemon": "136",
-                "level_first_evolution": "Piedra fuego",
+                "level_second_evolution": "Piedra fuego",
 
         "images": [
           {
