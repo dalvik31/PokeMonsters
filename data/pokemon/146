@@ -19,7 +19,7 @@
         "ability_description": "Presión hace que se consuma un PP extra de los movimientos que sean dirigidos al Pokémon poseedor de esta habilidad, de forma que cada vez que el adversario use un movimiento, este gastará 2 PP del movimiento en vez de 1. Si un movimiento afecta a varios Pokémon con esta habilidad se reducirá un PP por cada uno de los Pokémon. Esta habilidad también afecta a Pokémon aliados en combates dobles.",
         "first_name_pokemon": "Moltres",
         "first_num_pokemon": "146",
-    
+      "onlyOneEvolution": true,
             
 
         "images": [
