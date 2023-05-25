@@ -19,7 +19,7 @@
         "ability_description": "Si el poseedor de esta habilidad resulta envenenado, paralizado o quemado por el oponente, el oponente pasará a tener el mismo problema de estado del poseedor, siempre y cuando no sea impedido por tipos, habilidades o velo sagrado y campo de niebla. Sin embargo, sí que se puede transmitir el estado a un Pokémon que se encuentre detrás de un sustituto. Si el poseedor de esta habilidad recibe un envenenamiento grave, transmitirá al enemigo un envenenamiento normal.",
         "first_name_pokemon": "Mew",
         "first_num_pokemon": "151",
- 
+        "onlyOneEvolution":true,
 
         "images": [
           {
