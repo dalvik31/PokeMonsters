@@ -24,7 +24,6 @@
         "mega_num_pokemon": "115-1",
                "pokemon_num_evol": "115",
                "pokemon_name_evol": "Kangaskhan",
-                 "onlyOneEvolution": true,
         "images": [
           {
             "thumbnail": "115-1",
