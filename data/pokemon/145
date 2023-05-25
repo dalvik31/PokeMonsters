@@ -20,7 +20,7 @@
         "first_name_pokemon": "Zapdos",
         "first_num_pokemon": "145",
     
-            
+              "onlyOneEvolution": true,
 
         "images": [
           {
