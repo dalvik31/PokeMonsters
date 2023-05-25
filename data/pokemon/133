@@ -14,17 +14,75 @@
         "type_first": 14,
         "height": "0,3 m",
         "weight": "6,5 kg",
-          "ability": "Fuga",
+        "ability": "Fuga",
         "ability_description": "Fuga permite al poseedor escapar siempre de combates contra Pokémon salvajes, ignorando habilidades y movimientos que atrapen al Pokémon como sombra trampa, acoso o bloqueo. Fuga no tiene ningún efecto a la hora de cambiar un Pokémon por otro ni en combates contra entrenadores.",
         "first_name_pokemon": "Eevee",
         "first_num_pokemon": "133",
- "onlyOneEvolution": true,
-  "manyEvolution": true,
-    "numberFirstManyEvoluton": "133",
+        "onlyOneEvolution": true,
+        "manyEvolution": true,
+        "numberFirstManyEvoluton": "133",
         "nameFirstManyEvoluton": "Eevee",
-                "elementFirstManyEvoluton": "Piedra agua",
-                     "numberFirstEvolutionManyEvoluton": "134",
-                          "nameFirstEvolutionManyEvoluton": "Vaporeon",
+        "elementFirstManyEvoluton": "Piedra agua",
+        "numberFirstEvolutionManyEvoluton": "134",
+        "nameFirstEvolutionManyEvoluton": "Vaporeon",
+
+
+
+
+      "numberSecondManyEvoluton": "133",
+        "nameSecondManyEvoluton": "Eevee",
+        "numberSecondEvolutionManyEvoluton": "135",
+        "nameSecondEvolutionManyEvoluton": "Jolteon",
+  "elementSecondManyEvoluton": "Piedra trueno",
+
+
+
+              "numberThirdManyEvoluton": "133",
+        "nameThirdManyEvoluton": "Eevee",
+        "numberThirdEvolutionManyEvoluton": "136",
+        "nameThirdEvolutionManyEvoluton": "Flareon",
+  "elementThirdManyEvoluton": "Piedra fuego",
+
+
+
+              "numberFourthManyEvoluton": "133",
+        "nameFourthManyEvoluton": "Eevee",
+        "numberFourthEvolutionManyEvoluton": "196",
+        "nameFourthEvolutionManyEvoluton": "Espeon",
+  "elementFourthManyEvoluton": "Amistad + nivel (día)",
+
+
+              "numberFifthManyEvoluton": "133",
+        "nameFifthManyEvoluton": "Eevee",
+        "numberFifthEvolutionManyEvoluton": "197",
+        "nameFifthEvolutionManyEvoluton": "Umbreon",
+  "elementFifthManyEvoluton": "Amistad + nivel (noche)",
+
+
+        
+              "numberSixthManyEvoluton": "133",
+        "nameSixthManyEvoluton": "Eevee",
+        "numberSixthEvolutionManyEvoluton": "470",
+        "nameSixthEvolutionManyEvoluton": "Leafeon",
+  "elementSixthManyEvoluton": "Subir nivel cerca de la roca musgo o piedra hoja",
+
+
+        
+              "numberSeventhManyEvoluton": "133",
+        "nameSeventhManyEvoluton": "Eevee",
+        "numberSeventhEvolutionManyEvoluton": "471",
+        "nameSeventhEvolutionManyEvoluton": "Glaceon",
+  "elementSeventhManyEvoluton": "Subir nivel cerca de la roca hielo o piedra hielo",
+
+
+        
+              "numberEighthManyEvoluton": "133",
+        "nameEighthManyEvoluton": "Eevee",
+        "numberEighthEvolutionManyEvoluton": "700",
+        "nameEighthEvolutionManyEvoluton": "Sylveon",
+  "elementEighththManyEvoluton": "2 corazones de afecto/160 de amistad+ nivel + conocer un movimiento de tipo hada",
+
+        
         "images": [
           {
             "thumbnail": "133",
