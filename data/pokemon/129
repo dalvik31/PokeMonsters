@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "129",
+        "name": "Magikarp",
+        "originalName": "コイキング (Koiking)",
+        "category": "Pez",
+        "type_first": 18,
+        "height": "0,9 m",
+        "weight": "10,0 kg",
+          "ability": "Nado rápido",
+        "ability_description": "Nado rápido duplica la velocidad del poseedor de la habilidad en clima lluvioso.",
+        "first_name_pokemon": "Magikarp",
+        "first_num_pokemon": "129",
+
+               "third_name_pokemon": "Gyarados",
+        "third_num_pokemon": "130",
+                "level_second_evolution": "Nivel 20",
+
+        "images": [
+          {
+            "thumbnail": "129",
+            "thumbnailShiny": "129"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "En un pasado lejano, era más fuerte que sus horribles descendientes de hoy en día."
+          }
+        ]
+      }
+    ]
+  }
+}

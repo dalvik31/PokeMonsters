@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "100",
+        "name": "Voltorb",
+        "originalName": "ビリリダマ (Biriridama)",
+        "category": "Bola",
+        "type_first": 11,
+        "height": "0,5 m",
+        "weight": "10,4 kg",
+          "ability": "Insonorizar",
+        "ability_description": "Insonorizar: Hace inmune al Pokémon poseedor de la habilidad ante movimientos que basan su efecto en el sonido incluyendo los movimientos propios.",
+        "first_name_pokemon": "Voltorb",
+        "first_num_pokemon": "100",
+
+        "third_name_pokemon": " Electrode",
+        "third_num_pokemon": "101",
+             "level_second_evolution": "Nivel 30",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "100",
+            "thumbnailShiny": "100"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Suele vivir en centrales de energía. Mucha gente muere al confundirlo con una Poké Ball."
+          }
+        ]
+      }
+    ]
+  }
+}

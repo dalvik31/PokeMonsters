@@ -13,8 +13,8 @@
         "category": "Imán",
         "type_first": 11,
          "type_second": 17,
-        "height": "6,0 kg",
-        "weight": "0,3 m",
+        "height": "0,3 m",
+        "weight": "6,0 kg",
           "ability": "Imán",
         "ability_description": "Imán: Atrapa a Pokémon oponentes de tipo acero, impidiendo que estos huyan del combate o sean cambiados por su entrenador, hasta que quien posee la habilidad sea cambiado o derrotado.",
         "first_name_pokemon": "Magnemite",
@@ -24,7 +24,7 @@
         "third_name_pokemon": "Magnezone",
         "third_num_pokemon": "462",
                    "level_first_evolution": "Nivel 30",
-             "level_second_evolution": "Subir un nivel en un campo magnético especial; o piedra trueno",
+             "level_second_evolution": "Subir un nivel en un campo magnético; o piedra trueno",
              
   
              

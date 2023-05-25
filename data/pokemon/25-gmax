@@ -1,0 +1,49 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "25-gmax",
+        "name": "Pikachu\nGigantamax",
+        "originalName": "ピカチュウ (Pikachu)",
+        "category": "Ratón",
+        "type_first": 11,
+        "height": ">21 m",
+        "weight": "??? kg",
+          "ability": "Electricidad estática",
+        "ability_description": "Todo Pokémon que golpee con un ataque de contacto a un Pokémon con esta habilidad tiene una probabilidad del 30% de resultar paralizado. A pesar de paralizar con electricidad, puede afectar a Pokémon de tipo tierra",
+        "first_name_pokemon": "Pichu",
+        "first_num_pokemon": "172",
+        "second_name_pokemon": "Pikachu",
+        "second_num_pokemon": "25",
+        "third_name_pokemon": "Raichu",
+        "third_num_pokemon": "26",
+              "level_first_evolution": "Amistad + nivel",
+        "level_second_evolution": "Piedra trueno",
+               "isMega": true,
+        "elementMega": "Energía\nGigamax",
+                "mega_name_pokemon": "Pikachu\nGigantamax",
+                     "pokemon_num_evol": "25",
+               "pokemon_name_evol": "Pikachu",
+        "mega_num_pokemon": "25-gmax",
+        "images": [
+          {
+            "thumbnail": "25-gmax",
+            "thumbnailShiny": "25-gmax"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Cuando varios de estos Pokémon se juntan, su energía puede causar fuertes tormentas."
+          }
+        ]
+      }
+    ]
+  }
+}

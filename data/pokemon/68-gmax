@@ -1,0 +1,48 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "68-gmax",
+        "name": "Machamp\nGigantamax",
+        "originalName": "カイリキー (Kairiky)",
+        "category": "Superpoder",
+        "type_first": 7,
+        "height": "25,0 m",
+        "weight": "??? kg",
+          "ability": "Agallas",
+        "ability_description": "Agallas: Aumenta la característica de ataque del poseedor en un 50% si este está quemado, paralizado, envenenado o dormido. En el caso de las quemaduras el ataque del poseedor de la habilidad seguirá siendo un 50% superior, anulando los efectos de bajada de ataque producida por las mismas.",
+        "first_name_pokemon": "Machop",
+        "first_num_pokemon": "66",
+           "second_name_pokemon": " Machoke",
+        "second_num_pokemon": "67",
+        "third_name_pokemon": "Machamp",
+        "third_num_pokemon": "68",
+          "mega_name_pokemon": "Machamp\nGigantamax",
+        "mega_num_pokemon": "68-gmax",
+             "level_first_evolution": "Nivel 28",
+             "level_second_evolution": "Intercambio o cordon unión",
+                 "isMega": true,
+        "elementMega": "Energía\nGigamax",
+             
+        "images": [
+          {
+            "thumbnail": "68-gmax",
+            "thumbnailShiny": "68-gmax"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Con sus fuertes músculos, lanza bestiales puñetazos y envía a su víctima al lejano horizonte."
+          }
+        ]
+      }
+    ]
+  }
+}

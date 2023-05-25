@@ -1,0 +1,39 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "115",
+        "name": "Kangaskhan",
+        "originalName": "ガルーラ (Garura)",
+        "category": "Maternal",
+        "type_first": 14,
+        "height": "2,2 m",
+        "weight": "80,0 kg",
+          "ability": "Fuerza mental",
+        "ability_description": "Fuerza mental: Evita que el poseedor pueda amedrentarse. Es anulada por las habilidades rompemoldes, turbollama y terravoltaje, pudiendo amedrentarse por movimientos efectuados por Pokémon con dichas habilidades.",
+        "first_name_pokemon": "Kangaskhan",
+        "first_num_pokemon": "115",
+  "onlyOneEvolution": true,
+
+        "images": [
+          {
+            "thumbnail": "115",
+            "thumbnailShiny": "115"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "El bebé no suele salir de la segura bolsa de su madre hasta que cumple los tres años."
+          }
+        ]
+      }
+    ]
+  }
+}

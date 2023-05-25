@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "105",
+        "name": "Marowak",
+        "originalName": "ガラガラ (Garagara)",
+        "category": "Apilahueso",
+        "type_first": 12,
+        "height": "1,0 m",
+        "weight": "45,0 kg",
+          "ability": "Cabeza roca",
+        "ability_description": "Cabeza roca evita el daño de retroceso al usar movimientos que los causen. Sin embargo, no protege contra el daño de retroceso del movimiento forcejeo.",
+        "first_name_pokemon": "Cubone",
+        "first_num_pokemon": "104",
+
+        "third_name_pokemon": " Marowak",
+        "third_num_pokemon": "105",
+             "level_second_evolution": "Nivel 28",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "105",
+            "thumbnailShiny": "105"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "El hueso que lleva es su gran arma. Lo lanza hábilmente como un boomerang dejándolos KO."
+          }
+        ]
+      }
+    ]
+  }
+}

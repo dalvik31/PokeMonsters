@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "116",
+        "name": "Horsea",
+        "originalName": "タッツー (Tattu)",
+        "category": "Dragón",
+        "type_first": 18,
+        "height": "0,4 m",
+        "weight": "8,0 kg",
+          "ability": "Nado rápido",
+        "ability_description": "Nado rápido duplica la velocidad del poseedor de la habilidad en clima lluvioso.",
+        "first_name_pokemon": "Horsea",
+        "first_num_pokemon": "116",
+       "second_name_pokemon": "Seadra",
+        "second_num_pokemon": "117",
+               "third_name_pokemon": "Kingdra",
+        "third_num_pokemon": "230",
+                  "level_first_evolution": "Nivel 32",
+              "level_second_evolution": "Intercambio equipado con Escama dragón",
+
+        "images": [
+          {
+            "thumbnail": "116",
+            "thumbnailShiny": "116"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Famoso por derribar a bichos volantes lanzando tinta desde la superficie del agua."
+          }
+        ]
+      }
+    ]
+  }
+}

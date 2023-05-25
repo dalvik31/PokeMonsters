@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "96",
+        "name": "Drowzee",
+        "originalName": "スリープ (Sleepe)",
+        "category": "Hipnosis",
+        "type_first": 15,
+        "height": "1,0 m",
+        "weight": "32,4 kg",
+          "ability": "Insomnio",
+        "ability_description": "Insomnio: Evita que el poseedor pueda quedarse dormido. Esta habilidad impide además el uso de descanso. Si un Pokémon dormido adquiere esta habilidad (mediante abatidoras, intercambio, etc.) se despertará.",
+        "first_name_pokemon": "Drowzee",
+        "first_num_pokemon": "96",
+
+        "third_name_pokemon": "Hypno",
+        "third_num_pokemon": "97",
+             "level_second_evolution": "Nivel 26",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "96",
+            "thumbnailShiny": "96"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Adormece a sus enemigos y se come sus sueños. A veces se pone enfermo si come pesadillas."
+          }
+        ]
+      }
+    ]
+  }
+}

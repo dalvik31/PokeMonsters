@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "135",
+        "name": "Jolteon",
+        "originalName": "サンダース (Thunders)",
+        "category": "Relámpago",
+        "type_first": 11,
+        "height": "0,8 m",
+        "weight": "24,5 kg",
+          "ability": "Absorbe electricidad",
+        "ability_description": "Absorbe electricidad hace al poseedor inmune a los movimientos de tipo eléctrico y le hace recuperar hasta un 25% de sus PS máximos cada vez que sea alcanzado por un movimiento de este tipo que cause daño.",
+        "first_name_pokemon": "Eevee",
+        "first_num_pokemon": "133",
+
+               "third_name_pokemon": "Jolteon",
+        "third_num_pokemon": "135",
+                "level_second_evolution": "Piedra trueno",
+
+        "images": [
+          {
+            "thumbnail": "135",
+            "thumbnailShiny": "135"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Acumula iones negativos en la atmósfera para lanzar rayos de 10000 voltios de potencia."
+          }
+        ]
+      }
+    ]
+  }
+}

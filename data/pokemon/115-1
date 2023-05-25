@@ -1,0 +1,43 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "115-1",
+        "name": "Mega\nKangaskhan",
+        "originalName": "ガルーラ (Garura)",
+        "category": "Maternal",
+        "type_first": 14,
+        "height": "2,2 m",
+        "weight": "80,0 kg",
+          "ability": "Amor filial",
+        "ability_description": "Amor filial: Permite al poseedor atacar, con todos los movimientos que causan daño, dos veces en un mismo turno, teniendo el segundo golpe el 50% de potencia que el primero. Los movimientos multigolpe (como puño cometa), y movimientos que afectan a más de un Pokémon durante combates dobles y/o triples (como avalancha) no se benefician del efecto de la habilidad. La precisión se calcula con el primer golpe, es decir, si el primero falla, el segundo también.",
+        "first_name_pokemon": "Kangaskhan",
+        "first_num_pokemon": "115",
+  "isMega": true,
+        "elementMega": "Kangaskhanita",
+  "mega_name_pokemon": "Mega\nKangaskhan",
+        "mega_num_pokemon": "115-1",
+               "pokemon_num_evol": "115",
+               "pokemon_name_evol": "Kangaskhan",
+        "images": [
+          {
+            "thumbnail": "115-1",
+            "thumbnailShiny": "115-1"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "El bebé no suele salir de la segura bolsa de su madre hasta que cumple los tres años."
+          }
+        ]
+      }
+    ]
+  }
+}

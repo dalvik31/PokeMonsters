@@ -1,0 +1,159 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "9-2",
+        "name": "Blastoise\nGigantamax",
+        "originalName": "カメックス (Kamex)",
+        "category": "Armazón",
+        "ability": "Torrente",
+        "ability_description": "Torrente: Aumenta la potencia de los movimientos de tipo agua del poseedor en un 50% cuando su salud esté igual o por debajo de 1/3 de sus PS máximos.",
+        "type_first": 18,
+        "height": "> 25 m",
+        "weight": "??? kg",
+        "hp": 79,
+        "attack": 83,
+        "defence": 100,
+        "attack_special": 85,
+        "defence_special": 105,
+        "speed": 78,
+        "total": 530,
+        "first_name_pokemon": "Squirtle",
+        "first_num_pokemon": "7",
+        "second_name_pokemon": "Wartortle",
+        "second_num_pokemon": "8",
+        "third_name_pokemon": "Blastoise",
+        "third_num_pokemon": "9",
+        "level_first_evolution": "Nivel 16",
+        "level_second_evolution": "Nivel 36",
+             "mega_num_pokemon": "",
+        "mega_url_pokemon": "https://www.serebii.net/swordshield/pokemon/009-gi.png",
+             "isMega": true,
+        "elementMega": "Energía\nGigamax",
+        "images": [
+          {
+            "thumbnail": "https://www.serebii.net/swordshield/pokemon/009-gi.png",
+            "thumbnailShiny": "https://www.serebii.net/Shiny/SWSH/009-gi.png"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un brutal Pokémon con reactores de agua en su caparazón. Éstos son usados para rápidos placajes."
+          },
+          {
+            "id": 2,
+            "title": "Amarillo",
+            "description": "Cuando ataca a un enemigo, su descarga de agua es aún más potente que una manga de bombero."
+          },
+          {
+            "id": 3,
+            "title": "Oro",
+            "description": "Deliberadamente se hace más pesado para contrarrestar la fuerza de los chorros de agua que dispara."
+          },
+          {
+            "id": 4,
+            "title": "Plata",
+            "description": "Los cañones de su concha disparan chorros de agua capaces de hacer agujeros en las planchas de acero."
+          },
+          {
+            "id": 5,
+            "title": "Cristal",
+            "description": "Planta firmemente las patas en el suelo antes de disparar chorros de agua desde la espalda."
+          },
+          {
+            "id": 6,
+            "title": "Rubí y Zafiro",
+            "description": "Blastoise lanza chorros de agua por los tubos que le salen del caparazón que tiene en la espalda, con gran precisión. Puede disparar chorros de agua con tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros."
+          },
+          {
+            "id": 7,
+            "title": "Esmeralda",
+            "description": "Lanza chorros de agua por los tubos del caparazón con gran precisión. Tiene tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros."
+          },
+          {
+            "id": 8,
+            "title": "Rojo Fuego",
+            "description": "Para acabar con su enemigo, lo aplasta con el peso de su cuerpo. En momentos de apuro, se esconde en el caparazón."
+          },
+          {
+            "id": 9,
+            "title": "Verde Hoja",
+            "description": "Es un Pokémon violento. Tiene reactores de agua en el caparazón, que le sirven para atacar con fuerza."
+          },
+          {
+            "id": 10,
+            "title": "Diamante, Perla y Platino",
+            "description": "Los chorros de agua que lanza por los tubos de su caparazón pueden atravesar el acero."
+          },
+          {
+            "id": 11,
+            "title": "Oro HeartGold",
+            "description": "Deliberadamente se hace más pesado para contrarrestar la fuerza de los chorros de agua que dispara."
+          },
+          {
+            "id": 12,
+            "title": "Plata SoulSilver",
+            "description": "Los cañones de su concha disparan chorros de agua capaces de hacer agujeros en las planchas de acero."
+          },
+          {
+            "id": 13,
+            "title": "Negro, Blanco, Negro2 y Blanco2",
+            "description": "Los chorros de agua que lanza por los tubos de su caparazón pueden atravesar el acero."
+          },
+          {
+            "id": 14,
+            "title": "Pokémon X",
+            "description": "Para acabar con su enemigo, lo aplasta con el peso de su cuerpo. En momentos de apuro, se esconde en el caparazón."
+          },
+          {
+            "id": 15,
+            "title": "Pokémon Y",
+            "description": "Es un Pokémon imponente. Tiene reactores de agua en el caparazón, que le sirven para atacar con fuerza."
+          },
+          {
+            "id": 16,
+            "title": "Rubí Omega y Zafiro Alfa",
+            "description": "Blastoise lanza chorros de agua con gran precisión por los tubos que le salen del caparazón que tiene en la espalda. Puede disparar chorros de agua con tanta puntería que no fallaría al tirar contra una lata pequeña a 50 m."
+          },
+          {
+            "id": 17,
+            "title": "Let's Go, Pikachu! y Let's Go, Eevee!",
+            "description": "Tras fijar el blanco, ataca disparando un chorro de agua a una presión mayor que la manguera de un bombero."
+          },
+          {
+            "id": 18,
+            "title": "Espada",
+            "description": "Para acabar con su enemigo, lo aplasta con el peso de su cuerpo. En momentos de apuro, se esconde en el caparazón."
+          },
+          {
+            "id": 19,
+            "title": "Escudo",
+            "description": "Dispara chorros de agua a través de los cañones de su caparazón, capaces de agujerear incluso el acero."
+          },
+          {
+            "id": 20,
+            "title": "Pokémon GO",
+            "description": "Blastoise lanza chorros de agua con gran precisión por los tubos que le salen del caparazón que tiene en la espalda. Puede disparar chorros de agua con tanta puntería que no fallaría al tirar contra una lata pequeña a 50 m. "
+          },
+          {
+            "id": 21,
+            "title": "Guía oficial",
+            "description": "Para acabar con su enemigo, lo aplasta con el peso de su cuerpo. En momentos de apuro se esconde en el caparazon"
+          },
+          {
+            "id": 22,
+            "title": "Movimiento Gigamax",
+            "description": "Gigacañonazo causa daño al objetivo y, al final de cada turno, inflige daño a todos los Pokémon rivales que no sean de tipo agua durante 4 turnos, restándoles 1/6 de sus PS máximos. Este efecto siempre permanece activo esos 4 turnos aunque los oponentes sean cambiados o Blastoise Gigamax se debilite o revierta a su forma normal."
+          }
+        ],
+      }
+    ]
+  }
+}

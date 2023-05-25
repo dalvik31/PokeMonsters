@@ -1,0 +1,42 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "114",
+        "name": "Tangela",
+        "originalName": "モンジャラ (Monjara)",
+        "category": "Enredadera",
+        "type_first": 2,
+        "height": "1,0 m",
+        "weight": "35,0 kg",
+          "ability": "Clorofila",
+        "ability_description": "Clorofila duplica la velocidad del poseedor en sol o en sol abrasador.",
+        "first_name_pokemon": "Tangela",
+        "first_num_pokemon": "114",
+
+        "third_name_pokemon": "Tangrowth",
+        "third_num_pokemon": "465",
+       
+             "level_second_evolution": "Conociendo poder pasado + nivel",
+        "images": [
+          {
+            "thumbnail": "114",
+            "thumbnailShiny": "114"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Todo su cuerpo está cubierto con anchas cintas del tipo alga. Éstas se mueven cuando camina."
+          }
+        ]
+      }
+    ]
+  }
+}

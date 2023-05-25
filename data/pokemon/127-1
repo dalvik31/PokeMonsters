@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "127-1",
+        "name": "Mega\nPinsir",
+        "originalName": "カイロス (Kailios)",
+        "category": "Escarabajo",
+        "type_first": 3,
+           "type_second": 9,
+        "height": "1,7 m",
+        "weight": "59,0 kg",
+          "ability": "Piel celeste",
+        "ability_description": "Piel celeste: Cambia el tipo de los movimientos de tipo normal por tipo volador y los potencia en un 30%. Los movimientos que de por sí son de tipo volador no reciben el bonus del 30%. Los movimientos convertidos al tipo volador reciben STAB igual que los que ya eran de ese tipo.",
+        "first_name_pokemon": "Pinsir",
+        "first_num_pokemon": "127",
+        "mega_name_pokemon": "Mega\nPinsir",
+        "mega_num_pokemon": "127-1",
+              "pokemon_num_evol": "127",
+               "pokemon_name_evol": "Pinsir",
+       "isMega": true,
+        "elementMega": "Pinsirita",
+        "images": [
+          {
+            "thumbnail": "127-1",
+            "thumbnailShiny": "127-1"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Si no consigue triturar a su víctima con sus pinzas, le dará vueltas y la arrojará lejos."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "80",
+        "name": "Mega\nSlowbro",
+        "originalName": "ヤドラン (Yadoran)",
+        "category": "Ermitaño",
+        "type_first": 18,
+         "type_second": 15,
+        "height": "2 m",
+        "weight": "120 kg",
+          "ability": "Caparazón",
+        "ability_description": "Caparazón: Evita que el poseedor reciba golpes críticos.",
+        "first_name_pokemon": "Slowpoke",
+        "first_num_pokemon": "79",
+        "third_name_pokemon": "Slowbro",
+        "third_num_pokemon": "80",
+          "mega_name_pokemon": "Mega\nSlowbro",
+        "mega_num_pokemon": "80-1",
+             "level_second_evolution": "Nivel 37",
+                     "isMega": true,
+        "elementMega": "Slowbronita",
+  
+             
+        "images": [
+          {
+            "thumbnail": "80-1",
+            "thumbnailShiny": "80-1"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Dicen que el Shellder pegado a la cola de Slowpoke se nutre de los residuos del anfitrión."
+          }
+        ]
+      }
+    ]
+  }
+}

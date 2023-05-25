@@ -1,0 +1,49 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "94-1",
+        "name": "Mega\nGengar",
+        "originalName": "ゲンガー (Gangar)",
+        "category": "Sombra",
+        "type_first": 10,
+             "type_second": 1,
+        "height": "1,4 m",
+        "weight": "40,5 kg",
+          "ability": "Sombra trampa",
+        "ability_description": "Un Pokémon con la habilidad sombra trampa impide que los oponentes huyan del combate o puedan ser cambiados por otro Pokémon dejándolos atrapados. Un Pokémon atrapado puede ser cambiado si usa el movimiento relevo.",
+        "first_name_pokemon": "Gastly",
+        "first_num_pokemon": "92",
+         "second_name_pokemon": "Haunter",
+        "second_num_pokemon": "93",
+        "third_name_pokemon": "Gengar",
+        "third_num_pokemon": "94",
+             "level_first_evolution": "Nivel 25",
+             "level_second_evolution": "Intercambio o cordón unión",
+                    "mega_name_pokemon": "Mega\nGengar",
+        "mega_num_pokemon": "94-1",
+          "isMega": true,
+        "elementMega": "Gengarita",
+             
+        "images": [
+          {
+            "thumbnail": "94-1",
+            "thumbnailShiny": "94-1"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "En luna llena, a este Pokémon le gusta imitar las sombras de la gente y burlarse de sus miedos."
+          }
+        ]
+      }
+    ]
+  }
+}

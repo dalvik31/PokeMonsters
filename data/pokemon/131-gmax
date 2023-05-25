@@ -1,0 +1,46 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "131-gmax",
+        "name": "Lapras\nGigantamax",
+        "originalName": "ラプラス (Laplace)",
+        "category": "Transporte",
+        "type_first": 18,
+            "type_second": 13,
+        "height": ">24 m",
+        "weight": "??? kg",
+          "ability": "Absorbe agua",
+        "ability_description": "Absorbe agua: Hace al poseedor inmune a movimientos de tipo agua y recuperar un 25% de sus PS máximos al recibir un movimiento de este tipo. Esta habilidad impide la activación del tubérculo y el musgo brillante al activarse antes que el objeto, también anula el efecto de gota vital. Si el poseedor está bajo los efectos de anticura, este seguirá siendo inmune a movimientos de tipo agua, pero no se curará al recibirlos.",
+        "first_name_pokemon": "Lapras",
+        "first_num_pokemon": "131",
+       "pokemon_num_evol": "131",
+               "pokemon_name_evol": "Lapras",
+                  "mega_name_pokemon": "Lapras\nGigantamax",
+        "mega_num_pokemon": "131-gmax",
+               "pokemon_num_evol": "131",
+               "pokemon_name_evol": "Lapras",
+           "isMega": true,
+        "elementMega": "Energía\nGigamax",
+        "images": [
+          {
+            "thumbnail": "131-gmax",
+            "thumbnailShiny": "131-gmax"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Un Pokémon que ha sido cazado casi hasta la extinción. Puede llevar a la gente por el agua."
+          }
+        ]
+      }
+    ]
+  }
+}

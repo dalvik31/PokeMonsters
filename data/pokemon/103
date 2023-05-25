@@ -1,0 +1,45 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "103",
+        "name": "Exeggutor",
+        "originalName": "ナッシー (Nassy)",
+        "category": "Coco",
+        "type_first": 2,
+               "type_second": 15,
+        "height": "2,0 m",
+        "weight": "120,0 kg",
+          "ability": "Clorofila",
+        "ability_description": "Clorofila: Duplica la velocidad del poseedor en sol o en sol abrasador.",
+        "first_name_pokemon": "Exeggcute",
+        "first_num_pokemon": "102",
+
+        "third_name_pokemon": " Exeggutor",
+        "third_num_pokemon": "103",
+             "level_second_evolution": "Piedra hoja",
+             
+  
+           
+        "images": [
+          {
+            "thumbnail": "103",
+            "thumbnailShiny": "103"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Dice la leyenda que en raras ocasiones una de sus cabezas cae y sobrevive como un Exeggcute."
+          }
+        ]
+      }
+    ]
+  }
+}

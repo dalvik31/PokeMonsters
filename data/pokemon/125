@@ -1,0 +1,44 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "125",
+        "name": "Electabuzz",
+        "originalName": "エレブー (Eleboo)",
+        "category": "Eléctrico",
+        "type_first": 11,
+        "height": "1,1 m",
+        "weight": "30,0 kg",
+          "ability": "Electricidad estática",
+        "ability_description": "Todo Pokémon que golpee con un ataque de contacto a un Pokémon con esta habilidad tiene una probabilidad del 30% de resultar paralizado. A pesar de paralizar con electricidad, puede afectar a Pokémon de tipo tierra.",
+        "first_name_pokemon": "Elekid",
+        "first_num_pokemon": "239",
+          "second_name_pokemon": "Electabuzz",
+        "second_num_pokemon": "125",
+               "third_name_pokemon": "Electivire",
+        "third_num_pokemon": "466",
+                "level_first_evolution": "Nivel 30",
+           "level_second_evolution": "Intercambio equipado con electrizador",
+
+        "images": [
+          {
+            "thumbnail": "125",
+            "thumbnailShiny": "125"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "Suelen andar por las centrales eléctricas, pero también merodean y causan grandes apagones."
+          }
+        ]
+      }
+    ]
+  }
+}

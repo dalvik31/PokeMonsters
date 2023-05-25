@@ -1,0 +1,48 @@
+{
+  "code": "1",
+  "data": {
+    "total": 0,
+    "count": 0,
+    "limit": 0,
+    "offset": 0,
+    "results": [
+      {
+        "id": "12-gmax",
+        "name": "Butterfree\nGigantamax",
+        "originalName": "バタフリー (Butterfree)",
+        "category": "Mariposa",
+        "type_first": 3,
+          "type_second": 9,
+        "height": "> 17 m",
+        "weight": "??? kg",
+          "ability": "Ojo compuesto",
+        "ability_description": "Ojo compuesto aumenta en un 30% la precisión de los movimientos. Por ejemplo, en el caso de vendaval, cuya precisión original es del 70%, gracias a esta habilidad dicho movimiento tiene una precisión del 91% (70% x 1.3 = 91%).",
+        "first_name_pokemon": "Caterpie",
+        "first_num_pokemon": "10",
+        "second_name_pokemon": "Metapod",
+        "second_num_pokemon": "11",
+        "third_name_pokemon": "Butterfree",
+        "third_num_pokemon": "12",
+             "mega_name_pokemon": "Butterfree\nGigantamax",
+        "mega_num_pokemon": "12-gmax",
+        "level_first_evolution": "Nivel 7",
+        "level_second_evolution": "Nivel 10",
+             "isMega": true,
+        "elementMega": "Energía\nGigamax",
+        "images": [
+          {
+            "thumbnail": "12-gmax",
+            "thumbnailShiny": "12-gmax"
+          }
+        ],
+        "descriptionList": [
+          {
+            "id": 1,
+            "title": "Rojo y Azul",
+            "description": "En combate, aletea a gran velocidad para lanzar al aire sus tóxicos polvillos."
+          }
+        ]
+      }
+    ]
+  }
+}
