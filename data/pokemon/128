@@ -18,7 +18,7 @@
         "ability_description": "Intimidación reduce en un nivel el ataque del oponente al entrar a combatir. En combates dobles y combates triples afecta a los oponentes adyacentes al poseedor.",
         "first_name_pokemon": "Tauros",
         "first_num_pokemon": "128",
-
+  "onlyOneEvolution": true,
 
         "images": [
           {
