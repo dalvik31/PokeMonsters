@@ -18,7 +18,13 @@
         "ability_description": "Fuga permite al poseedor escapar siempre de combates contra Pokémon salvajes, ignorando habilidades y movimientos que atrapen al Pokémon como sombra trampa, acoso o bloqueo. Fuga no tiene ningún efecto a la hora de cambiar un Pokémon por otro ni en combates contra entrenadores.",
         "first_name_pokemon": "Eevee",
         "first_num_pokemon": "133",
-
+ "onlyOneEvolution": true,
+  "manyEvolution": true,
+    "numberFirstManyEvoluton": "133",
+        "nameFirstManyEvoluton": "Eevee",
+                "elementFirstManyEvoluton": "Piedra agua",
+                     "numberFirstEvolutionManyEvoluton": "134",
+                          "nameFirstEvolutionManyEvoluton": "Vaporeon",
         "images": [
           {
             "thumbnail": "133",
