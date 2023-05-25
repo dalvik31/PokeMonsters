@@ -18,7 +18,7 @@
         "ability_description": "Corte fuerte evita que los oponentes bajen el ataque del poseedor. Las reducciones por usar movimientos propios, como fuerza bruta o por quemaduras siguen ocurriendo con normalidad. Los movimientos cambia fuerza, cambia almas e isofuerza sí pueden llegar a bajar el ataque del poseedor, ya que su efecto se basa en intercambio de modificadores en las características, más que una disminución directa.",
         "first_name_pokemon": "Pinsir",
         "first_num_pokemon": "127",
-
+  "onlyOneEvolution": true,
      
 
         "images": [
