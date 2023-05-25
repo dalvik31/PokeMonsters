@@ -18,7 +18,7 @@
         "ability_description": "Flexibilidad evita que el poseedor de la habilidad pueda ser paralizado. Un Pokémon paralizado con esta habilidad se curará de la parálisis de inmediato.",
         "first_name_pokemon": "Ditto",
         "first_num_pokemon": "132",
-
+  "onlyOneEvolution": true,
         "images": [
           {
             "thumbnail": "132",
