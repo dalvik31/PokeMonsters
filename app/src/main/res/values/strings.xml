@@ -4,7 +4,7 @@
     <!-- Activity main-->
     <string name="textview_regions">Regiones</string>
     <string name="textview_recent">Las noticias más relevantes</string>
-    <string name="search_textview_hint">Ingresa el número del pokemon</string>
+    <string name="search_textview_hint">Ingresa el nombre del pokémon</string>
     <string name="textview_news">Noticias</string>
 
 

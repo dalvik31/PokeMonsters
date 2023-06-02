@@ -20,5 +20,8 @@ data class Pokemon(
         return type.getPokemonType()
     }
 
+    override fun toString(): String {
+        return "$id - $name"
+    }
 
 }
