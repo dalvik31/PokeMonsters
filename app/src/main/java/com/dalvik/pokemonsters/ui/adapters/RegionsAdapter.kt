@@ -33,7 +33,7 @@ class RegionsAdapter(private var regionslist: List<Region>) :
                             context,
                             R.color.primary_red
                         )
-                    );
+                    )
 
                 }
 
