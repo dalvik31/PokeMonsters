@@ -31,6 +31,7 @@ class RegionsViewModel @Inject constructor(private val getPokemonRegionUseCase: 
     fun getRegions() {
         val list = ArrayList<Region>()
         list.add(getRegion(1))
+        list.add(getRegion(2))
         itemList.postValue(list)
     }
 
@@ -43,6 +44,7 @@ class RegionsViewModel @Inject constructor(private val getPokemonRegionUseCase: 
                 totalPokemon = App.instance.getString(R.string.jhoto_total_pokemon),
                 imgUrl = R.drawable.region_jhoto,
                 serieUrl = "https://www.pokemon.com/el/episodios-pokemon/episodios-pokemon/temporadas-de-tv-pokemon/2/",
+                comingSoon = true,
                 firstMedalImgUrl = R.drawable.zafiro_medal,
                 firstMedalName = App.instance.getString(R.string.jhoto_first_medal),
                 secondMedalImgUrl = R.drawable.colmena_medal,

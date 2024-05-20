@@ -1,8 +1,10 @@
 package com.dalvik.pokemonsters.ui.adapters
 
+import android.content.res.ColorStateList
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.dalvik.pokemonsters.R
@@ -22,6 +24,21 @@ class RegionsAdapter(private var regionslist: List<Region>) :
         fun bindCharacter(region: Region) {
             itemListRegionsBinding.region = region
             itemListRegionsBinding.executePendingBindings()
+            if (region.comingSoon) {
+                itemListRegionsBinding.regionPokemonTotal.apply {
+                    text =
+                        context.getString(R.string.coming_soon)
+                    backgroundTintList = ColorStateList.valueOf(
+                        ContextCompat.getColor(
+                            context,
+                            R.color.primary_red
+                        )
+                    );
+
+                }
+
+
+            }
             itemListRegionsBinding.cardContainer.setOnClickListener {
                 it.findNavController().navigate(
                     R.id.action_regionFragment_to_regionPokemonFragment,

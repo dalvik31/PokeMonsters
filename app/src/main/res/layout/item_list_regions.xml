@@ -63,7 +63,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:src="@{region.imgUrl}" />
+            app:src="@{region.imgUrl}"
+            tools:src="@drawable/region_jhoto"/>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_container"
@@ -96,6 +97,7 @@
 
 
         <TextView
+            android:id="@+id/regionPokemonTotal"
             style="@style/TextViewTitleRegions"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
