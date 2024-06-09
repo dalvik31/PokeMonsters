@@ -32,7 +32,7 @@ class NewsViewModel @Inject constructor(
                     //The same error is here resultCharacter.message to send viewmodel inside xml
                 }
                 is ResultData.Success -> {
-                    itemList.postValue(resultNews.model)
+                    itemList.postValue(ArrayList(resultNews.model.sortedByDescending { it.start_date?.toLong() }))
                     urlNews
                 }
             }
