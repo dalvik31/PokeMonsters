@@ -9,13 +9,15 @@
             name="viewModel"
             type="com.dalvik.pokemonsters.ui.regions.RegionsViewModel" />
 
+        <import type="android.view.View" />
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/purple_700"
         android:animateLayoutChanges="true"
+        android:background="@color/purple_700"
         tools:context=".PokemonFragment">
 
         <TextView
@@ -28,6 +30,25 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
+        <TextView
+            android:id="@+id/textMaintenance"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_news"
+            android:drawableTint="@color/primary_gray"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:padding="@dimen/_14sdp"
+            android:text="@{viewModel.msgLoadInformation.toString()}"
+            android:visibility="@{viewModel.showAllTabs == true ? View.GONE : View.VISIBLE}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory" />
+
+
         <View
             android:id="@+id/view"
             android:layout_width="0dp"
@@ -38,7 +59,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/textSubtitleCategory"
             app:layout_constraintEnd_toStartOf="@+id/textSubtitleCategory"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textPokemonName" />
+            app:layout_constraintTop_toTopOf="@+id/textSubtitleCategory" />
 
         <TextView
             android:id="@+id/textSubtitleCategory"
@@ -64,65 +85,77 @@
             app:layout_constraintBottom_toBottomOf="@+id/textSubtitleCategory"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textSubtitleCategory"
-            app:layout_constraintTop_toBottomOf="@+id/textPokemonName" />
+            app:layout_constraintTop_toTopOf="@+id/textSubtitleCategory" />
 
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_14sdp"
-            android:layout_marginEnd="@dimen/_14sdp"
-            android:gravity="center"
-            app:boxBackgroundColor="@android:color/transparent"
-            app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
-            app:boxCornerRadiusBottomStart="@dimen/_8sdp"
-            app:boxCornerRadiusTopEnd="@dimen/_8sdp"
-            app:boxCornerRadiusTopStart="@dimen/_8sdp"
-            app:boxStrokeWidth="0dp"
-            app:boxStrokeWidthFocused="0dp"
-            app:endIconMode="clear_text"
-            app:hintEnabled="true"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory"
-            app:startIconDrawable="@drawable/ic_search">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etSearch"
-                style="@style/SearchEdittext"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:hint="@string/search_textview_hint"
-                android:inputType="textPersonName|textCapWords"
-                android:textColorHint="@color/secondary_purple_700" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <ListView
-            android:id="@+id/listResults"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_14sdp"
-            android:background="@drawable/background_rounded_white"
-            android:choiceMode="singleChoice"
-            android:visibility="gone"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/regionResults"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:visibility="@{viewModel.showAllTabs == true ? View.VISIBLE : View.GONE}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-            app:listRegions="@{viewModel.itemList}"
-            tools:listitem="@layout/item_list_regions" />
+            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_14sdp"
+                android:layout_marginEnd="@dimen/_14sdp"
+                android:gravity="center"
+                app:boxBackgroundColor="@android:color/transparent"
+                app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+                app:boxCornerRadiusTopStart="@dimen/_8sdp"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:endIconMode="clear_text"
+                app:hintEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory"
+                app:startIconDrawable="@drawable/ic_search">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etSearch"
+                    style="@style/SearchEdittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:hint="@string/search_textview_hint"
+                    android:inputType="textPersonName|textCapWords"
+                    android:textColorHint="@color/secondary_purple_700" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ListView
+                android:id="@+id/listResults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_14sdp"
+                android:background="@drawable/background_rounded_white"
+                android:choiceMode="singleChoice"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/regionResults"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+                app:listRegions="@{viewModel.itemList}"
+                tools:listitem="@layout/item_list_regions" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

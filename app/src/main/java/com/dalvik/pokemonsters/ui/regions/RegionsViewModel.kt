@@ -8,6 +8,7 @@ import com.dalvik.pokemonsters.network.ResultData
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
 import com.dalvik.pokemonsters.network.model.regions.Region
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
+import com.dalvik.pokemonsters.uses_cases.GetConfigUseCase
 import com.dalvik.pokemonsters.uses_cases.GetPokemonRegionUseCase
 import com.dalvik.pokemonsters.utils.App
 import com.dalvik.pokemonsters.utils.CustomLoader
@@ -16,16 +17,46 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class RegionsViewModel @Inject constructor(private val getPokemonRegionUseCase: GetPokemonRegionUseCase) :
+class RegionsViewModel @Inject constructor(
+    private val getPokemonRegionUseCase: GetPokemonRegionUseCase,
+    private val getConfigUseCase: GetConfigUseCase
+) :
     BaseViewModel(App.instance) {
 
     var itemList = MutableLiveData<ArrayList<Region>>(arrayListOf())
     var pokemonList = MutableLiveData<ArrayList<Pokemon>>(arrayListOf())
+    var showAllTabs = MutableLiveData(false)
+    var msgLoadInformation = MutableLiveData(App.instance.getString(R.string.msg_load_section))
+
 
     init {
-        getPokemonRegion()
+        getConfig()
+
     }
 
+    fun getConfig() {
+        viewModelScope.launch {
+            when (val resultConfig = getConfigUseCase(
+                loader = CustomLoader.Type.SOFT,
+                viewModel = this@RegionsViewModel
+            )) {
+                is ResultData.Error -> {
+                    //Nothing here this error is management by BaseViewModel class
+                    //The same error is here resultCharacter.message to send viewmodel inside xml
+                }
+
+                is ResultData.Success -> {
+                    if (resultConfig.model.addAllTabs == true) {
+                        getPokemonRegion()
+                        showAllTabs.postValue(true)
+                    } else {
+                        msgLoadInformation.postValue(App.instance.getString(R.string.msg_section_maintenance))
+                    }
+                }
+            }
+
+        }
+    }
 
     @SuppressLint("SuspiciousIndentation")
     fun getRegions() {
@@ -81,6 +112,7 @@ class RegionsViewModel @Inject constructor(private val getPokemonRegionUseCase: 
                 }
 
                 is ResultData.Success -> {
+                    showAllTabs.postValue(true)
                     pokemonList.postValue(resultPokemonRegion.model)
                 }
             }

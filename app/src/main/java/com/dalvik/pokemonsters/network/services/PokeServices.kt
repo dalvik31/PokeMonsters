@@ -1,6 +1,7 @@
 package com.dalvik.pokemonsters.network.services
 
 import com.dalvik.pokemonsters.network.model.ResponseModel
+import com.dalvik.pokemonsters.network.model.config.Config
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.DetailPokemon
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
@@ -18,4 +19,7 @@ interface PokeServices {
 
     @GET("PokeMonsters/main/data/pokemon/{id}")
     suspend fun getPokemonById(@Path(value = "id") id: String): Response<ResponseModel<DetailPokemon>>
+
+    @GET("PokeMonsters/main/data/config")
+    suspend fun getConfig(): Response<ResponseModel<Config>>
 }

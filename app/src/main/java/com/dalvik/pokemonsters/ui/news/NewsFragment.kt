@@ -20,9 +20,10 @@ class NewsFragment : BaseFragment<FragmentHomeBinding, NewsViewModel, NewsViewMo
     }
 
     override fun setupUiBehavior() {
-        viewModel.getNews()
+        /*Nothing else*/
     }
 
     override fun subscribeToEvents() {
+        /*Nothing else*/
     }
 }

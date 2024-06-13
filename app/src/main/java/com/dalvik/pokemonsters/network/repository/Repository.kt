@@ -4,6 +4,7 @@ import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.network.ResultData
 import com.dalvik.pokemonsters.network.base.BaseRemoteCall
 import com.dalvik.pokemonsters.network.interfaces.PokemonDataSourceInterface
+import com.dalvik.pokemonsters.network.model.config.Config
 import com.dalvik.pokemonsters.network.model.news.News
 import com.dalvik.pokemonsters.network.model.pokemon.DetailPokemon
 import com.dalvik.pokemonsters.network.model.pokemon.Pokemon
@@ -27,6 +28,11 @@ class Repository @Inject constructor(
     override suspend fun getRemotePokemonById(pokemonId: String): ResultData<DetailPokemon> =
         safeApiCallObject(App.instance.getString(R.string.error_download_pokemon_detail)) {
             pokeServices.getPokemonById(pokemonId)
+        }
+
+    override suspend fun getRemoteConfig(): ResultData<Config> =
+        safeApiCallObject(App.instance.getString(R.string.error_download_config)) {
+            pokeServices.getConfig()
         }
 
 }

@@ -9,7 +9,7 @@
 
 
     <!-- Fragment regiones-->
-    <string name="textview_subtitle_region">Busca un Pokémon\nen cualquier región</string>
+    <string name="textview_subtitle_region">Busca en cualquier región</string>
     <string name="textview_subtitle_region_pokemon"><b>%1$s</b> Pokémon encontrados \nen esta región</string>
 
     <!-- Fragment detail pokemon-->
@@ -54,9 +54,11 @@
     <!--Msg General-->
     <string name="general_error">Ha ocurrido un error, por favor inténtelo de nuevo más tarde</string>
     <string name="internet_conextion">Error de conexión intenta más tarde</string>
-
+    <string name="msg_section_maintenance">Sección en mantenimiento</string>
+    <string name="msg_load_section">Cargando información</string>
 
     <!--Msg services-->
+    <string name="error_download_config">Ha ocurrido un error al recuperar la configuración general</string>
     <string name="error_download_news">Ha ocurrido un error al recuperar las noticias</string>
     <string name="error_download_pokemon_region">Ha ocurrido un error al recuperar los pokémon por región</string>
     <string name="error_download_pokemon_detail">Ha ocurrido un error al recuperar la información de este pokémon</string>
