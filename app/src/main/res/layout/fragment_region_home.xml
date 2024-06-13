@@ -36,17 +36,16 @@
             style="@style/TextViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/ic_news"
-            android:drawableTint="@color/primary_gray"
             android:gravity="center"
-            android:imeOptions="actionDone"
             android:padding="@dimen/_14sdp"
             android:text="@{viewModel.msgLoadInformation.toString()}"
             android:visibility="@{viewModel.showAllTabs == true ? View.GONE : View.VISIBLE}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory" />
+            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory"
+            app:drawableTopCompat="@drawable/ic_news"
+            app:drawableTint="@color/primary_gray" />
 
 
         <View
@@ -67,7 +66,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:imeOptions="actionDone"
             android:padding="@dimen/_14sdp"
             android:text="@string/textview_subtitle_region"
             app:layout_constraintEnd_toEndOf="parent"
@@ -115,7 +113,7 @@
                 app:hintEnabled="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory"
+                app:layout_constraintTop_toTopOf="parent"
                 app:startIconDrawable="@drawable/ic_search">
 
                 <com.google.android.material.textfield.TextInputEditText
