@@ -24,6 +24,24 @@
         "pokemon_name_third": null,
         "pokemon_num_third": null
       },
+      {
+        "id": 29,
+        "start_date": 1719290611000,
+        "end_date": null,
+        "title": "¡Prepárense para atrapar Pokémon con fondos especiales, que debutarán antes del Festival de Pokémon GO 2024: Global!",
+        "sub_title": "!Festival de Pokémon GO 2024: Global¡",
+        "img_new_pokemon": "https://media.vandal.net/i/1200x1200/5-2024/14/2024514953257_1.jpg",
+        "thumbnail": "https://lh3.googleusercontent.com/3UHJGmPpL9V-HktqCxKfa7xa_bvr_CSVqbY_Ij8SRkcnVV-27WVjHzwFc3OW120Ghe-LyEn_Cstd6jpZPwEzquk5t2XWku1PihUeDn5rAS1eHA=w640-e365",
+        "image_url": "https://lh3.googleusercontent.com/3UHJGmPpL9V-HktqCxKfa7xa_bvr_CSVqbY_Ij8SRkcnVV-27WVjHzwFc3OW120Ghe-LyEn_Cstd6jpZPwEzquk5t2XWku1PihUeDn5rAS1eHA=w640-e365",
+        "description": "Entrenadores:\n\nDesde 2023, los Entrenadores que asisten a eventos del mundo real, como el Tour de Pokémon GO y el Festival de Pokémon GO, han tenido la oportunidad de atrapar Pokémon con fondos de ubicación exclusivos, que son fondos de recuerdo que aparecen en la página de resumen de un Pokémon.\n\nAhora, los Entrenadores de todo el mundo tendrán la oportunidad de atrapar Pokémon con nuevos fondos especiales, ¡sin importar desde dónde jueguen!\n\n¡Sigan leyendo para saber más sobre este nuevo tipo de fondo del Pokémon y cómo pueden atrapar un Pokémon que tenga uno antes y durante el Festival de Pokémon GO de 2024: Global!",
+        "page_url": "https://pokemongolive.com/post/special-backgrounds?hl=es",
+        "pokemon_name": "Necrozma",
+        "pokemon_num": "800",
+        "pokemon_name_second": null,
+        "pokemon_num_second": null,
+        "pokemon_name_third": null,
+        "pokemon_num_third": null
+      },
    {
         "id": 28,
         "start_date": 1719204211000,
