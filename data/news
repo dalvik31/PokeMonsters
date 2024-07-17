@@ -7,6 +7,23 @@
     "offset": 0,
     "results": [
  {
+        "id": "26",
+        "start_date": "1718685811000",
+        "start_date_string": "18 de junio de 2024",
+        "end_date": "",
+        "img_new_pokemon": "https://i.ytimg.com/vi/L4u2iPTGJpQ/maxresdefault.jpg",
+        "title": "¡Pokémon GO celebra ocho años: ¡únanse a la diversión!",
+        "sub_title": "¡Fiesta del 8.º aniversario de Pokémon GO!",
+        "pokemon_name": "Grimer",
+  "pokemon_num": "88",
+ "pokemon_name_second": "Muk",
+        "pokemon_num_second": "89",
+        "thumbnail": "https://lh3.googleusercontent.com/P3szAPMm_xrA3Mbm1aDbUpxhpeCNhm8Qe81EeIR5zcVPUZR9KcZrXX43ZoNtWvu364WDe1j3tlQwRxQytU2Q54qhJfuQ8hzmQLOn3yAV_M1Xu7Y=w600-e365",
+        "image_url": "https://lh3.googleusercontent.com/P3szAPMm_xrA3Mbm1aDbUpxhpeCNhm8Qe81EeIR5zcVPUZR9KcZrXX43ZoNtWvu364WDe1j3tlQwRxQytU2Q54qhJfuQ8hzmQLOn3yAV_M1Xu7Y=w600-e365",
+        "description": "Entrenadores:\n\nDel viernes, 28 de junio a las 10:00, al miércoles, 3 de julio de 2024 a las 20:00, hora local\nDebuts de Pokémon\n\n¡Durante este evento aparecerán nuevos Pokémon disfrazados!\n\nGrimer con sombrero de fiesta*\nMuk con sombrero de fiesta\n*Con un poco de suerte, ¡podrán encontrarse con uno brillante!",
+        "page_url": "https://pokemongolive.com/post/pokemongo-8th-anniversary?hl=es"
+      },
+ {
         "id": "25",
         "start_date": "1717649011000",
         "start_date_string": "6 de junio de 2024",
