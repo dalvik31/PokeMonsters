@@ -42,7 +42,9 @@ class NewsViewModel @Inject constructor(
                 }
 
                 is ResultData.Success -> {
-                    itemList.postValue(ArrayList(resultNews.model.sortedByDescending { it.start_date?.toLong() }))
+                    itemList.postValue(ArrayList(resultNews.model.filter {
+                        it.start_date != null
+                    }.sortedByDescending { it.start_date }))
                     urlNews
                 }
             }

@@ -2,6 +2,11 @@ package com.dalvik.pokemonsters.utils
 
 
 import com.dalvik.pokemonsters.R
+import java.text.SimpleDateFormat
+import java.time.OffsetDateTime
+import java.time.format.DateTimeFormatter
+import java.util.Locale
+import java.util.TimeZone
 
 fun String.getThumbnail(): String {
     if (this.length > 10) return this
@@ -67,5 +72,12 @@ fun Int.getPokemonTypeString(): Int {
 }
 
 fun String.numberFormat(): String {
-    return String.format("#%03d", this.toInt() ?: 0);
+    return String.format("#%03d", this.toInt() ?: 0)
+}
+
+fun Long.dateFormat(): String {
+    val formatter = SimpleDateFormat("dd 'de' MMMM 'de' yyyy",  Locale("es", "ES"))
+    formatter.timeZone = TimeZone.getTimeZone("UTC")
+    /**Return long date in this format dd de mm de yy*/
+    return formatter.format(this)
 }

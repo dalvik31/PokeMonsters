@@ -8,6 +8,8 @@
         <variable
             name="news"
             type="com.dalvik.pokemonsters.network.model.news.News" />
+
+        <import type="android.view.View" />
     </data>
 
     <androidx.cardview.widget.CardView
@@ -100,9 +102,10 @@
                         android:paddingTop="0dp"
                         android:paddingEnd="@dimen/_10sdp"
                         android:paddingBottom="@dimen/_5sdp"
-                        android:text="@{news.start_date_string}"
+                        android:text="@{news.getFormatDate()}"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_9sdp"
+                        android:visibility="@{news.getFormatDate() == null ? View.GONE:View.VISIBLE}"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"

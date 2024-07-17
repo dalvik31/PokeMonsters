@@ -1,6 +1,8 @@
 package com.dalvik.pokemonsters.network.model.news
 
 import android.os.Parcelable
+import com.dalvik.pokemonsters.utils.DateUtils
+import com.dalvik.pokemonsters.utils.dateFormat
 import com.dalvik.pokemonsters.utils.getImage
 import com.dalvik.pokemonsters.utils.getThumbnailShiny
 import kotlinx.parcelize.Parcelize
@@ -8,7 +10,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class News(
     val id: String?,
-    val start_date: String?,
+    val start_date: Long?,
     val start_date_string: String?,
     val end_date: String?,
     val title: String?,
@@ -52,5 +54,7 @@ data class News(
     fun getUrlThirdImageShinyPokemon(): String {
         return (pokemon_num_third ?: "").getThumbnailShiny()
     }
+
+    fun getFormatDate(): String? = start_date?.dateFormat()
 
 }
