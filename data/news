@@ -24,6 +24,24 @@
         "pokemon_name_third": null,
         "pokemon_num_third": null
       },
+  {
+        "id": 30,
+        "start_date": 1719290611000,
+        "end_date": null,
+        "title": "Visitante del Ultraespacio: ¡los Ultraentes hacen su llegada previa al Festival de Pokémon GO 2024: Global!",
+        "sub_title": "!Visitante del Ultraespacio¡",
+        "img_new_pokemon": "https://i.ytimg.com/vi/4WGqpDnI0dY/maxresdefault.jpg",
+        "thumbnail": "https://lh3.googleusercontent.com/2zyq3Hg7jYI3q3tyGpdJK3CzSnKJfqYDR0Ag0IQiwE-7wPfBEg2KYjIu-GuRHItDY3Ey3rE8dkGi_JZInnyyaQeat2u_e48rzuDJjYoDgsycWFc=w640-e365",
+        "image_url": "https://lh3.googleusercontent.com/2zyq3Hg7jYI3q3tyGpdJK3CzSnKJfqYDR0Ag0IQiwE-7wPfBEg2KYjIu-GuRHItDY3Ey3rE8dkGi_JZInnyyaQeat2u_e48rzuDJjYoDgsycWFc=w640-e365",
+        "description": "Del viernes, 8 de julio a las 10:00, al sábado, 13 de julio de 2024 a las 10:00, hora local",
+        "page_url": "https://pokemongolive.com/post/inbound-from-ultra-space-2024?hl=es",
+        "pokemon_name": null,
+        "pokemon_num": null,
+        "pokemon_name_second": null,
+        "pokemon_num_second": null,
+        "pokemon_name_third": null,
+        "pokemon_num_third": null
+      },
       {
         "id": 29,
         "start_date": 1719290611000,
