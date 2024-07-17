@@ -1,7 +1,6 @@
 package com.dalvik.pokemonsters.network.model.news
 
 import android.os.Parcelable
-import com.dalvik.pokemonsters.utils.DateUtils
 import com.dalvik.pokemonsters.utils.dateFormat
 import com.dalvik.pokemonsters.utils.getImage
 import com.dalvik.pokemonsters.utils.getThumbnailShiny
