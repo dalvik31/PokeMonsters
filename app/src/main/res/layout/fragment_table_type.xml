@@ -26,6 +26,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/btnInfo"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:scaleType="center"
+            android:src="@drawable/ic_info"
+            android:tint="@color/primary_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/textPokemonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textPokemonName" />
 
         <View
 
@@ -67,15 +77,15 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="0dp"
             android:layout_height="0dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            tools:listitem="@layout/item_type"
-            app:spanCount="3"
+            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory"
             app:listTypesPokemon="@{viemodel.listTypesPokemon}"
+            app:spanCount="3"
             tools:itemCount="5"
-            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory" />
+            tools:listitem="@layout/item_type" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>

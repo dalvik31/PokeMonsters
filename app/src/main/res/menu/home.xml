@@ -6,7 +6,7 @@
         android:title="@string/menu_news" />
     <item
         android:id="@+id/regionFragment"
-        android:icon="@drawable/ic_pokeball"
+        android:icon="@drawable/ic_source"
         android:title="@string/menu_pokemon" />
     <item
         android:id="@+id/tableTypeFragment"

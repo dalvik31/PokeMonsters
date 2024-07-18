@@ -75,6 +75,11 @@ class RegionHomeFragment :
                     }
                 )
             }
+        binding.btnInfo.setOnClickListener {
+            it.findNavController().navigate(
+                R.id.action_regionFragment_to_contactFragment,
+            )
+        }
 
     }
 

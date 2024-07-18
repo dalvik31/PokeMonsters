@@ -2,6 +2,8 @@ package com.dalvik.pokemonsters.ui.table_type
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.findNavController
+import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.FragmentTableTypeBinding
 import com.dalvik.pokemonsters.ui.base.BaseFragment
 import com.dalvik.pokemonsters.ui.base.BaseViewModel
@@ -17,6 +19,11 @@ class TableTypeFragment : BaseFragment<FragmentTableTypeBinding, TableTypeViewMo
 
     override fun setupUiBehavior() {
         viewModel.loadListTypes()
+        binding.btnInfo.setOnClickListener {
+            it.findNavController().navigate(
+                R.id.action_tableTypeFragment_to_contactFragment,
+            )
+        }
     }
 
     override fun subscribeToEvents() {

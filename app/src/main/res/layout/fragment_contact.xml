@@ -24,22 +24,10 @@
             style="@style/TextViewTitleBold"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:text="@string/textview_news"
-            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            android:text="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/btnInfo"
-            android:layout_width="?attr/actionBarSize"
-            android:layout_height="?attr/actionBarSize"
-            android:scaleType="center"
-            android:src="@drawable/ic_info"
-            android:tint="@color/primary_gray"
-            app:layout_constraintBottom_toBottomOf="@+id/textPokemonName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textPokemonName" />
 
 
         <View
@@ -61,7 +49,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="@dimen/_14sdp"
-            android:text="@string/textview_recent"
+            android:text="@string/textview_contact_us"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textPokemonName" />
@@ -79,42 +67,76 @@
             app:layout_constraintTop_toBottomOf="@+id/textPokemonName" />
 
 
-        <TextView
-            android:id="@+id/textMaintenance"
-            style="@style/TextViewTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="@dimen/_14sdp"
-            android:text="@{viewModel.msgLoadInformation.toString()}"
-            android:visibility="@{viewModel.showAllTabs == true ? View.GONE : View.VISIBLE}"
-            app:drawableTint="@color/primary_gray"
-            app:drawableTopCompat="@drawable/ic_news"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <ImageView
+            android:id="@+id/imgContactLogo"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:src="@mipmap/ic_launcher"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory" />
 
-        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-            android:id="@+id/swipe"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:visibility="@{viewModel.showAllTabs == true ? View.VISIBLE : View.GONE}"
+        <TextView
+            android:id="@+id/textContactName"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_source"
+            android:drawablePadding="@dimen/_16sdp"
+            android:drawableTint="@color/primary_gray"
+            android:gravity="center"
+            android:padding="@dimen/_14sdp"
+            android:text="@string/textview_contact_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgContactLogo" />
+
+        <TextView
+            android:id="@+id/textContactEmail"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="@dimen/_16sdp"
+            android:drawableTint="@color/primary_gray"
+            android:gravity="center"
+            android:padding="@dimen/_14sdp"
+            android:text="@string/textview_contact_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textContactName" />
+
+        <TextView
+            android:id="@+id/textContactPhone"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="@dimen/_16sdp"
+            android:drawableTint="@color/primary_gray"
+            android:gravity="center"
+            android:padding="@dimen/_14sdp"
+            android:text="@string/textview_contact_phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textContactEmail" />
+
+        <TextView
+            android:id="@+id/textContactSource"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/_16sdp"
+            android:drawableTint="@color/primary_gray"
+            android:gravity="center"
+            android:padding="@dimen/_14sdp"
+            android:text="@string/textview_contact_source"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory"
-            app:onRefreshListener="@{() -> viewModel.getConfig()}"
-            app:refreshing="@{viewModel.isLoading}">
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                app:listNews="@{viewModel.itemList}"
-                tools:listitem="@layout/item_list_news" />
-
-        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+            app:layout_constraintTop_toBottomOf="@+id/textContactPhone"
+            app:layout_constraintVertical_bias="1" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

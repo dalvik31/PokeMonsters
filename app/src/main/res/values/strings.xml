@@ -1,13 +1,17 @@
 <resources>
-    <string name="app_name">Poke Monsters</string>
+    <string name="app_name">PocketNews</string>
 
     <!-- Activity main-->
     <string name="textview_regions">Regiones</string>
     <string name="textview_recent">Las noticias más relevantes</string>
     <string name="search_textview_hint">Ingresa el nombre del pokémon</string>
     <string name="textview_news">Noticias</string>
-
-
+    <string name="textview_contact_us">Contacta con nosotros</string>
+    <string name="textview_contact_name">Emmanuel Pacheco</string>
+    <string name="textview_contact_email">eeph31@gmail.com</string>
+    <string name="textview_contact_phone">(+52) 5548562659</string>
+    <string name="textview_contact_source">Visita nuestra fuente de información</string>
+    <string name="textview_contact_source_url">https://pokemongolive.com/es_mx/news/?hl=en</string>
     <!-- Fragment regiones-->
     <string name="textview_subtitle_region">Busca en cualquier región</string>
     <string name="textview_subtitle_region_pokemon"><b>%1$s</b> Pokémon encontrados \nen esta región</string>
