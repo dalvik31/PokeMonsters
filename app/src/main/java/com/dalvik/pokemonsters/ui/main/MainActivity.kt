@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
             when (it.itemId) {
                 R.id.homeFragment -> {
-                    navHostFragment.navController.popBackStack(R.id.homeFragment, false)
+                    navHostFragment.navController.popBackStack(R.id.webViewFragment, false)
                 }
 
                 R.id.regionFragment -> {

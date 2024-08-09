@@ -10,6 +10,8 @@ import android.webkit.WebResourceError
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import androidx.activity.OnBackPressedCallback
+import com.dalvik.pokemonsters.R
 import com.dalvik.pokemonsters.databinding.FragmentWebViewBinding
 import com.dalvik.pokemonsters.ui.base.BaseFragment
 import com.dalvik.pokemonsters.utils.PARAM_URL_NEWS
@@ -31,6 +33,21 @@ class WebViewFragment : BaseFragment<FragmentWebViewBinding, NewsViewModel, News
 
     override fun setupUiBehavior() {
         searchArguments()
+        requireActivity()
+            .onBackPressedDispatcher
+            .addCallback(this, object : OnBackPressedCallback(true) {
+                override fun handleOnBackPressed() {
+                    if (binding.webviewPageUrl.canGoBack()) {
+                        binding.webviewPageUrl.goBack()
+                    } else {
+                        if (isEnabled) {
+                            isEnabled = false
+                            requireActivity().onBackPressed()
+                        }
+                    }
+                }
+            }
+            )
     }
 
     override fun subscribeToEvents() {
@@ -42,9 +59,11 @@ class WebViewFragment : BaseFragment<FragmentWebViewBinding, NewsViewModel, News
             Bundle.getString(PARAM_URL_NEWS)?.let {
                 loadUrl(it)
             }
-
+        } ?: kotlin.run {
+            loadUrl(getString(R.string.textview_contact_source_url))
         }
     }
+
 
     override fun onDetach() {
         super.onDetach()

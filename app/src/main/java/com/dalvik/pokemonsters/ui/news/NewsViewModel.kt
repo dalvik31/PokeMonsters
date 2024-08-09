@@ -17,7 +17,7 @@ import javax.inject.Inject
 @HiltViewModel
 class NewsViewModel @Inject constructor(
     private val newsUseCase: GetNewsUseCase,
-    private val getConfigUseCase: GetConfigUseCase
+    private val getConfigUseCase: GetConfigUseCase,
 ) : BaseViewModel(App.instance) {
 
     var itemList = MutableLiveData<ArrayList<News>>(arrayListOf())
