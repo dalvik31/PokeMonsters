@@ -5,33 +5,7 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/webViewFragment">
 
-    <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.dalvik.pokemonsters.ui.news.NewsFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home">
-        <action
-            android:id="@+id/action_homeFragment_to_detailNewsFragment"
-            app:destination="@id/detailNewsFragment"
-            app:enterAnim="@anim/slide_up"
-            app:popExitAnim="@anim/slide_down" />
-        <action
-            android:id="@+id/action_homeFragment_to_contactFragment"
-            app:destination="@id/contactFragment"
-            app:enterAnim="@anim/slide_up"
-            app:popExitAnim="@anim/slide_down" />
-    </fragment>
-    <fragment
-        android:id="@+id/detailNewsFragment"
-        android:name="com.dalvik.pokemonsters.ui.news.DetailNewsFragment"
-        android:label="fragment_detail_news"
-        tools:layout="@layout/fragment_detail_news">
-        <action
-            android:id="@+id/action_detailNewsFragment_to_webViewFragment"
-            app:destination="@id/webViewFragment"
-            app:enterAnim="@anim/slide_up"
-            app:popExitAnim="@anim/slide_down" />
-    </fragment>
+
     <fragment
         android:id="@+id/regionFragment"
         android:name="com.dalvik.pokemonsters.ui.regions.RegionHomeFragment"

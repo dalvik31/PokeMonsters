@@ -20,7 +20,7 @@ class NewsAdapter(private var newslist: List<News>) :
             itemListNewsBinding.news = news
             itemListNewsBinding.executePendingBindings()
             itemListNewsBinding.root.setOnClickListener {
-                it.findNavController().navigate(
+                /*it.findNavController().navigate(
                     R.id.action_homeFragment_to_detailNewsFragment,
                     Bundle().apply {
                         putParcelable(
@@ -28,7 +28,7 @@ class NewsAdapter(private var newslist: List<News>) :
                             news
                         )
                     }
-                )
+                )*/
             }
         }
     }

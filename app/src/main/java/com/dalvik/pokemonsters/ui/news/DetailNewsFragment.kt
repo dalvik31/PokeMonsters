@@ -35,8 +35,8 @@ class DetailNewsFragment : BaseFragment<FragmentDetailNewsBinding, NewsViewModel
 
     override fun setupUiBehavior() {
         searchArguments()
-        (requireActivity().findViewById<View>(com.dalvik.pokemonsters.R.id.main_fragment_bottom_navigation_view) as BottomNavigationView).selectedItemId =
-            com.dalvik.pokemonsters.R.id.detailNewsFragment
+        /*(requireActivity().findViewById<View>(com.dalvik.pokemonsters.R.id.main_fragment_bottom_navigation_view) as BottomNavigationView).selectedItemId =
+            com.dalvik.pokemonsters.R.id.detailNewsFragment*/
 
         val youTubePlayerView = binding.youtubePlayer
         lifecycle.addObserver(youTubePlayerView)
@@ -51,7 +51,7 @@ class DetailNewsFragment : BaseFragment<FragmentDetailNewsBinding, NewsViewModel
 
 
         binding.fabOpenWeb.setOnClickListener {
-            it.findNavController().navigate(
+           /* it.findNavController().navigate(
                 R.id.action_detailNewsFragment_to_webViewFragment,
                 Bundle().apply {
                     putString(
@@ -59,7 +59,7 @@ class DetailNewsFragment : BaseFragment<FragmentDetailNewsBinding, NewsViewModel
                         viewModel.urlNews.value
                     )
                 }
-            )
+            )*/
         }
 
     }

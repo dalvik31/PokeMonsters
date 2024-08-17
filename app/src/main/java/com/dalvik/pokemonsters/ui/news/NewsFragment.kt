@@ -23,9 +23,9 @@ class NewsFragment : BaseFragment<FragmentHomeBinding, NewsViewModel, NewsViewMo
 
     override fun setupUiBehavior() {
         binding.btnInfo.setOnClickListener {
-            it.findNavController().navigate(
+           /* it.findNavController().navigate(
                 R.id.action_homeFragment_to_contactFragment,
-            )
+            )*/
         }
     }
 

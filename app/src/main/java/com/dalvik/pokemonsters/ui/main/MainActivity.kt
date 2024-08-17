@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         binding.mainFragmentBottomNavigationView.setOnItemReselectedListener {
 
             when (it.itemId) {
-                R.id.homeFragment -> {
+                R.id.webViewFragment -> {
                     navHostFragment.navController.popBackStack(R.id.webViewFragment, false)
                 }
 
