@@ -10,8 +10,10 @@
     <string name="textview_contact_name">Emmanuel Pacheco</string>
     <string name="textview_contact_email">eeph31@gmail.com</string>
     <string name="textview_contact_phone">(+52) 5548562659</string>
+    <string name="textview_contact_policy">Política de privacidad</string>
     <string name="textview_contact_source">Visita nuestra fuente de información</string>
     <string name="textview_contact_source_url">https://pokemongolive.com/es_mx/news/?hl=en</string>
+    <string name="textview_policy_source_url">https://www.freeprivacypolicy.com/live/dc4d45fb-f8ea-40eb-a67a-a819244214a2</string>
     <!-- Fragment regiones-->
     <string name="textview_subtitle_region">Busca en cualquier región</string>
     <string name="textview_subtitle_region_pokemon"><b>%1$s</b> Pokémon encontrados \nen esta región</string>

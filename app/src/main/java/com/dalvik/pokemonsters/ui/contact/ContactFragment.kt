@@ -33,6 +33,17 @@ class ContactFragment : BaseFragment<FragmentContactBinding, ContactViewModel, C
         binding.textContactPhone.setOnClickListener {
             openCall()
         }
+        binding.textPolicy.setOnClickListener {
+            it.findNavController().navigate(
+                R.id.action_contactFragment_to_webViewFragment,
+                Bundle().apply {
+                    putString(
+                        PARAM_URL_NEWS,
+                        getString(R.string.textview_policy_source_url)
+                    )
+                }
+            )
+        }
 
         binding.textContactSource.setOnClickListener {
             it.findNavController().navigate(

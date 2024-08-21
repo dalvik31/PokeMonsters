@@ -77,50 +77,75 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textSubtitleCategory" />
 
-        <TextView
-            android:id="@+id/textContactName"
-            style="@style/TextViewTitle"
+        <LinearLayout
+            android:id="@+id/contactContainer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_source"
-            android:drawablePadding="@dimen/_16sdp"
-            android:drawableTint="@color/primary_gray"
-            android:gravity="center"
-            android:padding="@dimen/_14sdp"
-            android:text="@string/textview_contact_name"
+            android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imgContactLogo" />
+            app:layout_constraintTop_toBottomOf="@+id/imgContactLogo">
 
-        <TextView
-            android:id="@+id/textContactEmail"
-            style="@style/TextViewTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_email"
-            android:drawablePadding="@dimen/_16sdp"
-            android:drawableTint="@color/primary_gray"
-            android:gravity="center"
-            android:padding="@dimen/_14sdp"
-            android:text="@string/textview_contact_email"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textContactName" />
 
-        <TextView
-            android:id="@+id/textContactPhone"
-            style="@style/TextViewTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_phone"
-            android:drawablePadding="@dimen/_16sdp"
-            android:drawableTint="@color/primary_gray"
-            android:gravity="center"
-            android:padding="@dimen/_14sdp"
-            android:text="@string/textview_contact_phone"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textContactEmail" />
+            <TextView
+                android:id="@+id/textContactName"
+                style="@style/TextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_source"
+                android:drawablePadding="@dimen/_16sdp"
+                android:drawableTint="@color/primary_gray"
+                android:gravity="center"
+                android:padding="@dimen/_14sdp"
+                android:text="@string/textview_contact_name"
+                />
+
+            <TextView
+                android:id="@+id/textContactEmail"
+                style="@style/TextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="@dimen/_16sdp"
+                android:drawableTint="@color/primary_gray"
+                android:gravity="center"
+                android:padding="@dimen/_14sdp"
+                android:text="@string/textview_contact_email"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textContactName" />
+
+            <TextView
+                android:id="@+id/textContactPhone"
+                style="@style/TextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawablePadding="@dimen/_16sdp"
+                android:drawableTint="@color/primary_gray"
+                android:gravity="center"
+                android:padding="@dimen/_14sdp"
+                android:text="@string/textview_contact_phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textContactEmail" />
+
+            <TextView
+                android:id="@+id/textPolicy"
+                style="@style/TextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_policy"
+                android:drawablePadding="@dimen/_16sdp"
+                android:drawableTint="@color/primary_gray"
+                android:gravity="center"
+                android:padding="@dimen/_14sdp"
+                android:text="@string/textview_contact_policy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textContactPhone" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textContactSource"
@@ -135,7 +160,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textContactPhone"
+            app:layout_constraintTop_toBottomOf="@+id/contactContainer"
             app:layout_constraintVertical_bias="1" />
 
 
