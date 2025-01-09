@@ -1,5 +1,6 @@
 
 # PocketNews
+[![googlePay](https://play-lh.googleusercontent.com/zzK2cW4Cvb7ZL7u1Hckq41jItK35nC-vkxqTq2GGmd2A2pmHYKjydn-NpXam3nelQg=w240-h480)](https://play.google.com/store/apps/details?id=com.dalvik.pokemonsters)
 
 Con PocketNews puedes estar actualizado con la informacíon sobre eventos de la aplicación de PokémonGo, ademas puedes consultar la información de todos los pokémon de la región de kanto así como la tabla de tipos con fortalezas y debilidades de cada tipo de pokémon.
 
