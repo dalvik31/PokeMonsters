@@ -6,15 +6,15 @@ Con PocketNews puedes estar actualizado con la informacíon sobre eventos de la 
 
 
 
-Noticias Pokémon:
+### Noticias Pokémon:
 
 ![App Screenshot](https://firebasestorage.googleapis.com/v0/b/reports-go.appspot.com/o/Reports%2FWWqI0byTRiRHvlj8S6TuVqnVZ2S2%2FImages%2F1735972473984.jpg?alt=media&token=287e2cc7-27bc-49a4-86a7-87a99617c3e8)
 
-Detalles Pokémon:
+### Detalles Pokémon:
 
 ![App Screenshot](https://firebasestorage.googleapis.com/v0/b/reports-go.appspot.com/o/Reports%2FWWqI0byTRiRHvlj8S6TuVqnVZ2S2%2FImages%2F1735972524424.jpg?alt=media&token=3ce3281f-f3b4-481f-8884-7ae990cdd94b)
 
-Tabla de tipos: 
+### Tabla de tipos: 
 
 ![App Screenshot](https://firebasestorage.googleapis.com/v0/b/reports-go.appspot.com/o/Reports%2FWWqI0byTRiRHvlj8S6TuVqnVZ2S2%2FImages%2F1735972860672.jpg?alt=media&token=cf7f6fb6-62d8-431b-871c-4b40f462c7f0)
 
@@ -32,6 +32,10 @@ Tabla de tipos:
 - [@Dalvik31](https://www.linkedin.com/in/dalvik31/)
 
 
-## Features
-
+##  🚀 Features
+  
 - Region Johto en curso
+
+
+## 🛠 Skills
+Android, Kotlin, Android Studio, Git, Github, Retrofit, Coroutines, Picasso, Dagger Hilt, Nav-graph, Lottie, Androidyoutubeplayer, Webview
